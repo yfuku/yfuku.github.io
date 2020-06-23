@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>hugo on yfuku tech blog</title>
-    <link>http://example.org/tags/hugo/</link>
+    <link>https://yfuku.github.io/tags/hugo/</link>
     <description>Recent content in hugo on yfuku tech blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Wed, 24 Jun 2020 06:50:21 +0900</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yfuku.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Test</title>
-      <link>http://example.org/entry/test/</link>
+      <link>https://yfuku.github.io/entry/test/</link>
       <pubDate>Wed, 24 Jun 2020 06:50:21 +0900</pubDate>
       
-      <guid>http://example.org/entry/test/</guid>
+      <guid>https://yfuku.github.io/entry/test/</guid>
       <description>test aaa</description>
     </item>
     
