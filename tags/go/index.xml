@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>go on yfuku tech blog</title>
+    <title>go on yfuku</title>
     <link>https://yfuku.github.io/tags/go/</link>
-    <description>Recent content in go on yfuku tech blog</description>
+    <description>Recent content in go on yfuku</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Wed, 24 Jun 2020 06:50:21 +0900</lastBuildDate>
