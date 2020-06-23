@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tech on yfuku</title>
-    <link>https://yfuku.github.io/categories/tech/</link>
+    <link>https://yfuku.com/categories/tech/</link>
     <description>Recent content in Tech on yfuku</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Wed, 24 Jun 2020 06:50:21 +0900</lastBuildDate>
     
-	<atom:link href="https://yfuku.github.io/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yfuku.com/categories/tech/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Test</title>
-      <link>https://yfuku.github.io/entry/test/</link>
+      <link>https://yfuku.com/entry/test/</link>
       <pubDate>Wed, 24 Jun 2020 06:50:21 +0900</pubDate>
       
-      <guid>https://yfuku.github.io/entry/test/</guid>
+      <guid>https://yfuku.com/entry/test/</guid>
       <description>あああああああああああ aaa
 いいいいいいいいいいい ううううううううううう えええええええええええ </description>
     </item>
