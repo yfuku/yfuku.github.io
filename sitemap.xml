@@ -1,1 +1,236 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://yfuku.com/docs/example/</loc></url><url><loc>https://yfuku.com/docs/example/table-of-contents/with-toc/</loc></url><url><loc>https://yfuku.com/docs/example/table-of-contents/without-toc/</loc></url><url><loc>https://yfuku.com/posts/creating-a-new-theme/</loc><lastmod>2014-09-28T00:00:00+00:00</lastmod></url><url><loc>https://yfuku.com/posts/migrate-from-jekyll/</loc><lastmod>2014-03-10T00:00:00+00:00</lastmod></url><url><loc>https://yfuku.com/docs/example/table-of-contents/</loc></url><url><loc>https://yfuku.com/docs/example/collapsed/</loc></url><url><loc>https://yfuku.com/posts/</loc><lastmod>2014-09-28T00:00:00+00:00</lastmod></url><url><loc>https://yfuku.com/</loc><lastmod>2014-09-28T00:00:00+00:00</lastmod></url><url><loc>https://yfuku.com/posts/goisforlovers/</loc><lastmod>2014-04-02T00:00:00+00:00</lastmod></url><url><loc>https://yfuku.com/categories/</loc><lastmod>2014-04-02T00:00:00+00:00</lastmod></url><url><loc>https://yfuku.com/categories/development/</loc><lastmod>2014-04-02T00:00:00+00:00</lastmod></url><url><loc>https://yfuku.com/tags/development/</loc><lastmod>2014-04-02T00:00:00+00:00</lastmod></url><url><loc>https://yfuku.com/posts/hugoisforlovers/</loc><lastmod>2014-04-02T00:00:00+00:00</lastmod></url><url><loc>https://yfuku.com/tags/go/</loc><lastmod>2014-04-02T00:00:00+00:00</lastmod></url><url><loc>https://yfuku.com/tags/golang/</loc><lastmod>2014-04-02T00:00:00+00:00</lastmod></url><url><loc>https://yfuku.com/categories/golang/</loc><lastmod>2014-04-02T00:00:00+00:00</lastmod></url><url><loc>https://yfuku.com/tags/hugo/</loc><lastmod>2014-04-02T00:00:00+00:00</lastmod></url><url><loc>https://yfuku.com/tags/</loc><lastmod>2014-04-02T00:00:00+00:00</lastmod></url><url><loc>https://yfuku.com/tags/templates/</loc><lastmod>2014-04-02T00:00:00+00:00</lastmod></url><url><loc>https://yfuku.com/tags/themes/</loc><lastmod>2014-04-02T00:00:00+00:00</lastmod></url><url><loc>https://yfuku.com/docs/example/collapsed/3rd-level/4th-level/</loc></url><url><loc>https://yfuku.com/docs/example/collapsed/3rd-level/</loc></url><url><loc>https://yfuku.com/docs/example/hidden/</loc></url><url><loc>https://yfuku.com/docs/shortcodes/</loc></url><url><loc>https://yfuku.com/docs/shortcodes/buttons/</loc></url><url><loc>https://yfuku.com/docs/shortcodes/columns/</loc></url><url><loc>https://yfuku.com/docs/shortcodes/details/</loc></url><url><loc>https://yfuku.com/docs/shortcodes/expand/</loc></url><url><loc>https://yfuku.com/docs/shortcodes/hints/</loc></url><url><loc>https://yfuku.com/docs/shortcodes/katex/</loc></url><url><loc>https://yfuku.com/docs/shortcodes/mermaid/</loc></url><url><loc>https://yfuku.com/docs/shortcodes/section/</loc></url><url><loc>https://yfuku.com/docs/shortcodes/section/page1/</loc></url><url><loc>https://yfuku.com/docs/shortcodes/section/page2/</loc></url><url><loc>https://yfuku.com/docs/shortcodes/tabs/</loc></url><url><loc>https://yfuku.com/docs/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://yfuku.com/billing-pricing/ownership/</loc>
+    <lastmod>2020-01-05T10:42:26+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/features/linux/</loc>
+    <lastmod>2020-01-05T10:42:26+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/installation/requirments/</loc>
+    <lastmod>2020-01-05T10:42:26+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/installation/install/</loc>
+    <lastmod>2020-01-05T10:42:26+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/features/mac/</loc>
+    <lastmod>2020-01-05T10:42:26+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/billing-pricing/manage/</loc>
+    <lastmod>2020-01-05T10:42:26+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/installation/configuration/</loc>
+    <lastmod>2020-01-05T10:42:26+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/billing-pricing/bill/</loc>
+    <lastmod>2020-01-05T10:42:26+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/features/routing/</loc>
+    <lastmod>2020-01-05T10:42:26+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/installation/configuration/test/</loc>
+    <lastmod>2020-01-05T10:42:26+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/installation/customization/</loc>
+    <lastmod>2020-01-05T10:42:26+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/billing-pricing/payment/</loc>
+    <lastmod>2020-01-05T10:42:26+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/features/ubuntu/</loc>
+    <lastmod>2020-01-05T10:42:26+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/installation/elements/</loc>
+    <lastmod>2020-01-05T10:42:26+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/billing-pricing/profile/</loc>
+    <lastmod>2020-01-05T10:42:26+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/features/windows/</loc>
+    <lastmod>2020-01-05T10:42:26+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/claw44/whatis/</loc>
+    <lastmod>2020-07-02T10:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/claw44/buildguide/check/</loc>
+    <lastmod>2020-07-02T10:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/claw44/history/init/</loc>
+    <lastmod>2020-07-02T10:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/claw44/history/alpha/</loc>
+    <lastmod>2020-07-02T10:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/claw44/history/advent/</loc>
+    <lastmod>2020-07-02T10:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/claw44/buildguide/</loc>
+    <lastmod>2020-07-02T10:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/claw44/buildguide/prepare/</loc>
+    <lastmod>2020-07-02T10:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/claw44/bmp/</loc>
+    <lastmod>2020-07-02T10:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/claw44/v2/</loc>
+    <lastmod>2020-07-02T10:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/claw44/buildguide/build/</loc>
+    <lastmod>2020-07-02T10:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/claw44/buildguide/diode/</loc>
+    <lastmod>2020-07-02T10:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/claw44/best/</loc>
+    <lastmod>2020-07-02T10:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/claw44/history/</loc>
+    <lastmod>2020-07-02T10:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/claw44/buildguide/socket/</loc>
+    <lastmod>2020-07-02T10:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/claw44/buildguide/otherparts/</loc>
+    <lastmod>2020-07-02T10:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/claw44/buildguide/promicro/</loc>
+    <lastmod>2020-07-02T10:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/claw44/buildguide/oled/</loc>
+    <lastmod>2020-07-02T10:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/claw44/buildguide/plate/</loc>
+    <lastmod>2020-07-02T10:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/blog/2017/</loc>
+    <lastmod>2020-07-02T10:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/blog/</loc>
+    <lastmod>2020-07-02T10:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/claw44/</loc>
+    <lastmod>2020-07-02T10:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/blog/2017/raspberrypi3proxy/</loc>
+    <lastmod>2020-07-02T10:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/</loc>
+    <lastmod>2020-07-02T10:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/bat43/</loc>
+    <lastmod>2020-07-01T10:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/installation/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/billing-pricing/</loc>
+    <lastmod>2018-12-28T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/features/</loc>
+    <lastmod>2018-12-28T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/faq/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/tags/</loc>
+  </url>
+  
+</urlset>

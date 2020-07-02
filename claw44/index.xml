@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Claw44 on yfuku docs</title>
+    <link>https://yfuku.com/claw44/</link>
+    <description>Recent content in Claw44 on yfuku docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 02 Jul 2020 10:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://yfuku.com/claw44/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Claw44とは？</title>
+      <link>https://yfuku.com/claw44/whatis/</link>
+      <pubDate>Thu, 02 Jul 2020 10:00:00 +0900</pubDate>
+      
+      <guid>https://yfuku.com/claw44/whatis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>無線接続について</title>
+      <link>https://yfuku.com/claw44/bmp/</link>
+      <pubDate>Thu, 02 Jul 2020 10:00:00 +0900</pubDate>
+      
+      <guid>https://yfuku.com/claw44/bmp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Claw44 v2の変更点</title>
+      <link>https://yfuku.com/claw44/v2/</link>
+      <pubDate>Thu, 02 Jul 2020 10:00:00 +0900</pubDate>
+      
+      <guid>https://yfuku.com/claw44/v2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>最強の組み合わせ</title>
+      <link>https://yfuku.com/claw44/best/</link>
+      <pubDate>Thu, 02 Jul 2020 10:00:00 +0900</pubDate>
+      
+      <guid>https://yfuku.com/claw44/best/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
