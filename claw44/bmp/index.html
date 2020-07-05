@@ -567,31 +567,197 @@
       <div class="col-lg-9 order-0 order-lg-1">
         <div class="p-lg-5 p-4 bg-white" style="margin-bottom: 50px">
           <h1 class="mb-5">無線接続について</h1>
-          <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 2020/07/02</p>
+          <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 2019/06/26</p>
           
-          <div class="bg-light p-4">
-            <ul class="page-list">
-              
-
-
-
-
-
-
-
-
-<li data-nav-id="https://yfuku.com/claw44/bmp/" title="無線接続について" class="sidelist
-  active">
-  <a href="https://yfuku.com/claw44/bmp/">
-    無線接続について
-  </a>
-  
-  
+          <div class="content"><p>自作キーボードで使用するProMicroを「BLE Micro Pro」というBluetooh化をサポートするキットに乗せかえると無線化を実現できます。<br>
+Claw44でBLE Micro Proを使えるようにしたログになります。<br>
+（以下、BMPと略すことがあります）</p>
+<p>公式サイトが充実しているので、まずはこちらをご確認ください。<br>
+<a href="https://sekigon-gonnoc.github.io/BLE-Micro-Pro/#/">はじめに - BLE Micro Pro</a></p>
+<h2 id="実装">実装</h2>
+<h3 id="必要な部品">必要な部品</h3>
+<ul>
+<li><a href="https://booth.pm/ja/items/1177319">BLE Micro Pro本体</a> x  2</li>
+<li><a href="https://nogikes.booth.pm/items/1655285">電池基板</a> x 2</li>
+<li>CR1632コイン電池 x  4</li>
+<li><a href="https://yushakobo.jp/shop/a01mc-00/">スプリングピンヘッダ（コンスルー）12ピン</a> x 4</li>
+<li>ピンヘッダ</li>
+</ul>
+<h3 id="スプリングピンヘッダコンスルー">スプリングピンヘッダ（コンスルー）</h3>
+<ul>
+<li>BMP側もスプリングヘッダピン対応されているので、はんだ付けは不要らしいです。</li>
+<li>基本的にProMicroと扱いは同じなので、取り付ける向きは<a href="https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_jp.md#pro-micro">helixのビルドガイド </a>を参考にさせていただきました。</li>
+<li>ProMicroと違い、電源供給用のピン（BAT,GND）がありますが、これは電池基板に繋げるのでスプリングピンヘッダは刺さないでください。（BMP対応している基板では13ピンのスプリングピンヘッダを使って刺すこともありますがClaw44では刺しません）</li>
+</ul>
+<p><img src="images/20190626123614.jpg" style="width: 300px" ></p>
+<h3 id="電池基板">電池基板</h3>
+<h4 id="部品の取り付け">部品の取り付け</h4>
+<ul>
+<li>全体としてはこんな感じです
+<ul>
+<li>
+<img src="images/20190626124136.jpg">
 </li>
-
-
-            </ul>
-          </div>
+</ul>
+</li>
+<li>ダイオード
+<ul>
+<li>片側に予備ハンダをする
+<ul>
+<li><img src="images/20190626124606.jpg" style="width: 300px" ></li>
+</ul>
+</li>
+<li>ダイオードは向きがあるので注意。白線のある方を白丸側にする。（見にくい場合はスマホのライトとかで光を当てるとわかりやすいです。）
+<ul>
+<li><img src="images/20190626125611.jpg" style="width: 300px" ></li>
+</ul>
+</li>
+<li>予備ハンダを利用してダイオードをはんだづけ
+<ul>
+<li><img src="images/20190626231732.jpg" style="width: 300px" ></li>
+</ul>
+</li>
+<li>もう片方もはんだ付け。浮かないように両側をはんだして密着させる。
+<ul>
+<li><img src="images/20190626231900.jpg" style="width: 300px" ></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>スイッチ
+<ul>
+<li>穴があって、ピタッとハマるのでわかりやすいと思います。各パッドをはんだ付け。
+<ul>
+<li><img src="images/20190626125847.jpg" style="width: 300px" ></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>コンデンサ
+<ul>
+<li>コンデンサは向きがありません</li>
+<li>盛りはんだをして
+<ul>
+<li><img src="images/20190626130051.jpg" style="width: 300px" ></li>
+</ul>
+</li>
+<li>ダイオードと同様にはんだ付けします
+<ul>
+<li><img src="images/20190626130208.jpg" style="width: 300px" ></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>電池ホルダ
+<ul>
+<li>乗っけて
+<ul>
+<li><img src="images/20190626130303.jpg" style="width: 300px" ></li>
+</ul>
+</li>
+<li>裏側の各パッドをはんだ付け
+<ul>
+<li><img src="images/20190626130442.jpg" style="width: 300px" ></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>絶縁
+<ul>
+<li>BMPと接触する部分はこのままだとショートするので、ビニールテープか何かで絶縁します。カプトンテープなど薄いものだと揺れた時にうるさいので、少し厚めでショックを吸収してくれるものにしてみました。
+<ul>
+<li><img src="images/20190626130653.jpg" style="width: 300px" ></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="bmpと合体">BMPと合体</h4>
+<ul>
+<li>今回はどのご家庭にもあるProMicroに付属しているピンヘッダを使ってみました。（もう少し低いものの方がジャストフィットするので、可能であれば<a href="http://akizukidenshi.com/catalog/c/cheader6/">秋月電子</a>などで買うと良いと思います）</li>
+<li>ピンヘッダを切り出す
+<ul>
+<li><img src="images/20190626131356.jpg" style="width: 300px" ></li>
+</ul>
+</li>
+<li>BMPに取り付ける
+<ul>
+<li><img src="images/20190626134705.jpg" style="width: 300px" ></li>
+</ul>
+</li>
+<li>電池基板を乗せる
+<ul>
+<li><img src="images/20190626134711.jpg" style="width: 300px" ></li>
+</ul>
+</li>
+<li>はんだ付けする
+<ul>
+<li><img src="images/20190626134716.jpg" style="width: 300px" ></li>
+</ul>
+</li>
+<li>反対側もはんだ付け
+<ul>
+<li><img src="images/20190626134722.jpg" style="width: 300px" ></li>
+</ul>
+</li>
+<li>不要な足を切る
+<ul>
+<li><img src="images/20190626134735.jpg" style="width: 300px" ></li>
+</ul>
+</li>
+<li>電池の通り道は邪魔にならないように深く切る
+<ul>
+<li><img src="images/20190626134729.jpg" style="width: 300px" ></li>
+</ul>
+</li>
+<li>電池を入れる
+<ul>
+<li><img src="images/20190626134742.jpg" style="width: 300px" ></li>
+</ul>
+</li>
+<li>ピンヘッダ側が浮いているので、やはりもう少し短い方が良さそうですね
+<ul>
+<li><img src="images/20190626134747.jpg" style="width: 300px" ></li>
+</ul>
+</li>
+<li>Claw44に取り付ける
+<ul>
+<li><img src="images/20190626144207.jpg" style="width: 300px" ></li>
+</ul>
+</li>
+</ul>
+<h2 id="ファームウェアの書き込み">ファームウェアの書き込み</h2>
+<p>ファームウェア書き込みは公式サイトを参照してください。
+<a href="https://sekigon-gonnoc.github.io/BLE-Micro-Pro/#/">はじめに - BLE Micro Pro</a></p>
+<h2 id="ペアリング">ペアリング</h2>
+<ul>
+<li>左右間のペアリング
+<ul>
+<li>まずは左右のBMP同士をペアリングします。左右のBMPのスイッチを入れると自動的にペアリングされます</li>
+</ul>
+</li>
+<li>PCとのペアリング
+<ul>
+<li>keymapでアサインしたAD_WO_Lを押すとペアリングモードに入ります。</li>
+<li>Claw44のdefaultの場合、下記のようにレイヤーを切り替えて左上のキーを押します。
+<ul>
+<li><img src="images/20190626152608.png" style="width: 300px" ></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Bluetoothの設定にClaw44が出てくるので接続します
+<ul>
+<li><img src="images/20190626154120.png" style="width: 300px" ></li>
+</ul>
+</li>
+</ul>
+<h2 id="promicroプレート">ProMicroプレート</h2>
+<ul>
+<li>ProMicroプレートのスペーサーを11〜12mmくらいの物を用意すれば今までのようにプレートをつけることができます。</li>
+</ul>
+<p><img src="images/20190626155341.jpg" alt=""></p>
+</div>
           
           <nav class="pagination mt-3">
             
