@@ -1,13 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Claw44を作った話 on yfuku docs</title>
+    <title>yfuku docs – Claw44を作った話</title>
     <link>https://yfuku.com/claw44/history/advent2019/</link>
     <description>Recent content in Claw44を作った話 on yfuku docs</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 16 Dec 2019 10:00:00 +0900</lastBuildDate>
     
-	<atom:link href="https://yfuku.com/claw44/history/advent2019/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://yfuku.com/claw44/history/advent2019/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
     
     
   </channel>

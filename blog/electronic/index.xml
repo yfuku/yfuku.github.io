@@ -1,0 +1,31 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>yfuku docs – 電子工作</title>
+    <link>https://yfuku.com/blog/electronic/</link>
+    <description>Recent content in 電子工作 on yfuku docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 06 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="https://yfuku.com/blog/electronic/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Blog: Raspberry PiでProxyサーバを立てる</title>
+      <link>https://yfuku.com/blog/electronic/raspberrypi3proxy/</link>
+      <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfuku.com/blog/electronic/raspberrypi3proxy/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

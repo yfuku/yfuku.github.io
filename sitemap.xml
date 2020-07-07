@@ -3,67 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://yfuku.com/billing-pricing/ownership/</loc>
-    <lastmod>2020-01-05T10:42:26+06:00</lastmod>
+    <loc>https://yfuku.com/blog/se/</loc>
+    <lastmod>2020-07-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yfuku.com/installation/requirments/</loc>
-    <lastmod>2020-01-05T10:42:26+06:00</lastmod>
+    <loc>https://yfuku.com/blog/keyboard/</loc>
+    <lastmod>2020-07-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yfuku.com/installation/install/</loc>
-    <lastmod>2020-01-05T10:42:26+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yfuku.com/billing-pricing/manage/</loc>
-    <lastmod>2020-01-05T10:42:26+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yfuku.com/installation/configuration/</loc>
-    <lastmod>2020-01-05T10:42:26+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yfuku.com/billing-pricing/bill/</loc>
-    <lastmod>2020-01-05T10:42:26+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yfuku.com/installation/configuration/test/</loc>
-    <lastmod>2020-01-05T10:42:26+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yfuku.com/installation/customization/</loc>
-    <lastmod>2020-01-05T10:42:26+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yfuku.com/billing-pricing/payment/</loc>
-    <lastmod>2020-01-05T10:42:26+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yfuku.com/installation/elements/</loc>
-    <lastmod>2020-01-05T10:42:26+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yfuku.com/billing-pricing/profile/</loc>
-    <lastmod>2020-01-05T10:42:26+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yfuku.com/claw44/whatis/</loc>
-    <lastmod>2020-07-02T10:00:00+09:00</lastmod>
+    <loc>https://yfuku.com/blog/electronic/</loc>
+    <lastmod>2018-10-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://yfuku.com/claw44/buildguide/1_check/</loc>
+    <lastmod>2020-07-02T10:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/claw44/whatis/</loc>
     <lastmod>2020-07-02T10:00:00+09:00</lastmod>
   </url>
   
@@ -73,12 +33,12 @@
   </url>
   
   <url>
-    <loc>https://yfuku.com/claw44/buildguide/</loc>
+    <loc>https://yfuku.com/claw44/buildguide/2_prepare/</loc>
     <lastmod>2020-07-02T10:00:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yfuku.com/claw44/buildguide/2_prepare/</loc>
+    <loc>https://yfuku.com/claw44/buildguide/</loc>
     <lastmod>2020-07-02T10:00:00+09:00</lastmod>
   </url>
   
@@ -118,12 +78,12 @@
   </url>
   
   <url>
-    <loc>https://yfuku.com/claw44/history/</loc>
+    <loc>https://yfuku.com/claw44/buildguide/5_socket/</loc>
     <lastmod>2020-07-02T10:00:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yfuku.com/claw44/buildguide/5_socket/</loc>
+    <loc>https://yfuku.com/claw44/history/</loc>
     <lastmod>2020-07-02T10:00:00+09:00</lastmod>
   </url>
   
@@ -148,27 +108,27 @@
   </url>
   
   <url>
-    <loc>https://yfuku.com/blog/2017/</loc>
-    <lastmod>2020-07-02T10:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://yfuku.com/blog/</loc>
-    <lastmod>2020-07-02T10:00:00+09:00</lastmod>
+    <lastmod>2020-07-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yfuku.com/claw44/</loc>
-    <lastmod>2020-07-02T10:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yfuku.com/blog/2017/raspberrypi3proxy/</loc>
-    <lastmod>2020-07-02T10:00:00+09:00</lastmod>
+    <loc>https://yfuku.com/blog/keyboard/test/</loc>
+    <lastmod>2020-07-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://yfuku.com/</loc>
+    <lastmod>2020-07-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/blog/se/test/</loc>
+    <lastmod>2020-07-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/claw44/</loc>
     <lastmod>2020-07-02T10:00:00+09:00</lastmod>
   </url>
   
@@ -178,21 +138,12 @@
   </url>
   
   <url>
-    <loc>https://yfuku.com/installation/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+    <loc>https://yfuku.com/blog/electronic/raspberrypi3proxy/</loc>
+    <lastmod>2018-10-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yfuku.com/billing-pricing/</loc>
-    <lastmod>2018-12-28T11:02:05+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yfuku.com/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://yfuku.com/tags/</loc>
+    <loc>https://yfuku.com/search/</loc>
   </url>
   
 </urlset>

@@ -1,14 +1,542 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Claw44ビルドガイド on yfuku docs</title>
+    <title>yfuku docs – Claw44ビルドガイド</title>
     <link>https://yfuku.com/claw44/buildguide/</link>
     <description>Recent content in Claw44ビルドガイド on yfuku docs</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 02 Jul 2020 10:00:00 +0900</lastBuildDate>
     
-	<atom:link href="https://yfuku.com/claw44/buildguide/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://yfuku.com/claw44/buildguide/index.xml" rel="self" type="application/rss+xml" />
     
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Claw44: 1. 同梱品の確認</title>
+      <link>https://yfuku.com/claw44/buildguide/1_check/</link>
+      <pubDate>Thu, 02 Jul 2020 10:00:00 +0900</pubDate>
+      
+      <guid>https://yfuku.com/claw44/buildguide/1_check/</guid>
+      <description>
+        
+        
+        &lt;p&gt;組み立て前に同梱品の確認をお願いします。&lt;br&gt;
+不足品などありましたら付属の案内に記載の連絡先か、&lt;a href=&#34;https://twitter.com/yfuku_&#34;&gt;Twitter&lt;/a&gt;からご連絡ください。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;ProMicro保護プレート: 2枚&lt;/li&gt;
+&lt;li&gt;TRRSジャック: 2個&lt;/li&gt;
+&lt;li&gt;タクトスイッチ: 2個&lt;/li&gt;
+&lt;li&gt;ダイオードベンダー：2本&lt;/li&gt;
+&lt;li&gt;スペーサー（長）: 4本&lt;/li&gt;
+&lt;li&gt;スペーサー（短）: 14本&lt;/li&gt;
+&lt;li&gt;ネジ : 36本＋予備&lt;/li&gt;
+&lt;li&gt;クッションゴム: 12個&lt;/li&gt;
+&lt;li&gt;ダイオード: 44個+予備&lt;/li&gt;
+&lt;li&gt;脱落防止用輪っか：14個＋予備&lt;/li&gt;
+&lt;li&gt;コンスルー ：4本&lt;/li&gt;
+&lt;li&gt;ProMicro：2個&lt;/li&gt;
+&lt;li&gt;MX互換スイッチ用PCBソケット 44個＋予備&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;images/parts.jpg&#34; alt=&#34;部品&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;基板：2枚&lt;/strong&gt;
+&lt;img src=&#34;images/plate1.jpg&#34; alt=&#34;基板&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;トッププレート：2枚&lt;/strong&gt;
+&lt;img src=&#34;images/plate2.jpg&#34; alt=&#34;トッププレート&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ボトムプレート：2枚&lt;/strong&gt;
+&lt;img src=&#34;images/plate3.jpg&#34; alt=&#34;ボトムプレート&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;../2_prepare&#34;&gt;→ 2.準備&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Claw44: 2. 準備</title>
+      <link>https://yfuku.com/claw44/buildguide/2_prepare/</link>
+      <pubDate>Thu, 02 Jul 2020 10:00:00 +0900</pubDate>
+      
+      <guid>https://yfuku.com/claw44/buildguide/2_prepare/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;用意するもの&#34;&gt;用意するもの&lt;/h2&gt;
+&lt;p&gt;参考に購入サイトを併記していますが、その他の場所でも購入いただけます。&lt;/p&gt;
+&lt;h3 id=&#34;trs-or-trrsケーブル-1本&#34;&gt;TRS or TRRSケーブル: 1本&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://yushakobo.jp/shop/trrs_cable/&#34;&gt;TRRSケーブル 1m | 遊舎工房&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.amazon.co.jp/o/ASIN/B06XF9JD5W/hoge0f-22/&#34;&gt;Awinnerオーディオステレオケーブル | Amazon&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;マイクロusbケーブル1本&#34;&gt;マイクロUSBケーブル：1本&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://yushakobo.jp/shop/usb_cable_micro_b/&#34;&gt;USBケーブル Micro B 1m | 遊舎工房&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;キースイッチmx互換-44個&#34;&gt;キースイッチ（MX互換）: 44個&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://yushakobo.jp/product-category/switches/&#34;&gt;Switches | 遊舎工房&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://talpkeyboard.stores.jp/?category_id=59cf8860ed05e668db003f5d&#34;&gt;KEYSWITCH | TALP KEYBOARD&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://eucalyn.shop/product-category/keyswitches&#34;&gt;SWITCHES | ゆかりキーボードファクトリー&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;キーキャップ1u-42個125u-2個1uで代用する場合は1u44個&#34;&gt;キーキャップ　1U: 42個、1.25U 2個（1Uで代用する場合は1U：44個）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://yushakobo.jp/product-category/keycaps/&#34;&gt;Keycaps | 遊舎工房&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://talpkeyboard.stores.jp/?category_id=59be183f428f2d49120007b1&#34;&gt;KEYCAP SET | TALP KEYBOARD&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://make.dmm.com/item/1071048/&#34;&gt;Claw44 の親指 - DMM.make クリエイターズマーケット&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;oledモジュールピンソケット付き-2-個-オプション&#34;&gt;OLEDモジュール(ピンソケット付き): 2 個 （オプション）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://yushakobo.jp/shop/oled/&#34;&gt;OLEDモジュール | 遊舎工房&lt;/a&gt; ※ピンソケット付きを選んでください&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;工具&#34;&gt;工具&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;下記の記事などを参考に工具を用意してください。
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gist.github.com/mtei/6957107a676ddfa85bde0ae41f8fa849&#34;&gt;キーボード自作、特に Helix キーボードキットの製作に最低必要な工具のメモ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.yfuku.com/entry/keybord_build_tool&#34;&gt;自作キーボードの組み立てに使っている工具&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ファームウェア&#34;&gt;ファームウェア&lt;/h2&gt;
+&lt;p&gt;キットに付属のProMicroはファームウェアが書き込まれているため、そのまま使用できます。
+キーマップを変更する時にはファームウェアを書き込む環境が必要になるため、早めに準備しておくことをおすすめします。
+詳細は&lt;a href=&#34;https://blog.yfuku.com/entry/claw44_buildguide_farmware&#34;&gt;こちら&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Claw44: 3. 組み立て</title>
+      <link>https://yfuku.com/claw44/buildguide/3_build/</link>
+      <pubDate>Thu, 02 Jul 2020 10:00:00 +0900</pubDate>
+      
+      <guid>https://yfuku.com/claw44/buildguide/3_build/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;基板に対して色々な部品をつけていきます。&lt;/li&gt;
+&lt;li&gt;基板に部品をつけ終わったら、トッププレート・ボトムプレートで基板をサンドイッチします。&lt;/li&gt;
+&lt;li&gt;各プレートはネジとスペーサーで固定します。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;基板の確認&#34;&gt;基板の確認&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;左右で別の基板になっています。&lt;/li&gt;
+&lt;li&gt;基板はそれぞれ表と裏があります。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;表面（Left/Front, Right/Front）
+&lt;img src=&#34;images/front.jpg&#34; alt=&#34;front&#34;&gt;&lt;/p&gt;
+&lt;p&gt;裏面（Left/Back, Right/Back）
+&lt;img src=&#34;images/back.jpg&#34; alt=&#34;back&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Claw44: 4. ダイオードの取り付け</title>
+      <link>https://yfuku.com/claw44/buildguide/4_diode/</link>
+      <pubDate>Thu, 02 Jul 2020 10:00:00 +0900</pubDate>
+      
+      <guid>https://yfuku.com/claw44/buildguide/4_diode/</guid>
+      <description>
+        
+        
+        &lt;p&gt;まずは裏面から実装（電子部品を半田付け）していきます。&lt;/p&gt;
+&lt;h2 id=&#34;知っておきたいこと&#34;&gt;知っておきたいこと&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ダイオードは各キースイッチの動作を正しく認識するためにつけます&lt;/li&gt;
+&lt;li&gt;キースイッチとダイオードは1対1で対応しています&lt;/li&gt;
+&lt;li&gt;ダイオードには向きがあります（一方向にしか電流を流さない）&lt;/li&gt;
+&lt;li&gt;ダイオードの向きが逆だと、対応するキースイッチは反応しなかったり、おかしな挙動をするので向きに注意してください&lt;/li&gt;
+&lt;li&gt;SMDダイオードも使用可能です&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ダイオードを折り曲げる&#34;&gt;ダイオードを折り曲げる&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;付属のダイオードベンダーで折り曲げる。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;穴に合わせて乗せる&lt;/p&gt;
+
+
+
+    
+    &lt;a href=&#34;https://yfuku.com/claw44/buildguide/4_diode/20190919020302.jpg&#34;&gt;
+        &lt;img src=&#34;https://yfuku.com/claw44/buildguide/4_diode/20190919020302_hucceb891e1500c6fdd1cbbe6f60593dbb_134699_300x0_resize_q90_catmullrom.jpg&#34; alt=&#34;&#34;&gt;
+    &lt;/a&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;挟む&lt;/p&gt;
+
+
+
+    
+    &lt;a href=&#34;https://yfuku.com/claw44/buildguide/4_diode/20190919020327.jpg&#34;&gt;
+        &lt;img src=&#34;https://yfuku.com/claw44/buildguide/4_diode/20190919020327_hufa23dfe9838d3b514316d4c7b33f3740_151619_300x0_resize_q90_catmullrom.jpg&#34; alt=&#34;&#34;&gt;
+    &lt;/a&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;机の角などを利用して&lt;/p&gt;
+
+
+
+    
+    &lt;a href=&#34;https://yfuku.com/claw44/buildguide/4_diode/20190919020351.jpg&#34;&gt;
+        &lt;img src=&#34;https://yfuku.com/claw44/buildguide/4_diode/20190919020351_hu02830a19c8cc7340bd58ec5f3c077b07_103958_300x0_resize_q90_catmullrom.jpg&#34; alt=&#34;&#34;&gt;
+    &lt;/a&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;折り曲げる&lt;/p&gt;
+
+
+
+    
+    &lt;a href=&#34;https://yfuku.com/claw44/buildguide/4_diode/20190919020413.jpg&#34;&gt;
+        &lt;img src=&#34;https://yfuku.com/claw44/buildguide/4_diode/20190919020413_hud4eb5d12807b850344a2e5f29ae7a571_94872_300x0_resize_q90_catmullrom.jpg&#34; alt=&#34;&#34;&gt;
+    &lt;/a&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;両方とも折り曲げる&lt;/p&gt;
+
+
+
+    
+    &lt;a href=&#34;https://yfuku.com/claw44/buildguide/4_diode/20190919020433.jpg&#34;&gt;
+        &lt;img src=&#34;https://yfuku.com/claw44/buildguide/4_diode/20190919020433_hub0431737bd946a872c31b15a81a23767_99715_300x0_resize_q90_catmullrom.jpg&#34; alt=&#34;&#34;&gt;
+    &lt;/a&gt;
+
+
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;市販の&lt;a href=&#34;https://www.amazon.co.jp/o/ASIN/B00J3E11VQ/hoge0f-22/&#34;&gt;リードベンダー&lt;/a&gt;で曲げてもOKです。&lt;/p&gt;
+
+
+
+    
+    &lt;a href=&#34;https://yfuku.com/claw44/buildguide/4_diode/20190308202802.jpg&#34;&gt;
+        &lt;img src=&#34;https://yfuku.com/claw44/buildguide/4_diode/20190308202802_hu72af5a601d84c8c4d028a5f543f745a3_97457_300x0_resize_q90_catmullrom.jpg&#34; alt=&#34;&#34;&gt;
+    &lt;/a&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;折り曲がったダイオードたちが出来上がればOKです。&lt;/p&gt;
+
+
+
+    
+    &lt;a href=&#34;https://yfuku.com/claw44/buildguide/4_diode/20190331031203.jpg&#34;&gt;
+        &lt;img src=&#34;https://yfuku.com/claw44/buildguide/4_diode/20190331031203_huf60f749dd4bce1855431c9d4a6a1d854_192961_300x0_resize_q90_catmullrom.jpg&#34; alt=&#34;&#34;&gt;
+    &lt;/a&gt;
+
+
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ダイオードを取り付ける&#34;&gt;ダイオードを取り付ける&lt;/h2&gt;
+&lt;p&gt;ダイオードは裏面から差し込みます。&lt;/p&gt;
+&lt;h3 id=&#34;裏面rightback-leftbackが見える面を上に向けます&#34;&gt;裏面（&amp;ldquo;Right/Back&amp;rdquo;, &amp;ldquo;Left/Back&amp;quot;が見える面）を上に向けます。&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;20200320024148.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;ダイオードを差し込む&#34;&gt;ダイオードを差し込む&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;三角と棒を組み合わせたマークがダイオードです。&lt;/li&gt;
+&lt;li&gt;三角の先の棒と、ダイオードの黒くなっている方を合わせます。&lt;/li&gt;
+&lt;li&gt;全てのダイオードは同じ向きになっています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;20200320023726.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ダイオードを全て差し込んだ状態。
+&lt;img src=&#34;20200320024953.jpg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ダイオードが浮かないようにマスキングテープで固定する&#34;&gt;ダイオードが浮かないようにマスキングテープで固定する&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;&lt;span style=&#34;color: #ff0000&#34;&gt;マスキングテープを貼る前にもう一度ダイオードの向きを確認してください！&lt;/span&gt;&lt;/b&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style=&#34;color: #ff0000&#34;&gt;&lt;b&gt;ダイオードが浮いていると高さが出てしまい、ボトムプレートに当たってしまうことがあるので丁寧に！&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;20200320025049.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;ハンダ付け&#34;&gt;ハンダ付け&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;ひっくり返して表側からハンダ付けをしていきます。
+&lt;img src=&#34;20200320025335.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ハンダ付け。
+&lt;img src=&#34;20200320030104.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ニッパーで足を切る。
+&lt;img src=&#34;20200320030130.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;足を切った状態。
+&lt;img src=&#34;20200320030205.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;全ての足を切る。
+&lt;img src=&#34;20200320030247.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;マスキングテープを外して完成。
+&lt;img src=&#34;20200320091415.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;※ハンダ付けの前に足を切るやり方もあります。お好みで行ってください。&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Claw44: 5. キースイッチソケットの取り付け</title>
+      <link>https://yfuku.com/claw44/buildguide/5_socket/</link>
+      <pubDate>Thu, 02 Jul 2020 10:00:00 +0900</pubDate>
+      
+      <guid>https://yfuku.com/claw44/buildguide/5_socket/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;知っておきたいこと&#34;&gt;知っておきたいこと&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;キースイッチを簡単に交換可能にするために、このソケットを取り付けます。&lt;/li&gt;
+&lt;li&gt;基板に密着していないと、キースイッチが正常にハマらないので、しっかりと密着させるようにしてください。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;キースイッチ用スケットを取り付ける&#34;&gt;キースイッチ用スケットを取り付ける&lt;/h2&gt;
+&lt;p&gt;キースイッチ用ソケットは裏面に取り付けます。&lt;/p&gt;
+&lt;h3 id=&#34;裏面rightback-leftbackが見える面を上に向けます&#34;&gt;裏面（&amp;ldquo;Right/Back&amp;rdquo;, &amp;ldquo;Left/Back&amp;quot;が見える面）を上に向けます。&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;images/20200320091951.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;パッドに予備ハンダをつける&#34;&gt;パッドに予備ハンダをつける&lt;/h3&gt;
+&lt;p&gt;最初にパッドに半田付けしていきます。
+&lt;img src=&#34;images/20200320101734.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;パッド上にソケットを配置する&#34;&gt;パッド上にソケットを配置する&lt;/h3&gt;
+&lt;p&gt;ちょっとした振動でずれたりするので、数個ずつに分けて取り付けると良いです。&lt;br&gt;
+&lt;b&gt;&lt;span style=&#34;color: #ff5252&#34;&gt;※シルクを隠すようにおいてください。&lt;br /&gt;
+※穴を塞いでないか必ず確認してください&lt;/span&gt;&lt;/b&gt;
+&lt;img src=&#34;images/20200320102127.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;ソケットをハンダ付けする&#34;&gt;ソケットをハンダ付けする&lt;/h3&gt;
+&lt;p&gt;予備ハンダを溶かしてソケットを付けていきます。
+ピンセットなどで抑えつつ、両端のハンダを溶かして密着させます。&lt;br&gt;
+ハンダごてを離してから、ハンダが固まるのを数秒待ちます。&lt;br&gt;
+（固まらないうちに離すと浮いてしまう場合があります）&lt;br&gt;
+&lt;img src=&#34;images/20200320102531.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;images/20200320102539.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;ソケットの取り付け完了&#34;&gt;ソケットの取り付け完了&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;images/20200320103223.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Claw44: 6. TRRSジャック、リセットスイッチの取り付け</title>
+      <link>https://yfuku.com/claw44/buildguide/6_otherparts/</link>
+      <pubDate>Thu, 02 Jul 2020 10:00:00 +0900</pubDate>
+      
+      <guid>https://yfuku.com/claw44/buildguide/6_otherparts/</guid>
+      <description>
+        
+        
+        &lt;h3 id=&#34;表面rightfront-leftfrontが見える面を上に向けます&#34;&gt;表面（&amp;ldquo;Right/Front&amp;rdquo;, &amp;ldquo;Left/Front&amp;quot;が見える面）を上に向けます&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;images/20200320110300.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;oled用ソケットの取り付けオプション&#34;&gt;OLED用ソケットの取り付け（オプション）&lt;/h3&gt;
+&lt;p&gt;※この作業はオプションです。OLEDを付けたい方のみ行ってください。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;ソケットを配置して、マスキングテープで固定します。
+&lt;img src=&#34;images/20200320110442.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;裏返してハンダ付けをします。
+&lt;img src=&#34;images/20200320110453.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;リセットスイッチの取り付け&#34;&gt;リセットスイッチの取り付け&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;リセットスイッチを配置して、マスキングテープで固定します。
+&lt;img src=&#34;images/20200320110653.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;裏返してハンダ付けをします。
+&lt;img src=&#34;images/20200320110710.jpg&#34; alt=&#34;&#34;&gt;f&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;trrsジャックの取り付け&#34;&gt;TRRSジャックの取り付け&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;TRRSジャックを配置して、マスキングテープで固定します。
+&lt;img src=&#34;images/20200320110735.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;裏返してハンダ付けをします。
+&lt;img src=&#34;images/20200320110745.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;取り付け完了&#34;&gt;取り付け完了&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;images/20200320110814.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;images/20200320110909.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Claw44: 7. ProMicro、OLEDの取り付け</title>
+      <link>https://yfuku.com/claw44/buildguide/7_promicro/</link>
+      <pubDate>Thu, 02 Jul 2020 10:00:00 +0900</pubDate>
+      
+      <guid>https://yfuku.com/claw44/buildguide/7_promicro/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;コンスルーの取り付け&#34;&gt;コンスルーの取り付け&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ProMicroにコンスルーを取り付けてください。&lt;/li&gt;
+&lt;li&gt;取り付け方は&lt;a href=&#34;https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_jp.md#pro-micro&#34;&gt;helixのビルドガイド &lt;/a&gt;がわかりやすいので参照してください。&lt;/li&gt;
+&lt;li&gt;このようになっていればOKです。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;images/20190401164322.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;promicroの取り付け&#34;&gt;ProMicroの取り付け&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;表面に取り付けます&lt;/li&gt;
+&lt;li&gt;図のようにシルク沿って差し込んでください&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;images/20200320114210.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;oledの取り付けオプション&#34;&gt;OLEDの取り付け（オプション）&lt;/h2&gt;
+&lt;p&gt;※この作業はオプションです。OLEDを付けたい方のみ行ってください。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;図のように、ProMicroの上からOLEDをソケットに差し込みます。
+&lt;img src=&#34;images/20200320114536.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;取り付け完了
+&lt;img src=&#34;images/20200320142711.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;動作確認&#34;&gt;動作確認&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;TRRS or TRSケーブルで左右をつなげる。USBケーブルを左側に繋げる。
+&lt;img src=&#34;images/20200320122137.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;テキストエディタやキーボードビューアなどで各キーが入力されるか確認してください。
+&lt;img src=&#34;images/20200320143118.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;※OLEDを取り付けてある場合は、OLEDで確認するとやりやすいです。&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Claw44: 8. プレート、スイッチの取り付け</title>
+      <link>https://yfuku.com/claw44/buildguide/8_plate/</link>
+      <pubDate>Thu, 02 Jul 2020 10:00:00 +0900</pubDate>
+      
+      <guid>https://yfuku.com/claw44/buildguide/8_plate/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;プレートの準備&#34;&gt;プレートの準備&lt;/h2&gt;
+&lt;h3 id=&#34;プレートの確認&#34;&gt;プレートの確認&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;各プレートは左右共通です。&lt;/li&gt;
+&lt;li&gt;どちらを使っても大丈夫です。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;images/20200320144950.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;保護紙を剥がす&#34;&gt;保護紙を剥がす&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;セロテープなどを貼り付けて、端から勢いよくやると剥がれると思います&lt;/li&gt;
+&lt;li&gt;剥がれにくい時もあるので根気よく！&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;images/20200320150636.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;剥がした状態&#34;&gt;剥がした状態&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;images/20200320150743.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;トッププレートの取り付け&#34;&gt;トッププレートの取り付け&lt;/h2&gt;
+&lt;h3 id=&#34;トッププレートにネジスペーサーをつける&#34;&gt;トッププレートにネジ、スペーサーをつける&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;images/20200320162304.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;images/20200320162307.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;スペーサーに脱落防止用の黒い輪っかをつける&#34;&gt;スペーサーに脱落防止用の黒い輪っかをつける&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;images/20200320162401.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;images/20200320162555.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;トッププレートにpcbを重ねる&#34;&gt;トッププレートにPCBを重ねる&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;images/20200320153048.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;images/20200320151916.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;キースイッチの取り付け&#34;&gt;キースイッチの取り付け&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;裏返してキースイッチをはめていく
+&lt;img src=&#34;images/20200320153318.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;親指の4キー分は上下が逆になるので注意してください
+&lt;img src=&#34;images/20200320153500.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;全てつけた状態
+&lt;img src=&#34;images/20200320153656.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;promicroプレート用のスペーサーの取り付け&#34;&gt;ProMicroプレート用のスペーサーの取り付け&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;下からネジを通して指で押さえ、上からスペーサーを取り付けます&lt;br&gt;
+&lt;span style=&#34;color: #ff0000&#34;&gt;&lt;b&gt;※ボトムプレートをつけてしまうと、はずさないと付けられないので注意！&lt;br /&gt;※ボトムプレートの前に作業をしてください！&lt;/b&gt;&lt;/span&gt;&lt;br&gt;
+（自分もいまだによくやるのでご注意を）
+&lt;img src=&#34;images/20200320155552.jpg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;li&gt;上にスペーサー
+&lt;img src=&#34;images/20200320155221.jpg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;li&gt;下からネジを取り付ける
+&lt;img src=&#34;images/20200320155228.jpg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ボトムプレートの取り付け&#34;&gt;ボトムプレートの取り付け&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ボトムプレートを重ねて、ネジで取り付けてください。
+&lt;img src=&#34;images/20200320155513.jpg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;クッションゴムの取り付け&#34;&gt;クッションゴムの取り付け&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;images/20200320161729.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;参考
+&lt;img src=&#34;images/20200320161743.jpg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;promicro保護プレートの取り付け&#34;&gt;ProMicro保護プレートの取り付け&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;保護紙を剥がす
+&lt;img src=&#34;images/20200320161825.jpg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;li&gt;ProMicro保護プレートを重ねて、ネジで取り付けてください。
+&lt;img src=&#34;images/20200320161953.jpg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Claw44: 9. キーキャップ、ケーブルの取り付け</title>
+      <link>https://yfuku.com/claw44/buildguide/9_keycap/</link>
+      <pubDate>Thu, 02 Jul 2020 10:00:00 +0900</pubDate>
+      
+      <guid>https://yfuku.com/claw44/buildguide/9_keycap/</guid>
+      <description>
+        
+        
+        &lt;h3 id=&#34;キーキャップの取り付け&#34;&gt;キーキャップの取り付け&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;images/20200320163133.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;usbケーブルとtrstrrsケーブルをつけて完成&#34;&gt;USBケーブルとTRS(TRRS)ケーブルをつけて完成！&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;images/20200320164310.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;おつかれさまでした&#34;&gt;おつかれさまでした！&lt;/h3&gt;
+
+      </description>
+    </item>
     
   </channel>
 </rss>
