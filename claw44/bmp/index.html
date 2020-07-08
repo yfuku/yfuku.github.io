@@ -35,8 +35,8 @@
 
 
 
-<link rel="preload" href="/scss/main.min.a0bf2081b56f13a04d2cb164c667eb214845f5acc2db6d158bec3aeeb150877b.css" as="style">
-<link href="/scss/main.min.a0bf2081b56f13a04d2cb164c667eb214845f5acc2db6d158bec3aeeb150877b.css" rel="stylesheet" integrity="">
+<link rel="preload" href="/scss/main.min.9263d0e7d25af9d8bf42d5a1577b810cddab18ad039249d9234f9e625d778cd0.css" as="style">
+<link href="/scss/main.min.9263d0e7d25af9d8bf42d5a1577b810cddab18ad039249d9234f9e625d778cd0.css" rel="stylesheet" integrity="">
 
 
 <script
@@ -440,7 +440,7 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/claw44/best/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">最強の組み合わせ</a>
+    <a  href="/claw44/best/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">僕の考えた最強のClaw44の組み合わせ</a>
   </li>
   <ul>
     <li class="collapse " id="claw44best">
@@ -503,10 +503,10 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/claw44/history/advent2019/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Claw44を作った話</a>
+    <a  href="/claw44/history/alpha/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Claw44 alpha版ができてました</a>
   </li>
   <ul>
-    <li class="collapse " id="claw44historyadvent2019">
+    <li class="collapse " id="claw44historyalpha">
       
       
       
@@ -526,10 +526,10 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/claw44/history/alpha/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Claw44 alpha版ができてました</a>
+    <a  href="/claw44/history/advent2019/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Claw44を作った話</a>
   </li>
   <ul>
-    <li class="collapse " id="claw44historyalpha">
+    <li class="collapse " id="claw44historyadvent2019">
       
       
       
@@ -594,6 +594,8 @@ Claw44でBLE Micro Proを使えるようにしたログになります。<br>
 （以下、BMPと略すことがあります）</p>
 <p>公式サイトが充実しているので、まずはこちらをご確認ください。<br>
 <a href="https://sekigon-gonnoc.github.io/BLE-Micro-Pro/#/">はじめに - BLE Micro Pro</a></p>
+<p>BMPを使うには電源を確保しないといけないのですが、Claw44につける場合は「電池基板」を利用するのがおすすめです。
+ProMicroの上に乗せることができるので、基本的な形状を変えないまま使用することができます。</p>
 <h2 id="実装">実装</h2>
 <h3 id="必要な部品">必要な部品</h3>
 <ul>
@@ -613,141 +615,91 @@ Claw44でBLE Micro Proを使えるようにしたログになります。<br>
 <h3 id="電池基板">電池基板</h3>
 <h4 id="部品の取り付け">部品の取り付け</h4>
 <ul>
-<li>全体としてはこんな感じです
+<li>
+<p>全体としてはこんな感じです
+<img src="images/20190626124136.jpg"></p>
+</li>
+<li>
+<p>ダイオード</p>
 <ul>
 <li>
-<img src="images/20190626124136.jpg">
+<p>片側に予備ハンダをする<br>
+<img src="images/20190626124606.jpg" style="width: 300px" ></p>
+</li>
+<li>
+<p>ダイオードは向きがあるので注意。白線のある方を白丸側にする。（見にくい場合はスマホのライトとかで光を当てるとわかりやすいです。）<br>
+<img src="images/20190626125611.jpg" style="width: 300px" ></p>
+</li>
+<li>
+<p>予備ハンダを利用してダイオードをはんだづけ<br>
+<img src="images/20190626231732.jpg" style="width: 300px" ></p>
+</li>
+<li>
+<p>もう片方もはんだ付け。浮かないように両側をはんだして密着させる。<br>
+<img src="images/20190626231900.jpg" style="width: 300px" ></p>
 </li>
 </ul>
 </li>
-<li>ダイオード
+<li>
+<p>スイッチ</p>
 <ul>
-<li>片側に予備ハンダをする
-<ul>
-<li><img src="images/20190626124606.jpg" style="width: 300px" ></li>
+<li>穴があって、ピタッとハマるのでわかりやすいと思います。各パッドをはんだ付け。<br>
+<img src="images/20190626125847.jpg" style="width: 300px" ></li>
 </ul>
 </li>
-<li>ダイオードは向きがあるので注意。白線のある方を白丸側にする。（見にくい場合はスマホのライトとかで光を当てるとわかりやすいです。）
-<ul>
-<li><img src="images/20190626125611.jpg" style="width: 300px" ></li>
-</ul>
-</li>
-<li>予備ハンダを利用してダイオードをはんだづけ
-<ul>
-<li><img src="images/20190626231732.jpg" style="width: 300px" ></li>
-</ul>
-</li>
-<li>もう片方もはんだ付け。浮かないように両側をはんだして密着させる。
-<ul>
-<li><img src="images/20190626231900.jpg" style="width: 300px" ></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>スイッチ
-<ul>
-<li>穴があって、ピタッとハマるのでわかりやすいと思います。各パッドをはんだ付け。
-<ul>
-<li><img src="images/20190626125847.jpg" style="width: 300px" ></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>コンデンサ
+<li>
+<p>コンデンサ</p>
 <ul>
 <li>コンデンサは向きがありません</li>
-<li>盛りはんだをして
-<ul>
-<li><img src="images/20190626130051.jpg" style="width: 300px" ></li>
+<li>盛りはんだをして<br>
+<img src="images/20190626130051.jpg" style="width: 300px" ></li>
+<li>ダイオードと同様にはんだ付けします<br>
+<img src="images/20190626130208.jpg" style="width: 300px" ></li>
 </ul>
 </li>
-<li>ダイオードと同様にはんだ付けします
+<li>
+<p>電池ホルダ</p>
 <ul>
-<li><img src="images/20190626130208.jpg" style="width: 300px" ></li>
+<li>乗っけて<br>
+<img src="images/20190626130303.jpg" style="width: 300px" ></li>
+<li>裏側の各パッドをはんだ付け<br>
+<img src="images/20190626130442.jpg" style="width: 300px" ></li>
 </ul>
 </li>
-</ul>
-</li>
-<li>電池ホルダ
+<li>
+<p>絶縁</p>
 <ul>
-<li>乗っけて
-<ul>
-<li><img src="images/20190626130303.jpg" style="width: 300px" ></li>
-</ul>
-</li>
-<li>裏側の各パッドをはんだ付け
-<ul>
-<li><img src="images/20190626130442.jpg" style="width: 300px" ></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>絶縁
-<ul>
-<li>BMPと接触する部分はこのままだとショートするので、ビニールテープか何かで絶縁します。カプトンテープなど薄いものだと揺れた時にうるさいので、少し厚めでショックを吸収してくれるものにしてみました。
-<ul>
-<li><img src="images/20190626130653.jpg" style="width: 300px" ></li>
-</ul>
-</li>
+<li>BMPと接触する部分はこのままだとショートするので、ビニールテープか何かで絶縁します。カプトンテープなど薄いものだと揺れた時にうるさいので、少し厚めでショックを吸収してくれるものにしてみました。<br>
+<img src="images/20190626130653.jpg" style="width: 300px" ></li>
 </ul>
 </li>
 </ul>
 <h4 id="bmpと合体">BMPと合体</h4>
 <ul>
 <li>今回はどのご家庭にもあるProMicroに付属しているピンヘッダを使ってみました。（もう少し低いものの方がジャストフィットするので、可能であれば<a href="http://akizukidenshi.com/catalog/c/cheader6/">秋月電子</a>などで買うと良いと思います）</li>
-<li>ピンヘッダを切り出す
-<ul>
-<li><img src="images/20190626131356.jpg" style="width: 300px" ></li>
-</ul>
-</li>
-<li>BMPに取り付ける
-<ul>
-<li><img src="images/20190626134705.jpg" style="width: 300px" ></li>
-</ul>
-</li>
-<li>電池基板を乗せる
-<ul>
-<li><img src="images/20190626134711.jpg" style="width: 300px" ></li>
-</ul>
-</li>
-<li>はんだ付けする
-<ul>
-<li><img src="images/20190626134716.jpg" style="width: 300px" ></li>
-</ul>
-</li>
-<li>反対側もはんだ付け
-<ul>
-<li><img src="images/20190626134722.jpg" style="width: 300px" ></li>
-</ul>
-</li>
-<li>不要な足を切る
-<ul>
-<li><img src="images/20190626134735.jpg" style="width: 300px" ></li>
-</ul>
-</li>
-<li>電池の通り道は邪魔にならないように深く切る
-<ul>
-<li><img src="images/20190626134729.jpg" style="width: 300px" ></li>
-</ul>
-</li>
-<li>電池を入れる
-<ul>
-<li><img src="images/20190626134742.jpg" style="width: 300px" ></li>
-</ul>
-</li>
-<li>ピンヘッダ側が浮いているので、やはりもう少し短い方が良さそうですね
-<ul>
-<li><img src="images/20190626134747.jpg" style="width: 300px" ></li>
-</ul>
-</li>
-<li>Claw44に取り付ける
-<ul>
-<li><img src="images/20190626144207.jpg" style="width: 300px" ></li>
-</ul>
-</li>
+<li>ピンヘッダを切り出す<br>
+<img src="images/20190626131356.jpg" style="width: 300px" ></li>
+<li>BMPに取り付ける<br>
+<img src="images/20190626134705.jpg" style="width: 300px" ></li>
+<li>電池基板を乗せる<br>
+<img src="images/20190626134711.jpg" style="width: 300px" ></li>
+<li>はんだ付けする<br>
+<img src="images/20190626134716.jpg" style="width: 300px" ></li>
+<li>反対側もはんだ付け<br>
+<img src="images/20190626134722.jpg" style="width: 300px" ></li>
+<li>不要な足を切る<br>
+<img src="images/20190626134735.jpg" style="width: 300px" ></li>
+<li>電池の通り道は邪魔にならないように深く切る<br>
+<img src="images/20190626134729.jpg" style="width: 300px" ></li>
+<li>電池を入れる<br>
+<img src="images/20190626134742.jpg" style="width: 300px" ></li>
+<li>ピンヘッダ側が浮いているので、やはりもう少し短い方が良さそうですね<br>
+<img src="images/20190626134747.jpg" style="width: 300px" ></li>
+<li>Claw44に取り付ける<br>
+<img src="images/20190626144207.jpg" style="width: 300px" ></li>
 </ul>
 <h2 id="ファームウェアの書き込み">ファームウェアの書き込み</h2>
-<p>ファームウェア書き込みは公式サイトを参照してください。
+<p>ファームウェア書き込みは公式サイトを参照してください。<br>
 <a href="https://sekigon-gonnoc.github.io/BLE-Micro-Pro/#/">はじめに - BLE Micro Pro</a></p>
 <h2 id="ペアリング">ペアリング</h2>
 <ul>
@@ -759,18 +711,12 @@ Claw44でBLE Micro Proを使えるようにしたログになります。<br>
 <li>PCとのペアリング
 <ul>
 <li>keymapでアサインしたAD_WO_Lを押すとペアリングモードに入ります。</li>
-<li>Claw44のdefaultの場合、下記のようにレイヤーを切り替えて左上のキーを押します。
-<ul>
-<li><img src="images/20190626152608.png" style="width: 300px" ></li>
+<li>Claw44のdefaultの場合、下記のようにレイヤーを切り替えて左上のキーを押します。<br>
+<img src="images/20190626152608.png" style="width: 300px" ></li>
 </ul>
 </li>
-</ul>
-</li>
-<li>Bluetoothの設定にClaw44が出てくるので接続します
-<ul>
-<li><img src="images/20190626154120.png" style="width: 300px" ></li>
-</ul>
-</li>
+<li>Bluetoothの設定にClaw44が出てくるので接続します<br>
+<img src="images/20190626154120.png" style="width: 300px" ></li>
 </ul>
 <h2 id="promicroプレート">ProMicroプレート</h2>
 <ul>

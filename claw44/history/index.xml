@@ -52,10 +52,8 @@
 &lt;img src=&#34;images/20181226153403.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;これくらいの位置で親指打鍵したい。これだと自分は角度のついてキーキャップならフィットする。（写真はモックじゃない・・）
-&lt;img src=&#34;images/20181226153644.jpg&#34; style=&#34;width: 300px&#34; &gt;
-&lt;img src=&#34;images/20181226153709.jpg&#34; style=&#34;width: 300px&#34; &gt;
-&lt;img src=&#34;images/20181226153737.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
+&lt;p&gt;これくらいの位置で親指打鍵したい。これだと自分は角度のついてキーキャップならフィットする。（写真はモックじゃない・・）&lt;br&gt;
+&lt;img src=&#34;images/20181226153709.jpg&#34; style=&#34;width: 400px&#34; &gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;試作第1号&#34;&gt;試作第1号&lt;/h3&gt;
@@ -135,259 +133,6 @@
     </item>
     
     <item>
-      <title>Claw44: Claw44を作った話</title>
-      <link>https://yfuku.com/claw44/history/advent2019/</link>
-      <pubDate>Mon, 16 Dec 2019 10:00:00 +0900</pubDate>
-      
-      <guid>https://yfuku.com/claw44/history/advent2019/</guid>
-      <description>
-        
-        
-        &lt;p&gt;&lt;a href=&#34;https://adventar.org/calendars/4117&#34;&gt;キーボード #1 Advent Calendar 2019 - Adventar&lt;/a&gt;
-16日目の記事です。&lt;br&gt;
-　&lt;/p&gt;
-&lt;p&gt;いち自作キーボードユーザだった自分が、何の知識もないながら、設計から販売まで行った記録です。
-同じようにレイアウトにこだわったキーボードを作りたい人に雰囲気だけでも感じ取ってもらえればと思い書きました。
-1年くらい前の話なので、細部が曖昧ですが・・  振り返っていきます。&lt;br&gt;
-(画像多いのもあり、長いです・・・）&lt;/p&gt;
-&lt;h1 id=&#34;動機&#34;&gt;動機&lt;/h1&gt;
-&lt;p&gt;本業がソフトウェアエンジニアで肩こりがひどく、それの解消にと思いErgodox EZを買ったのが始まりでした。
-レイヤーや今までと違うキーレイアウトに慣れてきて、これは素晴らしいものだと確信。
-しかし、使い込み、習熟するにつれ、大きすぎるしキーはこんなにいらないな〜と不満点も芽生えてきました。&lt;/p&gt;
-&lt;p&gt;そうこうしているうちに手に入りやすいキットが出てきて、Iris, Corne, Helix Pico, Ergodash mini&amp;hellip; など、とにかく作る日々に。
-色々なキーボードを試し、それぞれの良さを実感しながらも、使い込めば込むほど自分との細かい違いが気になるようになってきました。
-小さい差なのですが、毎日ハードに使うものなので蓄積されていくと無視できなくなり・・・
-これは自分で作らないと解消されないのだろうなと思い、設計することを決意しました。&lt;/p&gt;
-&lt;h1 id=&#34;目的&#34;&gt;目的&lt;/h1&gt;
-&lt;p&gt;自分が最初に感じていたのは、&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;長時間使っていると親指が痛くなる（キーキャップの角が当たる）&lt;/li&gt;
-&lt;li&gt;小指を使うと、手全体が動いてしまう&lt;/li&gt;
-&lt;li&gt;何もしてない時にわりと疲れる（キーボードの上に手を置いて思考してる時とか）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;というようなことでした。
-このような負担をキーのレイアウトを変える事によって減らし、快適に打鍵できるようにする事を目的にしました。&lt;/p&gt;
-&lt;h1 id=&#34;開発方法&#34;&gt;開発方法&lt;/h1&gt;
-&lt;p&gt;はじめは本当に何もわからなかったので、&lt;a href=&#34;https://twitter.com/foostan&#34;&gt;@foostanさん&lt;/a&gt;の&lt;a href=&#34;https://booth.pm/ja/items/1044084&#34;&gt;自作キーボード設計入門&lt;/a&gt;が頼りでした。まずはここに書かれている事を理解して、色々なツールを触るところから始めました。&lt;/p&gt;
-&lt;p&gt;また、キーレイアウトが肝なので、実際に打鍵をして検証を繰り返す事は必須と考え、たまたま買ったばかりの3Dプリンタを使って進めていく事にしました。&lt;/p&gt;
-&lt;p&gt;グラフィックソフトもCADもよくわからない状態だったので、下記のような手順でやり始めました。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;ベースはCorneのイラレデータを使わせていただき、Fusion360に読み込ませて、スイッチの穴を増減したり移動したりする&lt;/li&gt;
-&lt;li&gt;3mm厚のプレートを3Dプリントする（当時は本当に厚みつけるくらいしかできなかった・・）&lt;/li&gt;
-&lt;li&gt;実際にスイッチ、ネジ、スペーサーなどをはめて完成させる&lt;/li&gt;
-&lt;li&gt;実際の打鍵感を確認して、修正を繰り返す&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;キーレイアウトの検討&#34;&gt;キーレイアウトの検討&lt;/h1&gt;
-&lt;h2 id=&#34;2dプリンタによるキーレイアウトの検討&#34;&gt;2Dプリンタによるキーレイアウトの検討&lt;/h2&gt;
-&lt;p&gt;いきなり3Dプリントするのもコストが掛かるので、まずは紙に印刷して試行錯誤する。&lt;/p&gt;
-&lt;h3 id=&#34;v1&#34;&gt;v1&lt;/h3&gt;
-&lt;p&gt;とりあえずCorneをベースに親指、小指部分を変えてみる。&lt;br&gt;
-親指キーを一つ増やす&lt;br&gt;
-小指を大幅にずらしてみる&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;images/20191213235450.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
-&lt;h3 id=&#34;v2&#34;&gt;v2&lt;/h3&gt;
-&lt;p&gt;キーを増やしたり、小指側いじったり。まだあんまりピンときてない。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;images/20191213235646.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
-&lt;h2 id=&#34;小指を中心にちゃんと考え始める&#34;&gt;小指を中心にちゃんと考え始める&lt;/h2&gt;
-&lt;h3 id=&#34;v3&#34;&gt;v3&lt;/h3&gt;
-&lt;p&gt;小指と薬指は連動して動くと感じたので、小指だけ角度を変えるのはやめた。&lt;br&gt;
-親指以外はキーボードの範囲内では同じ方向の動きの方がしっくりくる。&lt;br&gt;
-この時は、小指の島を離した方が良いと思っていた。&lt;br&gt;
-Pは小指で打っていたが、薬指の方が効率的かと思いお試しでこの位置にしていた。&lt;/p&gt;
-&lt;p&gt;親指も微調整。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;images/20191213235947.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
-&lt;h3 id=&#34;v4&#34;&gt;v4&lt;/h3&gt;
-&lt;p&gt;外側を2キーに。（外側下段は使ってなかったので）&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;images/20191214000128.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
-&lt;h3 id=&#34;v5&#34;&gt;v5&lt;/h3&gt;
-&lt;p&gt;Pに薬指はホームポジションが若干動くので元に戻す。&lt;br&gt;
-外側をさらに低くする。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;images/20191214000525.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
-&lt;h3 id=&#34;v6&#34;&gt;v6&lt;/h3&gt;
-&lt;p&gt;親指周りを微調整。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;images/20191214000625.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
-&lt;h2 id=&#34;3dプリンタによるキーレイアウトの検討&#34;&gt;3Dプリンタによるキーレイアウトの検討&lt;/h2&gt;
-&lt;p&gt;この辺から3Dプリンタで試作を始める。&lt;/p&gt;
-&lt;h3 id=&#34;v7&#34;&gt;v7&lt;/h3&gt;
-&lt;p&gt;親指、小指周りを微調整。細かい調整やってるなあ。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;images/20191214000901.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
-&lt;p&gt;こんなプレートを作って&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;images/20191212015320.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
-&lt;p&gt;組み立てて検証を繰り返す。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;images/20191212015233.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
-&lt;h3 id=&#34;v8-1&#34;&gt;v8-1&lt;/h3&gt;
-&lt;p&gt;小指なんか違う・・・&lt;br&gt;
-やはり外側下段は結構つらいのでフラットな感じにする。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;images/20191214001052.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
-&lt;h3 id=&#34;v8-2&#34;&gt;v8-2&lt;/h3&gt;
-&lt;p&gt;外側上段が少しつらいので、やや下げる。&lt;br&gt;
-親指も同時に調整。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;images/20191214001237.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
-&lt;h3 id=&#34;v8-3&#34;&gt;v8-3&lt;/h3&gt;
-&lt;p&gt;さらに小指をちょい下げ 。
-親指も調整。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;images/20191214001356.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
-&lt;h3 id=&#34;v9&#34;&gt;v9&lt;/h3&gt;
-&lt;p&gt;小指を一旦戻す。迷走中。&lt;br&gt;
-外形も悩みだす。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;images/20191214001620.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
-&lt;h3 id=&#34;v10&#34;&gt;v10&lt;/h3&gt;
-&lt;p&gt;小指外側の列のズレはだいたい確定。&lt;br&gt;
-小指ホームポジションから外側の上段・中段が両方とも押しやすい位置に落ち着いた。&lt;br&gt;
-外側下段は自分は使用頻度低いので押しやすさのプライオリティはとても低い。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;images/20191214001856.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
-&lt;h3 id=&#34;v11&#34;&gt;v11&lt;/h3&gt;
-&lt;p&gt;外形どうしようか悩む。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;images/20191214002154.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
-&lt;h3 id=&#34;v12&#34;&gt;v12&lt;/h3&gt;
-&lt;p&gt;外形を気にしてか、空きスペースにキーをキーを置いている。使わないのでボツ。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;images/20191214002239.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
-&lt;p&gt;v12とv11を3Dプリントしてセットアップした物&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;images/20191212001518.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;images/20191212015818.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
-&lt;h2 id=&#34;無限の可能性&#34;&gt;無限の可能性！&lt;/h2&gt;
-&lt;p&gt;最終的には基板を作らねばと思い3Dプリンタを走らせてる間に、自キ設計入門を進める。&lt;br&gt;
-回路図は比較的簡単なので、すんなり作れる。&lt;br&gt;
-問題は基板設計。&lt;/p&gt;
-&lt;p&gt;Corneをベースに拡張させてもらおうと思ったが、パーツをずらしても配線はついてこないのでもう訳がわからなくなってしまう。
-リバーシブル・LED・mx,choc対応と配線が多く、ちゃんとわかってないのにこれを拡張していくのは無理かなと断念。
-そんな中で出会ったのが無限の可能性でした。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://swanmatch.booth.pm/&#34;&gt;魔界鍵盤店 - BOOTH&lt;/a&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;PCB1つが1キーに対応していて、
-組み合わせによって基板設計ができなくても
-理論上どんなキーボードでも作れます。
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;基板を作らないやり方としては、全て手配線でやるやり方もあるのですが、ハードル高そう・・・これは一つのキーを1ユニットとして、その間の配線だけ自分でやれば良いので初心者でもなんとかなりそうと感じた。&lt;br&gt;
-この配線をする行為を物理的に行うことで、やっと概念が理解できた気がした。&lt;br&gt;
-なるほど、これを基板図で表現すれば良いのかと。&lt;/p&gt;
-&lt;p&gt;ということで、作っていきました。&lt;/p&gt;
-&lt;p&gt;ProMicroのお家の位置を妄想したりする&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;images/20191212015841.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
-&lt;p&gt;ダイオードをはめる&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;images/20191212020051.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
-&lt;p&gt;キースイッチにくっつける&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;images/20191212015930.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
-&lt;p&gt;ひたすら配線！&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;images/20191212020005.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
-&lt;p&gt;できた！&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;images/20191212020216.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
-&lt;p&gt;そして、動いた！KiCadしなくても動かせる！！&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/yfuku_/status/1073394084142694401&#34;&gt;「う・ご・い・た！ うれしい〜😂 これで実践で使いやすいか検証できる。 自キ設計初心者くらいにはなれたかな。 https://t.co/8HCvXdUtgn」 / Twitter&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;と、だいぶ感動したもの。&lt;br&gt;
-自分一人で使うならこの状態で使うのは何の問題もないと思う。&lt;br&gt;
-3Dプリンタのプレートもけっこう良い感じだった。&lt;/p&gt;
-&lt;h2 id=&#34;実際に動くものからフィードバックを得て改修&#34;&gt;実際に動くものからフィードバックを得て改修&lt;/h2&gt;
-&lt;p&gt;モックとして動くのを想定しての検証と、実際に業務などをしながら得られる検証では雲泥の差があった。&lt;br&gt;
-細かいコンビネーションや打鍵の流れはやはり実践しないと再現が難しいと思う。&lt;/p&gt;
-&lt;h3 id=&#34;v13&#34;&gt;v13&lt;/h3&gt;
-&lt;p&gt;まず思ったのが、親指が全然ダメ・・・&lt;br&gt;
-一気にキーを下げる。あの微調整の日々は何だったんだろうか。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;images/20191214005715.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
-&lt;h3 id=&#34;v14&#34;&gt;v14&lt;/h3&gt;
-&lt;p&gt;親指外側のお試し。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;images/20191214005831.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
-&lt;h3 id=&#34;v15&#34;&gt;v15&lt;/h3&gt;
-&lt;p&gt;親指から弧を描くように配置するのが自然？&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;images/20191214010007.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
-&lt;h3 id=&#34;v16&#34;&gt;v16&lt;/h3&gt;
-&lt;p&gt;弧を大きくして微調整。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;images/20191214010057.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
-&lt;h3 id=&#34;v17&#34;&gt;v17&lt;/h3&gt;
-&lt;p&gt;指の上下移動が斜めになっていることに気付き、小指を傾ける。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;images/20191214010200.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
-&lt;h3 id=&#34;v18&#34;&gt;v18&lt;/h3&gt;
-&lt;p&gt;連動して薬指をちょっと下げる。&lt;br&gt;
-薬指と小指の連動性をかなり研究していた。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;images/20191214010237.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;images/20191212020407.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
-&lt;h2 id=&#34;無限の可能性のお引っ越し&#34;&gt;無限の可能性のお引っ越し！&lt;/h2&gt;
-&lt;p&gt;しばらく使って試そうかと思ったが、親指も小指もダメダメだったので早々に次バージョンを実践したくなる。
-が、無限の可能性・・これもう一回やるのつらいし、もったいないな・・・&lt;br&gt;
-レイアウトは大きく変わってないし、このままお引っ越しできないかな？
-と思い、&lt;a href=&#34;https://www.amazon.co.jp/o/ASIN/B01FEV2BPG/hoge0f-22/&#34;&gt;ハンダシュッ太郎&lt;/a&gt;を購入。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;images/20191212020457.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
-&lt;p&gt;なかなか大変だったけど、スイッチのハンダを吸い、取り出しに成功！&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;images/20191212020506.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
-&lt;p&gt;新しいプレートに載せ替え。届かない部分などもあったので一部配線し直し。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;images/20191212020522.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
-&lt;p&gt;引っ越し完了！&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;images/20191212020558.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
-&lt;h2 id=&#34;最終形へ&#34;&gt;最終形へ&lt;/h2&gt;
-&lt;p&gt;新バージョンを使い続け、さらに改修を続けていきます。&lt;/p&gt;
-&lt;h3 id=&#34;v19&#34;&gt;v19&lt;/h3&gt;
-&lt;p&gt;小指以外も素直に傾ける。&lt;br&gt;
-小指の島もくっつけるように変更。&lt;br&gt;
-このあたりでケースは水平に、キーはそれに対して角度をつけることにより、常に理想的な角度を保つアイディアが生まれた。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;images/20191214010532.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
-&lt;h3 id=&#34;v20-23&#34;&gt;v20-23&lt;/h3&gt;
-&lt;p&gt;外形を模索&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;images/20191211174430.jpg&#34; style=&#34;width: 300px&#34; &gt;
-&lt;img src=&#34;images/20191211174435.jpg&#34; style=&#34;width: 300px&#34; &gt;
-&lt;img src=&#34;images/20191211174440.jpg&#34; style=&#34;width: 300px&#34; &gt;
-&lt;img src=&#34;images/20191211174445.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
-&lt;h3 id=&#34;v24&#34;&gt;v24&lt;/h3&gt;
-&lt;p&gt;親指キーを親指付け根を中心とした弧の上に置いたのは良いのだが、逆にどのキーにも自然に手が行ってしまいホームポジション（内側から2個目）を特定しづらかった。
-何かホームポジションを差別化したいと思い1.25Uに変更。&lt;br&gt;
-一番よく使うキーが広くなり、負担軽減もできているので良い選択だったと思う。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;images/20191214011155.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
-&lt;h3 id=&#34;v25&#34;&gt;v25&lt;/h3&gt;
-&lt;p&gt;幅広になったことで、そのまま両サイドをスライドさせてしまうと遠くなるので微妙に縦方向にずらす。&lt;br&gt;
-これにより親指の移動距離は変わらずに配置できた。&lt;br&gt;
-これがちょうどよく機能して、どのキーも親指の当たる部分が違うようになり、それぞれのキーが認識しやすくなった。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;images/20191214011343.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
-&lt;h3 id=&#34;v26&#34;&gt;v26&lt;/h3&gt;
-&lt;p&gt;ちょっとだけ下げる&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;images/20191214011504.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
-&lt;h2 id=&#34;v27で最終形&#34;&gt;v27で最終形！&lt;/h2&gt;
-&lt;p&gt;これで再度、無限の可能性を作成。&lt;br&gt;
-前とはけっこう変わってしまったので、ここは一から作る！&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;images/20191214011551.jpg&#34; style=&#34;width: 300px&#34; &gt;
-&lt;img src=&#34;images/20191212020829.jpg&#34; style=&#34;width: 300px&#34; &gt;
-&lt;img src=&#34;images/20191212020844.jpg&#34; style=&#34;width: 300px&#34; &gt;
-&lt;img src=&#34;images/20191212020907.jpg&#34; style=&#34;width: 300px&#34; &gt;
-&lt;img src=&#34;images/20191212020940.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
-&lt;p&gt;ここで基本的なキーレイアウトは完成！&lt;br&gt;
-これを忘年キーに持って行って初お披露目になりました。&lt;/p&gt;
-&lt;h1 id=&#34;3dプリンタの残骸&#34;&gt;3Dプリンタの残骸&lt;/h1&gt;
-&lt;p&gt;全部のバージョンをプリントしてはいないのですが、まとめるとこれくらいの量に・・・&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;images/20191212021011.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
-&lt;h1 id=&#34;kicadも頑張った&#34;&gt;KiCadも頑張った！&lt;/h1&gt;
-&lt;p&gt;その後、なんとかKiCADも頑張り、初めての基板発注→アルファ版完成！&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;images/20191212021105.jpg&#34; style=&#34;width: 300px&#34; &gt;
-&lt;img src=&#34;images/20191212021130.jpg&#34; style=&#34;width: 300px&#34; &gt;
-&lt;img src=&#34;images/20191212021155.jpg&#34; style=&#34;width: 300px&#34; &gt;
-&lt;img src=&#34;images/20191212021217.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
-&lt;h1 id=&#34;ここからベータ版までが長かった&#34;&gt;ここからベータ版までが長かった・・・&lt;/h1&gt;
-&lt;p&gt;Corne Cherryに憧れてPCBプレートのマットブラックでいきたがったが、露出部分が多いClaw44には向いていないと判断。（そもそも用途的にすごいキレイな状態で来るわけでもないので）&lt;br&gt;
-アクリルプレートのマットブラックに切り替え。&lt;br&gt;
-外形を丸みを帯びた形に変更。&lt;br&gt;
-その後もPCBトラブルに揉まれつつも何とかベータ版まで完成！&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;images/20191214012843.jpg&#34; style=&#34;width: 200px&#34; &gt;
-&lt;img src=&#34;images/20191214012354.jpg&#34; style=&#34;width: 200px&#34; &gt;
-&lt;img src=&#34;images/20191214012746.jpg&#34; style=&#34;width: 200px&#34; &gt;&lt;/p&gt;
-&lt;h1 id=&#34;リリース&#34;&gt;リリース&lt;/h1&gt;
-&lt;p&gt;ベータ版でのフィードバックなどを盛り込み正式リリースへ。
-自分で作ったものを売るという経験がなかったので、梱包やら発送やらキーボードを作る以外にもやることが盛り沢山でしたが、先人やコミュニティの知恵などをお借りして、無事に販売することができました。ありがとうございます！&lt;br&gt;
-販売できるレベルにするのは中々大変だったけど良い経験でした。&lt;/p&gt;
-&lt;h1 id=&#34;言語化&#34;&gt;言語化&lt;/h1&gt;
-&lt;p&gt;販売をしているとどのようなモノなのか説明をする必要がでてきます。
-手探りで自分に合うものを構築していったので、はじめはうまく言語化できていませんでしたが、使ってくれた人との会話やブログ、ツイートなどで何となく良さがわかってきて書いた記事がこちらです。&lt;br&gt;
-3つの大きな特徴について説明しています。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://yfuku.com/claw44/whatis/&#34;&gt;Claw44とは？&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;しばらくはこのままだったのですが、この前の天キー3でキーボードの紹介プレゼンをするにあたって、もっとシンプルにしました。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;自然に手を開いた状態で打鍵ができるキーボード
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;自分が追い求めていたのは結局こういう事なのかと。&lt;br&gt;
-説明しやすいし、わりと気に入っています。&lt;/p&gt;
-&lt;h1 id=&#34;最後に&#34;&gt;最後に&lt;/h1&gt;
-&lt;p&gt;去年の今頃、ちょうどClaw44を必死に作っていたのを思い出しながら書いてみました。&lt;br&gt;
-これでendgameかと思いきや、Claw44をコンパクトに一体型にした&lt;a href=&#34;https://yfuku.booth.pm/items/1698884&#34;&gt;bat43&lt;/a&gt;というキーボードを開発中です。
-アルファ版を天キーに持っていきましたが、出たら買います！という人が結構いてくれてうれしかったです。&lt;br&gt;
-今もドッグフーディング中ですが、販売できるレベルにはもうちょっと時間が掛かりそうなので気長にお待ちいただけると助かります。&lt;br&gt;
-またキーボード以外にも&lt;a href=&#34;https://yfuku.booth.pm/items/1300426&#34;&gt;ねじカウンター&lt;/a&gt;、&lt;a href=&#34;https://yfuku.booth.pm/items/1314840&#34;&gt;CorneStand&lt;/a&gt;、&lt;a href=&#34;https://yfuku.booth.pm/items/1307506&#34;&gt;キーボードレイアウトテスター&lt;/a&gt;など作ってきましたが、これからも気ままに色んなものを作っていきます。&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
       <title>Claw44: Claw44 alpha版ができてました</title>
       <link>https://yfuku.com/claw44/history/alpha/</link>
       <pubDate>Mon, 04 Feb 2019 10:00:00 +0900</pubDate>
@@ -396,7 +141,7 @@ Pは小指で打っていたが、薬指の方が効率的かと思いお試し�
       <description>
         
         
-        &lt;p&gt;前回の記事、&lt;a href=&#34;https://yfuku.com/entry/claw44_init&#34;&gt;「自作キーボード Claw44を作ってます」&lt;/a&gt;からだいぶ間が空きましたが、初のPCBができ上がってました。&lt;br&gt;
+        &lt;p&gt;前回の記事、&lt;a href=&#34;../init&#34;&gt;「自作キーボード Claw44を作ってます」&lt;/a&gt;からだいぶ間が空きましたが、初のPCBができ上がってました。&lt;br&gt;
 twitterには載せていたのですが、興味持ってくれている人もいるようなので、ブログでも紹介します。&lt;/p&gt;
 &lt;h1 id=&#34;あらためてclaw44とは&#34;&gt;あらためてClaw44とは？&lt;/h1&gt;
 &lt;ul&gt;
@@ -476,6 +221,259 @@ PCB的にはけっこう変えてしまったので、ちゃんと動くかは�
 &lt;img src=&#34;images/20190204134534.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Claw44: Claw44を作った話</title>
+      <link>https://yfuku.com/claw44/history/advent2019/</link>
+      <pubDate>Mon, 16 Dec 2019 10:00:00 +0900</pubDate>
+      
+      <guid>https://yfuku.com/claw44/history/advent2019/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;a href=&#34;https://adventar.org/calendars/4117&#34;&gt;キーボード #1 Advent Calendar 2019 - Adventar&lt;/a&gt;
+16日目の記事です。&lt;br&gt;
+　&lt;/p&gt;
+&lt;p&gt;いち自作キーボードユーザだった自分が、何の知識もないながら、設計から販売まで行った記録です。
+同じようにレイアウトにこだわったキーボードを作りたい人に雰囲気だけでも感じ取ってもらえればと思い書きました。
+1年くらい前の話なので、細部が曖昧ですが・・  振り返っていきます。&lt;br&gt;
+(画像多いのもあり、長いです・・・）&lt;/p&gt;
+&lt;h2 id=&#34;動機&#34;&gt;動機&lt;/h2&gt;
+&lt;p&gt;本業がソフトウェアエンジニアで肩こりがひどく、それの解消にと思いErgodox EZを買ったのが始まりでした。
+レイヤーや今までと違うキーレイアウトに慣れてきて、これは素晴らしいものだと確信。
+しかし、使い込み、習熟するにつれ、大きすぎるしキーはこんなにいらないな〜と不満点も芽生えてきました。&lt;/p&gt;
+&lt;p&gt;そうこうしているうちに手に入りやすいキットが出てきて、Iris, Corne, Helix Pico, Ergodash mini&amp;hellip; など、とにかく作る日々に。
+色々なキーボードを試し、それぞれの良さを実感しながらも、使い込めば込むほど自分との細かい違いが気になるようになってきました。
+小さい差なのですが、毎日ハードに使うものなので蓄積されていくと無視できなくなり・・・
+これは自分で作らないと解消されないのだろうなと思い、設計することを決意しました。&lt;/p&gt;
+&lt;h2 id=&#34;目的&#34;&gt;目的&lt;/h2&gt;
+&lt;p&gt;自分が最初に感じていたのは、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;長時間使っていると親指が痛くなる（キーキャップの角が当たる）&lt;/li&gt;
+&lt;li&gt;小指を使うと、手全体が動いてしまう&lt;/li&gt;
+&lt;li&gt;何もしてない時にわりと疲れる（キーボードの上に手を置いて思考してる時とか）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;というようなことでした。
+このような負担をキーのレイアウトを変える事によって減らし、快適に打鍵できるようにする事を目的にしました。&lt;/p&gt;
+&lt;h2 id=&#34;開発方法&#34;&gt;開発方法&lt;/h2&gt;
+&lt;p&gt;はじめは本当に何もわからなかったので、&lt;a href=&#34;https://twitter.com/foostan&#34;&gt;@foostanさん&lt;/a&gt;の&lt;a href=&#34;https://booth.pm/ja/items/1044084&#34;&gt;自作キーボード設計入門&lt;/a&gt;が頼りでした。まずはここに書かれている事を理解して、色々なツールを触るところから始めました。&lt;/p&gt;
+&lt;p&gt;また、キーレイアウトが肝なので、実際に打鍵をして検証を繰り返す事は必須と考え、たまたま買ったばかりの3Dプリンタを使って進めていく事にしました。&lt;/p&gt;
+&lt;p&gt;グラフィックソフトもCADもよくわからない状態だったので、下記のような手順でやり始めました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ベースはCorneのイラレデータを使わせていただき、Fusion360に読み込ませて、スイッチの穴を増減したり移動したりする&lt;/li&gt;
+&lt;li&gt;3mm厚のプレートを3Dプリントする（当時は本当に厚みつけるくらいしかできなかった・・）&lt;/li&gt;
+&lt;li&gt;実際にスイッチ、ネジ、スペーサーなどをはめて完成させる&lt;/li&gt;
+&lt;li&gt;実際の打鍵感を確認して、修正を繰り返す&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;キーレイアウトの検討&#34;&gt;キーレイアウトの検討&lt;/h2&gt;
+&lt;h3 id=&#34;2dプリンタによるキーレイアウトの検討&#34;&gt;2Dプリンタによるキーレイアウトの検討&lt;/h3&gt;
+&lt;p&gt;いきなり3Dプリントするのもコストが掛かるので、まずは紙に印刷して試行錯誤する。&lt;/p&gt;
+&lt;h4 id=&#34;v1&#34;&gt;v1&lt;/h4&gt;
+&lt;p&gt;とりあえずCorneをベースに親指、小指部分を変えてみる。&lt;br&gt;
+親指キーを一つ増やす&lt;br&gt;
+小指を大幅にずらしてみる&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20191213235450.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
+&lt;h4 id=&#34;v2&#34;&gt;v2&lt;/h4&gt;
+&lt;p&gt;キーを増やしたり、小指側いじったり。まだあんまりピンときてない。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20191213235646.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
+&lt;h3 id=&#34;小指を中心にちゃんと考え始める&#34;&gt;小指を中心にちゃんと考え始める&lt;/h3&gt;
+&lt;h4 id=&#34;v3&#34;&gt;v3&lt;/h4&gt;
+&lt;p&gt;小指と薬指は連動して動くと感じたので、小指だけ角度を変えるのはやめた。&lt;br&gt;
+親指以外はキーボードの範囲内では同じ方向の動きの方がしっくりくる。&lt;br&gt;
+この時は、小指の島を離した方が良いと思っていた。&lt;br&gt;
+Pは小指で打っていたが、薬指の方が効率的かと思いお試しでこの位置にしていた。&lt;/p&gt;
+&lt;p&gt;親指も微調整。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20191213235947.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
+&lt;h4 id=&#34;v4&#34;&gt;v4&lt;/h4&gt;
+&lt;p&gt;外側を2キーに。（外側下段は使ってなかったので）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20191214000128.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
+&lt;h4 id=&#34;v5&#34;&gt;v5&lt;/h4&gt;
+&lt;p&gt;Pに薬指はホームポジションが若干動くので元に戻す。&lt;br&gt;
+外側をさらに低くする。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20191214000525.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
+&lt;h4 id=&#34;v6&#34;&gt;v6&lt;/h4&gt;
+&lt;p&gt;親指周りを微調整。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20191214000625.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
+&lt;h3 id=&#34;3dプリンタによるキーレイアウトの検討&#34;&gt;3Dプリンタによるキーレイアウトの検討&lt;/h3&gt;
+&lt;p&gt;この辺から3Dプリンタで試作を始める。&lt;/p&gt;
+&lt;h4 id=&#34;v7&#34;&gt;v7&lt;/h4&gt;
+&lt;p&gt;親指、小指周りを微調整。細かい調整やってるなあ。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20191214000901.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
+&lt;p&gt;こんなプレートを作って&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20191212015320.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
+&lt;p&gt;組み立てて検証を繰り返す。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20191212015233.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
+&lt;h4 id=&#34;v8-1&#34;&gt;v8-1&lt;/h4&gt;
+&lt;p&gt;小指なんか違う・・・&lt;br&gt;
+やはり外側下段は結構つらいのでフラットな感じにする。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20191214001052.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
+&lt;h4 id=&#34;v8-2&#34;&gt;v8-2&lt;/h4&gt;
+&lt;p&gt;外側上段が少しつらいので、やや下げる。&lt;br&gt;
+親指も同時に調整。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20191214001237.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
+&lt;h4 id=&#34;v8-3&#34;&gt;v8-3&lt;/h4&gt;
+&lt;p&gt;さらに小指をちょい下げ 。
+親指も調整。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20191214001356.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
+&lt;h4 id=&#34;v9&#34;&gt;v9&lt;/h4&gt;
+&lt;p&gt;小指を一旦戻す。迷走中。&lt;br&gt;
+外形も悩みだす。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20191214001620.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
+&lt;h4 id=&#34;v10&#34;&gt;v10&lt;/h4&gt;
+&lt;p&gt;小指外側の列のズレはだいたい確定。&lt;br&gt;
+小指ホームポジションから外側の上段・中段が両方とも押しやすい位置に落ち着いた。&lt;br&gt;
+外側下段は自分は使用頻度低いので押しやすさのプライオリティはとても低い。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20191214001856.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
+&lt;h4 id=&#34;v11&#34;&gt;v11&lt;/h4&gt;
+&lt;p&gt;外形どうしようか悩む。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20191214002154.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
+&lt;h4 id=&#34;v12&#34;&gt;v12&lt;/h4&gt;
+&lt;p&gt;外形を気にしてか、空きスペースにキーをキーを置いている。使わないのでボツ。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20191214002239.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
+&lt;p&gt;v12とv11を3Dプリントしてセットアップした物&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20191212001518.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20191212015818.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
+&lt;h3 id=&#34;無限の可能性&#34;&gt;無限の可能性！&lt;/h3&gt;
+&lt;p&gt;最終的には基板を作らねばと思い3Dプリンタを走らせてる間に、自キ設計入門を進める。&lt;br&gt;
+回路図は比較的簡単なので、すんなり作れる。&lt;br&gt;
+問題は基板設計。&lt;/p&gt;
+&lt;p&gt;Corneをベースに拡張させてもらおうと思ったが、パーツをずらしても配線はついてこないのでもう訳がわからなくなってしまう。
+リバーシブル・LED・mx,choc対応と配線が多く、ちゃんとわかってないのにこれを拡張していくのは無理かなと断念。
+そんな中で出会ったのが無限の可能性でした。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://swanmatch.booth.pm/&#34;&gt;魔界鍵盤店 - BOOTH&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;PCB1つが1キーに対応していて、
+組み合わせによって基板設計ができなくても
+理論上どんなキーボードでも作れます。
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;基板を作らないやり方としては、全て手配線でやるやり方もあるのですが、ハードル高そう・・・これは一つのキーを1ユニットとして、その間の配線だけ自分でやれば良いので初心者でもなんとかなりそうと感じた。&lt;br&gt;
+この配線をする行為を物理的に行うことで、やっと概念が理解できた気がした。&lt;br&gt;
+なるほど、これを基板図で表現すれば良いのかと。&lt;/p&gt;
+&lt;p&gt;ということで、作っていきました。&lt;/p&gt;
+&lt;p&gt;ProMicroのお家の位置を妄想したりする&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20191212015841.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
+&lt;p&gt;ダイオードをはめる&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20191212020051.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
+&lt;p&gt;キースイッチにくっつける&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20191212015930.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
+&lt;p&gt;ひたすら配線！&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20191212020005.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
+&lt;p&gt;できた！&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20191212020216.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
+&lt;p&gt;そして、動いた！KiCadしなくても動かせる！！&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/yfuku_/status/1073394084142694401&#34;&gt;「う・ご・い・た！ うれしい〜😂 これで実践で使いやすいか検証できる。 自キ設計初心者くらいにはなれたかな。 https://t.co/8HCvXdUtgn」 / Twitter&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;と、だいぶ感動したもの。&lt;br&gt;
+自分一人で使うならこの状態で使うのは何の問題もないと思う。&lt;br&gt;
+3Dプリンタのプレートもけっこう良い感じだった。&lt;/p&gt;
+&lt;h3 id=&#34;実際に動くものからフィードバックを得て改修&#34;&gt;実際に動くものからフィードバックを得て改修&lt;/h3&gt;
+&lt;p&gt;モックとして動くのを想定しての検証と、実際に業務などをしながら得られる検証では雲泥の差があった。&lt;br&gt;
+細かいコンビネーションや打鍵の流れはやはり実践しないと再現が難しいと思う。&lt;/p&gt;
+&lt;h4 id=&#34;v13&#34;&gt;v13&lt;/h4&gt;
+&lt;p&gt;まず思ったのが、親指が全然ダメ・・・&lt;br&gt;
+一気にキーを下げる。あの微調整の日々は何だったんだろうか。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20191214005715.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
+&lt;h4 id=&#34;v14&#34;&gt;v14&lt;/h4&gt;
+&lt;p&gt;親指外側のお試し。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20191214005831.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
+&lt;h4 id=&#34;v15&#34;&gt;v15&lt;/h4&gt;
+&lt;p&gt;親指から弧を描くように配置するのが自然？&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20191214010007.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
+&lt;h4 id=&#34;v16&#34;&gt;v16&lt;/h4&gt;
+&lt;p&gt;弧を大きくして微調整。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20191214010057.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
+&lt;h4 id=&#34;v17&#34;&gt;v17&lt;/h4&gt;
+&lt;p&gt;指の上下移動が斜めになっていることに気付き、小指を傾ける。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20191214010200.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
+&lt;h4 id=&#34;v18&#34;&gt;v18&lt;/h4&gt;
+&lt;p&gt;連動して薬指をちょっと下げる。&lt;br&gt;
+薬指と小指の連動性をかなり研究していた。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20191214010237.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20191212020407.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
+&lt;h3 id=&#34;無限の可能性のお引っ越し&#34;&gt;無限の可能性のお引っ越し！&lt;/h3&gt;
+&lt;p&gt;しばらく使って試そうかと思ったが、親指も小指もダメダメだったので早々に次バージョンを実践したくなる。
+が、無限の可能性・・これもう一回やるのつらいし、もったいないな・・・&lt;br&gt;
+レイアウトは大きく変わってないし、このままお引っ越しできないかな？
+と思い、&lt;a href=&#34;https://www.amazon.co.jp/o/ASIN/B01FEV2BPG/hoge0f-22/&#34;&gt;ハンダシュッ太郎&lt;/a&gt;を購入。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20191212020457.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
+&lt;p&gt;なかなか大変だったけど、スイッチのハンダを吸い、取り出しに成功！&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20191212020506.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
+&lt;p&gt;新しいプレートに載せ替え。届かない部分などもあったので一部配線し直し。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20191212020522.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
+&lt;p&gt;引っ越し完了！&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20191212020558.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
+&lt;h3 id=&#34;最終形へ&#34;&gt;最終形へ&lt;/h3&gt;
+&lt;p&gt;新バージョンを使い続け、さらに改修を続けていきます。&lt;/p&gt;
+&lt;h4 id=&#34;v19&#34;&gt;v19&lt;/h4&gt;
+&lt;p&gt;小指以外も素直に傾ける。&lt;br&gt;
+小指の島もくっつけるように変更。&lt;br&gt;
+このあたりでケースは水平に、キーはそれに対して角度をつけることにより、常に理想的な角度を保つアイディアが生まれた。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20191214010532.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
+&lt;h4 id=&#34;v20-23&#34;&gt;v20-23&lt;/h4&gt;
+&lt;p&gt;外形を模索&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20191211174430.jpg&#34; style=&#34;width: 300px&#34; &gt;
+&lt;img src=&#34;images/20191211174435.jpg&#34; style=&#34;width: 300px&#34; &gt;
+&lt;img src=&#34;images/20191211174440.jpg&#34; style=&#34;width: 300px&#34; &gt;
+&lt;img src=&#34;images/20191211174445.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
+&lt;h4 id=&#34;v24&#34;&gt;v24&lt;/h4&gt;
+&lt;p&gt;親指キーを親指付け根を中心とした弧の上に置いたのは良いのだが、逆にどのキーにも自然に手が行ってしまいホームポジション（内側から2個目）を特定しづらかった。
+何かホームポジションを差別化したいと思い1.25Uに変更。&lt;br&gt;
+一番よく使うキーが広くなり、負担軽減もできているので良い選択だったと思う。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20191214011155.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
+&lt;h4 id=&#34;v25&#34;&gt;v25&lt;/h4&gt;
+&lt;p&gt;幅広になったことで、そのまま両サイドをスライドさせてしまうと遠くなるので微妙に縦方向にずらす。&lt;br&gt;
+これにより親指の移動距離は変わらずに配置できた。&lt;br&gt;
+これがちょうどよく機能して、どのキーも親指の当たる部分が違うようになり、それぞれのキーが認識しやすくなった。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20191214011343.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
+&lt;h4 id=&#34;v26&#34;&gt;v26&lt;/h4&gt;
+&lt;p&gt;ちょっとだけ下げる&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20191214011504.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
+&lt;h3 id=&#34;v27で最終形&#34;&gt;v27で最終形！&lt;/h3&gt;
+&lt;p&gt;これで再度、無限の可能性を作成。&lt;br&gt;
+前とはけっこう変わってしまったので、ここは一から作る！&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20191214011551.jpg&#34; style=&#34;width: 300px&#34; &gt;
+&lt;img src=&#34;images/20191212020829.jpg&#34; style=&#34;width: 300px&#34; &gt;
+&lt;img src=&#34;images/20191212020844.jpg&#34; style=&#34;width: 300px&#34; &gt;
+&lt;img src=&#34;images/20191212020907.jpg&#34; style=&#34;width: 300px&#34; &gt;
+&lt;img src=&#34;images/20191212020940.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
+&lt;p&gt;ここで基本的なキーレイアウトは完成！&lt;br&gt;
+これを忘年キーに持って行って初お披露目になりました。&lt;/p&gt;
+&lt;h2 id=&#34;3dプリンタの残骸&#34;&gt;3Dプリンタの残骸&lt;/h2&gt;
+&lt;p&gt;全部のバージョンをプリントしてはいないのですが、まとめるとこれくらいの量に・・・&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20191212021011.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
+&lt;h2 id=&#34;kicadも頑張った&#34;&gt;KiCadも頑張った！&lt;/h2&gt;
+&lt;p&gt;その後、なんとかKiCADも頑張り、初めての基板発注→アルファ版完成！&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20191212021105.jpg&#34; style=&#34;width: 300px&#34; &gt;
+&lt;img src=&#34;images/20191212021130.jpg&#34; style=&#34;width: 300px&#34; &gt;
+&lt;img src=&#34;images/20191212021155.jpg&#34; style=&#34;width: 300px&#34; &gt;
+&lt;img src=&#34;images/20191212021217.jpg&#34; style=&#34;width: 300px&#34; &gt;&lt;/p&gt;
+&lt;h2 id=&#34;ここからベータ版までが長かった&#34;&gt;ここからベータ版までが長かった・・・&lt;/h2&gt;
+&lt;p&gt;Corne Cherryに憧れてPCBプレートのマットブラックでいきたがったが、露出部分が多いClaw44には向いていないと判断。（そもそも用途的にすごいキレイな状態で来るわけでもないので）&lt;br&gt;
+アクリルプレートのマットブラックに切り替え。&lt;br&gt;
+外形を丸みを帯びた形に変更。&lt;br&gt;
+その後もPCBトラブルに揉まれつつも何とかベータ版まで完成！&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20191214012843.jpg&#34; style=&#34;width: 200px&#34; &gt;
+&lt;img src=&#34;images/20191214012354.jpg&#34; style=&#34;width: 200px&#34; &gt;
+&lt;img src=&#34;images/20191214012746.jpg&#34; style=&#34;width: 200px&#34; &gt;&lt;/p&gt;
+&lt;h2 id=&#34;リリース&#34;&gt;リリース&lt;/h2&gt;
+&lt;p&gt;ベータ版でのフィードバックなどを盛り込み正式リリースへ。
+自分で作ったものを売るという経験がなかったので、梱包やら発送やらキーボードを作る以外にもやることが盛り沢山でしたが、先人やコミュニティの知恵などをお借りして、無事に販売することができました。ありがとうございます！&lt;br&gt;
+販売できるレベルにするのは中々大変だったけど良い経験でした。&lt;/p&gt;
+&lt;h2 id=&#34;言語化&#34;&gt;言語化&lt;/h2&gt;
+&lt;p&gt;販売をしているとどのようなモノなのか説明をする必要がでてきます。
+手探りで自分に合うものを構築していったので、はじめはうまく言語化できていませんでしたが、使ってくれた人との会話やブログ、ツイートなどで何となく良さがわかってきて書いた記事がこちらです。&lt;br&gt;
+3つの大きな特徴について説明しています。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;../../whatis&#34;&gt;Claw44とは？&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;しばらくはこのままだったのですが、この前の天キー3でキーボードの紹介プレゼンをするにあたって、もっとシンプルにしました。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;自然に手を開いた状態で打鍵ができるキーボード
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;自分が追い求めていたのは結局こういう事なのかと。&lt;br&gt;
+説明しやすいし、わりと気に入っています。&lt;/p&gt;
+&lt;h2 id=&#34;最後に&#34;&gt;最後に&lt;/h2&gt;
+&lt;p&gt;去年の今頃、ちょうどClaw44を必死に作っていたのを思い出しながら書いてみました。&lt;br&gt;
+これでendgameかと思いきや、Claw44をコンパクトに一体型にした&lt;a href=&#34;https://yfuku.booth.pm/items/1698884&#34;&gt;bat43&lt;/a&gt;というキーボードを開発中です。
+アルファ版を天キーに持っていきましたが、出たら買います！という人が結構いてくれてうれしかったです。&lt;br&gt;
+今もドッグフーディング中ですが、販売できるレベルにはもうちょっと時間が掛かりそうなので気長にお待ちいただけると助かります。&lt;br&gt;
+またキーボード以外にも&lt;a href=&#34;https://yfuku.booth.pm/items/1300426&#34;&gt;ねじカウンター&lt;/a&gt;、&lt;a href=&#34;https://yfuku.booth.pm/items/1314840&#34;&gt;CorneStand&lt;/a&gt;、&lt;a href=&#34;https://yfuku.booth.pm/items/1307506&#34;&gt;キーボードレイアウトテスター&lt;/a&gt;など作ってきましたが、これからも気ままに色んなものを作っていきます。&lt;/p&gt;
 
       </description>
     </item>

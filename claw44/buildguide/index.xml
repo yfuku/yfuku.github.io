@@ -102,6 +102,8 @@
 &lt;p&gt;キットに付属のProMicroはファームウェアが書き込まれているため、そのまま使用できます。
 キーマップを変更する時にはファームウェアを書き込む環境が必要になるため、早めに準備しておくことをおすすめします。
 詳細は&lt;a href=&#34;https://blog.yfuku.com/entry/claw44_buildguide_farmware&#34;&gt;こちら&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;../3_build&#34;&gt;→ 3.組み立て&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>
@@ -130,6 +132,8 @@
 &lt;img src=&#34;images/front.jpg&#34; alt=&#34;front&#34;&gt;&lt;/p&gt;
 &lt;p&gt;裏面（Left/Back, Right/Back）
 &lt;img src=&#34;images/back.jpg&#34; alt=&#34;back&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;../4_diode&#34;&gt;→ 4.ダイオードの取り付け&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>
@@ -158,7 +162,7 @@
 &lt;p&gt;付属のダイオードベンダーで折り曲げる。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;穴に合わせて乗せる&lt;/p&gt;
+&lt;p&gt;穴に合わせて乗せる&lt;br&gt;
 
 
 
@@ -167,10 +171,10 @@
         &lt;img src=&#34;https://yfuku.com/claw44/buildguide/4_diode/20190919020302_hucceb891e1500c6fdd1cbbe6f60593dbb_134699_300x0_resize_q90_catmullrom.jpg&#34; alt=&#34;&#34;&gt;
     &lt;/a&gt;
 
-
+&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;挟む&lt;/p&gt;
+&lt;p&gt;挟む&lt;br&gt;
 
 
 
@@ -179,10 +183,10 @@
         &lt;img src=&#34;https://yfuku.com/claw44/buildguide/4_diode/20190919020327_hufa23dfe9838d3b514316d4c7b33f3740_151619_300x0_resize_q90_catmullrom.jpg&#34; alt=&#34;&#34;&gt;
     &lt;/a&gt;
 
-
+&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;机の角などを利用して&lt;/p&gt;
+&lt;p&gt;机の角などを利用して&lt;br&gt;
 
 
 
@@ -191,10 +195,10 @@
         &lt;img src=&#34;https://yfuku.com/claw44/buildguide/4_diode/20190919020351_hu02830a19c8cc7340bd58ec5f3c077b07_103958_300x0_resize_q90_catmullrom.jpg&#34; alt=&#34;&#34;&gt;
     &lt;/a&gt;
 
-
+&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;折り曲げる&lt;/p&gt;
+&lt;p&gt;折り曲げる&lt;br&gt;
 
 
 
@@ -203,10 +207,10 @@
         &lt;img src=&#34;https://yfuku.com/claw44/buildguide/4_diode/20190919020413_hud4eb5d12807b850344a2e5f29ae7a571_94872_300x0_resize_q90_catmullrom.jpg&#34; alt=&#34;&#34;&gt;
     &lt;/a&gt;
 
-
+&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;両方とも折り曲げる&lt;/p&gt;
+&lt;p&gt;両方とも折り曲げる&lt;br&gt;
 
 
 
@@ -215,12 +219,12 @@
         &lt;img src=&#34;https://yfuku.com/claw44/buildguide/4_diode/20190919020433_hub0431737bd946a872c31b15a81a23767_99715_300x0_resize_q90_catmullrom.jpg&#34; alt=&#34;&#34;&gt;
     &lt;/a&gt;
 
-
+&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;市販の&lt;a href=&#34;https://www.amazon.co.jp/o/ASIN/B00J3E11VQ/hoge0f-22/&#34;&gt;リードベンダー&lt;/a&gt;で曲げてもOKです。&lt;/p&gt;
+&lt;p&gt;市販の&lt;a href=&#34;https://www.amazon.co.jp/o/ASIN/B00J3E11VQ/hoge0f-22/&#34;&gt;リードベンダー&lt;/a&gt;で曲げてもOKです。&lt;br&gt;
 
 
 
@@ -229,10 +233,10 @@
         &lt;img src=&#34;https://yfuku.com/claw44/buildguide/4_diode/20190308202802_hu72af5a601d84c8c4d028a5f543f745a3_97457_300x0_resize_q90_catmullrom.jpg&#34; alt=&#34;&#34;&gt;
     &lt;/a&gt;
 
-
+&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;折り曲がったダイオードたちが出来上がればOKです。&lt;/p&gt;
+&lt;p&gt;折り曲がったダイオードたちが出来上がればOKです。&lt;br&gt;
 
 
 
@@ -241,7 +245,7 @@
         &lt;img src=&#34;https://yfuku.com/claw44/buildguide/4_diode/20190331031203_huf60f749dd4bce1855431c9d4a6a1d854_192961_300x0_resize_q90_catmullrom.jpg&#34; alt=&#34;&#34;&gt;
     &lt;/a&gt;
 
-
+&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;ダイオードを取り付ける&#34;&gt;ダイオードを取り付ける&lt;/h2&gt;
@@ -251,12 +255,10 @@
 &lt;h3 id=&#34;ダイオードを差し込む&#34;&gt;ダイオードを差し込む&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;三角と棒を組み合わせたマークがダイオードです。&lt;/li&gt;
-&lt;li&gt;三角の先の棒と、ダイオードの黒くなっている方を合わせます。&lt;/li&gt;
+&lt;li&gt;三角の先の棒と、ダイオードの黒くなっている方を合わせます。&lt;br&gt;
+&lt;img src=&#34;20200320023726.jpg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
 &lt;li&gt;全てのダイオードは同じ向きになっています。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;20200320023726.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;ダイオードを全て差し込んだ状態。
+&lt;li&gt;ダイオードを全て差し込んだ状態。&lt;br&gt;
 &lt;img src=&#34;20200320024953.jpg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;ダイオードが浮かないようにマスキングテープで固定する&#34;&gt;ダイオードが浮かないようにマスキングテープで固定する&lt;/h3&gt;
@@ -293,6 +295,8 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;※ハンダ付けの前に足を切るやり方もあります。お好みで行ってください。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;../5_socket&#34;&gt;→ 5. キースイッチソケットの取り付け&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>
@@ -328,10 +332,12 @@
 ピンセットなどで抑えつつ、両端のハンダを溶かして密着させます。&lt;br&gt;
 ハンダごてを離してから、ハンダが固まるのを数秒待ちます。&lt;br&gt;
 （固まらないうちに離すと浮いてしまう場合があります）&lt;br&gt;
-&lt;img src=&#34;images/20200320102531.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;images/20200320102539.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;images/20200320102531.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20200320102539.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;ソケットの取り付け完了&#34;&gt;ソケットの取り付け完了&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&#34;images/20200320103223.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;../6_otherparts&#34;&gt;→ 6. TRRSジャック、リセットスイッチの取り付け&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>
@@ -384,6 +390,8 @@
 &lt;h3 id=&#34;取り付け完了&#34;&gt;取り付け完了&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&#34;images/20200320110814.jpg&#34; alt=&#34;&#34;&gt;
 &lt;img src=&#34;images/20200320110909.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;../7_promicro&#34;&gt;→ 7. ProMicro、OLEDの取り付け&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>
@@ -434,6 +442,8 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;※OLEDを取り付けてある場合は、OLEDで確認するとやりやすいです。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;../8_plate&#34;&gt;→ 8. プレート、スイッチの取り付け&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>
@@ -464,14 +474,14 @@
 &lt;p&gt;&lt;img src=&#34;images/20200320150743.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;トッププレートの取り付け&#34;&gt;トッププレートの取り付け&lt;/h2&gt;
 &lt;h3 id=&#34;トッププレートにネジスペーサーをつける&#34;&gt;トッププレートにネジ、スペーサーをつける&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;images/20200320162304.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;images/20200320162307.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20200320162304.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20200320162307.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;スペーサーに脱落防止用の黒い輪っかをつける&#34;&gt;スペーサーに脱落防止用の黒い輪っかをつける&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;images/20200320162401.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;images/20200320162555.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20200320162401.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20200320162555.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;トッププレートにpcbを重ねる&#34;&gt;トッププレートにPCBを重ねる&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;images/20200320153048.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;images/20200320151916.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20200320153048.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/20200320151916.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;キースイッチの取り付け&#34;&gt;キースイッチの取り付け&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -499,23 +509,25 @@
 &lt;img src=&#34;images/20200320155228.jpg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;ボトムプレートの取り付け&#34;&gt;ボトムプレートの取り付け&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;ボトムプレートを重ねて、ネジで取り付けてください。
-&lt;img src=&#34;images/20200320155513.jpg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;ボトムプレートを重ねて、ネジで取り付けてください。
+&lt;img src=&#34;images/20200320155513.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;クッションゴムの取り付け&#34;&gt;クッションゴムの取り付け&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;images/20200320161729.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;参考
-&lt;img src=&#34;images/20200320161743.jpg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;参考
+&lt;img src=&#34;images/20200320161743.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;promicro保護プレートの取り付け&#34;&gt;ProMicro保護プレートの取り付け&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;保護紙を剥がす
-&lt;img src=&#34;images/20200320161825.jpg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
-&lt;li&gt;ProMicro保護プレートを重ねて、ネジで取り付けてください。
-&lt;img src=&#34;images/20200320161953.jpg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;保護紙を剥がす
+&lt;img src=&#34;images/20200320161825.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ProMicro保護プレートを重ねて、ネジで取り付けてください。
+&lt;img src=&#34;images/20200320161953.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;../9_keycap&#34;&gt;→ 9. キーキャップ、ケーブルの取り付け&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>
@@ -533,7 +545,7 @@
 &lt;p&gt;&lt;img src=&#34;images/20200320163133.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;usbケーブルとtrstrrsケーブルをつけて完成&#34;&gt;USBケーブルとTRS(TRRS)ケーブルをつけて完成！&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&#34;images/20200320164310.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h3 id=&#34;おつかれさまでした&#34;&gt;おつかれさまでした！&lt;/h3&gt;
+&lt;p&gt;おつかれさまでした！&lt;/p&gt;
 
       </description>
     </item>
