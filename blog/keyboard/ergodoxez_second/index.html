@@ -1,0 +1,578 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="generator" content="Hugo 0.72.0" />
+
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+
+
+
+<link rel="shortcut icon" href="/favicons/favicon.ico" >
+<link rel="apple-touch-icon" href="/favicons/apple-touch-icon-180x180.png" sizes="180x180">
+<link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicons/android-36x36.png" sizes="36x36">
+<link rel="icon" type="image/png" href="/favicons/android-48x48.png" sizes="48x48">
+<link rel="icon" type="image/png" href="/favicons/android-72x72.png" sizes="72x72">
+<link rel="icon" type="image/png" href="/favicons/android-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/favicons/android-144x144.png" sizes="144x144">
+<link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
+
+<title>ErgoDox EZ 2週目 キー配列カスタマイズ | yfuku docs</title><meta property="og:title" content="ErgoDox EZ 2週目 キー配列カスタマイズ" />
+<meta property="og:description" content="ErgoDox EZを使い始めて2週間。
+キー配列もひとまず落ち着きつつあり、ほとんどの作業をこちらに移行できた。
+(前回の記事はこちら。ErgoDox EZ 1週目 最初の壁を乗り越える）
+今回は、キー配列のカスタマイズ方法について書きます。
+現在のキー配列まで載せようと思ったのですが、長くなってきたので、Macでの一般的なカスタマイズ方法についてまでになります。
+まずはWEBツールを使ってみる  初期状態では、ErgoDox EZデフォルトのキー配列になっている カスタマイズの感覚をつかむために、お手軽なWEBツールを使ってみると良いと思う ツールの説明はこちら。  Our Graphical Keyboard Configurator | ErgoDox EZ WEB上で、cloneして、キー配列を修正して、名前をつけてcompileする しばらくすると”Download this layout”と表示されるで、そこから.hexファイルをDLする    ロードする  ErgoDox EZをUSBで接続する The Teensy Loader ApplicationをDLして、起動する  Teensy Loader Application - available for Windows, Linux and Macintosh systems   右上のAutoをクリック .hexファイルをD&amp;Dする ErogoDox EZの右上にある小さな穴がリセットボタンになっているので押す  自分はクリップを曲げて使用しました。けっこう狭いので細めのものを探す。   成功するとReboot OKと表示されます。 これでキー配列が変更されているか、確認してみてください。  JIS配列を使う場合、WEBツールは使えない  JIS配列で使いたいのだが、WEBツールの説明ページにある通り、US Englishなレイアウトしかサポートされていない。  Note: Currently, the configurator only fully supports the US English layout." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://yfuku.com/blog/keyboard/ergodoxez_second/" />
+<meta property="article:published_time" content="2018-06-25T00:00:00+00:00" />
+<meta property="article:modified_time" content="2018-06-25T00:00:00+00:00" />
+<meta itemprop="name" content="ErgoDox EZ 2週目 キー配列カスタマイズ">
+<meta itemprop="description" content="ErgoDox EZを使い始めて2週間。
+キー配列もひとまず落ち着きつつあり、ほとんどの作業をこちらに移行できた。
+(前回の記事はこちら。ErgoDox EZ 1週目 最初の壁を乗り越える）
+今回は、キー配列のカスタマイズ方法について書きます。
+現在のキー配列まで載せようと思ったのですが、長くなってきたので、Macでの一般的なカスタマイズ方法についてまでになります。
+まずはWEBツールを使ってみる  初期状態では、ErgoDox EZデフォルトのキー配列になっている カスタマイズの感覚をつかむために、お手軽なWEBツールを使ってみると良いと思う ツールの説明はこちら。  Our Graphical Keyboard Configurator | ErgoDox EZ WEB上で、cloneして、キー配列を修正して、名前をつけてcompileする しばらくすると”Download this layout”と表示されるで、そこから.hexファイルをDLする    ロードする  ErgoDox EZをUSBで接続する The Teensy Loader ApplicationをDLして、起動する  Teensy Loader Application - available for Windows, Linux and Macintosh systems   右上のAutoをクリック .hexファイルをD&amp;Dする ErogoDox EZの右上にある小さな穴がリセットボタンになっているので押す  自分はクリップを曲げて使用しました。けっこう狭いので細めのものを探す。   成功するとReboot OKと表示されます。 これでキー配列が変更されているか、確認してみてください。  JIS配列を使う場合、WEBツールは使えない  JIS配列で使いたいのだが、WEBツールの説明ページにある通り、US Englishなレイアウトしかサポートされていない。  Note: Currently, the configurator only fully supports the US English layout.">
+<meta itemprop="datePublished" content="2018-06-25T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2018-06-25T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="183">
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="ErgoDox EZ 2週目 キー配列カスタマイズ"/>
+<meta name="twitter:description" content="ErgoDox EZを使い始めて2週間。
+キー配列もひとまず落ち着きつつあり、ほとんどの作業をこちらに移行できた。
+(前回の記事はこちら。ErgoDox EZ 1週目 最初の壁を乗り越える）
+今回は、キー配列のカスタマイズ方法について書きます。
+現在のキー配列まで載せようと思ったのですが、長くなってきたので、Macでの一般的なカスタマイズ方法についてまでになります。
+まずはWEBツールを使ってみる  初期状態では、ErgoDox EZデフォルトのキー配列になっている カスタマイズの感覚をつかむために、お手軽なWEBツールを使ってみると良いと思う ツールの説明はこちら。  Our Graphical Keyboard Configurator | ErgoDox EZ WEB上で、cloneして、キー配列を修正して、名前をつけてcompileする しばらくすると”Download this layout”と表示されるで、そこから.hexファイルをDLする    ロードする  ErgoDox EZをUSBで接続する The Teensy Loader ApplicationをDLして、起動する  Teensy Loader Application - available for Windows, Linux and Macintosh systems   右上のAutoをクリック .hexファイルをD&amp;Dする ErogoDox EZの右上にある小さな穴がリセットボタンになっているので押す  自分はクリップを曲げて使用しました。けっこう狭いので細めのものを探す。   成功するとReboot OKと表示されます。 これでキー配列が変更されているか、確認してみてください。  JIS配列を使う場合、WEBツールは使えない  JIS配列で使いたいのだが、WEBツールの説明ページにある通り、US Englishなレイアウトしかサポートされていない。  Note: Currently, the configurator only fully supports the US English layout."/>
+
+
+
+
+
+<link rel="preload" href="/scss/main.min.06a7b45b681b78864e41c6c8fc1df081152cfb7acbbbe88a83f57a1735cb88b6.css" as="style">
+<link href="/scss/main.min.06a7b45b681b78864e41c6c8fc1df081152cfb7acbbbe88a83f57a1735cb88b6.css" rel="stylesheet" integrity="">
+
+
+<script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script>
+
+
+
+  </head>
+  <body class="td-page td-blog">
+    <header>
+      
+<nav class="js-navbar-scroll navbar navbar-expand navbar-dark flex-column flex-md-row td-navbar">
+        <a class="navbar-brand" href="/">
+		<span class="navbar-logo"></span><span class="font-weight-bold">yfuku docs</span>
+	</a>
+	<div class="td-navbar-nav-scroll ml-md-auto" id="main_navbar">
+		<ul class="navbar-nav mt-2 mt-lg-0">
+			
+			
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				
+				
+				
+				
+				<a class="nav-link" href="/claw44" ><span>claw44</span></a>
+			</li>
+			
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				
+				
+				
+				
+				<a class="nav-link" href="/bat43" ><span>bat43</span></a>
+			</li>
+			
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				
+				
+				
+				
+				<a class="nav-link" href="/blog" ><span>blog</span></a>
+			</li>
+			
+			
+			
+		</ul>
+	</div>
+	<div class="navbar-nav d-none d-lg-block">
+<input type="search" class="form-control td-search-input" placeholder="&#xf002 Search this site…" aria-label="Search this site…" autocomplete="off">
+
+</div>
+</nav>
+
+    </header>
+    <div class="container-fluid td-outer">
+      <div class="td-main">
+        <div class="row flex-xl-nowrap">
+          <div class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
+            
+
+
+
+
+<div id="td-sidebar-menu" class="td-sidebar__inner">
+  
+  <form class="td-sidebar__search d-flex align-items-center">
+    
+<input type="search" class="form-control td-search-input" placeholder="&#xf002 Search this site…" aria-label="Search this site…" autocomplete="off">
+
+
+    <button class="btn btn-link td-sidebar__toggle d-md-none p-0 ml-3 fas fa-bars" type="button" data-toggle="collapse" data-target="#td-section-nav" aria-controls="td-docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    </button>
+  </form>
+  
+  <nav class="collapse td-sidebar-nav" id="td-section-nav">
+    
+    
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/blog/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Blog</a>
+  </li>
+  <ul>
+    <li class="collapse show" id="blog">
+      
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/blog/se/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">SoftwareEnginnering</a>
+  </li>
+  <ul>
+    <li class="collapse " id="blogse">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-blogseraspberrypi_proxy" href="/blog/se/raspberrypi_proxy/">Raspberry PiでProxyサーバを立てる</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/blog/keyboard/" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Keyboard</a>
+  </li>
+  <ul>
+    <li class="collapse show" id="blogkeyboard">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-blogkeyboardble-micro-pro-pr" href="/blog/keyboard/ble-micro-pro-pr/">BLE Micro ProのリポジトリにPRした話</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-blogkeyboardkeybord_build_tool" href="/blog/keyboard/keybord_build_tool/">自作キーボードの組み立てに使っている工具</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-blogkeyboardcorne_cherry_matteblack_buildlog" href="/blog/keyboard/corne_cherry_matteblack_buildlog/">Corne Cherry Matte Blackビルドログ</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-blogkeyboardblockey_smartphone" href="/blog/keyboard/blockey_smartphone/">BlocKeyをスマホで使うときのメモ</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-blogkeyboardcorne_keymap" href="/blog/keyboard/corne_keymap/">Corne(crkbd)で使う42キーのキーマップを作ってみた</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-blogkeyboardergodoxez_disassembly" href="/blog/keyboard/ergodoxez_disassembly/">ErgoDox EZを分解してみたらホットスワップだった</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-blogkeyboardcrkbd_build_and_error" href="/blog/keyboard/crkbd_build_and_error/">Corne(crkbd)CrkbdのビルドログとLEDを裏表につけてしまった時のリカバリ</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-blogkeyboardiris_build" href="/blog/keyboard/iris_build/">Irisで初めて自作キーボードを作りました</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-blogkeyboardergodoxez_4" href="/blog/keyboard/ergodoxez_4/">ErgoDox EZ 4週目 現在のキー配列</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-blogkeyboardiris_init" href="/blog/keyboard/iris_init/">Irisの部品を購入しました</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-blogkeyboardergodoxez_third" href="/blog/keyboard/ergodoxez_third/">ErgoDox EZ 3週目 現在のキー配列</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page  active" id="m-blogkeyboardergodoxez_second" href="/blog/keyboard/ergodoxez_second/">ErgoDox EZ 2週目 キー配列カスタマイズ</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-blogkeyboardergodoxez_first" href="/blog/keyboard/ergodoxez_first/">ErgoDox EZ 1週目 最初の壁を乗り越える</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/blog/electronic/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">電子工作</a>
+  </li>
+  <ul>
+    <li class="collapse " id="blogelectronic">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-blogelectronicraspberrypi_zero_interphone" href="/blog/electronic/raspberrypi_zero_interphone/">RaspberryPi Zeroでインターホン通知システムをリプレース</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-blogelectronicraspberrypi_interphone" href="/blog/electronic/raspberrypi_interphone/">RapberryPiで普通のインターホンから通知を送れるようにしてみた</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+    </li>
+  </ul>
+</ul>
+
+  </nav>
+</div>
+
+
+
+
+          </div>
+          <div class="d-none d-xl-block col-xl-2 td-toc d-print-none">
+            
+
+
+
+
+
+
+
+
+
+
+
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#まずはwebツールを使ってみる">まずはWEBツールを使ってみる</a></li>
+    <li><a href="#ロードする">ロードする</a></li>
+    <li><a href="#jis配列を使う場合webツールは使えない">JIS配列を使う場合、WEBツールは使えない</a></li>
+    <li><a href="#コンパイル環境を構築する">コンパイル環境を構築する</a></li>
+    <li><a href="#コンパイル">コンパイル</a></li>
+    <li><a href="#ローダーをcliにする">ローダーをCLIにする</a></li>
+    <li><a href="#一応現在の配置">一応、現在の配置</a></li>
+    <li><a href="#参考">参考</a></li>
+  </ul>
+</nav>
+
+
+
+          </div>
+          <main class="col-12 col-md-9 col-xl-8 pl-md-5 pr-md-4" role="main">
+            <a class="btn btn-lg -bg-orange td-rss-button d-none d-lg-block" href="https://yfuku.com/blog/keyboard/index.xml" target="_blank">
+              RSS <i class="fa fa-rss ml-2 "></i>
+            </a>
+            
+<div class="td-content">
+	<h1>ErgoDox EZ 2週目 キー配列カスタマイズ</h1>
+	
+	<div class="td-byline mb-4">
+		
+		<time datetime="2018-06-25" class="text-muted">Monday, June 25, 2018</time>
+	</div>
+	<p>ErgoDox EZを使い始めて2週間。<br>
+キー配列もひとまず落ち着きつつあり、ほとんどの作業をこちらに移行できた。<br>
+(前回の記事はこちら。<a href="../ergodoxez_first">ErgoDox EZ 1週目 最初の壁を乗り越える</a>）</p>
+<p>今回は、キー配列のカスタマイズ方法について書きます。<br>
+現在のキー配列まで載せようと思ったのですが、長くなってきたので、Macでの一般的なカスタマイズ方法についてまでになります。</p>
+<h2 id="まずはwebツールを使ってみる">まずはWEBツールを使ってみる</h2>
+<ul>
+<li>初期状態では、ErgoDox EZデフォルトのキー配列になっている</li>
+<li>カスタマイズの感覚をつかむために、お手軽なWEBツールを使ってみると良いと思う</li>
+<li>ツールの説明はこちら。
+<ul>
+<li><a href="https://ergodox-ez.com/pages/graphical-configurator">Our Graphical Keyboard Configurator | ErgoDox EZ</a></li>
+<li>WEB上で、cloneして、キー配列を修正して、名前をつけてcompileする</li>
+<li>しばらくすると”Download this layout”と表示されるで、そこから<code>.hex</code>ファイルをDLする</li>
+</ul>
+</li>
+</ul>
+<h2 id="ロードする">ロードする</h2>
+<ul>
+<li>ErgoDox EZをUSBで接続する</li>
+<li>The Teensy Loader ApplicationをDLして、起動する
+<ul>
+<li><a href="https://www.pjrc.com/teensy/loader.html">Teensy Loader Application - available for Windows, Linux and Macintosh systems</a></li>
+</ul>
+</li>
+<li>右上のAutoをクリック</li>
+<li><code>.hex</code>ファイルをD&amp;Dする</li>
+<li>ErogoDox EZの右上にある小さな穴がリセットボタンになっているので押す
+<ul>
+<li>自分はクリップを曲げて使用しました。けっこう狭いので細めのものを探す。</li>
+</ul>
+</li>
+<li>成功すると<code>Reboot OK</code>と表示されます。</li>
+<li>これでキー配列が変更されているか、確認してみてください。</li>
+</ul>
+<h2 id="jis配列を使う場合webツールは使えない">JIS配列を使う場合、WEBツールは使えない</h2>
+<ul>
+<li>JIS配列で使いたいのだが、WEBツールの説明ページにある通り、US Englishなレイアウトしかサポートされていない。
+<blockquote>
+<p>Note: Currently, the configurator only fully supports the US English layout.</p>
+</blockquote>
+</li>
+<li>JISな配列にするには、下記のようにコンパイル環境を構築する必要がある</li>
+</ul>
+<h2 id="コンパイル環境を構築する">コンパイル環境を構築する</h2>
+<ul>
+<li>色々なキーボードのファームウェアをビルドできる、qmk_firmwareを使う</li>
+<li>ひとまずMac環境にそのまま構築してみる</li>
+<li>dockerやCIでできるようにしている人もいるので、環境汚したくない人は探してみてください</li>
+<li>ドキュメントはこちら
+<ul>
+<li><a href="https://docs.qmk.fm/#/getting_started_build_tools">Install Build Tools - QMK Firmware</a></li>
+</ul>
+</li>
+<li>brewで色々入れる（開発が盛んなようなので、元のドキュメントを参考にしたほうが確実です）</li>
+</ul>
+<pre><code>brew tap osx-cross/avr
+brew tap PX4/homebrew-px4
+brew update
+brew install avr-gcc
+brew install dfu-programmer
+brew install gcc-arm-none-eabi
+brew install avrdude
+</code></pre><ul>
+<li>最初やったときは、avr-gccとdfu-programmerだけインストールしてもうまく行った気もしますが、まあドキュメント通りやっておいたほうが確実かな。</li>
+</ul>
+<h2 id="コンパイル">コンパイル</h2>
+<ul>
+<li>リポジトリをcloneする</li>
+</ul>
+<pre><code>git clone https://github.com/qmk/qmk_firmware.git
+cd qmk_firmware
+make git-submodule
+</code></pre><ul>
+<li>defaultのキー配列をmakeしてみる</li>
+</ul>
+<pre><code>make ergodox_ez:default
+
+# keyboards/ergodox_ez/keymaps/default/keymap.c がコンパイルされ、
+# ergodox_ez_default.hex が作られます
+</code></pre><ul>
+<li>自分用のキー配列を作成する</li>
+</ul>
+<pre><code>mkdir keyboards/ergodox_ez/&lt;name&gt;
+cp keyboards/ergodox_ez/keymaps/default/keymap.c keyboards/ergodox_ez/keymaps/&lt;name&gt;/keymap.c
+
+# keymap.cを編集
+
+make ergodox_ez:&lt;name&gt; # ergodox_ez_&lt;name&gt;.hexが作られる
+</code></pre><ul>
+<li>できた<code>.hex</code>ファイルをロードする</li>
+</ul>
+<h2 id="ローダーをcliにする">ローダーをCLIにする</h2>
+<ul>
+<li>いじり始めると、GUI部分がめんどくさいのでCLIにする</li>
+<li><code>brew install teensy_loader_cli</code></li>
+<li>が、エラーが出る。。</li>
+</ul>
+<pre><code>teensy_loader_cli -mmcu=atmega32u4 -w ergodox_ez_yfuku.hex -v
+Teensy Loader, Command Line, Version 2.1
+Read &quot;ergodox_ez_yfuku.hex&quot;: 25542 bytes, 79.2% usage
+Error opening HID Manager
+Waiting for Teensy device...
+ (hint: press the reset button)
+</code></pre><ul>
+<li>Karabiner-Element終了しても治らないなあ
+<ul>
+<li><a href="http://nillpo.hatenablog.com/entry/2017/12/04/232524">Error opening HID Managerが出ちゃう - にるぽっぽ</a></li>
+</ul>
+</li>
+<li>ちと保留。後で調べる。</li>
+</ul>
+<h2 id="一応現在の配置">一応、現在の配置</h2>
+<ul>
+<li>前回は全体的に低く、ペタンコにしていた。</li>
+<li>色々試していると奥は高く、中央を少し高めにすると楽に手が置ける気がしたので変更している。
+<img src="20180625143201.jpg" alt=""></li>
+</ul>
+<h2 id="参考">参考</h2>
+<ul>
+<li><a href="https://qiita.com/kei_s/items/40a896d1a1c70f2961e0">Ergodox EZ を使ってみよう - Qiita</a></li>
+</ul>
+
+	
+
+	<ul class="list-unstyled d-flex justify-content-between align-items-center mb-0 pt-5">
+  <li>
+    <a href="/blog/keyboard/ergodoxez_first/" class="btn btn-primary "><span class="mr-1">←</span> Previous</a>
+  </li>
+    <a href="/blog/keyboard/ergodoxez_third/" class="btn btn-primary ">Next <span class="ml-1">→</span></a>
+  </li>
+</ul>
+
+</div>
+
+
+          </main>
+        </div>
+      </div>
+      
+<footer class="bg-dark py-5 row d-print-none">
+  <div class="container-fluid mx-sm-5">
+    <div class="row">
+      <div class="col-6 col-sm-4 text-xs-center order-sm-2">
+        
+        
+        
+<ul class="list-inline mb-0">
+  
+  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="Twitter" aria-label="Twitter">
+    <a class="text-white" target="_blank" href="https://twitter.com/yfuku_">
+      <i class="fab fa-twitter"></i>
+    </a>
+  </li>
+  
+</ul>
+
+        
+        
+      </div>
+      <div class="col-6 col-sm-4 text-right text-xs-center order-sm-3">
+        
+        
+        
+<ul class="list-inline mb-0">
+  
+  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="GitHub" aria-label="GitHub">
+    <a class="text-white" target="_blank" href="https://github.com/yfuku/">
+      <i class="fab fa-github"></i>
+    </a>
+  </li>
+  
+</ul>
+
+        
+        
+      </div>
+      <div class="col-12 col-sm-4 text-center py-2 order-sm-2">
+        <small class="text-white">&copy; 2020 yfuku All Rights Reserved</small>
+        
+	
+		
+	
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    </div>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+<script src="/js/main.min.5192d0245e55e27a350338c305c600486b0e0203c6646f58df62212c8128c46b.js" integrity="sha256-UZLQJF5V4no1AzjDBcYASGsOAgPGZG9Y32IhLIEoxGs=" crossorigin="anonymous"></script>
+
+
+
+  </body>
+</html>

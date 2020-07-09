@@ -4,7 +4,7 @@
     <link>https://yfuku.com/blog/electronic/</link>
     <description>Recent content in 電子工作 on yfuku docs</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 06 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	  <atom:link href="https://yfuku.com/blog/electronic/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,15 +15,251 @@
     
     
     <item>
-      <title>Blog: Raspberry PiでProxyサーバを立てる</title>
-      <link>https://yfuku.com/blog/electronic/raspberrypi3proxy/</link>
-      <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
+      <title>Blog: RaspberryPi Zeroでインターホン通知システムをリプレース</title>
+      <link>https://yfuku.com/blog/electronic/raspberrypi_zero_interphone/</link>
+      <pubDate>Sat, 11 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/blog/electronic/raspberrypi3proxy/</guid>
+      <guid>https://yfuku.com/blog/electronic/raspberrypi_zero_interphone/</guid>
       <description>
         
         
+        &lt;p&gt;以前作った、『&lt;a href=&#34;../raspberrypi_interphone&#34;&gt;RapberryPiで普通のインターホンから通知を送れるようにしてみた&lt;/a&gt;』だけど、たいした処理もしてないし、小型化のためRaspberryPi Zeroで実装しなおした。&lt;/p&gt;
+&lt;h2 id=&#34;手順&#34;&gt;手順&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;macにmicroSDカードを挿入&lt;/li&gt;
+&lt;li&gt;microSDカードにraspbian liteをインストールする&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;wget https://downloads.raspberrypi.org/raspbian_lite_latest
+unzip raspbian_lite_latest
+
+df -h # /dev/disk4s2
+sudo diskutil unmountDisk /dev/disk4s2
+sudo dd bs=1m if=2018-06-27-raspbian-stretch-lite.img of=/dev/rdisk4
+touch /Volumes/boot/ssh # ssh接続を有効にする
+
+df -h # /dev/disk4s1
+sudo diskutil eject /dev/disk4s1
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;microSDカードを取り出し、RaspberryPi Zeroに挿入&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;電源とLANケーブルをつける&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;MacのLanScanでip特定（なんでもいいけど）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ssh接続&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;ssh pi@192.168.1.XXX
+pass:raspberry
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;無線LANの設定とIP固定化&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;こちらがわかりやすかった。
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://qiita.com/teruq/items/db9ce01e42a1e5520dfd&#34;&gt;Raspbian Stretch Liteで無線LANを設定する - Qiita&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;必要パッケージのインストール&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;sudo apt-get install python3-pip
+pip3 install rpi.gpio
+pip3 install requests
+
+sudo apt-get install screen
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;あとは以前のプログラムをそのまま持ってきて、GPIOを接続。&lt;/li&gt;
+&lt;li&gt;無事動作確認できた！&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;小型化成功&#34;&gt;小型化成功&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;before&lt;br&gt;
+&lt;img src=&#34;20180811065739.jpg&#34; style=&#34;width:400px&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;after&lt;br&gt;
+&lt;img src=&#34;20180811065750.jpg&#34; style=&#34;width:400px&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;配線周りスッキリさせたいな。L時なmicro USBが欲しい。。&lt;/p&gt;
+&lt;h2 id=&#34;購入&#34;&gt;購入&lt;/h2&gt;
+&lt;p&gt;ちなみに購入したのはこちらです。zeroはコンパクト仕様なので、micro hdmiアダプタとかもついてて便利。&lt;br&gt;
+だが、もうちょっとリーズナブルにならないものか。。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.amazon.co.jp/o/ASIN/B0799CQCTF/hoge0f-22/&#34;&gt;Amazon.co.jp： Raspberry Pi Zero WH Starter Kit 8GB: パソコン・周辺機器&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: RapberryPiで普通のインターホンから通知を送れるようにしてみた</title>
+      <link>https://yfuku.com/blog/electronic/raspberrypi_interphone/</link>
+      <pubDate>Tue, 03 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfuku.com/blog/electronic/raspberrypi_interphone/</guid>
+      <description>
         
+        
+        &lt;h2 id=&#34;動機&#34;&gt;動機&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;自宅作業が多いので、だいたい家にいる&lt;/li&gt;
+&lt;li&gt;家のインターホンは一箇所しかならず、仕事部屋にいると聞こえない事が多い&lt;/li&gt;
+&lt;li&gt;Amazonのお届け物が多いのでちょこちょこくるんでが、いるのに再配達は申し訳ない&lt;/li&gt;
+&lt;li&gt;家のどこにいても、人がきたことを検知したい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;対応方法検討&#34;&gt;対応方法検討&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;賃貸なので、スマホ対応のインターホンなどに交換するのはハードルが高い、値段も高い&lt;/li&gt;
+&lt;li&gt;やろうやろうと思ってた電子工作の良い題材なのでは？&lt;/li&gt;
+&lt;li&gt;インターホンごと作ってしまうのもありだが、既存のものをお手軽にハックする方が好き&lt;/li&gt;
+&lt;li&gt;インターホンの型番をしらべてみると仕様書を発見&lt;/li&gt;
+&lt;li&gt;子機を拡張するための端子がある&lt;/li&gt;
+&lt;li&gt;これをラズパイに入力してあげれば、お手軽にいけるのでは？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;インターホン調査&#34;&gt;インターホン調査&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;東京にくるときに親父にもらった年季の入ったテスターを使う時が来た&lt;/li&gt;
+&lt;li&gt;通常時は5Vで、インターホンをならすと+-3Vくらい電圧の変化があった。正弦波的な動きかな。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;20180703173452.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;20180703173505.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;20180703173517.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;20180703173530.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;これを検知してやれば何とかなるかもしれない&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ラズパイにどう検知させるか調査&#34;&gt;ラズパイにどう検知させるか調査&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ラズパイの電子工作本でお勉強。この本はとてもわかりやすい。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.amazon.co.jp/o/ASIN/4062579774/hoge0f-22/&#34;&gt;カラー図解 最新 Raspberry Piで学ぶ電子工作 作って動かしてしくみがわかる (ブルーバックス) &lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;プログラミングによるLEDの点滅
+&lt;ul&gt;
+&lt;li&gt;定番のLチカでGPIOの出力を覚える&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;タクトスイッチによる入力
+&lt;ul&gt;
+&lt;li&gt;GPIOからの入力を覚える&lt;/li&gt;
+&lt;li&gt;LOWは0V&lt;/li&gt;
+&lt;li&gt;HIGHは3.3V&lt;/li&gt;
+&lt;li&gt;電圧は3.3Vに抑えておいたほうが良さそう&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;pre&gt;&lt;code&gt;AD変換によるアナログ値の利用
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;半固定抵抗というやつが出てくる&lt;/li&gt;
+&lt;li&gt;抵抗値の比率を変えられる便利なやつ&lt;/li&gt;
+&lt;li&gt;これで電圧を下げてあげればやりたいことができそう&lt;/li&gt;
+&lt;li&gt;できればオフセットできるといいけど、そこまではよくわからない&lt;/li&gt;
+&lt;li&gt;半固定抵抗でMAXの電圧を下げて検知させてみる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;テスト実装&#34;&gt;テスト実装&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ブレッドボードで実装してみる&lt;/li&gt;
+&lt;li&gt;半固定抵抗を使用して、通常時電圧を2Vちょっとに調整&lt;/li&gt;
+&lt;li&gt;テスターを使用して、動作時に3.3V程度になることを確認&lt;/li&gt;
+&lt;li&gt;プログラムを通じて、LOWとHIGHが想定通りに取れることを確認&lt;/li&gt;
+&lt;li&gt;(回路図を書く)&lt;/li&gt;
+&lt;li&gt;こんな感じ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;20180703174143.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;実装&#34;&gt;実装&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ブレッドボードのままだと、かさばるので基盤に半田付けする&lt;/li&gt;
+&lt;li&gt;インターホンからの配線、基盤、ラズパイと電源、LANを接続する&lt;/li&gt;
+&lt;li&gt;プログラムの最終仕上げ(とりあえず実装なので細かいことは気にしない)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;requests&lt;/span&gt;
+
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;RPi.GPIO&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;as&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;GPIO&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;time&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;sleep&lt;/span&gt;
+
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;send_chatwork&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;message&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;):&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;api_url&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;https://api.chatwork.com/v2&amp;#39;&lt;/span&gt;
+
+    &lt;span style=&#34;color:#000&#34;&gt;room_id&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;XXXXXXXXX&amp;#39;&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;api_key&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;YYYYYYYYYYYYYYYYYYYY&amp;#39;&lt;/span&gt;
+
+    &lt;span style=&#34;color:#000&#34;&gt;post_message_url&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;{}/rooms/{}/messages&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;format&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;api_url&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;room_id&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;headers&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;X-ChatWorkToken&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;api_key&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;params&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;body&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;message&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+    &lt;span style=&#34;color:#000&#34;&gt;r&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;requests&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;post&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;post_message_url&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;headers&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;headers&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;params&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;params&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;GPIO&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;setmode&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GPIO&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;BCM&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;GPIO&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;setup&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;24&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;GPIO&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;IN&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pull_up_down&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GPIO&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;PUD_DOWN&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;try&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;
+    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;while&lt;/span&gt; &lt;span style=&#34;color:#3465a4&#34;&gt;True&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;
+        &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;GPIO&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;input&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;24&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;GPIO&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;HIGH&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;
+            &lt;span style=&#34;color:#000&#34;&gt;send_chatwork&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;[To:ZZZZZZ] ピンポーン！&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+            &lt;span style=&#34;color:#000&#34;&gt;sleep&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;10&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+        &lt;span style=&#34;color:#000&#34;&gt;sleep&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;0.01&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;except&lt;/span&gt; &lt;span style=&#34;color:#c00;font-weight:bold&#34;&gt;KeyboardInterrupt&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;
+    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;pass&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;GPIO&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;cleanup&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;こんな感じ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;20180703174241.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;課題&#34;&gt;課題&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;たいした処理してないので、zero化したい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;失敗談&#34;&gt;失敗談&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;最初は電圧が上がるエッジを検出する機能を使っていた（カッコいいので）&lt;/li&gt;
+&lt;li&gt;ちょっとの電圧変化も検知するようで、電気のスイッチを入れた時などに干渉してしまい、その都度、無関係な通知が送られるようになってしまった&lt;/li&gt;
+&lt;li&gt;エッジ検出はやめて、普通に常にLOW or HIGHを監視するように変更した&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;追記デーモン化してみた&#34;&gt;追記：デーモン化してみた&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://dreamerdream.hateblo.jp/entry/2018/06/01/000000&#34;&gt;SystemdでPythonコードをデーモン化 - DreamerDreamのブログ&lt;/a&gt;を参考にデーモン化してみた。&lt;br&gt;
+意外と簡単。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;下記ファイルを作成&lt;br&gt;
+/usr/lib/systemd/system/intercom.service&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;[Unit]
+Description=intercom daemon
+
+[Service]
+ExecStart=/home/pi/intercom.py
+Restart=always
+Type=simple
+
+[Install]
+WantedBy=multi-user.target
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;設定&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;# 上記の設定をロードさせる
+sudo systemctl daemon-reload
+# スタート
+sudo systemctl start intercomd
+# ステータス確認
+systemctl status intercomd
+# 自動実行の設定
+sudo systemctl enable intercomd
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;ラズパイを再起動させて、起動するかテスト&lt;/li&gt;
+&lt;/ul&gt;
+
       </description>
     </item>
     

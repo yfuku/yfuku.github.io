@@ -1,0 +1,550 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="generator" content="Hugo 0.72.0" />
+
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+
+
+
+<link rel="shortcut icon" href="/favicons/favicon.ico" >
+<link rel="apple-touch-icon" href="/favicons/apple-touch-icon-180x180.png" sizes="180x180">
+<link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicons/android-36x36.png" sizes="36x36">
+<link rel="icon" type="image/png" href="/favicons/android-48x48.png" sizes="48x48">
+<link rel="icon" type="image/png" href="/favicons/android-72x72.png" sizes="72x72">
+<link rel="icon" type="image/png" href="/favicons/android-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/favicons/android-144x144.png" sizes="144x144">
+<link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
+
+<title>Raspberry PiでProxyサーバを立てる | yfuku docs</title><meta property="og:title" content="Raspberry PiでProxyサーバを立てる" />
+<meta property="og:description" content="スマフォでhosts設定をする必要があって調べてみたのですが、スマフォ本体だけでやるとjail breakしたりroot化したりする必要がありそうでした。
+そこまではしたくなかったので、proxyサーバを立て、そこにhosts設定することで、スマフォからも同様の事ができるようにしてみました。 何個か環境が必要だったので、お手軽に増やせるRaspberry Piを使用。
+DNSサーバを立てることもしてみたのですが、通常のDNSへの切り替えが不安定だったためこちらは断念しました。
+本体の用意 適当にAmazonで揃えました。
+ 本体  Amazon | Raspberry Pi 3 Model B   ケースなど  Amazon | 3 in 1 ! 耐用薄型 Raspberry Pi ３ 2 model B&#43; 専用高級ABSケース ＋冷却ファン＋アルミ・ヒートシンク4個   micro SDカード micro USBアダプタ  OSセットアップ わりと定番になっていそうなRaspbianにしました。 バージョンは最新のStretchを採用。
+こちらの記事がとても丁寧に解説されていて参考になりました。
+Raspberry Pi 3 初期セットアップ（Mac 用） - Qiita
+ SDカードへの書き込み例  wget https://downloads.raspberrypi.org/raspbian_lite_latest unzip raspbian_lite_latest sudo diskutil eraseDisk FAT32 RPI /dev/disk2 df -h # SDのディスク名を取り出す 例: /dev/disk2s2 sudo diskutil unmountDisk /dev/disk2s2 sudo dd bs=1m if=2018-03-13-raspbian-stretch-lite." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://yfuku.com/blog/se/raspberrypi_proxy/" />
+<meta property="article:published_time" content="2018-12-22T00:00:00+00:00" />
+<meta property="article:modified_time" content="2018-12-22T00:00:00+00:00" />
+<meta itemprop="name" content="Raspberry PiでProxyサーバを立てる">
+<meta itemprop="description" content="スマフォでhosts設定をする必要があって調べてみたのですが、スマフォ本体だけでやるとjail breakしたりroot化したりする必要がありそうでした。
+そこまではしたくなかったので、proxyサーバを立て、そこにhosts設定することで、スマフォからも同様の事ができるようにしてみました。 何個か環境が必要だったので、お手軽に増やせるRaspberry Piを使用。
+DNSサーバを立てることもしてみたのですが、通常のDNSへの切り替えが不安定だったためこちらは断念しました。
+本体の用意 適当にAmazonで揃えました。
+ 本体  Amazon | Raspberry Pi 3 Model B   ケースなど  Amazon | 3 in 1 ! 耐用薄型 Raspberry Pi ３ 2 model B&#43; 専用高級ABSケース ＋冷却ファン＋アルミ・ヒートシンク4個   micro SDカード micro USBアダプタ  OSセットアップ わりと定番になっていそうなRaspbianにしました。 バージョンは最新のStretchを採用。
+こちらの記事がとても丁寧に解説されていて参考になりました。
+Raspberry Pi 3 初期セットアップ（Mac 用） - Qiita
+ SDカードへの書き込み例  wget https://downloads.raspberrypi.org/raspbian_lite_latest unzip raspbian_lite_latest sudo diskutil eraseDisk FAT32 RPI /dev/disk2 df -h # SDのディスク名を取り出す 例: /dev/disk2s2 sudo diskutil unmountDisk /dev/disk2s2 sudo dd bs=1m if=2018-03-13-raspbian-stretch-lite.">
+<meta itemprop="datePublished" content="2018-12-22T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2018-12-22T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="141">
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Raspberry PiでProxyサーバを立てる"/>
+<meta name="twitter:description" content="スマフォでhosts設定をする必要があって調べてみたのですが、スマフォ本体だけでやるとjail breakしたりroot化したりする必要がありそうでした。
+そこまではしたくなかったので、proxyサーバを立て、そこにhosts設定することで、スマフォからも同様の事ができるようにしてみました。 何個か環境が必要だったので、お手軽に増やせるRaspberry Piを使用。
+DNSサーバを立てることもしてみたのですが、通常のDNSへの切り替えが不安定だったためこちらは断念しました。
+本体の用意 適当にAmazonで揃えました。
+ 本体  Amazon | Raspberry Pi 3 Model B   ケースなど  Amazon | 3 in 1 ! 耐用薄型 Raspberry Pi ３ 2 model B&#43; 専用高級ABSケース ＋冷却ファン＋アルミ・ヒートシンク4個   micro SDカード micro USBアダプタ  OSセットアップ わりと定番になっていそうなRaspbianにしました。 バージョンは最新のStretchを採用。
+こちらの記事がとても丁寧に解説されていて参考になりました。
+Raspberry Pi 3 初期セットアップ（Mac 用） - Qiita
+ SDカードへの書き込み例  wget https://downloads.raspberrypi.org/raspbian_lite_latest unzip raspbian_lite_latest sudo diskutil eraseDisk FAT32 RPI /dev/disk2 df -h # SDのディスク名を取り出す 例: /dev/disk2s2 sudo diskutil unmountDisk /dev/disk2s2 sudo dd bs=1m if=2018-03-13-raspbian-stretch-lite."/>
+
+
+
+
+
+<link rel="preload" href="/scss/main.min.06a7b45b681b78864e41c6c8fc1df081152cfb7acbbbe88a83f57a1735cb88b6.css" as="style">
+<link href="/scss/main.min.06a7b45b681b78864e41c6c8fc1df081152cfb7acbbbe88a83f57a1735cb88b6.css" rel="stylesheet" integrity="">
+
+
+<script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script>
+
+
+
+  </head>
+  <body class="td-page td-blog">
+    <header>
+      
+<nav class="js-navbar-scroll navbar navbar-expand navbar-dark flex-column flex-md-row td-navbar">
+        <a class="navbar-brand" href="/">
+		<span class="navbar-logo"></span><span class="font-weight-bold">yfuku docs</span>
+	</a>
+	<div class="td-navbar-nav-scroll ml-md-auto" id="main_navbar">
+		<ul class="navbar-nav mt-2 mt-lg-0">
+			
+			
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				
+				
+				
+				
+				<a class="nav-link" href="/claw44" ><span>claw44</span></a>
+			</li>
+			
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				
+				
+				
+				
+				<a class="nav-link" href="/bat43" ><span>bat43</span></a>
+			</li>
+			
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				
+				
+				
+				
+				<a class="nav-link" href="/blog" ><span>blog</span></a>
+			</li>
+			
+			
+			
+		</ul>
+	</div>
+	<div class="navbar-nav d-none d-lg-block">
+<input type="search" class="form-control td-search-input" placeholder="&#xf002 Search this site…" aria-label="Search this site…" autocomplete="off">
+
+</div>
+</nav>
+
+    </header>
+    <div class="container-fluid td-outer">
+      <div class="td-main">
+        <div class="row flex-xl-nowrap">
+          <div class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
+            
+
+
+
+
+<div id="td-sidebar-menu" class="td-sidebar__inner">
+  
+  <form class="td-sidebar__search d-flex align-items-center">
+    
+<input type="search" class="form-control td-search-input" placeholder="&#xf002 Search this site…" aria-label="Search this site…" autocomplete="off">
+
+
+    <button class="btn btn-link td-sidebar__toggle d-md-none p-0 ml-3 fas fa-bars" type="button" data-toggle="collapse" data-target="#td-section-nav" aria-controls="td-docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    </button>
+  </form>
+  
+  <nav class="collapse td-sidebar-nav" id="td-section-nav">
+    
+    
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/blog/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Blog</a>
+  </li>
+  <ul>
+    <li class="collapse show" id="blog">
+      
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/blog/se/" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">SoftwareEnginnering</a>
+  </li>
+  <ul>
+    <li class="collapse show" id="blogse">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page  active" id="m-blogseraspberrypi_proxy" href="/blog/se/raspberrypi_proxy/">Raspberry PiでProxyサーバを立てる</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/blog/keyboard/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Keyboard</a>
+  </li>
+  <ul>
+    <li class="collapse " id="blogkeyboard">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-blogkeyboardble-micro-pro-pr" href="/blog/keyboard/ble-micro-pro-pr/">BLE Micro ProのリポジトリにPRした話</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-blogkeyboardkeybord_build_tool" href="/blog/keyboard/keybord_build_tool/">自作キーボードの組み立てに使っている工具</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-blogkeyboardcorne_cherry_matteblack_buildlog" href="/blog/keyboard/corne_cherry_matteblack_buildlog/">Corne Cherry Matte Blackビルドログ</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-blogkeyboardblockey_smartphone" href="/blog/keyboard/blockey_smartphone/">BlocKeyをスマホで使うときのメモ</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-blogkeyboardcorne_keymap" href="/blog/keyboard/corne_keymap/">Corne(crkbd)で使う42キーのキーマップを作ってみた</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-blogkeyboardergodoxez_disassembly" href="/blog/keyboard/ergodoxez_disassembly/">ErgoDox EZを分解してみたらホットスワップだった</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-blogkeyboardcrkbd_build_and_error" href="/blog/keyboard/crkbd_build_and_error/">Corne(crkbd)CrkbdのビルドログとLEDを裏表につけてしまった時のリカバリ</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-blogkeyboardiris_build" href="/blog/keyboard/iris_build/">Irisで初めて自作キーボードを作りました</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-blogkeyboardergodoxez_4" href="/blog/keyboard/ergodoxez_4/">ErgoDox EZ 4週目 現在のキー配列</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-blogkeyboardiris_init" href="/blog/keyboard/iris_init/">Irisの部品を購入しました</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-blogkeyboardergodoxez_third" href="/blog/keyboard/ergodoxez_third/">ErgoDox EZ 3週目 現在のキー配列</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-blogkeyboardergodoxez_second" href="/blog/keyboard/ergodoxez_second/">ErgoDox EZ 2週目 キー配列カスタマイズ</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-blogkeyboardergodoxez_first" href="/blog/keyboard/ergodoxez_first/">ErgoDox EZ 1週目 最初の壁を乗り越える</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/blog/electronic/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">電子工作</a>
+  </li>
+  <ul>
+    <li class="collapse " id="blogelectronic">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-blogelectronicraspberrypi_zero_interphone" href="/blog/electronic/raspberrypi_zero_interphone/">RaspberryPi Zeroでインターホン通知システムをリプレース</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-blogelectronicraspberrypi_interphone" href="/blog/electronic/raspberrypi_interphone/">RapberryPiで普通のインターホンから通知を送れるようにしてみた</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+    </li>
+  </ul>
+</ul>
+
+  </nav>
+</div>
+
+
+
+
+          </div>
+          <div class="d-none d-xl-block col-xl-2 td-toc d-print-none">
+            
+
+
+
+
+
+
+
+
+
+
+
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#本体の用意">本体の用意</a></li>
+    <li><a href="#osセットアップ">OSセットアップ</a>
+      <ul>
+        <li><a href="#ip固定化">IP固定化</a></li>
+      </ul>
+    </li>
+    <li><a href="#ソフトウェア">ソフトウェア</a>
+      <ul>
+        <li><a href="#squidのインストール">squidのインストール</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+          </div>
+          <main class="col-12 col-md-9 col-xl-8 pl-md-5 pr-md-4" role="main">
+            <a class="btn btn-lg -bg-orange td-rss-button d-none d-lg-block" href="https://yfuku.com/blog/se/index.xml" target="_blank">
+              RSS <i class="fa fa-rss ml-2 "></i>
+            </a>
+            
+<div class="td-content">
+	<h1>Raspberry PiでProxyサーバを立てる</h1>
+	
+	<div class="td-byline mb-4">
+		
+		<time datetime="2018-12-22" class="text-muted">Saturday, December 22, 2018</time>
+	</div>
+	<p>スマフォでhosts設定をする必要があって調べてみたのですが、スマフォ本体だけでやるとjail breakしたりroot化したりする必要がありそうでした。<br>
+そこまではしたくなかったので、proxyサーバを立て、そこにhosts設定することで、スマフォからも同様の事ができるようにしてみました。
+何個か環境が必要だったので、お手軽に増やせるRaspberry Piを使用。<br>
+DNSサーバを立てることもしてみたのですが、通常のDNSへの切り替えが不安定だったためこちらは断念しました。</p>
+<h2 id="本体の用意">本体の用意</h2>
+<p>適当にAmazonで揃えました。</p>
+<ul>
+<li>本体
+<ul>
+<li><a href="https://www.amazon.co.jp/o/ASIN/B01NAHBSUD/hoge0f-22/">Amazon | Raspberry Pi 3 Model B</a></li>
+</ul>
+</li>
+<li>ケースなど
+<ul>
+<li><a href="https://www.amazon.co.jp/o/ASIN/B01F6WBOCE/hoge0f-22/">Amazon | 3 in 1 ! 耐用薄型 Raspberry Pi ３ 2 model B+ 専用高級ABSケース ＋冷却ファン＋アルミ・ヒートシンク4個</a></li>
+</ul>
+</li>
+<li>micro SDカード</li>
+<li>micro USBアダプタ</li>
+</ul>
+<h2 id="osセットアップ">OSセットアップ</h2>
+<p>わりと定番になっていそうなRaspbianにしました。
+バージョンは最新のStretchを採用。</p>
+<p>こちらの記事がとても丁寧に解説されていて参考になりました。<br>
+<a href="https://qiita.com/knyrc/items/d27cd0d8a78138de6b58">Raspberry Pi 3 初期セットアップ（Mac 用） - Qiita</a></p>
+<ul>
+<li>SDカードへの書き込み例</li>
+</ul>
+<pre><code>wget https://downloads.raspberrypi.org/raspbian_lite_latest
+
+unzip raspbian_lite_latest
+
+sudo diskutil eraseDisk FAT32 RPI /dev/disk2
+
+df -h # SDのディスク名を取り出す 例: /dev/disk2s2 
+
+sudo diskutil unmountDisk /dev/disk2s2
+
+sudo dd bs=1m if=2018-03-13-raspbian-stretch-lite.img of=/dev/rdisk2
+
+sudo diskutil eject /dev/disk2s2
+</code></pre><ul>
+<li>補足
+<ul>
+<li>こちらはstretchよりひとつ古いjessieになっているのでstretchに置き換えて実行しました。</li>
+<li>初期ユーザはユーザ名：pi パスワードはraspberryと変わってしました。</li>
+<li>wifiの設定はraspi-configで行うことができます</li>
+<li>キーボードレイアウトは日本語(OADG 109A)にしました。
+<ul>
+<li><a href="http://itengine.seesaa.net/article/445418538.html">Raspberry Pi 3のキーボードレイアウト変更: 文系エンジニアの私的ナレッジベース</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>ここまででsshでRaspberry Piに入れるようになってると思います。</p>
+<h3 id="ip固定化">IP固定化</h3>
+<p>Jessieからは、<code>/etc/dhcpcd.conf</code>を編集するようになったようです。Stretchでも同様です。</p>
+<ul>
+<li><a href="https://qiita.com/MarieKawasuji/items/b088ffb252a92eee8f5d">Raspberry Pi に固定IPアドレスを割り当てる方法（Raspbian Jessie） - Qiita</a></li>
+</ul>
+<h2 id="ソフトウェア">ソフトウェア</h2>
+<h3 id="squidのインストール">squidのインストール</h3>
+<ul>
+<li>squidのインストール</li>
+</ul>
+<pre><code>sudo apt-get update
+sudo apt-get install squid
+</code></pre><ul>
+<li>/etc/squid/squid.confを編集</li>
+</ul>
+<pre><code>## localnetのみアクセスを許可。下記をコメントアウト。
+acl localnet src 192.168.0.0/16	# RFC1918 possible internal network
+http_access allow localnet
+
+## portは8888に書き換える。
+http_port 8888
+
+## キャッシュを無効にする。下記を最下部に追記。
+acl NOCACHE src all
+cache deny NOCACHE
+</code></pre><ul>
+<li>再起動</li>
+</ul>
+<pre><code>sudo service squid restart
+</code></pre>
+	
+
+	<ul class="list-unstyled d-flex justify-content-between align-items-center mb-0 pt-5">
+  <li>
+    <a  class="btn btn-primary  disabled"><span class="mr-1">←</span> Previous</a>
+  </li>
+    <a  class="btn btn-primary  disabled">Next <span class="ml-1">→</span></a>
+  </li>
+</ul>
+
+</div>
+
+
+          </main>
+        </div>
+      </div>
+      
+<footer class="bg-dark py-5 row d-print-none">
+  <div class="container-fluid mx-sm-5">
+    <div class="row">
+      <div class="col-6 col-sm-4 text-xs-center order-sm-2">
+        
+        
+        
+<ul class="list-inline mb-0">
+  
+  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="Twitter" aria-label="Twitter">
+    <a class="text-white" target="_blank" href="https://twitter.com/yfuku_">
+      <i class="fab fa-twitter"></i>
+    </a>
+  </li>
+  
+</ul>
+
+        
+        
+      </div>
+      <div class="col-6 col-sm-4 text-right text-xs-center order-sm-3">
+        
+        
+        
+<ul class="list-inline mb-0">
+  
+  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="GitHub" aria-label="GitHub">
+    <a class="text-white" target="_blank" href="https://github.com/yfuku/">
+      <i class="fab fa-github"></i>
+    </a>
+  </li>
+  
+</ul>
+
+        
+        
+      </div>
+      <div class="col-12 col-sm-4 text-center py-2 order-sm-2">
+        <small class="text-white">&copy; 2020 yfuku All Rights Reserved</small>
+        
+	
+		
+	
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    </div>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+<script src="/js/main.min.5192d0245e55e27a350338c305c600486b0e0203c6646f58df62212c8128c46b.js" integrity="sha256-UZLQJF5V4no1AzjDBcYASGsOAgPGZG9Y32IhLIEoxGs=" crossorigin="anonymous"></script>
+
+
+
+  </body>
+</html>
