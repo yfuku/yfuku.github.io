@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="generator" content="Hugo 0.72.0" />
 
-<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
 
 
 
@@ -55,6 +55,19 @@ qmk本家にPRする場合は、フォーク元にPR送るだけなのでそん�
 qmk本家にPRする場合は、フォーク元にPR送るだけなのでそんなに迷わないのですが、今回はqmk本家をフォークしたせきごんさんのリポジトリに、同じくフォークしたyfukuのリポジトリからPR送っています。
 ※リポジトリの場所など変わる可能性があるので、BLE-Micro_proのドキュメントを確認してから作業をお願いします。
 手順  qmk本家からフォーク フォークしたものをclone  git clone https://github.com/yfuku/qmk_firmware.git  せきごんさんのブランチを持ってくる（BLE-Micro-Proドキュメント参照）   git remote add sekigon https://github.com/sekigon-gonnoc/qmk_firmware.git git fetch sekigon git checkout -b nrf52 sekigon/nrf52  claw44_bleを作成してコミット 自分のリポジトリにpush（ブランチ名は何でも良いと思いますが同名のnrf52にしておきました）  git push origin nrf52  pushしたブランチをweb上で確認  https://github.com/yfuku/qmk_firmware/tree/nrf52   New pull requestボタンをクリック base repogitoryにsekigon-gonnocを、base branchにnrf52を選択 タイトルやコメントを入力して、Create pull requestをクリック  "/>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-175734-5', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
 
 
 

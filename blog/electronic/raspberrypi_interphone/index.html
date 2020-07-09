@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="generator" content="Hugo 0.72.0" />
 
-<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
 
 
 
@@ -37,6 +37,19 @@
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="RapberryPiで普通のインターホンから通知を送れるようにしてみた"/>
 <meta name="twitter:description" content="動機  自宅作業が多いので、だいたい家にいる 家のインターホンは一箇所しかならず、仕事部屋にいると聞こえない事が多い Amazonのお届け物が多いのでちょこちょこくるんでが、いるのに再配達は申し訳ない 家のどこにいても、人がきたことを検知したい  対応方法検討  賃貸なので、スマホ対応のインターホンなどに交換するのはハードルが高い、値段も高い やろうやろうと思ってた電子工作の良い題材なのでは？ インターホンごと作ってしまうのもありだが、既存のものをお手軽にハックする方が好き インターホンの型番をしらべてみると仕様書を発見 子機を拡張するための端子がある これをラズパイに入力してあげれば、お手軽にいけるのでは？  インターホン調査  東京にくるときに親父にもらった年季の入ったテスターを使う時が来た 通常時は5Vで、インターホンをならすと&#43;-3Vくらい電圧の変化があった。正弦波的な動きかな。   これを検知してやれば何とかなるかもしれない  ラズパイにどう検知させるか調査  ラズパイの電子工作本でお勉強。この本はとてもわかりやすい。 カラー図解 最新 Raspberry Piで学ぶ電子工作 作って動かしてしくみがわかる (ブルーバックス)   プログラミングによるLEDの点滅  定番のLチカでGPIOの出力を覚える   タクトスイッチによる入力  GPIOからの入力を覚える LOWは0V HIGHは3.3V 電圧は3.3Vに抑えておいたほうが良さそう    AD変換によるアナログ値の利用   半固定抵抗というやつが出てくる 抵抗値の比率を変えられる便利なやつ これで電圧を下げてあげればやりたいことができそう できればオフセットできるといいけど、そこまではよくわからない 半固定抵抗でMAXの電圧を下げて検知させてみる      テスト実装  ブレッドボードで実装してみる 半固定抵抗を使用して、通常時電圧を2Vちょっとに調整 テスターを使用して、動作時に3.3V程度になることを確認 プログラムを通じて、LOWとHIGHが想定通りに取れることを確認 (回路図を書く) こんな感じ  実装  ブレッドボードのままだと、かさばるので基盤に半田付けする インターホンからの配線、基盤、ラズパイと電源、LANを接続する プログラムの最終仕上げ(とりあえず実装なので細かいことは気にしない)  import requests import RPi."/>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-175734-5', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
 
 
 
