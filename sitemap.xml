@@ -18,6 +18,16 @@
   </url>
   
   <url>
+    <loc>https://yfuku.com/bat43/whatis/</loc>
+    <lastmod>2020-03-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/bat43/buildguide/1_check/</loc>
+    <lastmod>2019-11-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yfuku.com/claw44/history/init/</loc>
     <lastmod>2018-12-26T10:00:00+09:00</lastmod>
   </url>
@@ -33,6 +43,16 @@
   </url>
   
   <url>
+    <loc>https://yfuku.com/bat43/buildguide/2_prepare/</loc>
+    <lastmod>2019-11-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/bat43/buildguide/</loc>
+    <lastmod>2019-11-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yfuku.com/claw44/history/alpha/</loc>
     <lastmod>2019-02-04T10:00:00+09:00</lastmod>
   </url>
@@ -40,6 +60,11 @@
   <url>
     <loc>https://yfuku.com/claw44/history/advent2019/</loc>
     <lastmod>2019-12-16T10:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/bat43/buildguide/3_build/</loc>
+    <lastmod>2019-11-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -58,8 +83,18 @@
   </url>
   
   <url>
+    <loc>https://yfuku.com/bat43/buildguide/4_diode/</loc>
+    <lastmod>2019-11-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yfuku.com/claw44/buildguide/4_diode/</loc>
     <lastmod>2020-07-02T10:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/bat43/buildguide/5_socket/</loc>
+    <lastmod>2019-11-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -78,8 +113,18 @@
   </url>
   
   <url>
+    <loc>https://yfuku.com/bat43/buildguide/6_otherparts/</loc>
+    <lastmod>2019-11-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yfuku.com/claw44/buildguide/6_otherparts/</loc>
     <lastmod>2020-07-02T10:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/bat43/buildguide/7_bmp_parts/</loc>
+    <lastmod>2019-11-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -88,13 +133,38 @@
   </url>
   
   <url>
+    <loc>https://yfuku.com/bat43/buildguide/8_promicro/</loc>
+    <lastmod>2019-11-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yfuku.com/claw44/buildguide/8_plate/</loc>
     <lastmod>2020-07-02T10:00:00+09:00</lastmod>
   </url>
   
   <url>
+    <loc>https://yfuku.com/bat43/buildguide/9_plate/</loc>
+    <lastmod>2019-11-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yfuku.com/claw44/buildguide/9_keycap/</loc>
     <lastmod>2020-07-02T10:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/bat43/buildguide/10_keycap/</loc>
+    <lastmod>2019-11-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/bat43/buildguide/bmp/</loc>
+    <lastmod>2019-11-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/bat43/buildguide/firmware/</loc>
+    <lastmod>2019-11-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>

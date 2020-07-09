@@ -1,0 +1,485 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>yfuku docs – bat43ビルドガイド</title>
+    <link>https://yfuku.com/bat43/buildguide/</link>
+    <description>Recent content in bat43ビルドガイド on yfuku docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 30 Nov 2019 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="https://yfuku.com/bat43/buildguide/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Bat43: 1. 同梱品の確認</title>
+      <link>https://yfuku.com/bat43/buildguide/1_check/</link>
+      <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfuku.com/bat43/buildguide/1_check/</guid>
+      <description>
+        
+        
+        &lt;p&gt;※組み立てる前に必ず部品が揃っているか確認をお願いします。&lt;br&gt;
+※不足品などありましたらBOOTHからご連絡ください。&lt;/p&gt;
+&lt;h2 id=&#34;基本セット&#34;&gt;基本セット&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;ゴム足:12個&lt;/li&gt;
+&lt;li&gt;スペーサー:2本&lt;/li&gt;
+&lt;li&gt;スペーサー用ネジ（m2 4mm）:2本&lt;/li&gt;
+&lt;li&gt;ネジ:14本＋予備&lt;/li&gt;
+&lt;li&gt;スルーホールタップ :12個&lt;/li&gt;
+&lt;li&gt;ProMicro保護アクリルプレート:1枚&lt;/li&gt;
+&lt;li&gt;SMDダイオード:48個&lt;/li&gt;
+&lt;li&gt;タクトスイッチ:6個&lt;/li&gt;
+&lt;li&gt;ProMicro:1個&lt;/li&gt;
+&lt;li&gt;コンスルー:2個&lt;/li&gt;
+&lt;li&gt;スイッチソケット:43個&lt;br&gt;
+&lt;img src=&#34;20200429152554.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;20200429151947.jpg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;トッププレート&lt;br&gt;
+&lt;img src=&#34;20200329114502.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;トップミドルプレート（トッププレートより穴が広い）&lt;br&gt;
+&lt;img src=&#34;20200329114603.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;基板:1枚&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;表&lt;br&gt;
+&lt;img src=&#34;20200606212453.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;裏&lt;br&gt;
+&lt;img src=&#34;20200606212503.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ボトムミドルプレート&lt;br&gt;
+&lt;img src=&#34;20200329114822.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ボトムプレート&lt;br&gt;
+&lt;img src=&#34;20200329114859.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;bmp用セットオプション&#34;&gt;BMP用セット（オプション）&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;電池ホルダー:2個&lt;/li&gt;
+&lt;li&gt;スライドスイッチ:1個&lt;/li&gt;
+&lt;li&gt;ショットキーダイオード:2個&lt;/li&gt;
+&lt;li&gt;コンデンサ:1個&lt;br&gt;
+&lt;img src=&#34;20200330182801.jpg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;../2_prepare&#34;&gt;→ 2.準備&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Bat43: 2. 準備</title>
+      <link>https://yfuku.com/bat43/buildguide/2_prepare/</link>
+      <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfuku.com/bat43/buildguide/2_prepare/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;用意する物&#34;&gt;用意する物&lt;/h2&gt;
+&lt;p&gt;※参考に購入サイトを併記していますが、その他の場所でも購入いただけます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;マイクロUSBケーブル：1本
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://yushakobo.jp/shop/usb_cable_micro_b/&#34;&gt;USBケーブル Micro B 1m | 遊舎工房&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Chocキースイッチ: 43個
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://yushakobo.jp/shop/pg1350/&#34;&gt;Kailhロープロファイルスイッチ（10個） | 遊舎工房&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Chocキーキャップ: 43個
+&lt;ul&gt;
+&lt;li&gt;通常よりピッチが狭い設計になっています。&lt;br&gt;
+縦17mm 横18mm以下のサイズである事を確認してください。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://yushakobo.jp/shop/pg1350cap-blank/&#34;&gt;Kailhロープロ無刻印キーキャップ1U（10個） | 遊舎工房&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;こちらの黒、白、無塗装であれば問題ないです。クリアは使用できないのでご注意ください。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;BMP用電池（オプション）
+&lt;ul&gt;
+&lt;li&gt;「CR1225」という型の電池を購入して下さい。ちょっと特殊な型のため、コンビニには無いですが&lt;a href=&#34;https://www.amazon.co.jp/s?k=cr1225&amp;amp;rh=n%3A3210981%2Cn%3A2285179051&amp;amp;dc&amp;amp;__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&amp;amp;qid=1585605458&amp;amp;rnid=2321267051&amp;amp;ref=sr_nr_n_2&#34;&gt;Amazon&lt;/a&gt;に売っています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;工具&#34;&gt;工具&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;下記の記事などを参考に工具を用意してください。
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gist.github.com/mtei/6957107a676ddfa85bde0ae41f8fa849&#34;&gt;キーボード自作、特に Helix キーボードキットの製作に最低必要な工具のメモ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../../../blog/keyboard/keybord_build_tool&#34;&gt;自作キーボードの組み立てに使っている工具&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ファームウェア&#34;&gt;ファームウェア&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../firmware&#34;&gt;詳細はこちら&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;bmpオプション&#34;&gt;BMP（オプション）&lt;/h2&gt;
+&lt;p&gt;bluetoothで無線接続してみたい方は&lt;a href=&#34;https://sekigon-gonnoc.github.io/BLE-Micro-Pro/#/&#34;&gt;こちら&lt;/a&gt;をご覧ください。&lt;br&gt;
+bat43の設定ファイルやデフォルトのキーマップはBMPのコンフィギュレータに登録済みですので、スムーズに導入可能です。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;../3_build&#34;&gt;→ 3.組み立て&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Bat43: 3. 組み立て</title>
+      <link>https://yfuku.com/bat43/buildguide/3_build/</link>
+      <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfuku.com/bat43/buildguide/3_build/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;bat43では5枚のプレートを使用します。&lt;/li&gt;
+&lt;li&gt;真ん中の基板に電子部品を取り付けてから、上下2枚ずつのプレートを組み合わせていきます。&lt;/li&gt;
+&lt;li&gt;以下、まずは基板への作業になります。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;../4_diode&#34;&gt;→ 4.ダイオードの取り付け&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Bat43: 4. ダイオードの取り付け</title>
+      <link>https://yfuku.com/bat43/buildguide/4_diode/</link>
+      <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfuku.com/bat43/buildguide/4_diode/</guid>
+      <description>
+        
+        
+        &lt;p&gt;SMDダイオードを取り付けてください。&lt;br&gt;
+ダイオードは向きがあります。&lt;br&gt;
+シルクで「コ」の字になっている方に、ダイオードの線が入っている方を合わせてください。
+&lt;img src=&#34;20200329111947.jpg&#34; alt=&#34;&#34;&gt;
+48個つけます。下部は少し変則的になっているので気をつけてください。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;../5_socket&#34;&gt;→ 5. キースイッチソケットの取り付け&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Bat43: 5. キースイッチソケットの取り付け</title>
+      <link>https://yfuku.com/bat43/buildguide/5_socket/</link>
+      <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfuku.com/bat43/buildguide/5_socket/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;知っておきたいこと&#34;&gt;知っておきたいこと&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;キースイッチを簡単に交換可能にするために、このソケットを取り付けます。&lt;/li&gt;
+&lt;li&gt;基板に密着していないと、キースイッチが正常にハマらないので、しっかりと密着させるようにしてください。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;キースイッチ用スケットを取り付ける&#34;&gt;キースイッチ用スケットを取り付ける&lt;/h2&gt;
+&lt;p&gt;キースイッチソケットを取り付けます。こちらは43個です。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;20200329112041.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;../6_otherparts&#34;&gt;→ 6. タクトスイッチの取り付け&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Bat43: 6. タクトスイッチの取り付け</title>
+      <link>https://yfuku.com/bat43/buildguide/6_otherparts/</link>
+      <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfuku.com/bat43/buildguide/6_otherparts/</guid>
+      <description>
+        
+        
+        &lt;p&gt;リセットスイッチは必ずつけてください。
+その他の部分は普通のキースイッチと同じようにキーをアサインできます。こちらは任意で取り付けてください。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;20200329112534.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;BMPをつける方はこちら
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../7_bmp_parts&#34;&gt;→ 7. BMP用部品の取り付け（オプション）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;BMPをつけない方はこちら
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../8_promicro&#34;&gt;→ 8. ProMicroの取り付け&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Bat43: 7. BMP用部品の取り付け（オプション）</title>
+      <link>https://yfuku.com/bat43/buildguide/7_bmp_parts/</link>
+      <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfuku.com/bat43/buildguide/7_bmp_parts/</guid>
+      <description>
+        
+        
+        &lt;p&gt;BMPを使用する場合は、BMPの枠の部品を取り付けていきます。
+&lt;img src=&#34;20200330200734.jpg&#34; alt=&#34;&#34;&gt;
+ショットキーダイオード（向きに注意）とコンデンサ（向きはどちらでも良い）を取り付けてください。&lt;br&gt;
+&lt;span style=&#34;color: #ff0000&#34;&gt;ダイオードはキースイッチ用につけている物とは違うので、混ぜてしまわないように注意して下さい。
+&lt;/span&gt;
+&lt;img src=&#34;20200330201153.jpg&#34; alt=&#34;&#34;&gt;
+スライドスイッチを取り付けてください。
+&lt;img src=&#34;20200330201253.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;電池ホルダーを取り付けてください。&lt;br&gt;
+表面から差込、裏面をハンダ付けします。
+&lt;img src=&#34;20200330201702.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;20200330201629.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;動作確認&#34;&gt;動作確認&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;電池を取り付ける&lt;/li&gt;
+&lt;li&gt;BMPを取り付ける&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;注意事項&#34;&gt;注意事項&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;電池を外すときは爪楊枝などを使用して取り外してください&lt;/li&gt;
+&lt;li&gt;（スペースの都合上、はずしにくくてすいません）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;../8_promicro&#34;&gt;→ 8. ProMicroの取り付け&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Bat43: 8. ProMicroの取り付け</title>
+      <link>https://yfuku.com/bat43/buildguide/8_promicro/</link>
+      <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfuku.com/bat43/buildguide/8_promicro/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;コンスルーの取り付け&#34;&gt;コンスルーの取り付け&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ProMicroにコンスルーを取り付けてください。&lt;/li&gt;
+&lt;li&gt;取り付け方は&lt;a href=&#34;https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_jp.md#pro-micro&#34;&gt;helixのビルドガイド &lt;/a&gt;がわかりやすいので参照してください。&lt;/li&gt;
+&lt;li&gt;このようになっていればOKです。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;（画像）&lt;/p&gt;
+&lt;h2 id=&#34;promicroの取り付け&#34;&gt;ProMicroの取り付け&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;表面に取り付けます&lt;/li&gt;
+&lt;li&gt;図のようにシルク沿って差し込んでください&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;（画像）&lt;/p&gt;
+&lt;h2 id=&#34;動作確認&#34;&gt;動作確認&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;USBケーブルをつなげる
+（画像）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;テキストエディタやキーボードビューアなどで各キーが入力されるか確認してください。
+（画像）&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;../9_plate&#34;&gt;→ 9. プレート、スイッチの取り付け&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Bat43: 9. プレート、スイッチの取り付け</title>
+      <link>https://yfuku.com/bat43/buildguide/9_plate/</link>
+      <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfuku.com/bat43/buildguide/9_plate/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;ボトムミドルプレート&#34;&gt;ボトムミドルプレート&lt;/h2&gt;
+&lt;h2 id=&#34;トップトップミドルプレート&#34;&gt;トップ、トップミドルプレート&lt;/h2&gt;
+&lt;h2 id=&#34;キースイッチの取り付け&#34;&gt;キースイッチの取り付け&lt;/h2&gt;
+&lt;h2 id=&#34;ボトムプレート&#34;&gt;ボトムプレート&lt;/h2&gt;
+&lt;h2 id=&#34;promicro保護プレート&#34;&gt;ProMicro保護プレート&lt;/h2&gt;
+&lt;h2 id=&#34;クッションゴム&#34;&gt;クッションゴム&lt;/h2&gt;
+&lt;h2 id=&#34;キーキャップ&#34;&gt;キーキャップ&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;../10_keycap&#34;&gt;→ 10. キーキャップ、ケーブルの取り付け&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Bat43: 10. キーキャップ、ケーブルの取り付け</title>
+      <link>https://yfuku.com/bat43/buildguide/10_keycap/</link>
+      <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfuku.com/bat43/buildguide/10_keycap/</guid>
+      <description>
+        
+        
+        &lt;h3 id=&#34;キーキャップの取り付け&#34;&gt;キーキャップの取り付け&lt;/h3&gt;
+&lt;p&gt;（画像）&lt;/p&gt;
+&lt;h3 id=&#34;usbケーブルとtrstrrsケーブルをつけて完成&#34;&gt;USBケーブルとTRS(TRRS)ケーブルをつけて完成！&lt;/h3&gt;
+&lt;p&gt;（画像）&lt;/p&gt;
+&lt;p&gt;おつかれさまでした！&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../bmp&#34;&gt;→ BMP対応（オプション）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Bat43: BMP対応（オプション）</title>
+      <link>https://yfuku.com/bat43/buildguide/bmp/</link>
+      <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfuku.com/bat43/buildguide/bmp/</guid>
+      <description>
+        
+        
+        &lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;BMPとCR1225の電池を取り付けて下さい。 電池は上が＋極になります。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;電池を交換する時はこんな感じで、爪楊枝などを使用して取り外して下さい。（スペースの都合上、はずしにくくてすいません）&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Bat43: ファームウェア</title>
+      <link>https://yfuku.com/bat43/buildguide/firmware/</link>
+      <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfuku.com/bat43/buildguide/firmware/</guid>
+      <description>
+        
+        
+        &lt;p&gt;ひとまずこの手順をスキップもできますが、自分好みのキーマップにカスタマイズできるように環境構築しておくことをオススメします。&lt;/p&gt;
+&lt;h2 id=&#34;知っておきたいこと&#34;&gt;知っておきたいこと&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.qmk.fm/#/&#34;&gt;QMK Firmware&lt;/a&gt;というオープンソースライブラリを使用しています&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;書き込み環境の構築&#34;&gt;書き込み環境の構築&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;下記の記事などを参考に書き込み環境を構築してください。
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.qmk.fm/#/ja/newbs_getting_started&#34;&gt;QMK Farmware Getting Started&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://qiita.com/cactusman/items/ac41993d1682c6d8a12e&#34;&gt;プログラマーではない人向けのQMK Firmware入門 - Qiita&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;書き込み&#34;&gt;書き込み&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ProMicroをUSBで接続してください&lt;/li&gt;
+&lt;li&gt;ビルド
+&lt;ul&gt;
+&lt;li&gt;コマンド実行&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;make claw44:default
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;書き込み
+&lt;ul&gt;
+&lt;li&gt;コマンド実行&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;make claw44:default:avrdude
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;下記のように、&amp;rdquo;&amp;hellip;&amp;ldquo;と出てきたら、&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;Checking file size of claw44_rev1_default.hex                                                       [OK]
+ * The firmware size is fine - 20168/28672 (8504 bytes free)
+Detecting USB port, reset your controller now....
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;画像のGNDとRSTと書かれている下の丸同士をピンセットなどでショートさせてください。
+（ProMicroをキーボードに組み込み済みの場合は、リセットスイッチを2回押してください。）
+&lt;img src=&#34;images/20190402072348.jpg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;li&gt;下記のように表示されれば書き込み成功です&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;Device /dev/tty.usbmodem146201 has appeared; assuming it is the controller.
+Waiting for /dev/tty.usbmodem146201 to become writable.
+
+Connecting to programmer: .
+Found programmer: Id = &amp;quot;CATERIN&amp;quot;; type = S
+    Software Version = 1.0; No Hardware Version given.
+Programmer supports auto addr increment.
+Programmer supports buffered memory access with buffersize=128 bytes.
+
+Programmer supports the following devices:
+    Device code: 0x44
+
+avrdude: AVR device initialized and ready to accept instructions
+
+Reading | ################################################## | 100% 0.00s
+
+avrdude: Device signature = 0x1e9587 (probably m32u4)
+avrdude: NOTE: &amp;quot;flash&amp;quot; memory has been specified, an erase cycle will be performed
+         To disable this feature, specify the -D option.
+avrdude: erasing chip
+avrdude: reading input file &amp;quot;.build/claw44_rev1_default.hex&amp;quot;
+avrdude: input file .build/claw44_rev1_default.hex auto detected as Intel Hex
+avrdude: writing flash (20168 bytes):
+
+Writing | ################################################## | 100% 1.54s
+
+avrdude: 20168 bytes of flash written
+avrdude: verifying flash memory against .build/claw44_rev1_default.hex:
+avrdude: load data flash data from input file .build/claw44_rev1_default.hex:
+avrdude: input file .build/claw44_rev1_default.hex auto detected as Intel Hex
+avrdude: input file .build/claw44_rev1_default.hex contains 20168 bytes
+avrdude: reading on-chip flash data:
+
+Reading | ################################################## | 100% 0.18s
+
+avrdude: verifying ...
+avrdude: 20168 bytes of flash verified
+
+avrdude: safemode: Fuses OK (E:FB, H:D8, L:FF)
+
+avrdude done.  Thank you.
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;../3_build&#34;&gt;→ 3.組み立て&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
