@@ -520,11 +520,92 @@ if (!doNotTrack) {
 	<h1>4. ダイオードの取り付け</h1>
         
 	
-	<p>SMDダイオードを取り付けてください。<br>
-ダイオードは向きがあります。<br>
-シルクで「コ」の字になっている方に、ダイオードの線が入っている方を合わせてください。
-<img src="20200329111947.jpg" alt="">
-48個つけます。下部は少し変則的になっているので気をつけてください。</p>
+	<h2 id="知っておきたいこと">知っておきたいこと</h2>
+<ul>
+<li>ダイオードは各キースイッチの動作を正しく認識するためにつけます</li>
+<li>ダイオードには向きがあります（一方向にしか電流を流さない）</li>
+<li>ダイオードの向きが逆だと、対応するキースイッチが反応しないので向きに注意してください</li>
+</ul>
+<h2 id="配置箇所">配置箇所</h2>
+<ul>
+<li>基板の裏面に実装していきます</li>
+<li>全部で48箇所あります</li>
+<li>下部の配置は少し変則的になっているのでお気をつけください。
+<img src="pcb-back-pre-diode.jpeg" alt=""></li>
+</ul>
+<h2 id="取り付け">取り付け</h2>
+<h3 id="smdダイオード">SMDダイオード</h3>
+<ul>
+<li>bat43では、全体をコンパクトにするためにSMD（表面実装）用のダイオードを採用しています</li>
+<li>チップが小さく、慣れないとハンダ付けが難しいかもしれないですが、頑張ってください！</li>
+</ul>
+<h3 id="向き">向き</h3>
+<ul>
+<li>ダイオードの縦線が基板上のシルクで書かれた&quot;コ&quot;の字の方になるようにしてください。<br>
+<img src="diode-zoom.jpeg" style="width:400px"></li>
+</ul>
+<h3 id="準備">準備</h3>
+<ul>
+<li>小さい部品で数が多いので作業しやすいように準備をします</li>
+<li>ダイオードの向きは基本的に同じなので、ダイオードも向きを揃えておくと作業がしやすいです</li>
+<li>ダイオードの線は見にくく、揃えるのが大変なのでテープなどで工夫している方が多いです
+<ul>
+<li>参考
+<ul>
+<li><a href="https://salicylic-acid3.hatenablog.com/entry/naked48led-build-guide#%E3%83%80%E3%82%A4%E3%82%AA%E3%83%BC%E3%83%89%E3%82%92%E4%B8%A6%E3%81%B9%E3%82%8B">自作キーボードキット『Naked48LED』ビルドガイド - 自作キーボード温泉街の歩き方</a></li>
+<li><a href="https://github.com/nrtkbb/Keyboards/blob/master/uzu42/build_guide_jp.md#%E3%83%80%E3%82%A4%E3%82%AA%E3%83%BC%E3%83%89%E3%81%AE%E3%81%AF%E3%82%93%E3%81%A0%E4%BB%98%E3%81%91">uzu42ビルドガイド</a></li>
+<li><a href="https://github.com/foostan/crkbd/blob/master/corne-cherry/doc/buildguide_jp.md#%E3%83%80%E3%82%A4%E3%82%AA%E3%83%BC%E3%83%89">CorneCherryビルドガイド</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>自分は両面テープにくっつけて、先端が薄いタイプのピンセットで取っています。<br>
+（<a href="https://www.amazon.co.jp/exec/obidos/ASIN/B0036RN5CE/hoge0f-22/">精密ピンセット わし口タイプTS-15</a>）<br>
+<img src="diode-pick.jpeg" style="width:500px"></li>
+<li>右利きの場合、ダイオードの縦線を右側に、基板を図のように配置するとやりやすいと思います。<br>
+<img src="diode-tape.jpeg" style="width:500px"></li>
+</ul>
+<h3 id="ハンダ付け">ハンダ付け</h3>
+<ul>
+<li>
+<p>片方のパッドにハンダを盛る（予備ハンダ）<br>
+<img src="diode-yobi-zoom.jpeg" style="width:500px"></p>
+</li>
+<li>
+<p>予備ハンダを溶かしながら、ダイオードの片方の足をハンダ付けする<br>
+ダイオードが浮いてしまった場合は指やピンセットで押さえつけながら、ハンダを温め直してください<br>
+<img src="diode-one.jpeg" style="width:500px"></p>
+</li>
+<li>
+<p>もう片方の足をハンダ付けする<br>
+<img src="diode-done.jpeg" style="width:500px"></p>
+</li>
+<li>
+<p>ハンダが乱れている箇所があればフラックスを塗り、温め直すとキレイになります<br>
+<img src="flux.jpeg" style="width:500px"></p>
+</li>
+<li>
+<p>少ない所はハンダを足したり、盛り過ぎているところはコテ先でさっとハンダを取るなどして調整してください</p>
+</li>
+<li>
+<p>48個付けたら完了です！</p>
+</li>
+<li>
+<p><span style="color: red; ">最後に2つ確認をしてください</span></p>
+<ul>
+<li><span style="color: red; ">ダイオードの向きが合っていること</span></li>
+<li><span style="color: red; ">ハンダ付けし忘れている箇所がないか</span></li>
+</ul>
+</li>
+<li>
+<p>この2つは慣れている人でもやりがちなことです。<br>
+後工程になればなるほど修正が辛くなるので、今のうちにちゃんと確認しておきましょう！</p>
+</li>
+<li>
+<p>全て付け終わった状態です
+<img src="diode-all-done.jpeg" alt=""></p>
+</li>
+</ul>
 <hr>
 <p><a href="../5_socket">→ 5. キースイッチソケットの取り付け</a></p>
 
