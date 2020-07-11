@@ -721,7 +721,7 @@ bat43の設定ファイルやデフォルトのキーマップはBMPのコンフ
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;make claw44:default
+&lt;pre&gt;&lt;code&gt;make bat43:default
 &lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
 &lt;li&gt;書き込み
 &lt;ul&gt;
@@ -729,11 +729,11 @@ bat43の設定ファイルやデフォルトのキーマップはBMPのコンフ
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;make claw44:default:avrdude
+&lt;pre&gt;&lt;code&gt;make bat43:default:avrdude
 &lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
 &lt;li&gt;下記のように、&amp;rdquo;&amp;hellip;&amp;ldquo;と出てきたら、&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;Checking file size of claw44_rev1_default.hex                                                       [OK]
+&lt;pre&gt;&lt;code&gt;Checking file size of bat43_rev1_default.hex                                                       [OK]
  * The firmware size is fine - 20168/28672 (8504 bytes free)
 Detecting USB port, reset your controller now....
 &lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
@@ -762,17 +762,17 @@ avrdude: Device signature = 0x1e9587 (probably m32u4)
 avrdude: NOTE: &amp;quot;flash&amp;quot; memory has been specified, an erase cycle will be performed
          To disable this feature, specify the -D option.
 avrdude: erasing chip
-avrdude: reading input file &amp;quot;.build/claw44_rev1_default.hex&amp;quot;
-avrdude: input file .build/claw44_rev1_default.hex auto detected as Intel Hex
+avrdude: reading input file &amp;quot;.build/bat43_rev1_default.hex&amp;quot;
+avrdude: input file .build/bat43_rev1_default.hex auto detected as Intel Hex
 avrdude: writing flash (20168 bytes):
 
 Writing | ################################################## | 100% 1.54s
 
 avrdude: 20168 bytes of flash written
-avrdude: verifying flash memory against .build/claw44_rev1_default.hex:
-avrdude: load data flash data from input file .build/claw44_rev1_default.hex:
-avrdude: input file .build/claw44_rev1_default.hex auto detected as Intel Hex
-avrdude: input file .build/claw44_rev1_default.hex contains 20168 bytes
+avrdude: verifying flash memory against .build/bat43_rev1_default.hex:
+avrdude: load data flash data from input file .build/bat43_rev1_default.hex:
+avrdude: input file .build/bat43_rev1_default.hex auto detected as Intel Hex
+avrdude: input file .build/bat43_rev1_default.hex contains 20168 bytes
 avrdude: reading on-chip flash data:
 
 Reading | ################################################## | 100% 0.18s
@@ -783,9 +783,7 @@ avrdude: 20168 bytes of flash verified
 avrdude: safemode: Fuses OK (E:FB, H:D8, L:FF)
 
 avrdude done.  Thank you.
-&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
-&lt;p&gt;&lt;a href=&#34;../3_build&#34;&gt;→ 3.組み立て&lt;/a&gt;&lt;/p&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
       </description>
     </item>
     
