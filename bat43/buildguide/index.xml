@@ -166,7 +166,8 @@
 &lt;li&gt;&lt;a href=&#34;../firmware&#34;&gt;詳細はこちら&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;bmpオプション&#34;&gt;BMP（オプション）&lt;/h2&gt;
-&lt;p&gt;bluetoothで無線接続してみたい方は&lt;a href=&#34;https://sekigon-gonnoc.github.io/BLE-Micro-Pro/#/&#34;&gt;こちら&lt;/a&gt;をご覧ください。&lt;br&gt;
+&lt;p&gt;bluetoothで無線接続してみたい方はBle Micro Proを使用することで実現できます。&lt;br&gt;
+&lt;a href=&#34;https://sekigon-gonnoc.github.io/BLE-Micro-Pro/#/&#34;&gt;こちら&lt;/a&gt;をご覧ください。&lt;br&gt;
 bat43の設定ファイルやデフォルトのキーマップはBMPのコンフィギュレータに登録済みですので、スムーズに導入可能です。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;a href=&#34;../3_build&#34;&gt;→ 3.組み立て&lt;/a&gt;&lt;/p&gt;
