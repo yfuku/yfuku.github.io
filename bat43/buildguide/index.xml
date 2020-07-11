@@ -559,13 +559,83 @@ bat43の設定ファイルやデフォルトのキーマップはBMPのコンフ
       <description>
         
         
-        &lt;h2 id=&#34;ボトムミドルプレート&#34;&gt;ボトムミドルプレート&lt;/h2&gt;
-&lt;h2 id=&#34;トップトップミドルプレート&#34;&gt;トップ、トップミドルプレート&lt;/h2&gt;
+        &lt;h2 id=&#34;トップトップミドルプレート&#34;&gt;トップ、トップミドルプレート&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;トッププレート、トップミドルプレートを取り付けます&lt;/li&gt;
+&lt;li&gt;トップミドルプレートの方がスイッチの穴が横方向に少し広いです。&lt;br&gt;
+重ねて確認をしてみてください。（わかりにくくてすいません・・）
+&lt;img src=&#34;top-plates.jpeg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;top-plates2.jpeg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;キースイッチの取り付け&#34;&gt;キースイッチの取り付け&lt;/h2&gt;
-&lt;h2 id=&#34;ボトムプレート&#34;&gt;ボトムプレート&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;キースイッチを嵌め込んでいきます
+&lt;img src=&#34;switch1.jpeg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;switch2.jpeg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ボトムミドルプレート&#34;&gt;ボトムミドルプレート&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;frontと書かれている面を基板側にして取り付けてください
+&lt;img src=&#34;bottom-middle.jpeg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ボトムプレートスルーホールタップネジの取り付け&#34;&gt;ボトムプレート、スルーホールタップ、ネジの取り付け&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;ボトムプレートの裏面（frontと書かれていない方）を上にしてください
+&lt;img src=&#34;bottom-plate.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;スルーホールタップを穴に嵌めていきます
+&lt;img src=&#34;tap1.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;仮固定のため、マスキングテープを付けます
+&lt;img src=&#34;tap2.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;本体にのせて合体させます
+&lt;img src=&#34;gattai.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;裏返して表面からネジを14本締めます
+&lt;img src=&#34;neji.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;裏返してマスキングテープをとります
+&lt;img src=&#34;maskingtoru.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;スルータップホールをハンダ付けします&lt;br&gt;
+周りから流し込むようにすると良いと思います。真ん中のネジの部分まで入り込まないように注意してください。
+&lt;img src=&#34;tap-handa.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;14箇所付けます
+&lt;img src=&#34;tap-handa-done.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;promicro保護プレート&#34;&gt;ProMicro保護プレート&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;表からスペーサー、裏からネジを締めます
+&lt;img src=&#34;spacer.jpeg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;spacer-neji.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ProMicro保護プレートから保護紙を取ります
+&lt;img src=&#34;hogoshi.jpeg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;promicro-plate.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ProMicro保護プレートを上からのせネジを締めます
+&lt;img src=&#34;promicro-plate-neji.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;クッションゴム&#34;&gt;クッションゴム&lt;/h2&gt;
-&lt;h2 id=&#34;キーキャップ&#34;&gt;キーキャップ&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;お好みの位置にゴム足を付けます
+&lt;img src=&#34;gom.jpeg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;a href=&#34;../10_keycap&#34;&gt;→ 10. キーキャップ、ケーブルの取り付け&lt;/a&gt;&lt;/p&gt;
 
@@ -582,9 +652,12 @@ bat43の設定ファイルやデフォルトのキーマップはBMPのコンフ
         
         
         &lt;h3 id=&#34;キーキャップの取り付け&#34;&gt;キーキャップの取り付け&lt;/h3&gt;
-&lt;p&gt;（画像）&lt;/p&gt;
-&lt;h3 id=&#34;usbケーブルとtrstrrsケーブルをつけて完成&#34;&gt;USBケーブルとTRS(TRRS)ケーブルをつけて完成！&lt;/h3&gt;
-&lt;p&gt;（画像）&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;キーキャップを取り付けます
+&lt;img src=&#34;keycap.jpeg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;usbケーブルをつけて完成&#34;&gt;USBケーブルをつけて完成！&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;cable.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;おつかれさまでした！&lt;/p&gt;
 &lt;hr&gt;
 &lt;ul&gt;
