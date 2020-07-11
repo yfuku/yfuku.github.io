@@ -23,8 +23,10 @@
       <description>
         
         
-        &lt;p&gt;※組み立てる前に必ず部品が揃っているか確認をお願いします。&lt;br&gt;
-※不足品などありましたらBOOTHからご連絡ください。&lt;/p&gt;
+        &lt;ul&gt;
+&lt;li&gt;組み立てる前に必ず部品が揃っているか確認をお願いします。&lt;/li&gt;
+&lt;li&gt;不足品などありましたらBOOTHからご連絡ください。&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;基本セット&#34;&gt;基本セット&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -221,7 +223,7 @@ bat43の設定ファイルやデフォルトのキーマップはBMPのコンフ
 &lt;ul&gt;
 &lt;li&gt;基板の裏面に実装していきます&lt;/li&gt;
 &lt;li&gt;全部で48箇所あります&lt;/li&gt;
-&lt;li&gt;下部の配置は少し変則的になっているのでお気をつけください
+&lt;li&gt;下の方は配置が少し変則的になっているのでお気をつけください
 &lt;img src=&#34;pcb-back-pre-diode.jpeg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;取り付け&#34;&gt;取り付け&lt;/h2&gt;
@@ -265,7 +267,7 @@ bat43の設定ファイルやデフォルトのキーマップはBMPのコンフ
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;予備ハンダを溶かして、ダイオードの片方の足をハンダ付けする&lt;br&gt;
-ダイオードが浮いてしまった場合は指やピンセットで押さえつけながら、ハンダを温め直してください&lt;br&gt;
+ダイオードが浮いてしまった場合は指やピンセットで押さえつけながら、ハンダを温め直してください（火傷に注意！）&lt;br&gt;
 &lt;img src=&#34;diode-one.jpeg&#34; style=&#34;width:500px&#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -283,7 +285,7 @@ bat43の設定ファイルやデフォルトのキーマップはBMPのコンフ
 &lt;p&gt;48個付けたら完了です！&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;span style=&#34;color: red; &#34;&gt;最後に2つ確認をしてください&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color: red; &#34;&gt;次のステップに進む前に2つ確認をしてください&lt;/span&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;span style=&#34;color: red; &#34;&gt;ダイオードの向きが合っていること&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span style=&#34;color: red; &#34;&gt;ハンダ付けし忘れている箇所がないか&lt;/span&gt;&lt;/li&gt;
@@ -718,8 +720,8 @@ bat43の設定ファイルやデフォルトのキーマップはBMPのコンフ
 &lt;ul&gt;
 &lt;li&gt;下記の記事などを参考に書き込み環境を構築してください。
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.qmk.fm/#/ja/newbs_getting_started&#34;&gt;QMK Farmware Getting Started&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://qiita.com/cactusman/items/ac41993d1682c6d8a12e&#34;&gt;プログラマーではない人向けのQMK Firmware入門 - Qiita&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.qmk.fm/#/ja/newbs&#34;&gt;入門 - QMK Firmware&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.qmk.fm/#/ja/newbs_building_firmware_configurator&#34;&gt;QMK Configurator&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -750,7 +752,7 @@ Detecting USB port, reset your controller now....
 &lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
 &lt;li&gt;画像のGNDとRSTと書かれている下の丸同士をピンセットなどでショートさせてください。
 （ProMicroをキーボードに組み込み済みの場合は、リセットスイッチを2回押してください。）
-&lt;img src=&#34;images/20190402072348.jpg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;img src=&#34;https://yfuku.com/claw44/buildguide/firmware/images/20190402072348.jpg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
 &lt;li&gt;下記のように表示されれば書き込み成功です&lt;/li&gt;
 &lt;/ul&gt;
 &lt;pre&gt;&lt;code&gt;Device /dev/tty.usbmodem146201 has appeared; assuming it is the controller.
