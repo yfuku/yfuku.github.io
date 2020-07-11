@@ -524,24 +524,50 @@ if (!doNotTrack) {
 <ul>
 <li>ProMicroにコンスルーを取り付けてください。</li>
 <li>取り付け方は<a href="https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_jp.md#pro-micro">helixのビルドガイド </a>がわかりやすいので参照してください。</li>
-<li>このようになっていればOKです。</li>
+<li>このようになっていればOKです。
+<img src="promicro.jpeg" alt=""></li>
 </ul>
-<p>（画像）</p>
 <h2 id="promicroの取り付け">ProMicroの取り付け</h2>
 <ul>
-<li>表面に取り付けます</li>
-<li>図のようにシルク沿って差し込んでください</li>
+<li>
+<p>基板の表面に取り付けます
+<img src="promicro-on.jpeg" alt=""></p>
+</li>
+<li>
+<p>一番手前の穴はBMP用なので、空けておいて大丈夫です
+<img src="promicro-on2.jpeg" alt=""></p>
+</li>
 </ul>
-<p>（画像）</p>
 <h2 id="動作確認">動作確認</h2>
 <ul>
 <li>
 <p>USBケーブルをつなげる
-（画像）</p>
+<img src="usb-connect.jpeg" alt=""></p>
 </li>
 <li>
-<p>テキストエディタやキーボードビューアなどで各キーが入力されるか確認してください。
-（画像）</p>
+<p>各スイッチをピンセットなどで導通させて、テキストエディタやキーボードビューアなど全てのキーが正しく入力されるか確認してください
+<img src="pinset.jpeg" alt="">
+<img src="viewer.png" alt=""></p>
+</li>
+<li>
+<p>反応しないキーなどあった場合</p>
+<ul>
+<li>該当キー周辺のダイオードの向きが正しいか確認してください</li>
+<li>該当キー周辺のダイオードのハンダを温め直してみてください。くっついているように見えても内部で導通していない可能性があります。</li>
+<li>該当キーのキースイッチソケットのハンダを温め直してみてください</li>
+</ul>
+</li>
+<li>
+<p>列単位、行単位で反応しない場合</p>
+<ul>
+<li>ProMicroのハンダ付けが怪しいので、ProMicroのハンダを温め直すなどしてください</li>
+</ul>
+</li>
+<li>
+<p>解決しない場合</p>
+<ul>
+<li>BOOTHからご連絡ください</li>
+</ul>
 </li>
 </ul>
 <hr>

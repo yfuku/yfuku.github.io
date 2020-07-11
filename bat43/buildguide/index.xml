@@ -325,17 +325,17 @@ bat43の設定ファイルやデフォルトのキーマップはBMPのコンフ
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;予備ハンダ&#34;&gt;予備ハンダ&lt;/h2&gt;
+&lt;h3 id=&#34;予備ハンダ&#34;&gt;予備ハンダ&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;両方のパッドにハンダを盛ります
 &lt;img src=&#34;socket-yobi-handa.jpeg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;ハンダ付け&#34;&gt;ハンダ付け&lt;/h2&gt;
+&lt;h3 id=&#34;ハンダ付け&#34;&gt;ハンダ付け&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;浮かないようにピンセットや指で押さえながら、予備ハンダを溶かしてくっつけます
 &lt;img src=&#34;socket-handa1.jpeg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;完了&#34;&gt;完了&lt;/h2&gt;
+&lt;h3 id=&#34;完了&#34;&gt;完了&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;全て付け終わった状態です
 &lt;img src=&#34;socket-done.jpeg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
@@ -355,9 +355,39 @@ bat43の設定ファイルやデフォルトのキーマップはBMPのコンフ
       <description>
         
         
-        &lt;p&gt;リセットスイッチは必ずつけてください。
-その他の部分は普通のキースイッチと同じようにキーをアサインできます。こちらは任意で取り付けてください。&lt;/p&gt;
+        &lt;h2 id=&#34;知っておきたいこと&#34;&gt;知っておきたいこと&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;bat43ではキーボードの側面で押せるようにタクトスイッチを配置しています&lt;/li&gt;
+&lt;li&gt;リセットスイッチとして機能するものは、ProMicroへの書き込みに必要なので必須となります&lt;/li&gt;
+&lt;li&gt;他のスイッチは、普通のキースイッチと同じようにキーマップから割り当てが行えます&lt;/li&gt;
+&lt;li&gt;他のスイッチは使わなそうだったり、邪魔そうでしたら付けなくても大丈夫です&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;img src=&#34;20200329112534.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;取り付け&#34;&gt;取り付け&lt;/h2&gt;
+&lt;h3 id=&#34;smd表面実装&#34;&gt;SMD（表面実装）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;こちらも表面実装タイプのスイッチになります&lt;/li&gt;
+&lt;li&gt;慣れないと付けづらいと思いますが、フラックスなど使って頑張っていきましょう！&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;フラックス予備ハンダ&#34;&gt;フラックス、予備ハンダ&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;予めフラックスを塗って、パッドの一つに予備ハンダをします
+&lt;img src=&#34;tact-yobi.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;真ん中の2個の穴と突起で位置合わせをしまし、予備ハンダを溶かしてくっつけます
+&lt;img src=&#34;tact-on.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;その他のパッドをハンダ付けします（ヘタクソですいません・・・）
+&lt;img src=&#34;tact-on-all.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;全てのスイッチを付けた状態です
+&lt;img src=&#34;tact-done.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;hr&gt;
 &lt;ul&gt;
 &lt;li&gt;BMPをつける方はこちら
@@ -384,30 +414,73 @@ bat43の設定ファイルやデフォルトのキーマップはBMPのコンフ
       <description>
         
         
-        &lt;p&gt;BMPを使用する場合は、BMPの枠の部品を取り付けていきます。
-&lt;img src=&#34;20200330200734.jpg&#34; alt=&#34;&#34;&gt;
-ショットキーダイオード（向きに注意）とコンデンサ（向きはどちらでも良い）を取り付けてください。&lt;br&gt;
-&lt;span style=&#34;color: #ff0000&#34;&gt;ダイオードはキースイッチ用につけている物とは違うので、混ぜてしまわないように注意して下さい。
-&lt;/span&gt;
-&lt;img src=&#34;20200330201153.jpg&#34; alt=&#34;&#34;&gt;
-スライドスイッチを取り付けてください。
-&lt;img src=&#34;20200330201253.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;電池ホルダーを取り付けてください。&lt;br&gt;
-表面から差込、裏面をハンダ付けします。
-&lt;img src=&#34;20200330201702.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;20200330201629.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;動作確認&#34;&gt;動作確認&lt;/h2&gt;
+        &lt;h2 id=&#34;知っておきたいこと&#34;&gt;知っておきたいこと&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;電池を取り付ける&lt;/li&gt;
-&lt;li&gt;BMPを取り付ける&lt;/li&gt;
+&lt;li&gt;BMPで使用するダイオードは最初に付けたダイオードとは種類が違うので混同しないようにしてください&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;注意事項&#34;&gt;注意事項&lt;/h2&gt;
+&lt;h2 id=&#34;取り付け&#34;&gt;取り付け&lt;/h2&gt;
+&lt;h3 id=&#34;取り付け箇所&#34;&gt;取り付け箇所&lt;/h3&gt;
+&lt;p&gt;BMPと書いてあるシルクの枠に部品を取り付けていきます。
+&lt;img src=&#34;bmp-ichi.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;ダイオードコンデンサ&#34;&gt;ダイオード、コンデンサ&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;電池を外すときは爪楊枝などを使用して取り外してください&lt;/li&gt;
-&lt;li&gt;（スペースの都合上、はずしにくくてすいません）&lt;/li&gt;
+&lt;li&gt;予備ハンダをします&lt;br&gt;
+&lt;img src=&#34;bmp-yobi.jpeg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;li&gt;予備ハンダを溶かしてくっつけていきます&lt;br&gt;
+ダイオードは縦線をコの字の方に、コンデンサに向きはありません
+&lt;img src=&#34;bmp-handa1.jpeg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;bmp-handa2.jpeg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;li&gt;もう片方のパッドもハンダ付けします
+&lt;img src=&#34;bmp-handa3.jpeg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3 id=&#34;スライドスイッチ&#34;&gt;スライドスイッチ&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;BMPのON/OFFを行うスイッチです&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;フラックスを塗っておくとやりやすいです
+&lt;img src=&#34;bmp-slide.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;穴と突起で位置合わせをします
+&lt;img src=&#34;bmp-slide-on.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;各パッドをハンダ付けします
+&lt;img src=&#34;bmp-slide-done.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;電池ホルダー&#34;&gt;電池ホルダー&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;基板の表面を上にします
+&lt;img src=&#34;bmp-pcb-front.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;電池ホルダーを差し込みます
+&lt;img src=&#34;bmp-denchi-1.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;浮かないようにマスキングテープで固定します
+&lt;img src=&#34;bmp-denchi-2.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;裏面に戻り、4箇所ハンダ付けをします
+&lt;img src=&#34;bmp-denchi-3.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;全ての部品を付けた状態&#34;&gt;全ての部品を付けた状態&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;bmp-done1.jpeg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;bmp-done2.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;a href=&#34;../8_promicro&#34;&gt;→ 8. ProMicroの取り付け&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;BMPをつける場合でも、動作確認はProMiroで行っておくことを推奨します
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../8_promicro&#34;&gt;→ 8. ProMicroの取り付け&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 
       </description>
     </item>
@@ -425,24 +498,50 @@ bat43の設定ファイルやデフォルトのキーマップはBMPのコンフ
 &lt;ul&gt;
 &lt;li&gt;ProMicroにコンスルーを取り付けてください。&lt;/li&gt;
 &lt;li&gt;取り付け方は&lt;a href=&#34;https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_jp.md#pro-micro&#34;&gt;helixのビルドガイド &lt;/a&gt;がわかりやすいので参照してください。&lt;/li&gt;
-&lt;li&gt;このようになっていればOKです。&lt;/li&gt;
+&lt;li&gt;このようになっていればOKです。
+&lt;img src=&#34;promicro.jpeg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;（画像）&lt;/p&gt;
 &lt;h2 id=&#34;promicroの取り付け&#34;&gt;ProMicroの取り付け&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;表面に取り付けます&lt;/li&gt;
-&lt;li&gt;図のようにシルク沿って差し込んでください&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;基板の表面に取り付けます
+&lt;img src=&#34;promicro-on.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;一番手前の穴はBMP用なので、空けておいて大丈夫です
+&lt;img src=&#34;promicro-on2.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;（画像）&lt;/p&gt;
 &lt;h2 id=&#34;動作確認&#34;&gt;動作確認&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;USBケーブルをつなげる
-（画像）&lt;/p&gt;
+&lt;img src=&#34;usb-connect.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;テキストエディタやキーボードビューアなどで各キーが入力されるか確認してください。
-（画像）&lt;/p&gt;
+&lt;p&gt;各スイッチをピンセットなどで導通させて、テキストエディタやキーボードビューアなど全てのキーが正しく入力されるか確認してください
+&lt;img src=&#34;pinset.jpeg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;viewer.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;反応しないキーなどあった場合&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;該当キー周辺のダイオードの向きが正しいか確認してください&lt;/li&gt;
+&lt;li&gt;該当キー周辺のダイオードのハンダを温め直してみてください。くっついているように見えても内部で導通していない可能性があります。&lt;/li&gt;
+&lt;li&gt;該当キーのキースイッチソケットのハンダを温め直してみてください&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;列単位、行単位で反応しない場合&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ProMicroのハンダ付けが怪しいので、ProMicroのハンダを温め直すなどしてください&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;解決しない場合&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;BOOTHからご連絡ください&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
