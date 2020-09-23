@@ -1,0 +1,66 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>yfuku docs – git</title>
+    <link>https://yfuku.com/tags/git/</link>
+    <description>Recent content in git on yfuku docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 15 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="https://yfuku.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Blog: BLE Micro ProのリポジトリにPRした話</title>
+      <link>https://yfuku.com/blog/keyboard/ble-micro-pro-pr/</link>
+      <pubDate>Wed, 15 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfuku.com/blog/keyboard/ble-micro-pro-pr/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;claw44-無線化対応&#34;&gt;Claw44 無線化対応&lt;/h2&gt;
+&lt;p&gt;自作キーボードの無線化をサポートしてくれるキット、&lt;a href=&#34;https://nogikes.booth.pm/items/1177319&#34;&gt;BLE Micro Pro&lt;/a&gt;をClaw44で使えるようにしました。これを使用するとbluetoothでPCなどと繋ぐことができます。&lt;br&gt;
+専用にファームウェアが必要になるので、すでに対応してあるキーボードを参考に作成しました。&lt;/p&gt;
+&lt;h2 id=&#34;ファームウェアの共有&#34;&gt;ファームウェアの共有&lt;/h2&gt;
+&lt;p&gt;みんなが気軽に使えるように、作成したコードを作者のせきごんさんの管理しているリポジトリに反映したいが、github初心者でパッとどうやるかが思いつかなかったのでメモしておきます。&lt;br&gt;
+もっと良いやり方があるよ〜と言う方は教えてください🙇‍♂️&lt;/p&gt;
+&lt;p&gt;qmk本家にPRする場合は、フォーク元にPR送るだけなのでそんなに迷わないのですが、今回はqmk本家をフォークしたせきごんさんのリポジトリに、同じくフォークしたyfukuのリポジトリからPR送っています。&lt;/p&gt;
+&lt;p&gt;※リポジトリの場所など変わる可能性があるので、&lt;a href=&#34;https://github.com/sekigon-gonnoc/BLE-Micro-Pro#%E4%BD%BF%E3%81%84%E6%96%B9%E8%87%AA%E4%BD%9C%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89%E7%B7%A8&#34;&gt;BLE-Micro_proのドキュメント&lt;/a&gt;を確認してから作業をお願いします。&lt;/p&gt;
+&lt;h2 id=&#34;手順&#34;&gt;手順&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/qmk/qmk_firmware/&#34;&gt;qmk本家&lt;/a&gt;からフォーク&lt;/li&gt;
+&lt;li&gt;フォークしたものをclone&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/yfuku/qmk_firmware.git
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;せきごんさんのブランチを持ってくる（&lt;a href=&#34;https://github.com/sekigon-gonnoc/BLE-Micro-Pro#%E4%BD%BF%E3%81%84%E6%96%B9%E8%87%AA%E4%BD%9C%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89%E7%B7%A8&#34;&gt;BLE-Micro-Proドキュメント参照&lt;/a&gt;）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt; git remote add sekigon https://github.com/sekigon-gonnoc/qmk_firmware.git
+ git fetch sekigon
+ git checkout -b nrf52 sekigon/nrf52
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;claw44_bleを作成してコミット&lt;/li&gt;
+&lt;li&gt;自分のリポジトリにpush（ブランチ名は何でも良いと思いますが同名のnrf52にしておきました）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;git push origin nrf52
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;pushしたブランチをweb上で確認
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/yfuku/qmk_firmware/tree/nrf52&#34;&gt;https://github.com/yfuku/qmk_firmware/tree/nrf52&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;New pull requestボタンをクリック&lt;/li&gt;
+&lt;li&gt;base repogitoryにsekigon-gonnocを、base branchにnrf52を選択&lt;/li&gt;
+&lt;li&gt;タイトルやコメントを入力して、Create pull requestをクリック&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
