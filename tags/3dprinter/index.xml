@@ -1,0 +1,90 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>yfuku docs – 3dprinter</title>
+    <link>https://yfuku.com/tags/3dprinter/</link>
+    <description>Recent content in 3dprinter on yfuku docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 10 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="https://yfuku.com/tags/3dprinter/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Blog: zortrax m200のSDカードをwifi経由で書き込む方法</title>
+      <link>https://yfuku.com/blog/3dprinter/zortrax/sdcard/</link>
+      <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfuku.com/blog/3dprinter/zortrax/sdcard/</guid>
+      <description>
+        
+        
+        &lt;p&gt;aa&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Zortrax M200を中古で購入しました</title>
+      <link>https://yfuku.com/blog/3dprinter/zortrax/init/</link>
+      <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfuku.com/blog/3dprinter/zortrax/init/</guid>
+      <description>
+        
+        
+        &lt;p&gt;初の3Dプリンタはflash forgeのadventurer3で、そこそこ満足して使っています。&lt;br&gt;
+箱から出してすぐ使えて高精度、今ではユーザ数が結構いるんじゃないでしょうか。&lt;br&gt;
+そんな中で次の3Dプリンタを考え始めた理由はこんな感じ。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;造形サイズが150x150mmだと狭く感じてきた&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;bat43くらいの一体型キーボードの何かを作ってみたい&lt;/li&gt;
+&lt;li&gt;claw44の片手でもプレートが限界くらい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;PLAよりABSが好き&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ABSが反る問題とは戦わねばなのだが、高価格帯なものだと違いが出るのか？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;調子が悪いと時間を取られる&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ノズルやプラットフォームのシートはわりと交換しないといけない（使い方が悪いのかもしれないが・・・）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;3Dプリンタの種類がありすぎてわからない&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;zortraxは良いと評判&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;M300PlusやM300Dualを検討し始める&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Raise3Dなんかも良さそうに思える（この辺から金銭感覚はぶっ壊れている・・）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;さすがに高価なものなので、もうちょっと裏付けが欲しいが情報がうまいこと集められない&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;一応登録してあった某中古を変えるサービスのメールにzortraxが！&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;状態も悪くなそうだし、まあ最悪勉強代にできるギリギリのラインだったので即決！&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
