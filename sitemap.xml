@@ -177,12 +177,42 @@
   </url>
   
   <url>
-    <loc>https://yfuku.com/tb7/</loc>
-    <lastmod>2020-10-16T10:00:00+09:00</lastmod>
+    <loc>https://yfuku.com/blog/</loc>
+    <lastmod>2020-10-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/blog/keyboard/</loc>
+    <lastmod>2020-10-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/tags/keyboard/</loc>
+    <lastmod>2020-10-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/tags/</loc>
+    <lastmod>2020-10-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/tags/trackball/</loc>
+    <lastmod>2020-10-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://yfuku.com/</loc>
+    <lastmod>2020-10-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/blog/keyboard/trackball_with_touch_sensor/</loc>
+    <lastmod>2020-10-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yfuku.com/tb7/</loc>
     <lastmod>2020-10-16T10:00:00+09:00</lastmod>
   </url>
   
@@ -217,27 +247,7 @@
   </url>
   
   <url>
-    <loc>https://yfuku.com/blog/</loc>
-    <lastmod>2019-05-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://yfuku.com/tags/git/</loc>
-    <lastmod>2019-05-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yfuku.com/blog/keyboard/</loc>
-    <lastmod>2019-05-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yfuku.com/tags/keyboard/</loc>
-    <lastmod>2019-05-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yfuku.com/tags/</loc>
     <lastmod>2019-05-15T00:00:00+00:00</lastmod>
   </url>
   

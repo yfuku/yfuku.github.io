@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>yfuku docs – keyboard</title>
-    <link>https://yfuku.com/tags/keyboard/</link>
-    <description>Recent content in keyboard on yfuku docs</description>
+    <title>yfuku docs – trackball</title>
+    <link>https://yfuku.com/tags/trackball/</link>
+    <description>Recent content in trackball on yfuku docs</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 24 Oct 2020 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="https://yfuku.com/tags/keyboard/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://yfuku.com/tags/trackball/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -188,91 +188,6 @@ ASDFあたりでも良いのですが、自分は既にmodifierを割り当て�
 &lt;p&gt;センサー部分についてはもっと使いやすいものがあるかもしれないので改善の余地ありだと思っています。&lt;br&gt;
 何か良さそうなのをご存知でしたら教えてください！！&lt;br&gt;
 （手ごろに手に入るフォトリフレクターを試してみたけど、思ったより検出距離が短く断念した）&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Blog: BLE Micro ProのリポジトリにPRした話</title>
-      <link>https://yfuku.com/blog/keyboard/ble-micro-pro-pr/</link>
-      <pubDate>Wed, 15 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://yfuku.com/blog/keyboard/ble-micro-pro-pr/</guid>
-      <description>
-        
-        
-        &lt;h2 id=&#34;claw44-無線化対応&#34;&gt;Claw44 無線化対応&lt;/h2&gt;
-&lt;p&gt;自作キーボードの無線化をサポートしてくれるキット、&lt;a href=&#34;https://nogikes.booth.pm/items/1177319&#34;&gt;BLE Micro Pro&lt;/a&gt;をClaw44で使えるようにしました。これを使用するとbluetoothでPCなどと繋ぐことができます。&lt;br&gt;
-専用にファームウェアが必要になるので、すでに対応してあるキーボードを参考に作成しました。&lt;/p&gt;
-&lt;h2 id=&#34;ファームウェアの共有&#34;&gt;ファームウェアの共有&lt;/h2&gt;
-&lt;p&gt;みんなが気軽に使えるように、作成したコードを作者のせきごんさんの管理しているリポジトリに反映したいが、github初心者でパッとどうやるかが思いつかなかったのでメモしておきます。&lt;br&gt;
-もっと良いやり方があるよ〜と言う方は教えてください🙇‍♂️&lt;/p&gt;
-&lt;p&gt;qmk本家にPRする場合は、フォーク元にPR送るだけなのでそんなに迷わないのですが、今回はqmk本家をフォークしたせきごんさんのリポジトリに、同じくフォークしたyfukuのリポジトリからPR送っています。&lt;/p&gt;
-&lt;p&gt;※リポジトリの場所など変わる可能性があるので、&lt;a href=&#34;https://github.com/sekigon-gonnoc/BLE-Micro-Pro#%E4%BD%BF%E3%81%84%E6%96%B9%E8%87%AA%E4%BD%9C%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89%E7%B7%A8&#34;&gt;BLE-Micro_proのドキュメント&lt;/a&gt;を確認してから作業をお願いします。&lt;/p&gt;
-&lt;h2 id=&#34;手順&#34;&gt;手順&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/qmk/qmk_firmware/&#34;&gt;qmk本家&lt;/a&gt;からフォーク&lt;/li&gt;
-&lt;li&gt;フォークしたものをclone&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;git clone https://github.com/yfuku/qmk_firmware.git
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
-&lt;li&gt;せきごんさんのブランチを持ってくる（&lt;a href=&#34;https://github.com/sekigon-gonnoc/BLE-Micro-Pro#%E4%BD%BF%E3%81%84%E6%96%B9%E8%87%AA%E4%BD%9C%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89%E7%B7%A8&#34;&gt;BLE-Micro-Proドキュメント参照&lt;/a&gt;）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt; git remote add sekigon https://github.com/sekigon-gonnoc/qmk_firmware.git
- git fetch sekigon
- git checkout -b nrf52 sekigon/nrf52
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
-&lt;li&gt;claw44_bleを作成してコミット&lt;/li&gt;
-&lt;li&gt;自分のリポジトリにpush（ブランチ名は何でも良いと思いますが同名のnrf52にしておきました）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;git push origin nrf52
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
-&lt;li&gt;pushしたブランチをweb上で確認
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/yfuku/qmk_firmware/tree/nrf52&#34;&gt;https://github.com/yfuku/qmk_firmware/tree/nrf52&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;New pull requestボタンをクリック&lt;/li&gt;
-&lt;li&gt;base repogitoryにsekigon-gonnocを、base branchにnrf52を選択&lt;/li&gt;
-&lt;li&gt;タイトルやコメントを入力して、Create pull requestをクリック&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Blog: BlocKeyをスマホで使うときのメモ</title>
-      <link>https://yfuku.com/blog/keyboard/blockey_smartphone/</link>
-      <pubDate>Mon, 22 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://yfuku.com/blog/keyboard/blockey_smartphone/</guid>
-      <description>
-        
-        
-        &lt;p&gt;アクリルキーホルダーと名の通り、小さくてかわいいキーボードのBlocKey。
-せっかくなのでiPhoneで使ってみようと思ったのですが、エラーが出てしまいました。
-いつかtweetをみたような・・・と思ったのですが、探すのに苦労したのでメモしておきます。&lt;/p&gt;
-&lt;p&gt;販売はこちらでされています。
-&lt;a href=&#34;https://eucalyn.booth.pm/items/968925&#34;&gt;BlocKeyキット（専用キーキャップ付き） - ゆかりや - BOOTH（同人誌通販・ダウンロード）&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;参考にしたtweet&#34;&gt;参考にしたtweet&lt;/h2&gt;
-&lt;p&gt;自作キーボード界隈は呟いたりしていると助けてくれる人が多いです！&lt;/p&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;おぅ。。。blockeyにhelixの省電力設定(mteiさん仕様？)移設できるかな。 &lt;a href=&#34;https://t.co/jspILum0QJ&#34;&gt;pic.twitter.com/jspILum0QJ&lt;/a&gt;&lt;/p&gt;&amp;mdash; y＠hewi (@yohewi) &lt;a href=&#34;https://twitter.com/yohewi/status/1028615080114409472?ref_src=twsrc%5Etfw&#34;&gt;August 12, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-
-&lt;h3 id=&#34;led明度を下げておく&#34;&gt;LED明度を下げておく&lt;/h3&gt;
-&lt;p&gt;自分は初め、LEDを切っちゃったのですが明度を下げておけば大丈夫なようです。&lt;/p&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;移設もできると思いますが、他のデバイスに繋いでLED明度を下げてから繫いでみるでも大丈夫かと思いますーー&lt;/p&gt;&amp;mdash; ゆかり𓂙 (@eucalyn_) &lt;a href=&#34;https://twitter.com/eucalyn_/status/1028644985963347970?ref_src=twsrc%5Etfw&#34;&gt;August 12, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-
-&lt;h3 id=&#34;qmkでconfighを修正する&#34;&gt;qmkでconfig.hを修正する&lt;/h3&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;以下の通りです&lt;a href=&#34;https://t.co/JHlmgkTGkg&#34;&gt;https://t.co/JHlmgkTGkg&lt;/a&gt;&lt;/p&gt;&amp;mdash; m.tei / ishii (@mtei) &lt;a href=&#34;https://twitter.com/mtei/status/1028649245648150528?ref_src=twsrc%5Etfw&#34;&gt;August 12, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-
-&lt;h2 id=&#34;おまけ&#34;&gt;おまけ&lt;/h2&gt;
-&lt;p&gt;自分のBlocKeyはこんな感じです。&lt;/p&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;&lt;a href=&#34;https://twitter.com/hashtag/blockey?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#blockey&lt;/a&gt; 全部動くようになったので、スカイに合わせてお空で。&lt;br&gt;よく見たら表側でダイオードとスイッチがショートしていたので、なんとか大ごとにならずに直せた。ふ〜、よかった😅 &lt;a href=&#34;https://t.co/rm9GXOkExS&#34;&gt;pic.twitter.com/rm9GXOkExS&lt;/a&gt;&lt;/p&gt;&amp;mdash; ふく🦇自作キーボードClaw44v2,bat43販売中 (@yfuku_) &lt;a href=&#34;https://twitter.com/yfuku_/status/1053836741495246848?ref_src=twsrc%5Etfw&#34;&gt;October 21, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-
 
       </description>
     </item>

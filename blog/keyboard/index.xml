@@ -4,7 +4,7 @@
     <link>https://yfuku.com/blog/keyboard/</link>
     <description>Recent content in Keyboard on yfuku docs</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 15 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2020 00:00:00 +0000</lastBuildDate>
     
 	  <atom:link href="https://yfuku.com/blog/keyboard/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,6 +13,184 @@
         
       
     
+    
+    <item>
+      <title>Blog: トラックボールモジュールとタッチセンサーとクリック</title>
+      <link>https://yfuku.com/blog/keyboard/trackball_with_touch_sensor/</link>
+      <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfuku.com/blog/keyboard/trackball_with_touch_sensor/</guid>
+      <description>
+        
+        
+        &lt;p&gt;トラックボールモジュールとタッチセンサーを組み合わせて、トラックボール操作時だけレイヤーを変えるようにしたらホームポジションでクリックとかできて快適になったよ、というお話です。&lt;/p&gt;
+&lt;h2 id=&#34;トラックボールモジュール&#34;&gt;トラックボールモジュール&lt;/h2&gt;
+&lt;p&gt;自作キーボードを作り始めて、指の移動距離を最小限に！とかやっているわけですが、マウスやトラックボールを使う時の移動はどうにかならないものか・・・と考えるものです。
+ポインティングデバイスをキーボードに組み込めたらと思いつつ、そのようなモジュールの入手性や組み込む難易度は自分には高く、手を出せずにいました。&lt;/p&gt;
+&lt;p&gt;そんな時にビット・トレード・ワンさんから1uサイズのトラックボールモジュールが発売され、これは使わねば！と思い立ちました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://yushakobo.jp/shop/adtb7m/&#34;&gt;7mmオプティカルトラックボールモジュール１uタイプ | 遊舎工房&lt;/a&gt;&lt;br&gt;
+&lt;img src=&#34;https://yushakobo.jp/wp-content/uploads/2020/04/ADTB7M.jpg&#34; style=&#34;width:200px&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;色々と組み込んでみた&#34;&gt;色々と組み込んでみた&lt;/h2&gt;
+&lt;p&gt;Claw44やbat43に組み込んでお試し。&lt;br&gt;
+課題が出てきたので徐々に解決していってみます。&lt;br&gt;
+&lt;img src=&#34;./images/IMG_1367.jpeg&#34; style=&#34;height:200px&#34;&gt;
+&lt;img src=&#34;./images/IMG_1371.jpeg&#34; style=&#34;height:200px&#34;&gt;
+&lt;img src=&#34;./images/IMG_1437.jpeg&#34; style=&#34;height:200px&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;取り付けの課題&#34;&gt;取り付けの課題&lt;/h2&gt;
+&lt;p&gt;このモジュールには取り付け用の機構がないようなので、どう取り付けるかが課題になります。&lt;/p&gt;
+&lt;h3 id=&#34;ボトムハウジングを接着&#34;&gt;ボトムハウジングを接着&lt;/h3&gt;
+&lt;img src=&#34;./images/IMG_1358.jpeg&#34; style=&#34;height:200px&#34;&gt;
+&lt;p&gt;まずは1uサイズなのでキースイッチがあるところに置けると良いなと思い、ボトムハウジングをちょっと加工して、接着剤で固定しました。&lt;br&gt;
+（内部に接着剤を流し込んで、一つダメにしました・・・養生をしっかりと・・・）&lt;br&gt;
+これは納まりが良いのですが、加工の手間はあるのでいまいち。&lt;br&gt;
+レベル変換基板がどこかに置けて、加工できる人なら良いかなと。&lt;/p&gt;
+&lt;h3 id=&#34;専用ケースを作る&#34;&gt;専用ケースを作る&lt;/h3&gt;
+&lt;img src=&#34;./images/tb-case-1.jpeg&#34; style=&#34;height:150px&#34;&gt;
+&lt;img src=&#34;./images/tb-case-2.jpeg&#34; style=&#34;height:150px&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://yfuku.booth.pm/items/2398710&#34;&gt;bat43tb&lt;/a&gt;や&lt;a href=&#34;https://yfuku.booth.pm/items/2465808&#34;&gt;tb7&lt;/a&gt;で採用した方式。&lt;br&gt;
+横からレベル変換基板と共に差し込むみます。&lt;br&gt;
+とてもコンパクトにできてお気に入り。&lt;/p&gt;
+&lt;h3 id=&#34;キーボードに合わせて作る&#34;&gt;キーボードに合わせて作る&lt;/h3&gt;
+&lt;img src=&#34;./images/claw44-tb-case.jpeg&#34; style=&#34;height:200px&#34;&gt;
+&lt;p&gt;Claw44用に作った専用マウント。&lt;br&gt;
+ProMicroプレート部分の代替となるため、横から入れるのが厳しかったので上からかぶせる形に。&lt;br&gt;
+レベル変換基板がOLED用のピン配置を考慮してくれているので、変換基板も素直に収納できるのが良い。&lt;/p&gt;
+&lt;img src=&#34;./images/claw44-tb-case-2.jpeg&#34; style=&#34;height:150px&#34;&gt;
+&lt;p&gt;下側は嵌め込むだけで安定したので、まだ素っ気ない感じ。&lt;br&gt;
+問題ありそうだったらサポート部分を検討する。&lt;/p&gt;
+&lt;h2 id=&#34;トラックボールの代替とするための課題&#34;&gt;トラックボールの代替とするための課題&lt;/h2&gt;
+&lt;p&gt;トラックボールを動かし、カーソルは快適に動かせるようになりました。&lt;/p&gt;
+&lt;h3 id=&#34;クリックがつらい&#34;&gt;クリックがつらい&lt;/h3&gt;
+&lt;p&gt;で、まず思ったのがクリックが思ったよりつらいなあと。&lt;br&gt;
+自分は主に40%を使っているので、レイヤーなしでダイレクトに打つキーはそんなに空いていない。&lt;/p&gt;
+&lt;img src=&#34;./images/claw44-keymap.jpeg&#34; style=&#34;height:150px&#34;&gt;
+&lt;p&gt;Claw44の場合は親指の両端を使ってみたけど、やはりちょっと負荷が高いように感じます。&lt;br&gt;
+普通にトラックボールを使う時は、最適化された状態で使うため無駄な負荷が少ないです。&lt;br&gt;
+そのため、ついついちょっと腕を移動させてでもトラックボールを使いたくなってしまいます。&lt;br&gt;
+（自分はMX Ergoを愛用）&lt;/p&gt;
+&lt;h3 id=&#34;ホームポジションの取り合い&#34;&gt;ホームポジションの取り合い&lt;/h3&gt;
+&lt;p&gt;キーボードでトラックボールの機能を使おうとすると、本来のホームポジションとはずれた状態になることが多い。&lt;br&gt;
+多少の時間なら良いのだが、トラックボール主体の動きが長くなるとだんだんと辛くなってくる。&lt;/p&gt;
+&lt;img src=&#34;./images/bat43-keymap.jpeg&#34; style=&#34;height:150px&#34;&gt;
+&lt;p&gt;こちらのbat43の場合は、キーボード側のホームポジションを一個ずらし犠牲にしてクリックボタンを押しやすくしてみたが、本末転倒な感じでキーボードが使いにくくなってしまったので断念。&lt;/p&gt;
+&lt;img src=&#34;./images/IMG_1573.jpeg&#34; style=&#34;height:150px&#34;&gt;
+&lt;img src=&#34;./images/IMG_1574.jpeg&#34; style=&#34;height:150px&#34;&gt;
+&lt;p&gt;空いているところにクリックボタンを置いてしまえと試してみたのがこちら。&lt;br&gt;
+キースイッチを置くスペースはなかったので、タッチセンサーを使ってみた。&lt;br&gt;
+これはこれでよかったのだが、無理やり置いてしまったので細かな位置決めができず、もうちょっと改善したくなった。&lt;/p&gt;
+&lt;img src=&#34;./images/IMG_3357.jpeg&#34; style=&#34;height:150px&#34;&gt;
+&lt;p&gt;それで作ったのがbat43tb。ProMicro→MCU直付けすることによってクリックボタン分のスイッチを配置。&lt;br&gt;
+これもこれで良いのだが、もうちょっと配置を良くできそうなので、そのうち改善版を出したいと思っています。&lt;/p&gt;
+&lt;h3 id=&#34;改めて課題を整理&#34;&gt;改めて課題を整理&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;トラックボールの玉を動かせるだけではトラックボールの代替にはならない。&lt;/li&gt;
+&lt;li&gt;クリックやホイールの機能なども快適に使える状態でないと移行率は低くなり、結局ほとんど隣に置いてあるトラックボールを使ってしまう。&lt;/li&gt;
+&lt;li&gt;ただでさえ詰め込んで小さくしているので、そこに機能を加えるにはひと工夫必要そう。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;トラックボールでやっていることを挙げてみると、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;カーソル操作&lt;/li&gt;
+&lt;li&gt;クリック（左、中、右）&lt;/li&gt;
+&lt;li&gt;スクロール&lt;/li&gt;
+&lt;li&gt;戻る、進むボタン（これは個人差があるかも）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;あたりでしょうか。&lt;br&gt;
+カーソル操作はできるようになったので、まずはホームポジションでクリックを快適に押すことを考えてみます。&lt;/p&gt;
+&lt;h2 id=&#34;解決案レイヤーに配置&#34;&gt;解決案：レイヤーに配置&lt;/h2&gt;
+&lt;p&gt;まず思いつくのが、レイヤーの中にクリックボタンを配置すること。&lt;br&gt;
+これで問題ない方もいると思います。&lt;/p&gt;
+&lt;p&gt;自分は今まで1クリックでできてたものが、レイヤーキー→クリックキーと2ステップになってしまうのが面倒くなり無理でした。&lt;/p&gt;
+&lt;h2 id=&#34;解決案タッチセンサー&#34;&gt;解決案：タッチセンサー&lt;/h2&gt;
+&lt;p&gt;クリックするのは基本的にはトラックボールを操作している時なので、トラックボールを動かしている時だけ、別レイヤーになれば良いなと考えてみます。&lt;br&gt;
+しかし、常にボールが動いているわけではないので、トラックボール側の情報だけではキツそう。&lt;br&gt;
+このコンパクトなモジュールをいじるのも辛そう。&lt;/p&gt;
+&lt;p&gt;で、考えたのがこの前タッチセンサーでうまいことできないかなと。&lt;/p&gt;
+&lt;img src=&#34;./images/bat43tb-touch-sensor.jpeg&#34; style=&#34;height:200px&#34;&gt;
+&lt;p&gt;試行錯誤してこんな形になりました。&lt;br&gt;
+タッチセンサーの感度としては、だいたい8mmくらいな感じです。&lt;br&gt;
+そのため配置を工夫しないと、レイヤー切り替えしていて欲しいところでされてなくてストレスになります。&lt;br&gt;
+一旦、位置決めがされてしまえばとても快適に使えます。&lt;/p&gt;
+&lt;p&gt;センサーはAmazonでも入手可能なTTP223というやつです。安価でなかなか使えるやつです。&lt;br&gt;
+自分は&lt;a href=&#34;https://www.amazon.co.jp/o/ASIN/B01MYTHMW5/hoge0f-22/&#34;&gt;TTP223&lt;/a&gt;で買ったけど、もっと安いのも出ている模様。&lt;/p&gt;
+&lt;p&gt;電源やPINは基板下面に付けておいたテープLED用のパッドを利用。&lt;br&gt;
+こういうことをやっていると使っていないProMicroのピンは触れるよう出しておきたいなと思うようになる。&lt;/p&gt;
+&lt;h2 id=&#34;解決案タッチセンサー拡張&#34;&gt;解決案：タッチセンサー拡張&lt;/h2&gt;
+&lt;img src=&#34;./images/claw44-tb-case.jpeg&#34; style=&#34;height:200px&#34;&gt;
+&lt;p&gt;仕事が立て込んでいて、ちょっとしたモデリングをして3Dプリンタを動かすくらいしかできず、気晴らしにClaw44用のトラックボールモジュールマウントを作ってみました。&lt;br&gt;
+使ってみたのですが、やはりクリックボタンつらいなあという気持ちが。&lt;br&gt;
+こっちにもbat43同様にタッチセンサーを付けてみました。&lt;br&gt;
+同様に付けてみて、確かにちゃんと動くのですが不格好だなあと。&lt;/p&gt;
+&lt;p&gt;タッチセンサーを調べていた時にアルミホイルで検出部分を拡張していたことを思い出す。&lt;br&gt;
+ごちゃごちゃと両面テープとアルミホイルで試作。&lt;/p&gt;
+&lt;img src=&#34;./images/claw44-hoil.jpeg&#34; style=&#34;height:200px&#34;&gt;
+&lt;p&gt;なるほどなるほど。こんな感じで拡張ができました。&lt;br&gt;
+これならより玉に近い部分での検出が可能になので、より安定しました。&lt;br&gt;
+だが、見た目と耐久性0だなこりゃ。&lt;/p&gt;
+&lt;p&gt;とりあえず黒いアルミホイルを探してみる。&lt;br&gt;
+焼き芋用の黒いのを発見。こんなものもあるのね。&lt;/p&gt;
+&lt;p&gt;でも耐久性なーと思っていると、アルミテープを発見。&lt;br&gt;
+こちらもマットブラックなものがあるのでポチポチと。&lt;br&gt;
+ひとまずこれで作ってみます。&lt;/p&gt;
+&lt;h3 id=&#34;今のところの作り方&#34;&gt;今のところの作り方&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;上面にアルミテープを貼る&lt;br&gt;
+&lt;img src=&#34;./images/claw44-alt-1.jpeg&#34; style=&#34;height:200px&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;穴をくり抜く&lt;br&gt;
+&lt;img src=&#34;./images/claw44-alt-2.jpeg&#34; style=&#34;height:200px&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;下面にタッチセンサーを配置&lt;br&gt;
+&lt;img src=&#34;./images/claw44-alt-3.jpeg&#34; style=&#34;height:200px&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;上面のアルミテープとタッチセンサーを接続（貼ってるだけ）&lt;br&gt;
+&lt;img src=&#34;./images/claw44-alt-4.jpeg&#34; style=&#34;height:200px&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ねじ止めして完了&lt;br&gt;
+&lt;img src=&#34;./images/claw44-alt-5.jpeg&#34; style=&#34;height:200px&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;写真だとわかりにくいですが、良い感じに反応してくれてます（タッチセンサーのLEDが赤く光っている）&lt;br&gt;
+&lt;img src=&#34;./images/claw44-alt-6.jpeg&#34; style=&#34;height:150px&#34;&gt;
+&lt;img src=&#34;./images/claw44-alt-7.jpeg&#34; style=&#34;height:150px&#34;&gt;
+&lt;img src=&#34;./images/claw44-alt-8.jpeg&#34; style=&#34;height:150px&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ファームウェア&#34;&gt;ファームウェア&lt;/h3&gt;
+&lt;p&gt;このタッチセンサーが反応した時にトラックボール用のレイヤーに切り替わるようになっています。&lt;br&gt;
+自分は親指キーにクリックなどの機能をまとめました。&lt;br&gt;
+ASDFあたりでも良いのですが、自分は既にmodifierを割り当てているのでCmd+クリックとかがやれなくなってしまうので使えず。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;トラックボール用のライブラリや使い方はこちらを利用&amp;amp;参考にさせてもらっています。（ &lt;a href=&#34;https://twitter.com/_gonnoc&#34;&gt;せきごんさん&lt;/a&gt;ありがとうございます！）
+&lt;a href=&#34;https://github.com/sekigon-gonnoc/qmk_firmware/tree/dev/ble_micro_pro/keyboards/helix/rev2/keymaps/bto_tb&#34;&gt;https://github.com/sekigon-gonnoc/qmk_firmware/tree/dev/ble_micro_pro/keyboards/helix/rev2/keymaps/bto_tb&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ドラッグ&amp;amp;ドロップやスクロールもできるようにqmkのポインティングデバイスの機能を使っています。&lt;br&gt;
+（QMKドキュメントの和訳ありがとうございます！！）&lt;br&gt;
+&lt;a href=&#34;https://docs.qmk.fm/#/ja/feature_pointing_device&#34;&gt;https://docs.qmk.fm/#/ja/feature_pointing_device&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;なるべくホームポジションを崩さないために、トラックボールの向きは45度回転させています。&lt;br&gt;
+&lt;img src=&#34;./images/claw44-tsurai.jpeg&#34; style=&#34;height:400px&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ソースはこの辺に置いてあります。適当にいじっていくかもしれないです。(雑コードですいません・・）&lt;br&gt;
+&lt;a href=&#34;https://github.com/yfuku/qmk_firmware/blob/yfuku/keyboards/claw44/keymaps/trackball/keymap.c&#34;&gt;https://github.com/yfuku/qmk_firmware/blob/yfuku/keyboards/claw44/keymaps/trackball/keymap.c&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;まとめ&#34;&gt;まとめ&lt;/h1&gt;
+&lt;p&gt;ある程度使える状態になった感があるので記事にしてみました。&lt;/p&gt;
+&lt;p&gt;センサー部分についてはもっと使いやすいものがあるかもしれないので改善の余地ありだと思っています。&lt;br&gt;
+何か良さそうなのをご存知でしたら教えてください！！&lt;br&gt;
+（手ごろに手に入るフォトリフレクターを試してみたけど、思ったより検出距離が短く断念した）&lt;/p&gt;
+
+      </description>
+    </item>
     
     <item>
       <title>Blog: BLE Micro ProのリポジトリにPRした話</title>
