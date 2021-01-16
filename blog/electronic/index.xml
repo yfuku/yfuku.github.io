@@ -4,7 +4,7 @@
     <link>https://yfuku.com/blog/electronic/</link>
     <description>Recent content in 電子工作 on yfuku docs</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 11 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 16 Jan 2021 00:00:00 +0000</lastBuildDate>
     
 	  <atom:link href="https://yfuku.com/blog/electronic/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,6 +13,116 @@
         
       
     
+    
+    <item>
+      <title>Blog: ProMicroで定期送信リモコンを作る</title>
+      <link>https://yfuku.com/blog/electronic/heater_remo/</link>
+      <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfuku.com/blog/electronic/heater_remo/</guid>
+      <description>
+        
+        
+        &lt;p&gt;時々、家のヒーターが勝手に切れてしまうようになった。&lt;br&gt;
+（主電源は切れておらずリモコンでオフになっている状態）&lt;/p&gt;
+&lt;p&gt;修理するにしても、時間がかかるためもうちょっと暖かくなってから修理に出したい。
+消えているのを確認するたびに手動でリモコンでONにするのが非常にめんどくさいので、応急処置で定期的にONにする装置を作ってみた。&lt;br&gt;
+（安全性の問題はあるので、諸々気をつけて使ってはいます）&lt;/p&gt;
+&lt;p&gt;// どうでもいいけど、リモートワークで電気代が非常に辛い。&lt;/p&gt;
+&lt;h2 id=&#34;目的&#34;&gt;目的&lt;/h2&gt;
+&lt;p&gt;ヒーターが勝手に消えてしまうので、定期的にONにする信号を送れるようにする&lt;/p&gt;
+&lt;h2 id=&#34;要件&#34;&gt;要件&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;MUST
+&lt;ul&gt;
+&lt;li&gt;定期的にヒーターONの信号を送る&lt;/li&gt;
+&lt;li&gt;定期送信のON/OFFができる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;WANT
+&lt;ul&gt;
+&lt;li&gt;複数の信号を切り替えられるようにする（あんまユースケースがないのでやらなそう）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;必要なもの&#34;&gt;必要なもの&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;リモコンのデータを受信して解析してデータを作る&lt;/li&gt;
+&lt;li&gt;赤外線を送出する&lt;/li&gt;
+&lt;li&gt;定期的に実行する&lt;/li&gt;
+&lt;li&gt;on/offできる&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;背景&#34;&gt;背景&lt;/h2&gt;
+&lt;p&gt;キーボードは自作しているが、電子工作関連の知識が絶対的に足りないのでarduinoとかいじっていこうかなと思い、書籍を読んだり、書籍で紹介されている回路に必要なものを買ったりしているところだった。
+必要になった事を学習していくほうが覚えは早いので、これは良い題材かなと乗っかったというのが大きい。&lt;/p&gt;
+&lt;h2 id=&#34;ログ&#34;&gt;ログ&lt;/h2&gt;
+&lt;h3 id=&#34;ベース&#34;&gt;ベース&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;arduino IDEなどを入れてコンパイル→書き込みくらいはやっていたのでその辺はOK&lt;/li&gt;
+&lt;li&gt;電子工作関連の積みの中からリモコンを扱ったやつを発掘
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://kit.socinno.com/slab_remo2/&#34;&gt;sLab-Remo2 | sLab学習サイト&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;これをベースにやっていくことに。&lt;/li&gt;
+&lt;li&gt;ESP32-DevKitCというESPの開発ボードを使っているので、これでやっていく&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;受信&#34;&gt;受信&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;受信回路は&lt;a href=&#34;https://kit.socinno.com/2_1_5_r/&#34;&gt;2-1-5.赤外線リモコン受信&lt;/a&gt;をまんま利用させてもらった&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;送信&#34;&gt;送信&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;送信回路も基本的には&lt;a href=&#34;https://kit.socinno.com/2_1_6_r/&#34;&gt;2-1-6.赤外線リモコン送信&lt;/a&gt;でOK&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;promicro化&#34;&gt;ProMicro化&lt;/h3&gt;
+&lt;p&gt;あっさりと基本的な事はできてしまった。ありがたい。&lt;/p&gt;
+&lt;p&gt;ただ、ブレッドボードを使っていて安定して使うのには難がある。
+開発ボードもこれに使うのはもったいない。
+ということで、家に大量にあるProMicroに置き換えることに。
+arduinoベースなので、さっくりいくかと思ったら意外にハマった。&lt;/p&gt;
+&lt;p&gt;まずは同じくブレッドボード上で回路を構築していくが、なぜか機器が作動しない。
+何か信号を受け取っているような表示はされるのだが動かない。
+この辺のデバッグに慣れていないので、一苦労。&lt;/p&gt;
+&lt;p&gt;初めは出力が足りないのか、信号がちゃんと送れてないかなど調べていったがどうにも大丈夫そうな気がする。回路をあちこちいじるも変わらず。&lt;/p&gt;
+&lt;p&gt;「Pro Micro 赤外線LED」とかで検索していると、
+&lt;a href=&#34;https://qiita.com/umi_kappa/items/5ea1f6095e4e4a51163b&#34;&gt;Arduino M0 Proで赤外線LEDを使いたいときdelayMicroseconds()は絶対に信じてはいけない - Qiita&lt;/a&gt;
+な記事を見つけた。&lt;/p&gt;
+&lt;p&gt;ひとまずサクッとプログラムを置き換えてみると動いた・・・&lt;/p&gt;
+&lt;p&gt;差分を追ってみると、waitしているところは同じ処理だが、周期を作るためのwaitの時間が違う。こういうのデバッグするのにオシロスコープとかあると良いのだろうな。（格安のが積んであるので、まずはこれをちゃんと使えるように。多分そのうちRIGOLのとか買っちゃいそうだが）&lt;/p&gt;
+&lt;p&gt;まあ細かいところは追ってみていくとして、ひとまずProMicro化もできた！&lt;/p&gt;
+&lt;h3 id=&#34;wait時間を増やす&#34;&gt;wait時間を増やす&lt;/h3&gt;
+&lt;p&gt;テストのために&lt;code&gt;delay(1000)&lt;/code&gt;とかで1秒おきに送信するのはできていたのだが、&lt;code&gt;delay(1000*60*5)&lt;/code&gt;と5分おきにするとどうも最初の一回しか動かない・・・&lt;/p&gt;
+&lt;p&gt;これも調べていくと、
+&lt;a href=&#34;https://nobita-rx7.hatenablog.com/entry/27490639&#34;&gt;Arduino IDE(delay関数の使い方) - NOBのArduino日記！&lt;/a&gt;
+な記事を見つける。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;補足   ：このパラメータはunsigned long型です。32767より大きい整数を指定す
+            るときは、値の後ろにULを付け加えます。 例 delay(60000UL); 
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;お、おう。。
+基本Cとかベースにしていると思うのだが、Cもガッツリはやっていないので、こういうのが普通なのかよくわからない。コンパイルエラーにはならないのか。&lt;/p&gt;
+&lt;p&gt;まあ、気を取り直して修正したら無事定期実行ができるように！&lt;/p&gt;
+&lt;h3 id=&#34;ユニバーサル基板化&#34;&gt;ユニバーサル基板化&lt;/h3&gt;
+&lt;p&gt;ProMicroで動くことは確認できたので、小型化とちゃんとハンダ付けするためにユニバーサル基板へと移設。
+手頃な大きさの基板に何となく回路図を再現していく。
+まあテンポラリだしこんなもんで良いか。
+部品がついている状態で基板を切断するのが大変だったので、ちゃんと事前に設計して切り落としておけば良かった。&lt;/p&gt;
+&lt;p&gt;あと、USBコネクタをガッツリショートさせてしまっていたので、ハンダ吸い取ってカプトンテープを挟んで対処。
+ちゃんとしておかねば・・・&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/promicro1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/promicro2.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;ケース&#34;&gt;ケース&lt;/h3&gt;
+&lt;p&gt;裸のままなのも何なので、適当に 3Dプリンタでケースを作って格納。
+赤外線LEDはもうちょっと露出させたほうが角度が稼げるので、後で作り直すかもしれない。
+あと、ちゃんと真っ直ぐ保持できるように基板にそって溝でもつけておきたい。
+毎度ながらまずは適当に作ってしまう派。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/promicro3.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;まとめ&#34;&gt;まとめ&lt;/h3&gt;
+&lt;p&gt;というわけで、とりあえず動くものができた。
+on/offのスイッチを作りたいところだけど、もうハンダ付けしてめんどいし、ProMicroはマグネットケーブルで繋いでいるので、それで良いかと。&lt;/p&gt;
+&lt;p&gt;ちょこちょこハマったけど、デバッグしていくと知識がついていくのでこれぐらいがちょうど良さそうな気もする。キット作っていくだけだと色々流れていってしまうので。&lt;/p&gt;
+
+      </description>
+    </item>
     
     <item>
       <title>Blog: RaspberryPi Zeroでインターホン通知システムをリプレース</title>
