@@ -585,6 +585,8 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;pre&gt;&lt;code&gt;make claw44:default
+
+make claw44:oled # OLED使用する場合はこちら
 &lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
 &lt;li&gt;書き込み
 &lt;ul&gt;
@@ -593,6 +595,8 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;pre&gt;&lt;code&gt;make claw44:default:avrdude
+
+make claw44:oled:avrdude # OLED使用する場合はこちら
 &lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
 &lt;li&gt;下記のように、&amp;rdquo;&amp;hellip;&amp;ldquo;と出てきたら、&lt;/li&gt;
 &lt;/ul&gt;
