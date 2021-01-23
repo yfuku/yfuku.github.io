@@ -65,43 +65,43 @@
         &lt;h2 id=&#34;用意するもの&#34;&gt;用意するもの&lt;/h2&gt;
 &lt;p&gt;参考に購入サイトを併記していますが、その他の場所でも購入いただけます。&lt;/p&gt;
 &lt;h3 id=&#34;trs-or-trrsケーブル-1本&#34;&gt;TRS or TRRSケーブル: 1本&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;キーボードの左右間通信に使います&lt;/em&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://yushakobo.jp/shop/trrs_cable/&#34;&gt;TRRSケーブル 1m | 遊舎工房&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.amazon.co.jp/o/ASIN/B06XF9JD5W/hoge0f-22/&#34;&gt;Awinnerオーディオステレオケーブル | Amazon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.amazon.co.jp/s?k=trrs%E3%82%B1%E3%83%BC%E3%83%96%E3%83%AB&#34;&gt;Amazonで検索&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;マイクロusbケーブル1本&#34;&gt;マイクロUSBケーブル：1本&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;PCとの接続に使います&lt;/em&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://yushakobo.jp/shop/usb_cable_micro_b/&#34;&gt;USBケーブル Micro B 1m | 遊舎工房&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;キースイッチmx互換-44個&#34;&gt;キースイッチ（MX互換）: 44個&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;キーの入力を検知するスイッチです。様々な種類があります。&lt;/em&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://yushakobo.jp/product-category/switches/&#34;&gt;Switches | 遊舎工房&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://talpkeyboard.stores.jp/?category_id=59cf8860ed05e668db003f5d&#34;&gt;KEYSWITCH | TALP KEYBOARD&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://eucalyn.shop/product-category/keyswitches&#34;&gt;SWITCHES | ゆかりキーボードファクトリー&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;キーキャップ1u-42個125u-2個1uで代用する場合は1u44個&#34;&gt;キーキャップ　1U: 42個、1.25U 2個（1Uで代用する場合は1U：44個）&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;キースイッチに載せて実際に打鍵する部品になります。こちらも様々な種類があります&lt;/em&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://yushakobo.jp/product-category/keycaps/&#34;&gt;Keycaps | 遊舎工房&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://talpkeyboard.stores.jp/?category_id=59be183f428f2d49120007b1&#34;&gt;KEYCAP SET | TALP KEYBOARD&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://make.dmm.com/item/1071048/&#34;&gt;Claw44 の親指 - DMM.make クリエイターズマーケット&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;oledモジュールピンソケット付き-2-個-オプション&#34;&gt;OLEDモジュール(ピンソケット付き): 2 個 （オプション）&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;小さな液晶にキー入力の情報やロゴなどが表示できます。必須ではありません。&lt;/em&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://yushakobo.jp/shop/oled/&#34;&gt;OLEDモジュール | 遊舎工房&lt;/a&gt; ※ピンソケット付きを選んでください&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;工具&#34;&gt;工具&lt;/h2&gt;
+&lt;h2 id=&#34;必要な工具&#34;&gt;必要な工具&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;下記の記事などを参考に工具を用意してください。
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://gist.github.com/mtei/6957107a676ddfa85bde0ae41f8fa849&#34;&gt;キーボード自作、特に Helix キーボードキットの製作に最低必要な工具のメモ&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;../../../blog/keyboard/keybord_build_tool&#34;&gt;自作キーボードの組み立てに使っている工具&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h2 id=&#34;ファームウェア&#34;&gt;ファームウェア&lt;/h2&gt;
-&lt;p&gt;キットに付属のProMicroはファームウェアが書き込まれているため、そのまま使用できます。
-キーマップを変更する時にはファームウェアを書き込む環境が必要になるため、早めに準備しておくことをおすすめします。
-詳細は&lt;a href=&#34;../firmware&#34;&gt;こちら&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;キットに付属のProMicroはファームウェアが書き込まれているため、そのまま使用できます。&lt;br&gt;
+キーマップを変更する場合はPC側の設定など必要になるので、&lt;a href=&#34;../10_firmware&#34;&gt;10. ファームウェア&lt;/a&gt;のページは事前に目を通し、できることは先にやっておきましょう。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;a href=&#34;../3_build&#34;&gt;→ 3.組み立て&lt;/a&gt;&lt;/p&gt;
 
@@ -153,7 +153,7 @@
 &lt;li&gt;ダイオードは各キースイッチの動作を正しく認識するためにつけます&lt;/li&gt;
 &lt;li&gt;ダイオードには向きがあります（一方向にしか電流を流さない）&lt;/li&gt;
 &lt;li&gt;ダイオードの向きが逆だと、対応するキースイッチが反応しないので向きに注意してください&lt;/li&gt;
-&lt;li&gt;SMDダイオードも使用可能です&lt;/li&gt;
+&lt;li&gt;通常よりコンパクトなSMDダイオードも使用可能ですが、ハンダ付けには慣れが必要です&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;ダイオードを折り曲げる&#34;&gt;ダイオードを折り曲げる&lt;/h2&gt;
 &lt;ul&gt;
@@ -317,6 +317,7 @@
 &lt;h2 id=&#34;キースイッチ用スケットを取り付ける&#34;&gt;キースイッチ用スケットを取り付ける&lt;/h2&gt;
 &lt;p&gt;キースイッチ用ソケットは裏面に取り付けます。&lt;/p&gt;
 &lt;h3 id=&#34;裏面rightback-leftbackが見える面を上に向けます&#34;&gt;裏面（&amp;ldquo;Right/Back&amp;rdquo;, &amp;ldquo;Left/Back&amp;quot;が見える面）を上に向けます。&lt;/h3&gt;
+&lt;p&gt;先ほど取り付けたダイオードが見えていればOKです&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;images/20200320091951.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;パッドに予備ハンダをつける&#34;&gt;パッドに予備ハンダをつける&lt;/h3&gt;
 &lt;p&gt;最初にパッドに半田付けしていきます。
@@ -331,10 +332,12 @@
 ピンセットなどで抑えつつ、両端のハンダを溶かして密着させます。&lt;br&gt;
 ハンダごてを離してから、ハンダが固まるのを数秒待ちます。&lt;br&gt;
 （固まらないうちに離すと浮いてしまう場合があります）&lt;br&gt;
+&lt;b&gt;&lt;span style=&#34;color: #ff5252&#34;&gt;※気をつけていても穴を塞いでいる時があるので、ハンダ付けする前に再度チェックを！&lt;/span&gt;&lt;/b&gt;
 &lt;img src=&#34;socket1.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;socket2.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;ソケットの取り付け完了&#34;&gt;ソケットの取り付け完了&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&#34;images/20200320103223.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;※ソケットのハンダ付けも色々やり方はあるのでお好みで行ってください。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;a href=&#34;../6_otherparts&#34;&gt;→ 6. TRRSジャック、リセットスイッチの取り付け&lt;/a&gt;&lt;/p&gt;
 
@@ -479,6 +482,7 @@
 &lt;p&gt;&lt;img src=&#34;images/20200320162304.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;images/20200320162307.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;スペーサーに脱落防止用の黒い輪っかをつける&#34;&gt;スペーサーに脱落防止用の黒い輪っかをつける&lt;/h3&gt;
+&lt;p&gt;※多少きつい場合があります。どうしても入らない場合はヤスリなどで軽く削ってください。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;images/20200320162401.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;images/20200320162555.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;トッププレートにpcbを重ねる&#34;&gt;トッププレートにPCBを重ねる&lt;/h3&gt;
@@ -505,9 +509,9 @@
 &lt;span style=&#34;color: #ff0000&#34;&gt;&lt;b&gt;※ボトムプレートをつけてしまうと、はずさないと付けられないので注意！&lt;br /&gt;※ボトムプレートの前に作業をしてください！&lt;/b&gt;&lt;/span&gt;&lt;br&gt;
 （自分もいまだによくやるのでご注意を）
 &lt;img src=&#34;images/20200320155552.jpg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
-&lt;li&gt;上にスペーサー
+&lt;li&gt;上にスペーサー&lt;br&gt;
 &lt;img src=&#34;images/20200320155221.jpg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
-&lt;li&gt;下からネジを取り付ける
+&lt;li&gt;下からネジを締める&lt;br&gt;
 &lt;img src=&#34;images/20200320155228.jpg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;ボトムプレートの取り付け&#34;&gt;ボトムプレートの取り付け&lt;/h2&gt;
@@ -547,112 +551,97 @@
 &lt;p&gt;&lt;img src=&#34;images/20200320163133.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;usbケーブルとtrstrrsケーブルをつけて完成&#34;&gt;USBケーブルとTRS(TRRS)ケーブルをつけて完成！&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&#34;images/20200320164310.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;おつかれさまでした！&lt;/p&gt;
+&lt;p&gt;組み立ては以上になります。&lt;br&gt;
+おつかれさまでした！&lt;/p&gt;
+&lt;p&gt;デフォルトのキーマップは一つの例でしかないので、ぜひ自分好みのキーマップを追求してみてください！&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;../10_firmware&#34;&gt;→ 10. ファームウェア&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
-      <title>Claw44: ファームウェア</title>
-      <link>https://yfuku.com/claw44/buildguide/firmware/</link>
+      <title>Claw44: 10. ファームウェア</title>
+      <link>https://yfuku.com/claw44/buildguide/10_firmware/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/claw44/buildguide/firmware/</guid>
+      <guid>https://yfuku.com/claw44/buildguide/10_firmware/</guid>
       <description>
         
         
-        &lt;p&gt;ひとまずこの手順をスキップもできますが、自分好みのキーマップにカスタマイズできるように環境構築しておくことをオススメします。&lt;/p&gt;
+        &lt;p&gt;ハードウェアの準備は終わったので、ソフトウェア側に入っていきます。&lt;br&gt;
+1回できるようになってしまえばキーマップの追求に集中できるので頑張っていきましょう！&lt;/p&gt;
+&lt;p style=&#34;font-size: 80%; line-height: 1.5;&#34;&gt;
+&lt;span&gt;
+※わかりやすさのためにおおざっぱな説明があります。気になる表現などありましたらご連絡ください。
+&lt;/span&gt;
+&lt;/p&gt;
 &lt;h2 id=&#34;知っておきたいこと&#34;&gt;知っておきたいこと&lt;/h2&gt;
+&lt;h3 id=&#34;マイコン&#34;&gt;マイコン&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.qmk.fm/#/&#34;&gt;QMK Firmware&lt;/a&gt;というオープンソースライブラリを使用しています&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;書き込み環境の構築&#34;&gt;書き込み環境の構築&lt;/h2&gt;
+&lt;li&gt;キースイッチが押された時に、どのキーが入力されたかをPCに伝える必要があります
 &lt;ul&gt;
-&lt;li&gt;下記の記事などを参考に書き込み環境を構築してください。
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.qmk.fm/#/ja/newbs_getting_started&#34;&gt;QMK Farmware Getting Started&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://qiita.com/cactusman/items/ac41993d1682c6d8a12e&#34;&gt;プログラマーではない人向けのQMK Firmware入門 - Qiita&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;（もうちょっと複雑なこともしますが）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;このような処理をするのに頭脳となるコンピュータが必要になります&lt;/li&gt;
+&lt;li&gt;Claw44ではProMicroというマイコン（マイクロコンピュータ）を使用しています&lt;/li&gt;
+&lt;li&gt;↓これです
+&lt;img src=&#34;https://yfuku.com/claw44/buildguide/7_promicro/images/20190401164322.jpg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;書き込み&#34;&gt;書き込み&lt;/h2&gt;
+&lt;h3 id=&#34;ファームウェア&#34;&gt;ファームウェア&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;ProMicroをUSBで接続してください&lt;/li&gt;
-&lt;li&gt;ビルド
-&lt;ul&gt;
-&lt;li&gt;コマンド実行&lt;/li&gt;
+&lt;li&gt;マイコンを動かすためには、アプリのようなものを入れてあげなくてはいけません&lt;/li&gt;
+&lt;li&gt;マイコン用のアプリのことをファームウェアと呼びます&lt;/li&gt;
+&lt;li&gt;Claw44ではQMKというオープンソースのファームウェアを使用しています&lt;/li&gt;
+&lt;li&gt;Claw44に付属の「ProMicro」には「Claw44用に設定されたQMK」が入った状態になっています&lt;/li&gt;
+&lt;li&gt;QMKについては、&lt;a href=&#34;https://docs.qmk.fm/#/ja/&#34;&gt;公式ドキュメント&lt;/a&gt; を参考にしてください。有志の方の翻訳のおかげで、かなりの部分が日本語で読めます。ありがとうございます！&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
+&lt;h3 id=&#34;キーマップ&#34;&gt;キーマップ&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;キーマップとは、どのキーを押したらどのキーが入力されるか、という設定のことです&lt;/li&gt;
+&lt;li&gt;上記の「Claw44用に設定されたQMK」には、デフォルトのキーマップが既に入っています&lt;/li&gt;
+&lt;li&gt;しかし、このままでは最初に設定されているキーマップでしか使用できません&lt;/li&gt;
+&lt;li&gt;キーマップを変更することで、例えばスペースキーを割り当てていたキーをエンターキーに変更したりすることができます&lt;/li&gt;
+&lt;li&gt;デフォルトのキーマップは例でしかないので、自分に合ったキーマップを作っていきましょう！&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;まとめるとこんな感じです&#34;&gt;まとめるとこんな感じです&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;./firmware.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;キーマップを変更する&#34;&gt;キーマップを変更する&lt;/h2&gt;
+&lt;p&gt;キーマップを変更するためのツールを使います。&lt;br&gt;
+下記の2つがあるのですが、特別な理由がなければVIAを使用してみてください。&lt;/p&gt;
+&lt;h3 id=&#34;via&#34;&gt;VIA&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;./via/&#34;&gt;→ VIAでキーマップを変更する&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;qmk-configurator&#34;&gt;QMK Configurator&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.qmk.fm/#/ja/newbs_building_firmware_configurator&#34;&gt;公式ドキュメント&lt;/a&gt;を参照ください&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ファームウェアを変更する&#34;&gt;ファームウェアを変更する&lt;/h2&gt;
+&lt;p&gt;ここから先はVIAに慣れてからでも良いと思います。&lt;br&gt;
+初めての方はさらっと流し読みしておいてください。&lt;/p&gt;
+&lt;p&gt;QMKの機能のうち、VIAが変更できる範囲はこのようなイメージです。&lt;br&gt;
+（キーマップ＋レイアウトやライトニングなどの機能。今後、増えていく可能性もあります）
+&lt;img src=&#34;./via.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;キーマップを設定していく中で、機能の精度がしっくりこない、もっと違う機能を入れたいなどが出てくると思います。&lt;br&gt;
+その場合に、VIAでは対応できない範囲が出てくるので、自分でファームウェアを作成することになります。&lt;br&gt;
+プログラミングの知識が多少必要だったりするので少しハードルは高いですが、より良い体験を目指してがんばってみましょう！&lt;br&gt;
+※ソフトウェアエンジニアの方は最初からこちらの方がしっくりくるかもしれないです。&lt;/p&gt;
+&lt;!--
+### ある程度設定されたファームウェアを使う
+とはいっても、作者自体も使っている機能は少なかったりするので、限定的ですがあらかじめ設定がされたファームウェアを用意しました。
+ファームウェアの書き込みは必要になりますが、興味のある方は試してみてください。  
+--&gt;
+&lt;p&gt;&lt;a href=&#34;https://yfuku.com/claw44/firmware/&#34;&gt;ファームウェア置き場&lt;/a&gt;からhexファイルをダウンロードして、&lt;a href=&#34;../toolbox/&#34;&gt;QMK Toolboxでファームウェアを書き込む&lt;/a&gt; を参考に書き込みを行ってください。&lt;/p&gt;
+&lt;h3 id=&#34;自分でファームウェアを作る方法&#34;&gt;自分でファームウェアを作る方法&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.qmk.fm/#/ja/newbs&#34;&gt;公式ドキュメント&lt;/a&gt;を参照ください&lt;/li&gt;
+&lt;li&gt;QMK公式のリポジトリにはdefaultキーマップとOLEDを使用する機能が入ったoledというキーマップが用意されています。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;pre&gt;&lt;code&gt;make claw44:default
-
 make claw44:oled # OLED使用する場合はこちら
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
-&lt;li&gt;書き込み
-&lt;ul&gt;
-&lt;li&gt;コマンド実行&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;make claw44:default:avrdude
-
-make claw44:oled:avrdude # OLED使用する場合はこちら
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
-&lt;li&gt;下記のように、&amp;rdquo;&amp;hellip;&amp;ldquo;と出てきたら、&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;Checking file size of claw44_rev1_default.hex                                                       [OK]
- * The firmware size is fine - 20168/28672 (8504 bytes free)
-Detecting USB port, reset your controller now....
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
-&lt;li&gt;画像のGNDとRSTと書かれている下の丸同士をピンセットなどでショートさせてください。
-（ProMicroをキーボードに組み込み済みの場合は、リセットスイッチを2回押してください。）
-&lt;img src=&#34;images/20190402072348.jpg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
-&lt;li&gt;下記のように表示されれば書き込み成功です&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;Device /dev/tty.usbmodem146201 has appeared; assuming it is the controller.
-Waiting for /dev/tty.usbmodem146201 to become writable.
-
-Connecting to programmer: .
-Found programmer: Id = &amp;quot;CATERIN&amp;quot;; type = S
-    Software Version = 1.0; No Hardware Version given.
-Programmer supports auto addr increment.
-Programmer supports buffered memory access with buffersize=128 bytes.
-
-Programmer supports the following devices:
-    Device code: 0x44
-
-avrdude: AVR device initialized and ready to accept instructions
-
-Reading | ################################################## | 100% 0.00s
-
-avrdude: Device signature = 0x1e9587 (probably m32u4)
-avrdude: NOTE: &amp;quot;flash&amp;quot; memory has been specified, an erase cycle will be performed
-         To disable this feature, specify the -D option.
-avrdude: erasing chip
-avrdude: reading input file &amp;quot;.build/claw44_rev1_default.hex&amp;quot;
-avrdude: input file .build/claw44_rev1_default.hex auto detected as Intel Hex
-avrdude: writing flash (20168 bytes):
-
-Writing | ################################################## | 100% 1.54s
-
-avrdude: 20168 bytes of flash written
-avrdude: verifying flash memory against .build/claw44_rev1_default.hex:
-avrdude: load data flash data from input file .build/claw44_rev1_default.hex:
-avrdude: input file .build/claw44_rev1_default.hex auto detected as Intel Hex
-avrdude: input file .build/claw44_rev1_default.hex contains 20168 bytes
-avrdude: reading on-chip flash data:
-
-Reading | ################################################## | 100% 0.18s
-
-avrdude: verifying ...
-avrdude: 20168 bytes of flash verified
-
-avrdude: safemode: Fuses OK (E:FB, H:D8, L:FF)
-
-avrdude done.  Thank you.
-&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
-&lt;p&gt;&lt;a href=&#34;../3_build&#34;&gt;→ 3.組み立て&lt;/a&gt;&lt;/p&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
       </description>
     </item>
     
