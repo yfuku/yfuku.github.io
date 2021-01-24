@@ -595,7 +595,11 @@
 &lt;li&gt;マイコン用のアプリのことをファームウェアと呼びます&lt;/li&gt;
 &lt;li&gt;Claw44ではQMKというオープンソースのファームウェアを使用しています&lt;/li&gt;
 &lt;li&gt;Claw44に付属の「ProMicro」には「Claw44用に設定されたQMK」が入った状態になっています&lt;/li&gt;
-&lt;li&gt;QMKについては、&lt;a href=&#34;https://docs.qmk.fm/#/ja/&#34;&gt;公式ドキュメント&lt;/a&gt; を参考にしてください。有志の方の翻訳のおかげで、かなりの部分が日本語で読めます。ありがとうございます！&lt;/li&gt;
+&lt;li&gt;QMKについては、&lt;a href=&#34;https://docs.qmk.fm/#/ja/&#34;&gt;公式ドキュメント&lt;/a&gt; を参考にしてください。
+&lt;ul&gt;
+&lt;li&gt;有志の方の翻訳のおかげで、かなりの部分が日本語で読めます。ありがとうございます！&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;キーマップ&#34;&gt;キーマップ&lt;/h3&gt;
 &lt;ul&gt;
@@ -603,7 +607,8 @@
 &lt;li&gt;上記の「Claw44用に設定されたQMK」には、デフォルトのキーマップが既に入っています&lt;/li&gt;
 &lt;li&gt;しかし、このままでは最初に設定されているキーマップでしか使用できません&lt;/li&gt;
 &lt;li&gt;キーマップを変更することで、例えばスペースキーを割り当てていたキーをエンターキーに変更したりすることができます&lt;/li&gt;
-&lt;li&gt;デフォルトのキーマップは例でしかないので、自分に合ったキーマップを作っていきましょう！&lt;/li&gt;
+&lt;li&gt;デフォルトのキーマップは例でしかないので、自分に合ったキーマップを作っていきましょう！
+&lt;img src=&#34;./keymap.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;まとめるとこんな感じです&#34;&gt;まとめるとこんな感じです&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&#34;./firmware.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
@@ -618,9 +623,11 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://docs.qmk.fm/#/ja/newbs_building_firmware_configurator&#34;&gt;公式ドキュメント&lt;/a&gt;を参照ください&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;ファームウェアを変更する&#34;&gt;ファームウェアを変更する&lt;/h2&gt;
+&lt;hr&gt;
 &lt;p&gt;ここから先はVIAに慣れてからでも良いと思います。&lt;br&gt;
 初めての方はさらっと流し読みしておいてください。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;ファームウェアを変更する&#34;&gt;ファームウェアを変更する&lt;/h2&gt;
 &lt;p&gt;QMKの機能のうち、VIAが変更できる範囲はこのようなイメージです。&lt;br&gt;
 （キーマップ＋レイアウトやライトニングなどの機能。今後、増えていく可能性もあります）
 &lt;img src=&#34;./via.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
@@ -628,20 +635,17 @@
 その場合に、VIAでは対応できない範囲が出てくるので、自分でファームウェアを作成することになります。&lt;br&gt;
 プログラミングの知識が多少必要だったりするので少しハードルは高いですが、より良い体験を目指してがんばってみましょう！&lt;br&gt;
 ※ソフトウェアエンジニアの方は最初からこちらの方がしっくりくるかもしれないです。&lt;/p&gt;
-&lt;!--
-### ある程度設定されたファームウェアを使う
-とはいっても、作者自体も使っている機能は少なかったりするので、限定的ですがあらかじめ設定がされたファームウェアを用意しました。
-ファームウェアの書き込みは必要になりますが、興味のある方は試してみてください。  
---&gt;
-&lt;p&gt;&lt;a href=&#34;https://yfuku.com/claw44/firmware/&#34;&gt;ファームウェア置き場&lt;/a&gt;からhexファイルをダウンロードして、&lt;a href=&#34;../toolbox/&#34;&gt;QMK Toolboxでファームウェアを書き込む&lt;/a&gt; を参考に書き込みを行ってください。&lt;/p&gt;
+&lt;h3 id=&#34;ある程度設定されたファームウェアを使う&#34;&gt;ある程度設定されたファームウェアを使う&lt;/h3&gt;
+&lt;p&gt;とはいっても、作者自体も使っている機能は少なかったりするので、限定的ですが、あらかじめ設定がされたファームウェアを用意しました。
+ファームウェアの書き込みは必要になりますが、興味のある方は試してみてください。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;./prefirmware/&#34;&gt;あらかじめ設定されたファームウェアを書き込む&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id=&#34;自分でファームウェアを作る方法&#34;&gt;自分でファームウェアを作る方法&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.qmk.fm/#/ja/newbs&#34;&gt;公式ドキュメント&lt;/a&gt;を参照ください&lt;/li&gt;
-&lt;li&gt;QMK公式のリポジトリにはdefaultキーマップとOLEDを使用する機能が入ったoledというキーマップが用意されています。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;./build/&#34;&gt;自分でファームウェアを作る&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;make claw44:default
-make claw44:oled # OLED使用する場合はこちら
-&lt;/code&gt;&lt;/pre&gt;
+
       </description>
     </item>
     

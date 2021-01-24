@@ -32,7 +32,7 @@
 &lt;img src=&#34;./need-firmware.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Claw44は&lt;a href=&#34;https://yfuku.booth.pm/items/1283873&#34;&gt;BOOTH&lt;/a&gt;と&lt;a href=&#34;https://yushakobo.jp/shop/consign_claw44-v2/&#34;&gt;遊舎工房&lt;/a&gt;で販売しているのですが、ファームウェアの状態が違うのでご注意ください&lt;/p&gt;
+&lt;p&gt;Claw44は&lt;a href=&#34;https://yfuku.booth.pm/items/1283873&#34;&gt;BOOTH&lt;/a&gt;と&lt;a href=&#34;https://yushakobo.jp/shop/consign_claw44-v2/&#34;&gt;遊舎工房&lt;/a&gt;で販売しているのですが、現時点ではファームウェアの状態が違うのでご注意ください&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;2021/01/23以降のBOOTH販売分
 &lt;ul&gt;
@@ -48,7 +48,7 @@
 &lt;li&gt;&lt;a href=&#34;../toolbox/&#34;&gt;QMK Toolboxでファームウェアを書き込む&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;（遊舎工房では次回納品分からVIA対応ファームウェアにしていきます）&lt;/li&gt;
+&lt;li&gt;遊舎工房は次回納品分からVIA対応ファームウェアにしていきます&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -132,6 +132,61 @@
     </item>
     
     <item>
+      <title>Claw44: あらかじめ修正されたファームウェアを書き込む</title>
+      <link>https://yfuku.com/claw44/buildguide/10_firmware/prefirmware/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfuku.com/claw44/buildguide/10_firmware/prefirmware/</guid>
+      <description>
+        
+        
+        &lt;p&gt;作者がClaw44を使う上で設定をしている項目が2つあります。&lt;br&gt;
+（詳しい説明は公式ドキュメントを確認してください。）&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.qmk.fm/#/ja/tap_hold?id=%e3%82%bf%e3%83%83%e3%83%94%e3%83%b3%e3%82%b0%e6%99%82%e9%96%93&#34;&gt;TAPPING_TERM&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.qmk.fm/#/ja/tap_hold?id=%e3%83%a2%e3%83%83%e3%83%89%e3%82%bf%e3%83%83%e3%83%97%e5%89%b2%e3%82%8a%e8%be%bc%e3%81%bf%e3%81%ae%e7%84%a1%e8%a6%96&#34;&gt;IGNORE_MOD_TAP_INTERRUPT&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;あと、設定項目としてはOLEDの有無もあるので、この3つの状態を設定済みのファームウェアをgithubに置いておきます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/yfuku/claw44/tree/master/firmware/rev1&#34;&gt;claw44/firmware/rev1 at master · yfuku/claw44&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ファームウェアのファイルを特定する&#34;&gt;ファームウェアのファイルを特定する&lt;/h2&gt;
+&lt;h3 id=&#34;oledの有無&#34;&gt;OLEDの有無&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;最初にディレクトリ単位で分けてあるので、
+&lt;ul&gt;
+&lt;li&gt;OLEDなし→&lt;a href=&#34;https://github.com/yfuku/claw44/tree/master/firmware/rev1/default&#34;&gt;claw44/firmware/rev1/default&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;OLEDあり→&lt;a href=&#34;https://github.com/yfuku/claw44/tree/master/firmware/rev1/oled&#34;&gt;claw44/firmware/rev1/oled&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;tapping_termの設定&#34;&gt;TAPPING_TERMの設定&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;このディレクトリ直下にあるものは、TAPPING_TERMのみ追加されています&lt;/li&gt;
+&lt;li&gt;例えば、&lt;code&gt;claw44_rev1_via-default-100.hex&lt;/code&gt;であれば、TAPPING_TERMが100に設定されています&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ignore_mod_tap_interrupt&#34;&gt;IGNORE_MOD_TAP_INTERRUPT&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;IGNORE_MOD_TAP_INTERRUPTを指定したい場合はさらに、ignore_mod_tap_interruptディレクトリに行ってください&lt;/li&gt;
+&lt;li&gt;例えば、&lt;code&gt;claw44_rev1_via-default-imti-100.hex&lt;/code&gt;であれば、IGNORE_MOD_TAP_INTERRUPTとTAPPING_TERMが100に設定されています&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ファームウェアをダウンロードする&#34;&gt;ファームウェアをダウンロードする&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;gitのがわかる方はcloneなどしてください&lt;/li&gt;
+&lt;li&gt;よくわからない方は、&lt;a href=&#34;https://github.com/yfuku/claw44&#34;&gt;yfuku/claw44&lt;/a&gt;このページから、下記のようにzipファイルをダウンロードしてください。
+&lt;img src=&#34;./github.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;li&gt;個別のファイルをダウンロードする場合は、「raw」の部分を右クリックして保存してください
+&lt;img src=&#34;./raw.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ファームウェアの書き込み&#34;&gt;ファームウェアの書き込み&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../toolbox/&#34;&gt;QMK Toolboxでファームウェアを書き込む&lt;/a&gt; を行ってください&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Claw44: QMK Toolboxでファームウェアを書き込む</title>
       <link>https://yfuku.com/claw44/buildguide/10_firmware/toolbox/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -200,6 +255,28 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://docs.qmk.fm/#/ja/&#34;&gt;QMK公式ドキュメント&lt;/a&gt;を参照して書き込み環境を構築してください&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&#34;キーマップの修正&#34;&gt;キーマップの修正&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;下記のディレクトリをコピーして、自分用のkeymapのフォルダを作成して修正してください
+&lt;ul&gt;
+&lt;li&gt;OLEDなし
+&lt;ul&gt;
+&lt;li&gt;keyboards/claw44/keymaps/default/&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;OLEDあり
+&lt;ul&gt;
+&lt;li&gt;keyboards/claw44/keymaps/oled/&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;keyboards/claw44/keymaps/mykeymapなどとする
+&lt;ul&gt;
+&lt;li&gt;（mykeymapの部分はなんでもいいです。自分はyfukuとしてます。）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;書き込み&#34;&gt;書き込み&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;ビルド
@@ -208,9 +285,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;make claw44:default
-
-make claw44:oled # OLED使用する場合はこちら
+&lt;pre&gt;&lt;code&gt;make claw44:mykeymap
 &lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
 &lt;li&gt;書き込み
 &lt;ul&gt;
@@ -218,9 +293,7 @@ make claw44:oled # OLED使用する場合はこちら
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;make claw44:default:avrdude
-
-make claw44:oled:avrdude # OLED使用する場合はこちら
+&lt;pre&gt;&lt;code&gt;make claw44:mykeymap:avrdude
 &lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
 &lt;li&gt;下記のように、&amp;rdquo;&amp;hellip;&amp;ldquo;と出てきたら、&lt;/li&gt;
 &lt;/ul&gt;
@@ -231,7 +304,7 @@ Detecting USB port, reset your controller now....
 &lt;li&gt;画像のGNDとRSTと書かれている下の丸同士をピンセットなどでショートさせてください。
 （ProMicroをキーボードに組み込み済みの場合は、リセットスイッチを2回押してください。）
 &lt;img src=&#34;images/20190402072348.jpg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
-&lt;li&gt;下記のように表示されれば書き込み成功です&lt;/li&gt;
+&lt;li&gt;下記のように表示され、最後に&lt;code&gt;avrdude done.  Thank you.&lt;/code&gt;が表示されれば成功です！&lt;/li&gt;
 &lt;/ul&gt;
 &lt;pre&gt;&lt;code&gt;Device /dev/tty.usbmodem146201 has appeared; assuming it is the controller.
 Waiting for /dev/tty.usbmodem146201 to become writable.

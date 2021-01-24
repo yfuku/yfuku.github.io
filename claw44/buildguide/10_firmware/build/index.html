@@ -457,6 +457,29 @@ if (!doNotTrack) {
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
+    <a  href="/claw44/buildguide/10_firmware/prefirmware/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">あらかじめ修正されたファームウェアを書き込む</a>
+  </li>
+  <ul>
+    <li class="collapse " id="claw44buildguide10_firmwareprefirmware">
+      
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
     <a  href="/claw44/buildguide/10_firmware/toolbox/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">QMK Toolboxでファームウェアを書き込む</a>
   </li>
   <ul>
@@ -734,6 +757,28 @@ if (!doNotTrack) {
 <ul>
 <li><a href="https://docs.qmk.fm/#/ja/">QMK公式ドキュメント</a>を参照して書き込み環境を構築してください</li>
 </ul>
+<h2 id="キーマップの修正">キーマップの修正</h2>
+<ul>
+<li>下記のディレクトリをコピーして、自分用のkeymapのフォルダを作成して修正してください
+<ul>
+<li>OLEDなし
+<ul>
+<li>keyboards/claw44/keymaps/default/</li>
+</ul>
+</li>
+<li>OLEDあり
+<ul>
+<li>keyboards/claw44/keymaps/oled/</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>keyboards/claw44/keymaps/mykeymapなどとする
+<ul>
+<li>（mykeymapの部分はなんでもいいです。自分はyfukuとしてます。）</li>
+</ul>
+</li>
+</ul>
 <h2 id="書き込み">書き込み</h2>
 <ul>
 <li>ビルド
@@ -742,9 +787,7 @@ if (!doNotTrack) {
 </ul>
 </li>
 </ul>
-<pre><code>make claw44:default
-
-make claw44:oled # OLED使用する場合はこちら
+<pre><code>make claw44:mykeymap
 </code></pre><ul>
 <li>書き込み
 <ul>
@@ -752,9 +795,7 @@ make claw44:oled # OLED使用する場合はこちら
 </ul>
 </li>
 </ul>
-<pre><code>make claw44:default:avrdude
-
-make claw44:oled:avrdude # OLED使用する場合はこちら
+<pre><code>make claw44:mykeymap:avrdude
 </code></pre><ul>
 <li>下記のように、&rdquo;&hellip;&ldquo;と出てきたら、</li>
 </ul>
@@ -765,7 +806,7 @@ Detecting USB port, reset your controller now....
 <li>画像のGNDとRSTと書かれている下の丸同士をピンセットなどでショートさせてください。
 （ProMicroをキーボードに組み込み済みの場合は、リセットスイッチを2回押してください。）
 <img src="images/20190402072348.jpg" alt=""></li>
-<li>下記のように表示されれば書き込み成功です</li>
+<li>下記のように表示され、最後に<code>avrdude done.  Thank you.</code>が表示されれば成功です！</li>
 </ul>
 <pre><code>Device /dev/tty.usbmodem146201 has appeared; assuming it is the controller.
 Waiting for /dev/tty.usbmodem146201 to become writable.
@@ -815,6 +856,8 @@ avrdude done.  Thank you.
     
     
     <hr class="panel-line">
+        
+            
         
             
         
