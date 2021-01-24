@@ -114,8 +114,10 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;キーマップの変更についてはサリチル酸さんがとても丁寧にまとめてくださっているので、↓が参考になると思います。
-&lt;a href=&#34;https://salicylic-acid3.hatenablog.com/entry/via-manual#%E3%82%AD%E3%83%BC%E3%83%9E%E3%83%83%E3%83%97%E3%82%92%E5%A4%89%E6%9B%B4%E3%81%99%E3%82%8B&#34;&gt;（初心者編）VIAを使ってキーマップを書き換えよう - 自作キーボード温泉街の歩き方&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;キーマップの変更についてはサリチル酸さんがとても丁寧にまとめてくださっているので、↓がとても参考にります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://salicylic-acid3.hatenablog.com/entry/via-manual#%E3%82%AD%E3%83%BC%E3%83%9E%E3%83%83%E3%83%97%E3%82%92%E5%A4%89%E6%9B%B4%E3%81%99%E3%82%8B&#34;&gt;（初心者編）VIAを使ってキーマップを書き換えよう - 自作キーボード温泉街の歩き方&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;また、大元のQMKの機能については&lt;a href=&#34;https://docs.qmk.fm/#/ja/feature_advanced_keycodes&#34;&gt;公式ドキュメントの修飾キー&lt;/a&gt;辺りを読んでみると参考になると思います&lt;/p&gt;
@@ -153,7 +155,7 @@
 &lt;h2 id=&#34;ファームウェアのファイルを特定する&#34;&gt;ファームウェアのファイルを特定する&lt;/h2&gt;
 &lt;h3 id=&#34;oledの有無&#34;&gt;OLEDの有無&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;最初にディレクトリ単位で分けてあるので、
+&lt;li&gt;最初にディレクトリ単位で分けてあります。
 &lt;ul&gt;
 &lt;li&gt;OLEDなし→&lt;a href=&#34;https://github.com/yfuku/claw44/tree/master/firmware/rev1/default&#34;&gt;claw44/firmware/rev1/default&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;OLEDあり→&lt;a href=&#34;https://github.com/yfuku/claw44/tree/master/firmware/rev1/oled&#34;&gt;claw44/firmware/rev1/oled&lt;/a&gt;&lt;/li&gt;
