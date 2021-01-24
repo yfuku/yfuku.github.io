@@ -157,14 +157,14 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;hexファイルを読み込む&#34;&gt;hexファイルを読み込む&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/yfuku/claw44/master/firmware/rev1/claw44_rev1_via.hex&#34; download&gt;Claw44用のhexファイル(claw44_rev1_via.hex)&lt;/a&gt;をダウンロードします&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/yfuku/claw44/master/firmware/rev1/claw44_rev1_via.hex&#34; download=&#34;claw44_rev1_via.hex&#34;&gt;Claw44用のhexファイル(claw44_rev1_via.hex)&lt;/a&gt;をダウンロードします&lt;/li&gt;
 &lt;li&gt;Openをクリックして、ダウンロードしたhexファイルを指定します&lt;/li&gt;
 &lt;li&gt;Auto-Flashにチェックを入れます
 &lt;img src=&#34;./toolbox2.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;oledを使用する場合オプション&#34;&gt;OLEDを使用する場合（オプション）&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/yfuku/claw44/master/firmware/rev1/claw44_rev1_via-oled.hex&#34; download&gt;OLED用hexファイル(claw44_rev1_via-oled.hex)&lt;/a&gt;をダウンロードします&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/yfuku/claw44/master/firmware/rev1/claw44_rev1_via-oled.hex&#34; download=&#34;claw44_rev1_via-oled.hex&#34;&gt;OLED用hexファイル(claw44_rev1_via-oled.hex)&lt;/a&gt;をダウンロードします&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;ファームウェアを書き込む&#34;&gt;ファームウェアを書き込む&lt;/h2&gt;
 &lt;ul&gt;
