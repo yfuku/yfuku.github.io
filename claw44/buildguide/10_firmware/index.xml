@@ -300,7 +300,7 @@
 &lt;/ul&gt;
 &lt;pre&gt;&lt;code&gt;make claw44:mykeymap:avrdude
 &lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
-&lt;li&gt;下記のように、&amp;rdquo;&amp;hellip;&amp;ldquo;と出てきたら、&lt;/li&gt;
+&lt;li&gt;下記のように、&amp;quot;&amp;hellip;&amp;ldquo;と出てきたら、&lt;/li&gt;
 &lt;/ul&gt;
 &lt;pre&gt;&lt;code&gt;Checking file size of claw44_rev1_default.hex                                                       [OK]
  * The firmware size is fine - 20168/28672 (8504 bytes free)
