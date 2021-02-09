@@ -75,9 +75,16 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;設定ファイルを読み込む&#34;&gt;設定ファイルを読み込む&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;./claw44.json&#34; download=&#34;claw44.json&#34;&gt;設定ファイル(claw44.json)&lt;/a&gt;をダウンロードします&lt;/li&gt;
-&lt;li&gt;VIAのメニューから「Import Keymap」を選び、ダウンロードしたファイルを読み込ませます
-&lt;img src=&#34;./import-keymap.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;./claw44.json&#34; download=&#34;claw44.json&#34;&gt;設定ファイル(claw44.json)&lt;/a&gt;をダウンロードします&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;（設定移行中のため、↑で動かない場合は&lt;a href=&#34;./claw44-5946.json&#34; download=&#34;claw44-5946.json&#34;&gt;設定ファイル(claw44-5946.json)&lt;/a&gt;を試してください）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;VIAのメニューから「Import Keymap」を選び、ダウンロードしたファイルを読み込ませます
+&lt;img src=&#34;./import-keymap.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;※設定ファイルは起動するたびに、読み込ませる必要があります。&lt;br&gt;
 ※VIAのプラットフォームに設定ファイルが取り込まれるとこの作業は不要になるので、少々お待ちください。&lt;/p&gt;
