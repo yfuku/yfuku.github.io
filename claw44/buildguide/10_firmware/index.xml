@@ -32,25 +32,9 @@
 &lt;img src=&#34;./need-firmware.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Claw44は&lt;a href=&#34;https://yfuku.booth.pm/items/1283873&#34;&gt;BOOTH&lt;/a&gt;と&lt;a href=&#34;https://yushakobo.jp/shop/consign_claw44-v2/&#34;&gt;遊舎工房&lt;/a&gt;で販売しているのですが、現時点ではファームウェアの状態が違うのでご注意ください&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;2021/01/23以降のBOOTH販売分
-&lt;ul&gt;
-&lt;li&gt;VIA対応がされたファームウェアをProMicroに書き込み済みです&lt;/li&gt;
-&lt;li&gt;次へ進みましょう&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;その他
-&lt;ul&gt;
-&lt;li&gt;VIA対応がされていないファームウェアになります&lt;/li&gt;
-&lt;li&gt;VIAを使う場合はQMK Toolboxを使ってVIA対応ファームウェアを書き込む必要があります
+&lt;p&gt;VIAを使う場合はQMK Toolboxを使ってVIA対応ファームウェアを書き込む必要があります&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;../toolbox/&#34;&gt;QMK Toolboxでファームウェアを書き込む&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;遊舎工房は次回納品分からVIA対応ファームウェアにしていきます&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
