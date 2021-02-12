@@ -340,7 +340,7 @@ uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
 &lt;h2 id=&#34;claw44へ導入&#34;&gt;Claw44へ導入&lt;/h2&gt;
 &lt;p&gt;上記のドキュメントと、最新のv13uのキーマップを参考にClaw44でも使えるようにしました。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;コルネのv13uのキーマップ
+&lt;li&gt;コルネのv13uのキーマップ（readme.md必読）
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/eswai/qmk_firmware/tree/master/keyboards/crkbd/keymaps/naginata_v13u&#34;&gt;https://github.com/eswai/qmk_firmware/tree/master/keyboards/crkbd/keymaps/naginata_v13u&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -397,6 +397,13 @@ uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
 &lt;li&gt;ソースコードだけいじって、自分自身が薙刀式を使えてないのでちゃんと動くかわからないですが、これから練習して検証していきます&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;※ コミットが汚くてすいませぬ・・・&lt;/p&gt;
+&lt;h3 id=&#34;todo&#34;&gt;TODO&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;薙刀式を練習する&lt;/li&gt;
+&lt;li&gt;薙刀式用の切り替え操作の把握、キーマップへの埋め込み&lt;/li&gt;
+&lt;li&gt;naginata_v13u.cを読む&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
       </description>
     </item>
