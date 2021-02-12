@@ -396,6 +396,7 @@ uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
 &lt;/li&gt;
 &lt;li&gt;ソースコードだけいじって、自分自身が薙刀式を使えてないのでちゃんと動くかわからないですが、これから練習して検証していきます&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;※ コミットが汚くてすいませぬ・・・&lt;/p&gt;
 
       </description>
     </item>
