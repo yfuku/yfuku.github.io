@@ -7,7 +7,7 @@
 
 <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
 
-<link rel="alternate" type="application/rss&#43;xml" href="https://yfuku.com/claw44/bmp/index.xml">
+<link rel="alternate" type="application/rss&#43;xml" href="https://yfuku.com/claw44/keymap/keymap_build/index.xml">
 
 
 <link rel="shortcut icon" href="/favicons/favicon.ico" >
@@ -21,15 +21,15 @@
 <link rel="icon" type="image/png" href="/favicons/android-144x144.png" sizes="144x144">
 <link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
 
-<title>無線接続について | yfuku docs</title><meta property="og:title" content="無線接続について" />
+<title>VIAでClaw44でキーマップの構築してみる | yfuku docs</title><meta property="og:title" content="VIAでClaw44でキーマップの構築してみる" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://yfuku.com/claw44/bmp/" />
-<meta property="og:updated_time" content="2019-06-26T10:00:00+09:00" />
-<meta itemprop="name" content="無線接続について">
+<meta property="og:url" content="https://yfuku.com/claw44/keymap/keymap_build/" />
+
+<meta itemprop="name" content="VIAでClaw44でキーマップの構築してみる">
 <meta itemprop="description" content="">
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="無線接続について"/>
+<meta name="twitter:title" content="VIAでClaw44でキーマップの構築してみる"/>
 <meta name="twitter:description" content=""/>
 
 
@@ -539,10 +539,10 @@ if (!doNotTrack) {
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/claw44/keymap/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">キーマップ</a>
+    <a  href="/claw44/keymap/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">キーマップ</a>
   </li>
   <ul>
-    <li class="collapse " id="claw44keymap">
+    <li class="collapse show" id="claw44keymap">
       
       
       
@@ -556,10 +556,10 @@ if (!doNotTrack) {
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/claw44/keymap/keymap_build/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">VIAでClaw44でキーマップの構築してみる</a>
+    <a  href="/claw44/keymap/keymap_build/" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">VIAでClaw44でキーマップの構築してみる</a>
   </li>
   <ul>
-    <li class="collapse " id="claw44keymapkeymap_build">
+    <li class="collapse show" id="claw44keymapkeymap_build">
       
       
       
@@ -585,10 +585,10 @@ if (!doNotTrack) {
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/claw44/bmp/" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">無線接続について</a>
+    <a  href="/claw44/bmp/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">無線接続について</a>
   </li>
   <ul>
-    <li class="collapse show" id="claw44bmp">
+    <li class="collapse " id="claw44bmp">
       
       
       
@@ -761,6 +761,9 @@ if (!doNotTrack) {
 
 
 
+
+
+
 <li class="breadcrumb-item" >
 	<a href="https://yfuku.com/claw44/">Claw44</a>
 </li>
@@ -768,8 +771,15 @@ if (!doNotTrack) {
 
 
 
+<li class="breadcrumb-item" >
+	<a href="https://yfuku.com/claw44/keymap/">キーマップ</a>
+</li>
+
+
+
+
 <li class="breadcrumb-item active" aria-current="page">
-	<a href="https://yfuku.com/claw44/bmp/">無線接続について</a>
+	<a href="https://yfuku.com/claw44/keymap/keymap_build/">VIAでClaw44でキーマップの構築してみる</a>
 </li>
 
 	</ol>
@@ -777,144 +787,307 @@ if (!doNotTrack) {
 
             
 <div class="td-content">
-	<h1>無線接続について</h1>
+	<h1>VIAでClaw44でキーマップの構築してみる</h1>
         
 	
-	<p>自作キーボードで使用するProMicroを「BLE Micro Pro」というBluetooh化をサポートするキットに乗せかえると無線化を実現できます。<br>
-Claw44でBLE Micro Proを使えるようにしたログになります。<br>
-（以下、BMPと略すことがあります）</p>
-<p>公式サイトが充実しているので、まずはこちらをご確認ください。<br>
-<a href="https://sekigon-gonnoc.github.io/BLE-Micro-Pro/#/">はじめに - BLE Micro Pro</a></p>
-<p>BMPを使うには電源を確保しないといけないのですが、Claw44につける場合は「電池基板」を利用するのがおすすめです。
-ProMicroの上に乗せることができるので、基本的な形状を変えないまま使用することができます。</p>
-<h2 id="実装">実装</h2>
-<h3 id="必要な部品">必要な部品</h3>
+	<p>VIAを前提としているので、VIA対応がまだの方は、<a href="/claw44/buildguide/10_firmware/via/">VIAでキーマップを変更する</a>をご覧になってください。</p>
+<h2 id="最初に">最初に</h2>
 <ul>
-<li><a href="https://booth.pm/ja/items/1177319">BLE Micro Pro本体</a> x  2</li>
-<li><a href="https://nogikes.booth.pm/items/1655285">電池基板</a> x 2</li>
-<li>CR1632コイン電池 x  4</li>
-<li><a href="https://yushakobo.jp/shop/a01mc-00/">スプリングピンヘッダ（コンスルー）12ピン</a> x 4</li>
-<li>ピンヘッダ</li>
-</ul>
-<h3 id="スプリングピンヘッダコンスルー">スプリングピンヘッダ（コンスルー）</h3>
+<li>デフォルトのキーマップとはちょっと違う感じで作っていこうと思います（より筆者好みな感じにしています）</li>
+<li>まずはフラットな所から考えていきたいので、アルファベット部分以外を消します
 <ul>
-<li>BMP側もスプリングヘッダピン対応されているので、はんだ付けは不要らしいです。</li>
-<li>基本的にProMicroと扱いは同じなので、取り付ける向きは<a href="https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_jp.md#pro-micro">helixのビルドガイド </a>を参考にさせていただきました。</li>
-<li>ProMicroと違い、電源供給用のピン（BAT,GND）がありますが、これは電池基板に繋げるのでスプリングピンヘッダは刺さないでください。（BMP対応している基板では13ピンのスプリングピンヘッダを使って刺すこともありますがClaw44では刺しません）</li>
-</ul>
-<p><img src="images/20190626123614.jpg" style="width: 300px" ></p>
-<h3 id="電池基板">電池基板</h3>
-<h4 id="部品の取り付け">部品の取り付け</h4>
+<li><code>LAYER 0 </code>はQWERTYという一般的なキーボードと同じ配置にします
 <ul>
-<li>
-<p>全体としてはこんな感じです
-<img src="images/20190626124136.jpg"></p>
-</li>
-<li>
-<p>ダイオード</p>
-<ul>
-<li>
-<p>片側に予備ハンダをする<br>
-<img src="images/20190626124606.jpg" style="width: 300px" ></p>
-</li>
-<li>
-<p>ダイオードは向きがあるので注意。白線のある方を白丸側にする。（見にくい場合はスマホのライトとかで光を当てるとわかりやすいです。）<br>
-<img src="images/20190626125611.jpg" style="width: 300px" ></p>
-</li>
-<li>
-<p>予備ハンダを利用してダイオードをはんだづけ<br>
-<img src="images/20190626231732.jpg" style="width: 300px" ></p>
-</li>
-<li>
-<p>もう片方もはんだ付け。浮かないように両側をはんだして密着させる。<br>
-<img src="images/20190626231900.jpg" style="width: 300px" ></p>
-</li>
+<li>画像のように外側のキーはBASICにある空のキーを入れます</li>
 </ul>
 </li>
-<li>
-<p>スイッチ</p>
-<ul>
-<li>穴があって、ピタッとハマるのでわかりやすいと思います。各パッドをはんだ付け。<br>
-<img src="images/20190626125847.jpg" style="width: 300px" ></li>
-</ul>
-</li>
-<li>
-<p>コンデンサ</p>
-<ul>
-<li>コンデンサは向きがありません</li>
-<li>盛りはんだをして<br>
-<img src="images/20190626130051.jpg" style="width: 300px" ></li>
-<li>ダイオードと同様にはんだ付けします<br>
-<img src="images/20190626130208.jpg" style="width: 300px" ></li>
-</ul>
-</li>
-<li>
-<p>電池ホルダ</p>
-<ul>
-<li>乗っけて<br>
-<img src="images/20190626130303.jpg" style="width: 300px" ></li>
-<li>裏側の各パッドをはんだ付け<br>
-<img src="images/20190626130442.jpg" style="width: 300px" ></li>
-</ul>
-</li>
-<li>
-<p>絶縁</p>
-<ul>
-<li>BMPと接触する部分はこのままだとショートするので、ビニールテープか何かで絶縁します。カプトンテープなど薄いものだと揺れた時にうるさいので、少し厚めでショックを吸収してくれるものにしてみました。<br>
-<img src="images/20190626130653.jpg" style="width: 300px" ></li>
+<li><code>LAYER 1,2,3</code>はひとまずBASICにある▽を入れておきます
+<img src="100.png" alt="">
+<img src="101.png" alt=""></li>
 </ul>
 </li>
 </ul>
-<h4 id="bmpと合体">BMPと合体</h4>
+<h2 id="レイヤー機能">レイヤー機能</h2>
 <ul>
-<li>今回はどのご家庭にもあるProMicroに付属しているピンヘッダを使ってみました。（もう少し低いものの方がジャストフィットするので、可能であれば<a href="http://akizukidenshi.com/catalog/c/cheader6/">秋月電子</a>などで買うと良いと思います）</li>
-<li>ピンヘッダを切り出す<br>
-<img src="images/20190626131356.jpg" style="width: 300px" ></li>
-<li>BMPに取り付ける<br>
-<img src="images/20190626134705.jpg" style="width: 300px" ></li>
-<li>電池基板を乗せる<br>
-<img src="images/20190626134711.jpg" style="width: 300px" ></li>
-<li>はんだ付けする<br>
-<img src="images/20190626134716.jpg" style="width: 300px" ></li>
-<li>反対側もはんだ付け<br>
-<img src="images/20190626134722.jpg" style="width: 300px" ></li>
-<li>不要な足を切る<br>
-<img src="images/20190626134735.jpg" style="width: 300px" ></li>
-<li>電池の通り道は邪魔にならないように深く切る<br>
-<img src="images/20190626134729.jpg" style="width: 300px" ></li>
-<li>電池を入れる<br>
-<img src="images/20190626134742.jpg" style="width: 300px" ></li>
-<li>ピンヘッダ側が浮いているので、やはりもう少し短い方が良さそうですね<br>
-<img src="images/20190626134747.jpg" style="width: 300px" ></li>
-<li>Claw44に取り付ける<br>
-<img src="images/20190626144207.jpg" style="width: 300px" ></li>
+<li>まずはレイヤー機能を体験してみましょう</li>
 </ul>
-<h2 id="ファームウェアの書き込み">ファームウェアの書き込み</h2>
-<p>ファームウェア書き込みは公式サイトを参照してください。<br>
-<a href="https://sekigon-gonnoc.github.io/BLE-Micro-Pro/#/">はじめに - BLE Micro Pro</a></p>
-<h2 id="ペアリング">ペアリング</h2>
+<h3 id="via">VIA</h3>
 <ul>
-<li>左右間のペアリング
+<li>左側の<code>LAYERS</code>を選択して、図のように<code>MO(1)</code>、<code>MO(2)</code>を設定します
+<img src="200.png" alt=""></li>
+<li><code>LAYER</code> の 1をクリックして、<code>LAYER 1</code>の設定をします。</li>
+<li>数字を横一列に並べます。一般的なキーボードの上部のキーを持ってくる感じです。
+<img src="210.png" alt=""></li>
+</ul>
+<h3 id="入力してみる">入力してみる</h3>
 <ul>
-<li>まずは左右のBMP同士をペアリングします。左右のBMPのスイッチを入れると自動的にペアリングされます</li>
+<li>MO(1)を設定したキーを押しながら、他のキーを押してみてください
+<ul>
+<li><code>LAYER 1</code>の数字設定した部分は数字が入力されるはずです</li>
+<li>その他の<code>▽</code>を設定したキーを押すと、<code>LAYER 0</code> のキーが入力されるはずです
+<ul>
+<li>▽を設定すると透過する状態になる、ということです</li>
 </ul>
 </li>
-<li>PCとのペアリング
-<ul>
-<li>keymapでアサインしたAD_WO_Lを押すとペアリングモードに入ります。</li>
-<li>Claw44のdefaultの場合、下記のようにレイヤーを切り替えて左上のキーを押します。<br>
-<img src="images/20190626152608.png" style="width: 300px" ></li>
 </ul>
 </li>
-<li>Bluetoothの設定にClaw44が出てくるので接続します<br>
-<img src="images/20190626154120.png" style="width: 300px" ></li>
-</ul>
-<h2 id="promicroプレート">ProMicroプレート</h2>
+<li>このようにレイヤー機能を利用すると、少ないキー数でも多くのキーを入力することができます</li>
+<li>レイヤーの利点
 <ul>
-<li>ProMicroプレートのスペーサーを11〜12mmくらいの物を用意すれば今までのようにプレートをつけることができます。</li>
+<li>でも、1つ押すだけで出来ていた事が、2つ動作が必要になるので大変になるのでは？と思うかもしれません</li>
+<li>ここで注目したいのが、一般的なキーボードの数字キーが遠いということです</li>
+<li>試してみるとわかると思いますが、指をすごい伸ばしていたり、手自体を浮かせて移動させていると思います</li>
+<li>この動作と、レイヤーを使った動作でどちらが楽か？というのは自分に合ったキーボードを選ぶ基準の一つになると思います</li>
+<li>自分はこのように親指でレイヤーを変えるスタイルの方が体の負担が少ないと考えるので、数字行のないキーボードを使っています</li>
+<li>一般的なキーボードでもShiftやFnを使うことでキーの入力を変えているので、それが2,3増える代わりに指の移動距離が短くなると考えています</li>
 </ul>
-<p><img src="images/20190626155341.jpg" alt=""></p>
+</li>
+</ul>
+<h2 id="タップホールド機能">タップ・ホールド機能</h2>
+<ul>
+<li>レイヤーの利点がわかっていただけたでしょうか</li>
+<li>しかしながら、レイヤーの切り替えは確かにコストがかかります</li>
+<li>何も切り替えない <code>LAYER 0</code> がやはり一等地になります</li>
+<li>この一等地をフルに活用するように変更していきましょう</li>
+<li>先ほどの<code>MO()</code>だとレイヤー切り替えだけで1つのキーを使ってしまっています</li>
+<li>ここにキー入力の機能を加えてみましょう</li>
+</ul>
+<h3 id="via-1">VIA</h3>
+<ul>
+<li>左側から<code>LAYERS</code>をクリック</li>
+<li>先ほど<code>MO(0)</code>だった位置に、<code>Space Fn1</code>を設定します
+<img src="300.png" alt=""></li>
+</ul>
+<h3 id="入力してみる-1">入力してみる</h3>
+<ul>
+<li>この設定をすると、タップ（短く押した時）では<code>Space</code>が入力され、ホールド（長く押している時）では<code>LAYER 1</code>へ移動します</li>
+<li>このタップ・ホールド機能を使うことで、<code>LAYER 0</code> という一等地をより活用することができます</li>
+</ul>
+<h2 id="anyキー">Anyキー</h2>
+<ul>
+<li>他のキーも設定していきましょう</li>
+<li>先ほどの<code>MO(2)</code>に<code>Enterキー</code>を組み込んでみましょう</li>
+<li>しかし、<code>Enter Fn2</code>というボタンは用意されていません</li>
+<li><code>Space Fn1</code>はよく使うのでボタンが用意されているのですが、ボタンがない機能は<code>Anyキー</code>で設定してあげなくてはいけません</li>
+</ul>
+<h3 id="via-2">VIA</h3>
+<ul>
+<li>その前に、<code>LAYER 2</code> には何も設定していなかったので、カーソル移動できるように矢印キーを入れてみましょう
+<img src="390.png" alt=""></li>
+<li><code>LAYER 0</code>に戻り、<code>SPECIAL</code>を選択して<code>MO(2)</code>のキーにAnyキーを設定してください
+<img src="400.png" alt=""></li>
+<li>こんなダイアログが表示されるので、<code>LT(2, KC_ENT)</code>と入力してください
+<img src="410.png" alt=""></li>
+<li>このように表示が変わるはずです
+<img src="420.png" alt=""></li>
+</ul>
+<h3 id="入力してみる-2">入力してみる</h3>
+<ul>
+<li><code>LT(2, KC_ENT)</code>はホールドした時は <code>LAYER 2</code> へ移動、タップした時は<code>Enter</code>を入力する、という機能になります</li>
+<li>打ち間違えるとエラーとなり何も設定されないので注意してください</li>
+<li><code>KC_ENT</code>というのは、QMKで使用するキーコードになります
+<ul>
+<li>Enter以外を設定する場合は、<a href="https://docs.qmk.fm/#/keycodes">こちら</a>から参照してください。</li>
+</ul>
+</li>
+<li>これで、<code>LT(2, KC_ENT)</code>をホールドした時は、HJKLのキーを押す事でカーソル移動ができるはずです</li>
+</ul>
+<h2 id="modifierキー">Modifierキー</h2>
+<ul>
+<li>一等地である <code>LAYER 0</code> に優先度の高いキーを埋めていきましょう</li>
+<li><code>Space</code>、<code>Enter</code>はもう埋めたのでよし
+<ul>
+<li>親指のホームポジションには<code>Space</code>、<code>Enter</code>、<code>Backspace</code>など、一般的によく使われるキーが割り当てられる事が多いです</li>
+<li>左右のどちらにどれを置くかも、用途や好みによって変わるので色々と試してみてください</li>
+</ul>
+</li>
+<li>あと必要になる筆頭はmodifierキーでしょうか（自分はMacなのでCommandを入れています）
+<ul>
+<li>Shift</li>
+<li>Command</li>
+<li>Control</li>
+<li>Alt</li>
+</ul>
+</li>
+<li>自分の場合は、この辺りをよく使うので設定していきます
+<ul>
+<li>ESC</li>
+<li>Tab</li>
+<li>Backspace</li>
+<li>Delete</li>
+<li>英語入力 / 日本語入力</li>
+<li><code>-</code></li>
+</ul>
+</li>
+</ul>
+<h3 id="via-3">VIA</h3>
+<ul>
+<li>今回はこんな感じに設定してみました。（ホールド / タップ）な感じです。
+<img src="450.png" alt=""></li>
+<li>レイヤーキー同様に、modifilerキーもタップ・ホールド機能を使うことができます</li>
+<li>Anyキーで↓のような設定をしています（左回り）
+<ul>
+<li>Command / Tab
+<ul>
+<li><code>MT(MOD_LGUI, KC_TAB))</code></li>
+</ul>
+</li>
+<li>Alt / Delete
+<ul>
+<li><code>MT(MOD_LALT, KC_DEL)</code>)</li>
+</ul>
+</li>
+<li>Shift / 英語入力
+<ul>
+<li><code>MT(MOD_LSFT, KC_HANJ))</code></li>
+</ul>
+</li>
+<li>Control / Backspace
+<ul>
+<li><code>MT(MOD_LCTL, KC_BSPC))</code></li>
+</ul>
+</li>
+<li>Shift / 日本語入力
+<ul>
+<li><code>MT(MOD_LSFT, KC_HAEN))</code></li>
+</ul>
+</li>
+<li>Alt / Delete
+<ul>
+<li><code>MT(MOD_LALT, KC_DEL)</code>)</li>
+</ul>
+</li>
+<li>Command / ESC
+<ul>
+<li><code>MT(MOD_LGUI, KC_ESC))</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>一番外側の下段は押しにくい位置で、普段はあまり使わないので左右のキーを入れています
+<ul>
+<li>（電子書籍を読む時とかに使う）</li>
+</ul>
+</li>
+<li>modifierの位置は何度となく変えて実験しているのですが、こんな事を考えて配置しています。
+<ul>
+<li>Command
+<ul>
+<li>コピペをはじめ、よく使うので真横に置いておきたい</li>
+</ul>
+</li>
+<li>Shift
+<ul>
+<li>大文字を連続で打つなど押しっぱなしにすることがあるので、小指だとちょっとつらい</li>
+<li>親指で押しながら自由にアルファベットに指がいくようにしている</li>
+</ul>
+</li>
+<li>Control
+<ul>
+<li>まあまあ使うけど、単発で使うことが多いので親指島の一番内側へ
+<ul>
+<li>（連続で使うとちょっと辛いがControlくらいだったら大丈夫という判断）</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Alt
+<ul>
+<li>そんなに使わないので親指島の一番外側へ</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="数字レイヤー">数字レイヤー</h2>
+<ul>
+<li>さて、まだまだキーは足りないので追加していきましょう</li>
+<li>レイヤーはキーボードをどのように使っているかで分けると良いと思います</li>
+<li>自分は数式など入力する事が多いので、数字レイヤーを作ってみます</li>
+</ul>
+<h3 id="via-4">VIA</h3>
+<ul>
+<li>計算に必要そうな記号を埋めていきます</li>
+<li>下段のカンマ、ドット、スラッシュは▽でも良いのですが、他のキーを設定してしまわないように明示的に設定してあります</li>
+<li>この3キーが右手にあるので、逆側の左手に <code>LAYER 1</code> への切り替えキー（<code>Space Fn1</code>）を入れて負荷分散しています</li>
+<li>そのため、他の<code>+*%-</code>も右側の上に詰めていきます
+<ul>
+<li>（<code>%</code>は<code>BASIC</code>の<code>5</code>ではなく、<code>SPECIAL</code>の中にあるので注意してください）</li>
+</ul>
+</li>
+<li>マイナスはよく使うので、<code>LAYER 0</code> に合わせています（並び的にはいまいちですが）
+<img src="500.png" alt=""></li>
+</ul>
+<h2 id="記号レイヤー">記号レイヤー</h2>
+<ul>
+<li>残りの記号を記号レイヤーに埋めていきます</li>
+<li>先ほど設定したように、HJKLは矢印キーを使います（諸事情により）</li>
+</ul>
+<h3 id="via-5">VIA</h3>
+<ul>
+<li>使用頻度を考慮しつつ、覚えやすくするためにある程度グルーピングしてあります
+<img src="600.png" alt=""></li>
+</ul>
+<h2 id="その他のレイヤー">その他のレイヤー</h2>
+<ul>
+<li>自分が使うキーを入れてみましたが、ファンクションキーなどが入っていなかったりします</li>
+<li>各レイヤーの余りや<code>LAYER 3</code>を使って新しいレイヤーを設定してみたりしてください</li>
+</ul>
+<h2 id="まとめ">まとめ</h2>
+<p>以上になります。<br>
+他にも機能はありますので、色々と試してみてください。</p>
+<h3 id="viaファイル">VIAファイル</h3>
+<ul>
+<li>今回設定したファイルを置いておきました
+<ul>
+<li><a href="./claw44-via-keymap-example.json" download="claw44-via-keymap-example.json">VIA設定ファイル(claw44-via-keymap-example.json)</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="余談">余談</h2>
+<ul>
+<li>筆者が今使っているキーマップはこんな感じです</li>
+<li>今回のキーマップとの修正点を書いておきました
+<img src="700.jpeg" alt="">
+<img src="710.jpeg" alt="">
+<img src="720.jpeg" alt=""></li>
+<li>設定ファイル
+<ul>
+<li><a href="./claw44-via-keymap-yfuku.json" download="claw44-via-keymap-yfuku.json">VIA設定ファイル(claw44-via-keymap-yfuku.json)</a></li>
+</ul>
+</li>
+<li>ファームウェア
+<ul>
+<li><a href="./claw44_rev1_yfuku.hex" download="claw44_rev1_yfuku.hex">hexファイル(claw44_rev1_yfuku.hex)</a></li>
+<li>ファームの変更点</li>
+</ul>
+</li>
+</ul>
+<pre><code>config.h
+----------
+#define TAPPING_TERM 180
+#define IGNORE_MOD_TAP_INTERRUPT
+#define TAPPING_TERM_PER_KEY
 
+keymap.c
+----------
+// S,L,D,Kはちょっと余裕を持って。
+#define TAPPING_LAYER_TERM 230
+uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
+  switch (keycode) {
+    case KC_GS_S:
+      return TAPPING_LAYER_TERM;
+    case KC_GS_L:
+      return TAPPING_LAYER_TERM;
+    case KC_A_D:
+      return TAPPING_LAYER_TERM;
+    case KC_A_K:
+      return TAPPING_LAYER_TERM;
+    default:
+      return TAPPING_TERM;
+  }
+}
+</code></pre>
         <div class="section-index">
     
     
@@ -979,7 +1152,7 @@ ProMicroの上に乗せることができるので、基本的な形状を変え
 
 	
 	
-	<div class="text-muted mt-5 pt-3 border-top">Last modified June 26, 2019
+	<div class="text-muted mt-5 pt-3 border-top">Last modified January 1, 0001
 </div>
 </div>
 

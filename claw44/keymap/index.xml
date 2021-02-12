@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>yfuku docs – VIAでClaw44でキーマップの構築してみる</title>
+    <title>yfuku docs – キーマップ</title>
     <link>https://yfuku.com/claw44/keymap/</link>
-    <description>Recent content in VIAでClaw44でキーマップの構築してみる on yfuku docs</description>
+    <description>Recent content in キーマップ on yfuku docs</description>
     <generator>Hugo -- gohugo.io</generator>
     
 	  <atom:link href="https://yfuku.com/claw44/keymap/index.xml" rel="self" type="application/rss+xml" />
@@ -12,6 +12,316 @@
         
       
     
+    
+    <item>
+      <title>Claw44: VIAでClaw44でキーマップの構築してみる</title>
+      <link>https://yfuku.com/claw44/keymap/keymap_build/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfuku.com/claw44/keymap/keymap_build/</guid>
+      <description>
+        
+        
+        &lt;p&gt;VIAを前提としているので、VIA対応がまだの方は、&lt;a href=&#34;https://yfuku.com/claw44/buildguide/10_firmware/via/&#34;&gt;VIAでキーマップを変更する&lt;/a&gt;をご覧になってください。&lt;/p&gt;
+&lt;h2 id=&#34;最初に&#34;&gt;最初に&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;デフォルトのキーマップとはちょっと違う感じで作っていこうと思います（より筆者好みな感じにしています）&lt;/li&gt;
+&lt;li&gt;まずはフラットな所から考えていきたいので、アルファベット部分以外を消します
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;LAYER 0 &lt;/code&gt;はQWERTYという一般的なキーボードと同じ配置にします
+&lt;ul&gt;
+&lt;li&gt;画像のように外側のキーはBASICにある空のキーを入れます&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;LAYER 1,2,3&lt;/code&gt;はひとまずBASICにある▽を入れておきます
+&lt;img src=&#34;100.png&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;101.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;レイヤー機能&#34;&gt;レイヤー機能&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;まずはレイヤー機能を体験してみましょう&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;via&#34;&gt;VIA&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;左側の&lt;code&gt;LAYERS&lt;/code&gt;を選択して、図のように&lt;code&gt;MO(1)&lt;/code&gt;、&lt;code&gt;MO(2)&lt;/code&gt;を設定します
+&lt;img src=&#34;200.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;LAYER&lt;/code&gt; の 1をクリックして、&lt;code&gt;LAYER 1&lt;/code&gt;の設定をします。&lt;/li&gt;
+&lt;li&gt;数字を横一列に並べます。一般的なキーボードの上部のキーを持ってくる感じです。
+&lt;img src=&#34;210.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;入力してみる&#34;&gt;入力してみる&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;MO(1)を設定したキーを押しながら、他のキーを押してみてください
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;LAYER 1&lt;/code&gt;の数字設定した部分は数字が入力されるはずです&lt;/li&gt;
+&lt;li&gt;その他の&lt;code&gt;▽&lt;/code&gt;を設定したキーを押すと、&lt;code&gt;LAYER 0&lt;/code&gt; のキーが入力されるはずです
+&lt;ul&gt;
+&lt;li&gt;▽を設定すると透過する状態になる、ということです&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;このようにレイヤー機能を利用すると、少ないキー数でも多くのキーを入力することができます&lt;/li&gt;
+&lt;li&gt;レイヤーの利点
+&lt;ul&gt;
+&lt;li&gt;でも、1つ押すだけで出来ていた事が、2つ動作が必要になるので大変になるのでは？と思うかもしれません&lt;/li&gt;
+&lt;li&gt;ここで注目したいのが、一般的なキーボードの数字キーが遠いということです&lt;/li&gt;
+&lt;li&gt;試してみるとわかると思いますが、指をすごい伸ばしていたり、手自体を浮かせて移動させていると思います&lt;/li&gt;
+&lt;li&gt;この動作と、レイヤーを使った動作でどちらが楽か？というのは自分に合ったキーボードを選ぶ基準の一つになると思います&lt;/li&gt;
+&lt;li&gt;自分はこのように親指でレイヤーを変えるスタイルの方が体の負担が少ないと考えるので、数字行のないキーボードを使っています&lt;/li&gt;
+&lt;li&gt;一般的なキーボードでもShiftやFnを使うことでキーの入力を変えているので、それが2,3増える代わりに指の移動距離が短くなると考えています&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;タップホールド機能&#34;&gt;タップ・ホールド機能&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;レイヤーの利点がわかっていただけたでしょうか&lt;/li&gt;
+&lt;li&gt;しかしながら、レイヤーの切り替えは確かにコストがかかります&lt;/li&gt;
+&lt;li&gt;何も切り替えない &lt;code&gt;LAYER 0&lt;/code&gt; がやはり一等地になります&lt;/li&gt;
+&lt;li&gt;この一等地をフルに活用するように変更していきましょう&lt;/li&gt;
+&lt;li&gt;先ほどの&lt;code&gt;MO()&lt;/code&gt;だとレイヤー切り替えだけで1つのキーを使ってしまっています&lt;/li&gt;
+&lt;li&gt;ここにキー入力の機能を加えてみましょう&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;via-1&#34;&gt;VIA&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;左側から&lt;code&gt;LAYERS&lt;/code&gt;をクリック&lt;/li&gt;
+&lt;li&gt;先ほど&lt;code&gt;MO(0)&lt;/code&gt;だった位置に、&lt;code&gt;Space Fn1&lt;/code&gt;を設定します
+&lt;img src=&#34;300.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;入力してみる-1&#34;&gt;入力してみる&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;この設定をすると、タップ（短く押した時）では&lt;code&gt;Space&lt;/code&gt;が入力され、ホールド（長く押している時）では&lt;code&gt;LAYER 1&lt;/code&gt;へ移動します&lt;/li&gt;
+&lt;li&gt;このタップ・ホールド機能を使うことで、&lt;code&gt;LAYER 0&lt;/code&gt; という一等地をより活用することができます&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;anyキー&#34;&gt;Anyキー&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;他のキーも設定していきましょう&lt;/li&gt;
+&lt;li&gt;先ほどの&lt;code&gt;MO(2)&lt;/code&gt;に&lt;code&gt;Enterキー&lt;/code&gt;を組み込んでみましょう&lt;/li&gt;
+&lt;li&gt;しかし、&lt;code&gt;Enter Fn2&lt;/code&gt;というボタンは用意されていません&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Space Fn1&lt;/code&gt;はよく使うのでボタンが用意されているのですが、ボタンがない機能は&lt;code&gt;Anyキー&lt;/code&gt;で設定してあげなくてはいけません&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;via-2&#34;&gt;VIA&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;その前に、&lt;code&gt;LAYER 2&lt;/code&gt; には何も設定していなかったので、カーソル移動できるように矢印キーを入れてみましょう
+&lt;img src=&#34;390.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;LAYER 0&lt;/code&gt;に戻り、&lt;code&gt;SPECIAL&lt;/code&gt;を選択して&lt;code&gt;MO(2)&lt;/code&gt;のキーにAnyキーを設定してください
+&lt;img src=&#34;400.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;li&gt;こんなダイアログが表示されるので、&lt;code&gt;LT(2, KC_ENT)&lt;/code&gt;と入力してください
+&lt;img src=&#34;410.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;li&gt;このように表示が変わるはずです
+&lt;img src=&#34;420.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;入力してみる-2&#34;&gt;入力してみる&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;LT(2, KC_ENT)&lt;/code&gt;はホールドした時は &lt;code&gt;LAYER 2&lt;/code&gt; へ移動、タップした時は&lt;code&gt;Enter&lt;/code&gt;を入力する、という機能になります&lt;/li&gt;
+&lt;li&gt;打ち間違えるとエラーとなり何も設定されないので注意してください&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;KC_ENT&lt;/code&gt;というのは、QMKで使用するキーコードになります
+&lt;ul&gt;
+&lt;li&gt;Enter以外を設定する場合は、&lt;a href=&#34;https://docs.qmk.fm/#/keycodes&#34;&gt;こちら&lt;/a&gt;から参照してください。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;これで、&lt;code&gt;LT(2, KC_ENT)&lt;/code&gt;をホールドした時は、HJKLのキーを押す事でカーソル移動ができるはずです&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;modifierキー&#34;&gt;Modifierキー&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;一等地である &lt;code&gt;LAYER 0&lt;/code&gt; に優先度の高いキーを埋めていきましょう&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Space&lt;/code&gt;、&lt;code&gt;Enter&lt;/code&gt;はもう埋めたのでよし
+&lt;ul&gt;
+&lt;li&gt;親指のホームポジションには&lt;code&gt;Space&lt;/code&gt;、&lt;code&gt;Enter&lt;/code&gt;、&lt;code&gt;Backspace&lt;/code&gt;など、一般的によく使われるキーが割り当てられる事が多いです&lt;/li&gt;
+&lt;li&gt;左右のどちらにどれを置くかも、用途や好みによって変わるので色々と試してみてください&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;あと必要になる筆頭はmodifierキーでしょうか（自分はMacなのでCommandを入れています）
+&lt;ul&gt;
+&lt;li&gt;Shift&lt;/li&gt;
+&lt;li&gt;Command&lt;/li&gt;
+&lt;li&gt;Control&lt;/li&gt;
+&lt;li&gt;Alt&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;自分の場合は、この辺りをよく使うので設定していきます
+&lt;ul&gt;
+&lt;li&gt;ESC&lt;/li&gt;
+&lt;li&gt;Tab&lt;/li&gt;
+&lt;li&gt;Backspace&lt;/li&gt;
+&lt;li&gt;Delete&lt;/li&gt;
+&lt;li&gt;英語入力 / 日本語入力&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;via-3&#34;&gt;VIA&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;今回はこんな感じに設定してみました。（ホールド / タップ）な感じです。
+&lt;img src=&#34;450.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;li&gt;レイヤーキー同様に、modifilerキーもタップ・ホールド機能を使うことができます&lt;/li&gt;
+&lt;li&gt;Anyキーで↓のような設定をしています（左回り）
+&lt;ul&gt;
+&lt;li&gt;Command / Tab
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;MT(MOD_LGUI, KC_TAB))&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Alt / Delete
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;MT(MOD_LALT, KC_DEL)&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Shift / 英語入力
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;MT(MOD_LSFT, KC_HANJ))&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Control / Backspace
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;MT(MOD_LCTL, KC_BSPC))&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Shift / 日本語入力
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;MT(MOD_LSFT, KC_HAEN))&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Alt / Delete
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;MT(MOD_LALT, KC_DEL)&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Command / ESC
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;MT(MOD_LGUI, KC_ESC))&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;一番外側の下段は押しにくい位置で、普段はあまり使わないので左右のキーを入れています
+&lt;ul&gt;
+&lt;li&gt;（電子書籍を読む時とかに使う）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;modifierの位置は何度となく変えて実験しているのですが、こんな事を考えて配置しています。
+&lt;ul&gt;
+&lt;li&gt;Command
+&lt;ul&gt;
+&lt;li&gt;コピペをはじめ、よく使うので真横に置いておきたい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Shift
+&lt;ul&gt;
+&lt;li&gt;大文字を連続で打つなど押しっぱなしにすることがあるので、小指だとちょっとつらい&lt;/li&gt;
+&lt;li&gt;親指で押しながら自由にアルファベットに指がいくようにしている&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Control
+&lt;ul&gt;
+&lt;li&gt;まあまあ使うけど、単発で使うことが多いので親指島の一番内側へ
+&lt;ul&gt;
+&lt;li&gt;（連続で使うとちょっと辛いがControlくらいだったら大丈夫という判断）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Alt
+&lt;ul&gt;
+&lt;li&gt;そんなに使わないので親指島の一番外側へ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;数字レイヤー&#34;&gt;数字レイヤー&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;さて、まだまだキーは足りないので追加していきましょう&lt;/li&gt;
+&lt;li&gt;レイヤーはキーボードをどのように使っているかで分けると良いと思います&lt;/li&gt;
+&lt;li&gt;自分は数式など入力する事が多いので、数字レイヤーを作ってみます&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;via-4&#34;&gt;VIA&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;計算に必要そうな記号を埋めていきます&lt;/li&gt;
+&lt;li&gt;下段のカンマ、ドット、スラッシュは▽でも良いのですが、他のキーを設定してしまわないように明示的に設定してあります&lt;/li&gt;
+&lt;li&gt;この3キーが右手にあるので、逆側の左手に &lt;code&gt;LAYER 1&lt;/code&gt; への切り替えキー（&lt;code&gt;Space Fn1&lt;/code&gt;）を入れて負荷分散しています&lt;/li&gt;
+&lt;li&gt;そのため、他の&lt;code&gt;+*%-&lt;/code&gt;も右側の上に詰めていきます
+&lt;ul&gt;
+&lt;li&gt;（&lt;code&gt;%&lt;/code&gt;は&lt;code&gt;BASIC&lt;/code&gt;の&lt;code&gt;5&lt;/code&gt;ではなく、&lt;code&gt;SPECIAL&lt;/code&gt;の中にあるので注意してください）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;マイナスはよく使うので、&lt;code&gt;LAYER 0&lt;/code&gt; に合わせています（並び的にはいまいちですが）
+&lt;img src=&#34;500.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;記号レイヤー&#34;&gt;記号レイヤー&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;残りの記号を記号レイヤーに埋めていきます&lt;/li&gt;
+&lt;li&gt;先ほど設定したように、HJKLは矢印キーを使います（諸事情により）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;via-5&#34;&gt;VIA&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;使用頻度を考慮しつつ、覚えやすくするためにある程度グルーピングしてあります
+&lt;img src=&#34;600.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;その他のレイヤー&#34;&gt;その他のレイヤー&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;自分が使うキーを入れてみましたが、ファンクションキーなどが入っていなかったりします&lt;/li&gt;
+&lt;li&gt;各レイヤーの余りや&lt;code&gt;LAYER 3&lt;/code&gt;を使って新しいレイヤーを設定してみたりしてください&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ&lt;/h2&gt;
+&lt;p&gt;以上になります。&lt;br&gt;
+他にも機能はありますので、色々と試してみてください。&lt;/p&gt;
+&lt;h3 id=&#34;viaファイル&#34;&gt;VIAファイル&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;今回設定したファイルを置いておきました
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;./claw44-via-keymap-example.json&#34; download=&#34;claw44-via-keymap-example.json&#34;&gt;VIA設定ファイル(claw44-via-keymap-example.json)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;余談&#34;&gt;余談&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;筆者が今使っているキーマップはこんな感じです&lt;/li&gt;
+&lt;li&gt;今回のキーマップとの修正点を書いておきました
+&lt;img src=&#34;700.jpeg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;710.jpeg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;720.jpeg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;li&gt;設定ファイル
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;./claw44-via-keymap-yfuku.json&#34; download=&#34;claw44-via-keymap-yfuku.json&#34;&gt;VIA設定ファイル(claw44-via-keymap-yfuku.json)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;ファームウェア
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;./claw44_rev1_yfuku.hex&#34; download=&#34;claw44_rev1_yfuku.hex&#34;&gt;hexファイル(claw44_rev1_yfuku.hex)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ファームの変更点&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;config.h
+----------
+#define TAPPING_TERM 180
+#define IGNORE_MOD_TAP_INTERRUPT
+#define TAPPING_TERM_PER_KEY
+
+keymap.c
+----------
+// S,L,D,Kはちょっと余裕を持って。
+#define TAPPING_LAYER_TERM 230
+uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
+  switch (keycode) {
+    case KC_GS_S:
+      return TAPPING_LAYER_TERM;
+    case KC_GS_L:
+      return TAPPING_LAYER_TERM;
+    case KC_A_D:
+      return TAPPING_LAYER_TERM;
+    case KC_A_K:
+      return TAPPING_LAYER_TERM;
+    default:
+      return TAPPING_TERM;
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+      </description>
+    </item>
     
   </channel>
 </rss>
