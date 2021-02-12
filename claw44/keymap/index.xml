@@ -364,7 +364,7 @@ uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
 &lt;ul&gt;
 &lt;li&gt;上記の対応だと、COMBOキーの機能（HJ同時押しでON、FG同時押しでOFF）を使っていますが、そのまま「英数」、「かな」キーで切り替えできないかと改造してみました&lt;/li&gt;
 &lt;li&gt;カスタムキーをタップ＆ホールドに割り当ててあげれば良いかなくらいかと思ったら深みにハマりました・・・&lt;/li&gt;
-&lt;li&gt;タップ＆ホールドのタップにカスタムキーを指定しても、kprocess_record_user上でタップかホールドかの切り分けができないのでホールドでも薙刀式のON/OFFが発動してしまう
+&lt;li&gt;タップ＆ホールドのタップにカスタムキーを指定しても、process_record_user上でタップかホールドかの切り分けができないのでホールドでも薙刀式のON/OFFが発動してしまう
 &lt;ul&gt;
 &lt;li&gt;自分の知識不足かもしれないので、うまいことできる方法があれば教えてください！&lt;/li&gt;
 &lt;/ul&gt;
