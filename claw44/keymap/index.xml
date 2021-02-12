@@ -323,5 +323,82 @@ uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
       </description>
     </item>
     
+    <item>
+      <title>Claw44: Claw44へQMK薙刀式を導入する</title>
+      <link>https://yfuku.com/claw44/keymap/naginata/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfuku.com/claw44/keymap/naginata/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;qmk薙刀式とは&#34;&gt;QMK薙刀式とは？&lt;/h2&gt;
+&lt;p&gt;大岡さんの開発しているキー入力方式「薙刀式」というものがあります。&lt;br&gt;
+&lt;a href=&#34;http://oookaworks.seesaa.net/article/477744409.html#gsc.tab=0&#34;&gt;【薙刀式】v13完成版（仮）: 大岡俊彦の作品置き場&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/eswai&#34;&gt;eswaiさん&lt;/a&gt;が、QMKでも動くようにしたものが「QMK薙刀式」になります。&lt;br&gt;
+&lt;a href=&#34;https://eswai.hatenablog.com/entry/2019/12/09/001009&#34;&gt;QMKで自作キーボードを親指シフト/薙刀式へ拡張する - weblog.sy&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;claw44へ導入&#34;&gt;Claw44へ導入&lt;/h2&gt;
+&lt;p&gt;上記のドキュメントと、最新のv13uのキーマップを参考にClaw44でも使えるようにしました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;コルネのv13uのキーマップ
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/eswai/qmk_firmware/tree/master/keyboards/crkbd/keymaps/naginata_v13u&#34;&gt;https://github.com/eswai/qmk_firmware/tree/master/keyboards/crkbd/keymaps/naginata_v13u&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Claw44はコルネを参考に作らせてもらった事もあり、まずは上記を丸っとコピーして、キー数が違う分などの微調整をしました。&lt;br&gt;
+対応させたものが↓になります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ソースコード
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/yfuku/qmk_firmware/tree/yfuku/keyboards/claw44/keymaps/naginata_v13u&#34;&gt;https://github.com/yfuku/qmk_firmware/tree/yfuku/keyboards/claw44/keymaps/naginata_v13u&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;hexファイル
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/yfuku/claw44/releases/download/via/claw44_rev1_naginata_v13u.hex&#34;&gt;https://github.com/yfuku/claw44/releases/download/via/claw44_rev1_naginata_v13u.hex&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;英数かなキーでの薙刀式onoffの切り替え&#34;&gt;「英数」、「かな」キーでの薙刀式ON/OFFの切り替え&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;上記の対応だと、COMBOキーの機能（HJ同時押しでON、FG同時押しでOFF）を使っていますが、そのまま「英数」、「かな」キーで切り替えできないかと改造してみました&lt;/li&gt;
+&lt;li&gt;カスタムキーをタップ＆ホールドに割り当ててあげれば良いかなくらいかと思ったら深みにハマりました・・・&lt;/li&gt;
+&lt;li&gt;タップ＆ホールドのタップにカスタムキーを指定しても、kprocess_record_user上でタップかホールドかの切り分けができないのでホールドでも薙刀式のON/OFFが発動してしまう
+&lt;ul&gt;
+&lt;li&gt;自分の知識不足かもしれないので、うまいことできる方法があれば教えてください！&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;普段は入力モードの切り替えはホールドでshift、タップで「英数」 or 「かな」というキーを用意しているので、そのまま使えるようにしたい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;しょうがないのでqmkのコアに手を出す&#34;&gt;しょうがないのでQMKのコアに手を出す&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;QMKをちょっと深堀ってみたのですが、まだちゃんと理解でできておらず&lt;/li&gt;
+&lt;li&gt;しかし、ここに追加すれば望みの挙動はするかなと、ブランチを切って修正してみました。
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/yfuku/qmk_firmware/commit/622fa88030df5b75a34fe4007531d2d9e3e8ff6e#diff-8618978f3ee2221a178c2d0dc8674cd30794c05c3c0788efc2eb5f1aa6b3d49a&#34;&gt;https://github.com/yfuku/qmk_firmware/commit/622fa88030df5b75a34fe4007531d2d9e3e8ff6e#diff-8618978f3ee2221a178c2d0dc8674cd30794c05c3c0788efc2eb5f1aa6b3d49a&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;naginata_v13u.c のon/offでキーコードを送っていると、多分無限ループになるのでコメントアウト
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/yfuku/qmk_firmware/commit/622fa88030df5b75a34fe4007531d2d9e3e8ff6e#diff-93ac7655f01b5a50be8b2e259ba1a1250350ba47b6dd4dbeb04fe5eb61861d5b&#34;&gt;https://github.com/yfuku/qmk_firmware/commit/622fa88030df5b75a34fe4007531d2d9e3e8ff6e#diff-93ac7655f01b5a50be8b2e259ba1a1250350ba47b6dd4dbeb04fe5eb61861d5b&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;keymap.c を修正
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/yfuku/qmk_firmware/compare/593d6dc9c48c00082c6270cb8792ab9df41e7451...0268a7ef4b97c604f901cc0e0b7fac05b4f15d8a#diff-4dfbf9558c6c5e46e36c07b77d33fc1a72c62b1bedc4c0170e320baed94dcfb7&#34;&gt;https://github.com/yfuku/qmk_firmware/compare/593d6dc9c48c00082c6270cb8792ab9df41e7451...0268a7ef4b97c604f901cc0e0b7fac05b4f15d8a#diff-4dfbf9558c6c5e46e36c07b77d33fc1a72c62b1bedc4c0170e320baed94dcfb7&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;コンボキーのところを無効化&lt;/li&gt;
+&lt;li&gt;process_record_userでEISUとKANA2を無効化&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;ソースコードだけいじって、自分自身が薙刀式を使えてないのでちゃんと動くかわからないですが、これから練習して検証していきます&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
   </channel>
 </rss>
