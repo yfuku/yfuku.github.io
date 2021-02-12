@@ -376,12 +376,12 @@ uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
 &lt;li&gt;QMKをちょっと深堀ってみたのですが、まだちゃんと理解でできておらず&lt;/li&gt;
 &lt;li&gt;しかし、ここに追加すれば望みの挙動はするかなと、ブランチを切って修正してみました。
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/yfuku/qmk_firmware/commit/622fa88030df5b75a34fe4007531d2d9e3e8ff6e#diff-8618978f3ee2221a178c2d0dc8674cd30794c05c3c0788efc2eb5f1aa6b3d49a&#34;&gt;https://github.com/yfuku/qmk_firmware/commit/622fa88030df5b75a34fe4007531d2d9e3e8ff6e#diff-8618978f3ee2221a178c2d0dc8674cd30794c05c3c0788efc2eb5f1aa6b3d49a&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/yfuku/qmk_firmware/compare/593d6dc9c48c00082c6270cb8792ab9df41e7451...0268a7ef4b97c604f901cc0e0b7fac05b4f15d8a#diff-8618978f3ee2221a178c2d0dc8674cd30794c05c3c0788efc2eb5f1aa6b3d49a&#34;&gt;https://github.com/yfuku/qmk_firmware/compare/593d6dc9c48c00082c6270cb8792ab9df41e7451...0268a7ef4b97c604f901cc0e0b7fac05b4f15d8a#diff-8618978f3ee2221a178c2d0dc8674cd30794c05c3c0788efc2eb5f1aa6b3d49a&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;naginata_v13u.c のon/offでキーコードを送っていると、多分無限ループになるのでコメントアウト
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/yfuku/qmk_firmware/commit/622fa88030df5b75a34fe4007531d2d9e3e8ff6e#diff-93ac7655f01b5a50be8b2e259ba1a1250350ba47b6dd4dbeb04fe5eb61861d5b&#34;&gt;https://github.com/yfuku/qmk_firmware/commit/622fa88030df5b75a34fe4007531d2d9e3e8ff6e#diff-93ac7655f01b5a50be8b2e259ba1a1250350ba47b6dd4dbeb04fe5eb61861d5b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/yfuku/qmk_firmware/compare/593d6dc9c48c00082c6270cb8792ab9df41e7451...0268a7ef4b97c604f901cc0e0b7fac05b4f15d8a#diff-93ac7655f01b5a50be8b2e259ba1a1250350ba47b6dd4dbeb04fe5eb61861d5bt&#34;&gt;https://github.com/yfuku/qmk_firmware/compare/593d6dc9c48c00082c6270cb8792ab9df41e7451...0268a7ef4b97c604f901cc0e0b7fac05b4f15d8a#diff-93ac7655f01b5a50be8b2e259ba1a1250350ba47b6dd4dbeb04fe5eb61861d5bt&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;keymap.c を修正
