@@ -399,7 +399,8 @@ uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
 &lt;p&gt;※ コミットが汚くてすいませぬ・・・&lt;/p&gt;
 &lt;h3 id=&#34;via&#34;&gt;VIA&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;VIAはeepromに何も入っていなくて、VIA領域をいじらなければ大丈夫そうな気がしますが、不安定だったので一旦やめにしてます&lt;/li&gt;
+&lt;li&gt;VIAは最初の書き込みの時にeepromに何も入っていなくて、VIA領域をいじらなければ大丈夫そうな気がしますが、不安定だったので一旦やめにしてます&lt;/li&gt;
+&lt;li&gt;config.hでProductIDを変えておけば良いだけかもしれない&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;todo&#34;&gt;TODO&lt;/h3&gt;
 &lt;ul&gt;
