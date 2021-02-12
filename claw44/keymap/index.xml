@@ -397,6 +397,10 @@ uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
 &lt;li&gt;ソースコードだけいじって、自分自身が薙刀式を使えてないのでちゃんと動くかわからないですが、これから練習して検証していきます&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;※ コミットが汚くてすいませぬ・・・&lt;/p&gt;
+&lt;h3 id=&#34;via&#34;&gt;VIA&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;VIAはeepromに何も入っていなくて、VIA領域をいじらなければ大丈夫そうな気がしますが、不安定だったので一旦やめにしてます&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id=&#34;todo&#34;&gt;TODO&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;薙刀式を練習する&lt;/li&gt;
