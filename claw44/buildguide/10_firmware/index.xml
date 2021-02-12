@@ -27,21 +27,16 @@
 このアプリを使うと画面上から設定するだけで、リアルタイムにキーマップを書き換えることができます。&lt;/p&gt;
 &lt;h2 id=&#34;ファームウェアの確認&#34;&gt;ファームウェアの確認&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;一つだけ準備が必要で、VIAに対応したファームウェアがProMicroに書き込まれている必要があります。
-&lt;img src=&#34;./need-firmware.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;VIAを使う場合はQMK Toolboxを使ってVIA対応ファームウェアを書き込む必要があります&lt;/p&gt;
+&lt;li&gt;一つだけ準備が必要で、VIAに対応したファームウェアがProMicroに書き込まれている必要があります。&lt;/li&gt;
+&lt;li&gt;↓こちらを参考にファームウェアを書き込んでください
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;../toolbox/&#34;&gt;QMK Toolboxでファームウェアを書き込む&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;oledを使用する場合オプション&#34;&gt;OLEDを使用する場合（オプション）&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;../toolbox/&#34;&gt;QMK Toolboxでファームウェアを書き込む&lt;/a&gt;を参考にOLED用のファームウェアを書き込んでください&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;./need-firmware.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;※2021/2/12以降BOOTHで発送したものはVIA対応のファームウェアを書き込んであります。遊舎工房も次回納品分より対応します。&lt;br&gt;
+※OLEDを使う場合は、OLED用のファームウェアを書き込んでください&lt;/p&gt;
 &lt;h2 id=&#34;viaをインストールする&#34;&gt;VIAをインストールする&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/the-via/releases/releases/latest&#34;&gt;VIAの最新バージョン&lt;/a&gt;をダウンロードしてインストールする
@@ -152,11 +147,18 @@
 &lt;li&gt;例えば、&lt;code&gt;claw44_rev1_via-default-imti-100.hex&lt;/code&gt;であれば、IGNORE_MOD_TAP_INTERRUPTとTAPPING_TERMが100に設定されています&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;ファームウェアをダウンロードする&#34;&gt;ファームウェアをダウンロードする&lt;/h2&gt;
+&lt;h3 id=&#34;gitがわかる方&#34;&gt;gitがわかる方&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;gitのがわかる方はcloneなどしてください&lt;/li&gt;
-&lt;li&gt;よくわからない方は、&lt;a href=&#34;https://github.com/yfuku/claw44&#34;&gt;yfuku/claw44&lt;/a&gt;このページから、下記のようにzipファイルをダウンロードしてください。
+&lt;li&gt;普通にcloneなどしてください&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;gitがよくわからない方&#34;&gt;gitがよくわからない方&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/yfuku/claw44&#34;&gt;yfuku/claw44&lt;/a&gt;このページから、下記のようにzipファイルをダウンロードしてください。
 &lt;img src=&#34;./github.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
-&lt;li&gt;個別のファイルをダウンロードする場合は、「raw」の部分を右クリックして保存してください
+&lt;/ul&gt;
+&lt;h3 id=&#34;個別のファイルのみダウンロードしたい場合&#34;&gt;個別のファイルのみダウンロードしたい場合&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;「raw」の部分を右クリックして保存してください
 &lt;img src=&#34;./raw.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;ファームウェアの書き込み&#34;&gt;ファームウェアの書き込み&lt;/h2&gt;
@@ -193,31 +195,27 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;hexファイルを読み込む&#34;&gt;hexファイルを読み込む&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;./claw44_rev1_via.hex&#34; download=&#34;claw44_rev1_via.hex&#34;&gt;Claw44用のhexファイル(claw44_rev1_via.hex)&lt;/a&gt;をダウンロードします&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/yfuku/claw44/releases/download/via/claw44_rev1_via.hex&#34; download=&#34;claw44_rev1_via.hex&#34;&gt;Claw44用のVIA対応hexファイル(claw44_rev1_via.hex)&lt;/a&gt;をダウンロードします&lt;/li&gt;
 &lt;li&gt;Openをクリックして、ダウンロードしたhexファイルを指定します&lt;/li&gt;
-&lt;li&gt;Auto-Flashにチェックを入れます
-&lt;img src=&#34;./toolbox2.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;li&gt;Auto-Flashにチェックを入れます&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;./toolbox2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;oledを使用する場合オプション&#34;&gt;OLEDを使用する場合（オプション）&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;./claw44_rev1_via-oled.hex&#34; download=&#34;claw44_rev1_via-oled.hex&#34;&gt;OLED用hexファイル(claw44_rev1_via-oled.hex)&lt;/a&gt;をダウンロードします&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/yfuku/claw44/releases/download/via/claw44_rev1_via-oled.hex&#34; download=&#34;claw44_rev1_via-oled.hex&#34;&gt;OLED用hexファイル(claw44_rev1_via-oled.hex)&lt;/a&gt;をダウンロードします&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;ファームウェアを書き込む&#34;&gt;ファームウェアを書き込む&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;キーボードのリセットボタンを押します
-&lt;img src=&#34;./reset_button.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;下記のように書き込みのログが表示されます&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;最後に「avrdude done.  Thank you.」と表示されればOKです
-&lt;img src=&#34;./toolbox3.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;もう片方も同様に書き込みを行ってください&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;キーボードのリセットボタンを押します&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;./reset_button.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;下記のように書き込みのログが表示されます&lt;/li&gt;
+&lt;li&gt;最後に「avrdude done.  Thank you.」と表示されればOKです&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;./toolbox3.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;もう片方も同様に書き込みを行ってください&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
@@ -259,20 +257,14 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;書き込み&#34;&gt;書き込み&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;ビルド
+&lt;h3 id=&#34;ビルド&#34;&gt;ビルド&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;コマンド実行&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
 &lt;/ul&gt;
 &lt;pre&gt;&lt;code&gt;make claw44:mykeymap
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
-&lt;li&gt;書き込み
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;書き込み-1&#34;&gt;書き込み&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;コマンド実行&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
 &lt;/ul&gt;
 &lt;pre&gt;&lt;code&gt;make claw44:mykeymap:avrdude
 &lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
@@ -282,10 +274,17 @@
  * The firmware size is fine - 20168/28672 (8504 bytes free)
 Detecting USB port, reset your controller now....
 &lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
-&lt;li&gt;画像のGNDとRSTと書かれている下の丸同士をピンセットなどでショートさせてください。
-（ProMicroをキーボードに組み込み済みの場合は、リセットスイッチを2回押してください。）
-&lt;img src=&#34;images/20190402072348.jpg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
-&lt;li&gt;下記のように表示され、最後に&lt;code&gt;avrdude done.  Thank you.&lt;/code&gt;が表示されれば成功です！&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;キーボードのリセットボタンを押します&lt;br&gt;
+&lt;img src=&#34;../toolbox/reset_button.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ProMicro単体の場合は、画像のGNDとRSTと書かれている下の丸同士をピンセットなどでショートさせてください。
+&lt;img src=&#34;images/20190402072348.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;下記のように表示され、最後に&lt;code&gt;avrdude done.  Thank you.&lt;/code&gt;が表示されれば成功です！&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;pre&gt;&lt;code&gt;Device /dev/tty.usbmodem146201 has appeared; assuming it is the controller.
 Waiting for /dev/tty.usbmodem146201 to become writable.

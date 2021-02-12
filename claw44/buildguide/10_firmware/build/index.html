@@ -804,20 +804,14 @@ if (!doNotTrack) {
 </li>
 </ul>
 <h2 id="書き込み">書き込み</h2>
-<ul>
-<li>ビルド
+<h3 id="ビルド">ビルド</h3>
 <ul>
 <li>コマンド実行</li>
-</ul>
-</li>
 </ul>
 <pre><code>make claw44:mykeymap
-</code></pre><ul>
-<li>書き込み
+</code></pre><h3 id="書き込み-1">書き込み</h3>
 <ul>
 <li>コマンド実行</li>
-</ul>
-</li>
 </ul>
 <pre><code>make claw44:mykeymap:avrdude
 </code></pre><ul>
@@ -827,10 +821,17 @@ if (!doNotTrack) {
  * The firmware size is fine - 20168/28672 (8504 bytes free)
 Detecting USB port, reset your controller now....
 </code></pre><ul>
-<li>画像のGNDとRSTと書かれている下の丸同士をピンセットなどでショートさせてください。
-（ProMicroをキーボードに組み込み済みの場合は、リセットスイッチを2回押してください。）
-<img src="images/20190402072348.jpg" alt=""></li>
-<li>下記のように表示され、最後に<code>avrdude done.  Thank you.</code>が表示されれば成功です！</li>
+<li>
+<p>キーボードのリセットボタンを押します<br>
+<img src="../toolbox/reset_button.jpg" alt=""></p>
+</li>
+<li>
+<p>ProMicro単体の場合は、画像のGNDとRSTと書かれている下の丸同士をピンセットなどでショートさせてください。
+<img src="images/20190402072348.jpg" alt=""></p>
+</li>
+<li>
+<p>下記のように表示され、最後に<code>avrdude done.  Thank you.</code>が表示されれば成功です！</p>
+</li>
 </ul>
 <pre><code>Device /dev/tty.usbmodem146201 has appeared; assuming it is the controller.
 Waiting for /dev/tty.usbmodem146201 to become writable.
