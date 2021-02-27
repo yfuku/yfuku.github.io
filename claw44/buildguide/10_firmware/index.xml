@@ -215,7 +215,13 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;img src=&#34;./toolbox3.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;もう片方も同様に書き込みを行ってください&lt;/li&gt;
+&lt;li&gt;左右両方のキーボードに書き込みを行ってください
+&lt;ul&gt;
+&lt;li&gt;Claw44はUSBの挿した方を左側と認識するようになっています&lt;/li&gt;
+&lt;li&gt;右側のキーボードにUSBを挿した状態だと、左側のキーが入力されます&lt;/li&gt;
+&lt;li&gt;左側にUSBを挿し、左右をTRSケーブルで繋げると正常に入力されますのでご注意ください&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
