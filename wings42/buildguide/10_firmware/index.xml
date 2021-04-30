@@ -108,68 +108,6 @@
     </item>
     
     <item>
-      <title>Wings42: あらかじめ修正されたファームウェアを書き込む</title>
-      <link>https://yfuku.com/wings42/buildguide/10_firmware/prefirmware/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://yfuku.com/wings42/buildguide/10_firmware/prefirmware/</guid>
-      <description>
-        
-        
-        &lt;p&gt;作者がClaw44を使う上で設定をしている項目が2つあります。&lt;br&gt;
-（詳しい説明は公式ドキュメントを確認してください。）&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.qmk.fm/#/ja/tap_hold?id=%e3%82%bf%e3%83%83%e3%83%94%e3%83%b3%e3%82%b0%e6%99%82%e9%96%93&#34;&gt;TAPPING_TERM&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.qmk.fm/#/ja/tap_hold?id=%e3%83%a2%e3%83%83%e3%83%89%e3%82%bf%e3%83%83%e3%83%97%e5%89%b2%e3%82%8a%e8%be%bc%e3%81%bf%e3%81%ae%e7%84%a1%e8%a6%96&#34;&gt;IGNORE_MOD_TAP_INTERRUPT&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;あと、設定項目としてはOLEDの有無もあるので、この3つの状態を設定済みのファームウェアをgithubに置いておきます。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/yfuku/claw44/tree/master/firmware/rev1&#34;&gt;claw44/firmware/rev1 at master · yfuku/claw44&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;ファームウェアのファイルを特定する&#34;&gt;ファームウェアのファイルを特定する&lt;/h2&gt;
-&lt;h3 id=&#34;oledの有無&#34;&gt;OLEDの有無&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;最初にディレクトリ単位で分けてあります。
-&lt;ul&gt;
-&lt;li&gt;OLEDなし→&lt;a href=&#34;https://github.com/yfuku/claw44/tree/master/firmware/rev1/default&#34;&gt;claw44/firmware/rev1/default&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;OLEDあり→&lt;a href=&#34;https://github.com/yfuku/claw44/tree/master/firmware/rev1/oled&#34;&gt;claw44/firmware/rev1/oled&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;tapping_termの設定&#34;&gt;TAPPING_TERMの設定&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;このディレクトリ直下にあるものは、TAPPING_TERMのみ追加されています&lt;/li&gt;
-&lt;li&gt;例えば、&lt;code&gt;claw44_rev1_via-default-100.hex&lt;/code&gt;であれば、TAPPING_TERMが100に設定されています&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;ignore_mod_tap_interrupt&#34;&gt;IGNORE_MOD_TAP_INTERRUPT&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;IGNORE_MOD_TAP_INTERRUPTを指定したい場合はさらに、ignore_mod_tap_interruptディレクトリに行ってください&lt;/li&gt;
-&lt;li&gt;例えば、&lt;code&gt;claw44_rev1_via-default-imti-100.hex&lt;/code&gt;であれば、IGNORE_MOD_TAP_INTERRUPTとTAPPING_TERMが100に設定されています&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;ファームウェアをダウンロードする&#34;&gt;ファームウェアをダウンロードする&lt;/h2&gt;
-&lt;h3 id=&#34;gitがわかる方&#34;&gt;gitがわかる方&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;普通にcloneなどしてください&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;gitがよくわからない方&#34;&gt;gitがよくわからない方&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/yfuku/claw44&#34;&gt;yfuku/claw44&lt;/a&gt;このページから、下記のようにzipファイルをダウンロードしてください。
-&lt;img src=&#34;./github.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;個別のファイルのみダウンロードしたい場合&#34;&gt;個別のファイルのみダウンロードしたい場合&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;「raw」の部分を右クリックして保存してください
-&lt;img src=&#34;./raw.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;ファームウェアの書き込み&#34;&gt;ファームウェアの書き込み&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;../toolbox/&#34;&gt;QMK Toolboxでファームウェアを書き込む&lt;/a&gt; を行ってください&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
       <title>Wings42: QMK Toolboxでファームウェアを書き込む</title>
       <link>https://yfuku.com/wings42/buildguide/10_firmware/toolbox/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
