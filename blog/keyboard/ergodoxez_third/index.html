@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="generator" content="Hugo 0.80.0" />
+<meta name="generator" content="Hugo 0.82.1" />
 
 <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
 
@@ -25,20 +25,16 @@
 <meta property="og:description" content="ErgoDox EZを使い始めて3週間。 まだまだキー配置は試行錯誤中ですが、現在の配置と考えを書いておきます。
  過去記事はこちら。  ErgoDox EZ 1週目 最初の壁を乗り越える - yfuku blog ErgoDox EZ 2週目 キー配列カスタマイズ - yfuku blog    前提  移行コストを低くする 他のキーボードを極端に使えなくならないようにする そのため、JIS配列に近い形にする まずは親指部分を有効活用して、不自然な動きを少なくしていく 慣れてきたら次の形態を考える  JIS配列  リポジトリの中にJIS用の定義ファイルがあるので、それをimportする  #include &quot;keymap_jp.h&quot;   通常キーはKC_で定義されていますが、こちらではJP_で定義されてる キー配置のドキュメント  通常  keycodes.md   JIS  keymap_jp.h      レイヤー0  通常使うレイヤー できるだけJIS配列に従う 右側のキーが足りない部分は中央付近へ かな/英数の切り替えは親指内側で行う(LANG1,2) 親指はEnterとSpaceは右左で分けたかった BackSpaceも、まあここでいいかなと Delはそんなに使わないけど、とりあえず  レイヤー1  Space押しっぱなしで発動（左親指） 数字＋記号  最上段まで指を伸ばしたくない 将来的にIrisを使って見たいので、移行できるかどうかのシミュレーションに。    レイヤー2  Enterを押しっぱなしでレイヤー2を発動。（右親指） カーソル移動  右側  vimに合わせて左下上右 行頭、行末   左側  マウス操作を入れてるけど、まだあんまり使ってない   下側  音量と明るさのコントロール   リセットボタン  いろんな記事に書いてありますが、毎回物理リセットボタンを押すのは現実的じゃないので、どこかに配置しておいたほうが良いです      課題  親指を使いすぎている気がする  元々は、かな/英数とスペースを両親指で担っていた 親指を活用したいが、逆に親指が疲れてしまいそう まだ脳が慣れていないので、余計に負荷があるように感じる 今の、LANG1,2は見直した方が良いかもしれない。親指は親指エリアだけにしておくかも。    keymap." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://yfuku.com/blog/keyboard/ergodoxez_third/" />
-<meta property="article:published_time" content="2018-06-26T00:00:00+00:00" />
-<meta property="article:modified_time" content="2018-06-26T00:00:00+00:00" />
+<meta property="og:url" content="https://yfuku.com/blog/keyboard/ergodoxez_third/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2018-06-26T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2018-06-26T00:00:00&#43;00:00" />
+
 <meta itemprop="name" content="ErgoDox EZ 3週目 現在のキー配列">
 <meta itemprop="description" content="ErgoDox EZを使い始めて3週間。 まだまだキー配置は試行錯誤中ですが、現在の配置と考えを書いておきます。
- 過去記事はこちら。  ErgoDox EZ 1週目 最初の壁を乗り越える - yfuku blog ErgoDox EZ 2週目 キー配列カスタマイズ - yfuku blog    前提  移行コストを低くする 他のキーボードを極端に使えなくならないようにする そのため、JIS配列に近い形にする まずは親指部分を有効活用して、不自然な動きを少なくしていく 慣れてきたら次の形態を考える  JIS配列  リポジトリの中にJIS用の定義ファイルがあるので、それをimportする  #include &quot;keymap_jp.h&quot;   通常キーはKC_で定義されていますが、こちらではJP_で定義されてる キー配置のドキュメント  通常  keycodes.md   JIS  keymap_jp.h      レイヤー0  通常使うレイヤー できるだけJIS配列に従う 右側のキーが足りない部分は中央付近へ かな/英数の切り替えは親指内側で行う(LANG1,2) 親指はEnterとSpaceは右左で分けたかった BackSpaceも、まあここでいいかなと Delはそんなに使わないけど、とりあえず  レイヤー1  Space押しっぱなしで発動（左親指） 数字＋記号  最上段まで指を伸ばしたくない 将来的にIrisを使って見たいので、移行できるかどうかのシミュレーションに。    レイヤー2  Enterを押しっぱなしでレイヤー2を発動。（右親指） カーソル移動  右側  vimに合わせて左下上右 行頭、行末   左側  マウス操作を入れてるけど、まだあんまり使ってない   下側  音量と明るさのコントロール   リセットボタン  いろんな記事に書いてありますが、毎回物理リセットボタンを押すのは現実的じゃないので、どこかに配置しておいたほうが良いです      課題  親指を使いすぎている気がする  元々は、かな/英数とスペースを両親指で担っていた 親指を活用したいが、逆に親指が疲れてしまいそう まだ脳が慣れていないので、余計に負荷があるように感じる 今の、LANG1,2は見直した方が良いかもしれない。親指は親指エリアだけにしておくかも。    keymap.">
-<meta itemprop="datePublished" content="2018-06-26T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2018-06-26T00:00:00+00:00" />
+ 過去記事はこちら。  ErgoDox EZ 1週目 最初の壁を乗り越える - yfuku blog ErgoDox EZ 2週目 キー配列カスタマイズ - yfuku blog    前提  移行コストを低くする 他のキーボードを極端に使えなくならないようにする そのため、JIS配列に近い形にする まずは親指部分を有効活用して、不自然な動きを少なくしていく 慣れてきたら次の形態を考える  JIS配列  リポジトリの中にJIS用の定義ファイルがあるので、それをimportする  #include &quot;keymap_jp.h&quot;   通常キーはKC_で定義されていますが、こちらではJP_で定義されてる キー配置のドキュメント  通常  keycodes.md   JIS  keymap_jp.h      レイヤー0  通常使うレイヤー できるだけJIS配列に従う 右側のキーが足りない部分は中央付近へ かな/英数の切り替えは親指内側で行う(LANG1,2) 親指はEnterとSpaceは右左で分けたかった BackSpaceも、まあここでいいかなと Delはそんなに使わないけど、とりあえず  レイヤー1  Space押しっぱなしで発動（左親指） 数字＋記号  最上段まで指を伸ばしたくない 将来的にIrisを使って見たいので、移行できるかどうかのシミュレーションに。    レイヤー2  Enterを押しっぱなしでレイヤー2を発動。（右親指） カーソル移動  右側  vimに合わせて左下上右 行頭、行末   左側  マウス操作を入れてるけど、まだあんまり使ってない   下側  音量と明るさのコントロール   リセットボタン  いろんな記事に書いてありますが、毎回物理リセットボタンを押すのは現実的じゃないので、どこかに配置しておいたほうが良いです      課題  親指を使いすぎている気がする  元々は、かな/英数とスペースを両親指で担っていた 親指を活用したいが、逆に親指が疲れてしまいそう まだ脳が慣れていないので、余計に負荷があるように感じる 今の、LANG1,2は見直した方が良いかもしれない。親指は親指エリアだけにしておくかも。    keymap."><meta itemprop="datePublished" content="2018-06-26T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2018-06-26T00:00:00&#43;00:00" />
 <meta itemprop="wordCount" content="67">
-
-
-
-<meta itemprop="keywords" content="" />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="ErgoDox EZ 3週目 現在のキー配列"/>
 <meta name="twitter:description" content="ErgoDox EZを使い始めて3週間。 まだまだキー配置は試行錯誤中ですが、現在の配置と考えを書いておきます。
  過去記事はこちら。  ErgoDox EZ 1週目 最初の壁を乗り越える - yfuku blog ErgoDox EZ 2週目 キー配列カスタマイズ - yfuku blog    前提  移行コストを低くする 他のキーボードを極端に使えなくならないようにする そのため、JIS配列に近い形にする まずは親指部分を有効活用して、不自然な動きを少なくしていく 慣れてきたら次の形態を考える  JIS配列  リポジトリの中にJIS用の定義ファイルがあるので、それをimportする  #include &quot;keymap_jp.h&quot;   通常キーはKC_で定義されていますが、こちらではJP_で定義されてる キー配置のドキュメント  通常  keycodes.md   JIS  keymap_jp.h      レイヤー0  通常使うレイヤー できるだけJIS配列に従う 右側のキーが足りない部分は中央付近へ かな/英数の切り替えは親指内側で行う(LANG1,2) 親指はEnterとSpaceは右左で分けたかった BackSpaceも、まあここでいいかなと Delはそんなに使わないけど、とりあえず  レイヤー1  Space押しっぱなしで発動（左親指） 数字＋記号  最上段まで指を伸ばしたくない 将来的にIrisを使って見たいので、移行できるかどうかのシミュレーションに。    レイヤー2  Enterを押しっぱなしでレイヤー2を発動。（右親指） カーソル移動  右側  vimに合わせて左下上右 行頭、行末   左側  マウス操作を入れてるけど、まだあんまり使ってない   下側  音量と明るさのコントロール   リセットボタン  いろんな記事に書いてありますが、毎回物理リセットボタンを押すのは現実的じゃないので、どこかに配置しておいたほうが良いです      課題  親指を使いすぎている気がする  元々は、かな/英数とスペースを両親指で担っていた 親指を活用したいが、逆に親指が疲れてしまいそう まだ脳が慣れていないので、余計に負荷があるように感じる 今の、LANG1,2は見直した方が良いかもしれない。親指は親指エリアだけにしておくかも。    keymap."/>
@@ -60,8 +56,8 @@ if (!doNotTrack) {
 
 
 
-<link rel="preload" href="/scss/main.min.63a4639c7d5d8a6b1fa4bd34ed739e0348a7e36d636fbc27da9b9331cdeebc4b.css" as="style">
-<link href="/scss/main.min.63a4639c7d5d8a6b1fa4bd34ed739e0348a7e36d636fbc27da9b9331cdeebc4b.css" rel="stylesheet" integrity="">
+<link rel="preload" href="/scss/main.min.91d016fb6ef833d092d10aaf4b5c6abc65c11b90defe267a9707111c779c8c77.css" as="style">
+<link href="/scss/main.min.91d016fb6ef833d092d10aaf4b5c6abc65c11b90defe267a9707111c779c8c77.css" rel="stylesheet" integrity="">
 
 
 <script
@@ -106,6 +102,14 @@ if (!doNotTrack) {
 				
 				
 				<a class="nav-link" href="/bat43tb" ><span>bat43tb</span></a>
+			</li>
+			
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				
+				
+				
+				
+				<a class="nav-link" href="/wings42" ><span>wings42</span></a>
 			</li>
 			
 			<li class="nav-item mr-4 mb-2 mb-lg-0">
@@ -335,7 +339,7 @@ if (!doNotTrack) {
 
 
 
-<script src="/js/main.min.5192d0245e55e27a350338c305c600486b0e0203c6646f58df62212c8128c46b.js" integrity="sha256-UZLQJF5V4no1AzjDBcYASGsOAgPGZG9Y32IhLIEoxGs=" crossorigin="anonymous"></script>
+<script src="/js/main.min.5d5384a99815b30880caa8db827c0521fa02d047804176285d743c0d5154edcc.js" integrity="sha256-XVOEqZgVswiAyqjbgnwFIfoC0EeAQXYoXXQ8DVFU7cw=" crossorigin="anonymous"></script>
 
 
 

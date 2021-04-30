@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="generator" content="Hugo 0.80.0" />
+<meta name="generator" content="Hugo 0.82.1" />
 
 <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
 
@@ -30,9 +30,10 @@ qmk本家にPRする場合は、フォーク元にPR送るだけなのでそん�
 ※リポジトリの場所など変わる可能性があるので、BLE-Micro_proのドキュメントを確認してから作業をお願いします。
 手順  qmk本家からフォーク フォークしたものをclone  git clone https://github.com/yfuku/qmk_firmware.git  せきごんさんのブランチを持ってくる（BLE-Micro-Proドキュメント参照）   git remote add sekigon https://github.com/sekigon-gonnoc/qmk_firmware.git git fetch sekigon git checkout -b nrf52 sekigon/nrf52  claw44_bleを作成してコミット 自分のリポジトリにpush（ブランチ名は何でも良いと思いますが同名のnrf52にしておきました）  git push origin nrf52  pushしたブランチをweb上で確認  https://github.com/yfuku/qmk_firmware/tree/nrf52   New pull requestボタンをクリック base repogitoryにsekigon-gonnocを、base branchにnrf52を選択 タイトルやコメントを入力して、Create pull requestをクリック  " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://yfuku.com/blog/keyboard/ble-micro-pro-pr/" />
-<meta property="article:published_time" content="2019-05-15T00:00:00+00:00" />
-<meta property="article:modified_time" content="2019-05-15T00:00:00+00:00" />
+<meta property="og:url" content="https://yfuku.com/blog/keyboard/ble-micro-pro-pr/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2019-05-15T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2019-05-15T00:00:00&#43;00:00" />
+
 <meta itemprop="name" content="BLE Micro ProのリポジトリにPRした話">
 <meta itemprop="description" content="Claw44 無線化対応 自作キーボードの無線化をサポートしてくれるキット、BLE Micro ProをClaw44で使えるようにしました。これを使用するとbluetoothでPCなどと繋ぐことができます。
 専用にファームウェアが必要になるので、すでに対応してあるキーボードを参考に作成しました。
@@ -40,15 +41,10 @@ qmk本家にPRする場合は、フォーク元にPR送るだけなのでそん�
 もっと良いやり方があるよ〜と言う方は教えてください🙇‍♂️
 qmk本家にPRする場合は、フォーク元にPR送るだけなのでそんなに迷わないのですが、今回はqmk本家をフォークしたせきごんさんのリポジトリに、同じくフォークしたyfukuのリポジトリからPR送っています。
 ※リポジトリの場所など変わる可能性があるので、BLE-Micro_proのドキュメントを確認してから作業をお願いします。
-手順  qmk本家からフォーク フォークしたものをclone  git clone https://github.com/yfuku/qmk_firmware.git  せきごんさんのブランチを持ってくる（BLE-Micro-Proドキュメント参照）   git remote add sekigon https://github.com/sekigon-gonnoc/qmk_firmware.git git fetch sekigon git checkout -b nrf52 sekigon/nrf52  claw44_bleを作成してコミット 自分のリポジトリにpush（ブランチ名は何でも良いと思いますが同名のnrf52にしておきました）  git push origin nrf52  pushしたブランチをweb上で確認  https://github.com/yfuku/qmk_firmware/tree/nrf52   New pull requestボタンをクリック base repogitoryにsekigon-gonnocを、base branchにnrf52を選択 タイトルやコメントを入力して、Create pull requestをクリック  ">
-<meta itemprop="datePublished" content="2019-05-15T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2019-05-15T00:00:00+00:00" />
+手順  qmk本家からフォーク フォークしたものをclone  git clone https://github.com/yfuku/qmk_firmware.git  せきごんさんのブランチを持ってくる（BLE-Micro-Proドキュメント参照）   git remote add sekigon https://github.com/sekigon-gonnoc/qmk_firmware.git git fetch sekigon git checkout -b nrf52 sekigon/nrf52  claw44_bleを作成してコミット 自分のリポジトリにpush（ブランチ名は何でも良いと思いますが同名のnrf52にしておきました）  git push origin nrf52  pushしたブランチをweb上で確認  https://github.com/yfuku/qmk_firmware/tree/nrf52   New pull requestボタンをクリック base repogitoryにsekigon-gonnocを、base branchにnrf52を選択 タイトルやコメントを入力して、Create pull requestをクリック  "><meta itemprop="datePublished" content="2019-05-15T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2019-05-15T00:00:00&#43;00:00" />
 <meta itemprop="wordCount" content="48">
-
-
-
-<meta itemprop="keywords" content="keyboard,git," />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="keyboard,git," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="BLE Micro ProのリポジトリにPRした話"/>
 <meta name="twitter:description" content="Claw44 無線化対応 自作キーボードの無線化をサポートしてくれるキット、BLE Micro ProをClaw44で使えるようにしました。これを使用するとbluetoothでPCなどと繋ぐことができます。
 専用にファームウェアが必要になるので、すでに対応してあるキーボードを参考に作成しました。
@@ -75,8 +71,8 @@ if (!doNotTrack) {
 
 
 
-<link rel="preload" href="/scss/main.min.63a4639c7d5d8a6b1fa4bd34ed739e0348a7e36d636fbc27da9b9331cdeebc4b.css" as="style">
-<link href="/scss/main.min.63a4639c7d5d8a6b1fa4bd34ed739e0348a7e36d636fbc27da9b9331cdeebc4b.css" rel="stylesheet" integrity="">
+<link rel="preload" href="/scss/main.min.91d016fb6ef833d092d10aaf4b5c6abc65c11b90defe267a9707111c779c8c77.css" as="style">
+<link href="/scss/main.min.91d016fb6ef833d092d10aaf4b5c6abc65c11b90defe267a9707111c779c8c77.css" rel="stylesheet" integrity="">
 
 
 <script
@@ -121,6 +117,14 @@ if (!doNotTrack) {
 				
 				
 				<a class="nav-link" href="/bat43tb" ><span>bat43tb</span></a>
+			</li>
+			
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				
+				
+				
+				
+				<a class="nav-link" href="/wings42" ><span>wings42</span></a>
 			</li>
 			
 			<li class="nav-item mr-4 mb-2 mb-lg-0">
@@ -279,7 +283,7 @@ if (!doNotTrack) {
 
 
 
-<script src="/js/main.min.5192d0245e55e27a350338c305c600486b0e0203c6646f58df62212c8128c46b.js" integrity="sha256-UZLQJF5V4no1AzjDBcYASGsOAgPGZG9Y32IhLIEoxGs=" crossorigin="anonymous"></script>
+<script src="/js/main.min.5d5384a99815b30880caa8db827c0521fa02d047804176285d743c0d5154edcc.js" integrity="sha256-XVOEqZgVswiAyqjbgnwFIfoC0EeAQXYoXXQ8DVFU7cw=" crossorigin="anonymous"></script>
 
 
 

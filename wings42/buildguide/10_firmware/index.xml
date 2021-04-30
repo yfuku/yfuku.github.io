@@ -1,0 +1,328 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>yfuku docs – 10. ファームウェア</title>
+    <link>https://yfuku.com/wings42/buildguide/10_firmware/</link>
+    <description>Recent content in 10. ファームウェア on yfuku docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://yfuku.com/wings42/buildguide/10_firmware/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Wings42: VIAでキーマップを変更する</title>
+      <link>https://yfuku.com/wings42/buildguide/10_firmware/via/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfuku.com/wings42/buildguide/10_firmware/via/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;viaとは&#34;&gt;VIAとは？&lt;/h2&gt;
+&lt;p&gt;以前はキーマップを変えるだけでもファームウェアを自分で作成し、書き込む必要がありました。&lt;br&gt;
+このアプリを使うと画面上から設定するだけで、リアルタイムにキーマップを書き換えることができます。&lt;/p&gt;
+&lt;h2 id=&#34;ファームウェアの確認&#34;&gt;ファームウェアの確認&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;一つだけ準備が必要で、VIAに対応したファームウェアがProMicroに書き込まれている必要があります。&lt;/li&gt;
+&lt;li&gt;キットに付属のProMicroは既にVIA対応のファームウェアが書き込まれているので、この作業は不要です。&lt;/li&gt;
+&lt;li&gt;そのほかのProMicroを使う場合は、↓こちらを参考にファームウェアを書き込んでください
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../toolbox/&#34;&gt;QMK Toolboxでファームウェアを書き込む&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;./need-firmware.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;viaをインストールする&#34;&gt;VIAをインストールする&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/the-via/releases/releases/latest&#34;&gt;VIAの最新バージョン&lt;/a&gt;をダウンロードしてインストールする
+&lt;ul&gt;
+&lt;li&gt;お使いのOSにあったものをダウンロードしてください。一般的に下記のような感じだと思います。
+&lt;ul&gt;
+&lt;li&gt;Windowsならvia-X.Y.Z-win.exe or via-X.Y.Z-win.msi&lt;/li&gt;
+&lt;li&gt;Macならvia-X.Y.Z-mac.dmg&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;こんな画面が出ていればOKです&lt;br&gt;
+&lt;img src=&#34;./via-init.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;キーボードを接続する&#34;&gt;キーボードを接続する&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;VIA対応のファームウェアの書き込まれたキーボードを接続するとキーマップ編集画面が表示されます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;このような画面が表示されればOKです
+&lt;img src=&#34;./keymap-setting.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;表示されない場合はVIA対応のファームウェアが書き込まれていない可能性があります&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../toolbox/&#34;&gt;QMK Toolboxでファームウェアを書き込む&lt;/a&gt; を行ってください&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;キーマップを変更する&#34;&gt;キーマップを変更する&lt;/h2&gt;
+&lt;p&gt;※画像はClaw44になっていますが、wings42に置き換えて見てください。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;下記の手順でキーを変更できます。シンプルなキーは大体これだけで変更ができます。
+&lt;img src=&#34;./key-change.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;複雑な機能を使うにはAnyキーを使用する必要があります&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;例えばデフォルトのキーマップの一番下の段はAnyキーで指定されていて、ADVなどと表示されています&lt;/li&gt;
+&lt;li&gt;カーソルを合わせると何が設定されているのかが表示されます
+&lt;img src=&#34;./adv.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;li&gt;一番左下のキーは&lt;code&gt;MT(MOD_LALT,KC_DEL)&lt;/code&gt;と設定されているのが確認できます&lt;/li&gt;
+&lt;li&gt;これは短く押した時はDELETEキーが入力され、長く押すとALTキーが入力される、という意味になります&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;キーマップの変更については、&lt;a href=&#34;https://yfuku.com/claw44/keymap/&#34;&gt;VIAでClaw44でキーマップの構築してみる&lt;/a&gt;を参考にしてみてください。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;また、サリチル酸さんがとても丁寧にまとめてくださっているので、↓がとても参考にります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://salicylic-acid3.hatenablog.com/entry/via-manual#%E3%82%AD%E3%83%BC%E3%83%9E%E3%83%83%E3%83%97%E3%82%92%E5%A4%89%E6%9B%B4%E3%81%99%E3%82%8B&#34;&gt;（初心者編）VIAを使ってキーマップを書き換えよう - 自作キーボード温泉街の歩き方&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;大元のQMKの機能については&lt;a href=&#34;https://docs.qmk.fm/#/ja/feature_advanced_keycodes&#34;&gt;公式ドキュメントの修飾キー&lt;/a&gt;辺りを読んでみると参考になると思います&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;色々と試してみて自分に合うキーマップを探求してみてください！&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;VIAに慣れてきたら、&lt;a href=&#34;https://yfuku.com/wings42/buildguide/10_firmware/#%E3%83%95%E3%82%A1%E3%83%BC%E3%83%A0%E3%82%A6%E3%82%A7%E3%82%A2%E3%82%92%E5%A4%89%E6%9B%B4%E3%81%99%E3%82%8B&#34;&gt;→ファームウェアを変更する&lt;/a&gt;も読んでみてください&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Wings42: あらかじめ修正されたファームウェアを書き込む</title>
+      <link>https://yfuku.com/wings42/buildguide/10_firmware/prefirmware/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfuku.com/wings42/buildguide/10_firmware/prefirmware/</guid>
+      <description>
+        
+        
+        &lt;p&gt;作者がClaw44を使う上で設定をしている項目が2つあります。&lt;br&gt;
+（詳しい説明は公式ドキュメントを確認してください。）&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.qmk.fm/#/ja/tap_hold?id=%e3%82%bf%e3%83%83%e3%83%94%e3%83%b3%e3%82%b0%e6%99%82%e9%96%93&#34;&gt;TAPPING_TERM&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.qmk.fm/#/ja/tap_hold?id=%e3%83%a2%e3%83%83%e3%83%89%e3%82%bf%e3%83%83%e3%83%97%e5%89%b2%e3%82%8a%e8%be%bc%e3%81%bf%e3%81%ae%e7%84%a1%e8%a6%96&#34;&gt;IGNORE_MOD_TAP_INTERRUPT&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;あと、設定項目としてはOLEDの有無もあるので、この3つの状態を設定済みのファームウェアをgithubに置いておきます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/yfuku/claw44/tree/master/firmware/rev1&#34;&gt;claw44/firmware/rev1 at master · yfuku/claw44&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ファームウェアのファイルを特定する&#34;&gt;ファームウェアのファイルを特定する&lt;/h2&gt;
+&lt;h3 id=&#34;oledの有無&#34;&gt;OLEDの有無&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;最初にディレクトリ単位で分けてあります。
+&lt;ul&gt;
+&lt;li&gt;OLEDなし→&lt;a href=&#34;https://github.com/yfuku/claw44/tree/master/firmware/rev1/default&#34;&gt;claw44/firmware/rev1/default&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;OLEDあり→&lt;a href=&#34;https://github.com/yfuku/claw44/tree/master/firmware/rev1/oled&#34;&gt;claw44/firmware/rev1/oled&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;tapping_termの設定&#34;&gt;TAPPING_TERMの設定&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;このディレクトリ直下にあるものは、TAPPING_TERMのみ追加されています&lt;/li&gt;
+&lt;li&gt;例えば、&lt;code&gt;claw44_rev1_via-default-100.hex&lt;/code&gt;であれば、TAPPING_TERMが100に設定されています&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ignore_mod_tap_interrupt&#34;&gt;IGNORE_MOD_TAP_INTERRUPT&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;IGNORE_MOD_TAP_INTERRUPTを指定したい場合はさらに、ignore_mod_tap_interruptディレクトリに行ってください&lt;/li&gt;
+&lt;li&gt;例えば、&lt;code&gt;claw44_rev1_via-default-imti-100.hex&lt;/code&gt;であれば、IGNORE_MOD_TAP_INTERRUPTとTAPPING_TERMが100に設定されています&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ファームウェアをダウンロードする&#34;&gt;ファームウェアをダウンロードする&lt;/h2&gt;
+&lt;h3 id=&#34;gitがわかる方&#34;&gt;gitがわかる方&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;普通にcloneなどしてください&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;gitがよくわからない方&#34;&gt;gitがよくわからない方&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/yfuku/claw44&#34;&gt;yfuku/claw44&lt;/a&gt;このページから、下記のようにzipファイルをダウンロードしてください。
+&lt;img src=&#34;./github.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;個別のファイルのみダウンロードしたい場合&#34;&gt;個別のファイルのみダウンロードしたい場合&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;「raw」の部分を右クリックして保存してください
+&lt;img src=&#34;./raw.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ファームウェアの書き込み&#34;&gt;ファームウェアの書き込み&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../toolbox/&#34;&gt;QMK Toolboxでファームウェアを書き込む&lt;/a&gt; を行ってください&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Wings42: QMK Toolboxでファームウェアを書き込む</title>
+      <link>https://yfuku.com/wings42/buildguide/10_firmware/toolbox/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfuku.com/wings42/buildguide/10_firmware/toolbox/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;qmk-toolboxとは&#34;&gt;QMK Toolboxとは？&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;マイコンにファームウェアを書き込むツールです&lt;/li&gt;
+&lt;li&gt;.hexという拡張子のファイルを使います&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;./toolbox.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;インストール&#34;&gt;インストール&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/qmk/qmk_toolbox/releases/&#34;&gt;最新のQMK Toolbox&lt;/a&gt;をダウンロードし、インストールしてください
+&lt;ul&gt;
+&lt;li&gt;Windowsならqmk_toolbox.exe&lt;/li&gt;
+&lt;li&gt;MacならQMK.Toolbox.app.zip&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;hexファイルを読み込む&#34;&gt;hexファイルを読み込む&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/yfuku/wings42/releases/download/release/wings42_via.hex&#34; download=&#34;wings42_via.hex&#34;&gt;wings42用のVIA対応hexファイル(wings42_via.hex)&lt;/a&gt;をダウンロードします&lt;/li&gt;
+&lt;li&gt;Openをクリックして、ダウンロードしたhexファイルを指定します&lt;/li&gt;
+&lt;li&gt;Auto-Flashにチェックを入れます&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;./toolbox2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ファームウェアを書き込む&#34;&gt;ファームウェアを書き込む&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;キーボードのリセットボタンを押します&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;./reset_button.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;下記のように書き込みのログが表示されます&lt;/li&gt;
+&lt;li&gt;最後に「avrdude done.  Thank you.」と表示されればOKです&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;./toolbox3.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;左右両方のキーボードに書き込みを行ってください
+&lt;ul&gt;
+&lt;li&gt;wings42はUSBを挿した方を左側と認識するようになっています&lt;/li&gt;
+&lt;li&gt;右側に書き込む時は、右側にUSBを挿した状態になるので、左側のキーが入力されます&lt;/li&gt;
+&lt;li&gt;左側にUSBを挿し、左右をTRSケーブルで繋げると正常に入力されますのでご注意ください&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Wings42: 自分でファームウェアを作る</title>
+      <link>https://yfuku.com/wings42/buildguide/10_firmware/build/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfuku.com/wings42/buildguide/10_firmware/build/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;環境構築&#34;&gt;環境構築&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.qmk.fm/#/ja/&#34;&gt;QMK公式ドキュメント&lt;/a&gt;を参照して書き込み環境を構築してください&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;キーマップの修正&#34;&gt;キーマップの修正&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;下記のディレクトリをコピーして、自分用のkeymapのフォルダを作成して修正してください
+&lt;ul&gt;
+&lt;li&gt;keyboards/wings42/keymaps/default/&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;keyboards/wings42/keymaps/mykeymapなどとする
+&lt;ul&gt;
+&lt;li&gt;（mykeymapの部分はなんでもいいです。自分はyfukuとしてます。）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;書き込み&#34;&gt;書き込み&lt;/h2&gt;
+&lt;h3 id=&#34;ビルド&#34;&gt;ビルド&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;コマンド実行&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;make wings42:mykeymap
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;書き込み-1&#34;&gt;書き込み&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;コマンド実行&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;make wings42:mykeymap:avrdude
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;下記のように、&amp;quot;&amp;hellip;&amp;ldquo;と出てきたら、&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;Checking file size of wings42_rev1_default.hex                                                       [OK]
+ * The firmware size is fine - 20168/28672 (8504 bytes free)
+Detecting USB port, reset your controller now....
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;キーボードのリセットボタンを押します&lt;br&gt;
+&lt;img src=&#34;../toolbox/reset_button.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ProMicro単体の場合は、画像のGNDとRSTと書かれている下の丸同士をピンセットなどでショートさせてください。
+&lt;img src=&#34;images/20190402072348.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;下記のように表示され、最後に&lt;code&gt;avrdude done.  Thank you.&lt;/code&gt;が表示されれば成功です！&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;Device /dev/tty.usbmodem146201 has appeared; assuming it is the controller.
+Waiting for /dev/tty.usbmodem146201 to become writable.
+
+Connecting to programmer: .
+Found programmer: Id = &amp;quot;CATERIN&amp;quot;; type = S
+    Software Version = 1.0; No Hardware Version given.
+Programmer supports auto addr increment.
+Programmer supports buffered memory access with buffersize=128 bytes.
+
+Programmer supports the following devices:
+    Device code: 0x44
+
+avrdude: AVR device initialized and ready to accept instructions
+
+Reading | ################################################## | 100% 0.00s
+
+avrdude: Device signature = 0x1e9587 (probably m32u4)
+avrdude: NOTE: &amp;quot;flash&amp;quot; memory has been specified, an erase cycle will be performed
+         To disable this feature, specify the -D option.
+avrdude: erasing chip
+avrdude: reading input file &amp;quot;.build/wings42_rev1_default.hex&amp;quot;
+avrdude: input file .build/wings42_rev1_default.hex auto detected as Intel Hex
+avrdude: writing flash (20168 bytes):
+
+Writing | ################################################## | 100% 1.54s
+
+avrdude: 20168 bytes of flash written
+avrdude: verifying flash memory against .build/wings42_rev1_default.hex:
+avrdude: load data flash data from input file .build/wings42_rev1_default.hex:
+avrdude: input file .build/wings42_rev1_default.hex auto detected as Intel Hex
+avrdude: input file .build/wings42_rev1_default.hex contains 20168 bytes
+avrdude: reading on-chip flash data:
+
+Reading | ################################################## | 100% 0.18s
+
+avrdude: verifying ...
+avrdude: 20168 bytes of flash verified
+
+avrdude: safemode: Fuses OK (E:FB, H:D8, L:FF)
+
+avrdude done.  Thank you.
+&lt;/code&gt;&lt;/pre&gt;
+      </description>
+    </item>
+    
+  </channel>
+</rss>

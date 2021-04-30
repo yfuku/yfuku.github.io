@@ -1,385 +1,265 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://yfuku.com/blog/se/</loc>
     <lastmod>2018-12-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/claw44/buildguide/1_check/</loc>
     <lastmod>2020-07-02T10:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/bat43/whatis/</loc>
     <lastmod>2020-03-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/bat43/buildguide/1_check/</loc>
     <lastmod>2019-11-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/claw44/history/init/</loc>
     <lastmod>2018-12-26T10:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://yfuku.com/wings42/buildguide/1_prepare/</loc>
+  </url><url>
     <loc>https://yfuku.com/claw44/keymap/keymap_build/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/claw44/buildguide/10_firmware/via/</loc>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://yfuku.com/wings42/buildguide/10_firmware/via/</loc>
+  </url><url>
     <loc>https://yfuku.com/claw44/buildguide/10_firmware/prefirmware/</loc>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://yfuku.com/wings42/buildguide/10_firmware/prefirmware/</loc>
+  </url><url>
     <loc>https://yfuku.com/claw44/buildguide/2_prepare/</loc>
     <lastmod>2020-07-02T10:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/bat43/buildguide/2_prepare/</loc>
     <lastmod>2019-11-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/bat43/buildguide/</loc>
     <lastmod>2019-11-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/claw44/history/alpha/</loc>
     <lastmod>2019-02-04T10:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://yfuku.com/wings42/buildguide/2_check/</loc>
+  </url><url>
     <loc>https://yfuku.com/claw44/keymap/naginata/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/claw44/buildguide/10_firmware/toolbox/</loc>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://yfuku.com/wings42/buildguide/10_firmware/toolbox/</loc>
+  </url><url>
     <loc>https://yfuku.com/claw44/buildguide/10_firmware/build/</loc>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://yfuku.com/wings42/buildguide/10_firmware/build/</loc>
+  </url><url>
     <loc>https://yfuku.com/bat43/keycap/</loc>
     <lastmod>2020-07-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/claw44/history/advent2019/</loc>
     <lastmod>2019-12-16T10:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/bat43/buildguide/3_build/</loc>
     <lastmod>2019-11-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://yfuku.com/wings42/buildguide/3_build/</loc>
+  </url><url>
     <loc>https://yfuku.com/claw44/buildguide/3_build/</loc>
     <lastmod>2020-07-02T10:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/bat43/buildguide/4_diode/</loc>
     <lastmod>2019-11-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://yfuku.com/wings42/buildguide/4_diode/</loc>
+  </url><url>
     <loc>https://yfuku.com/claw44/buildguide/4_diode/</loc>
     <lastmod>2020-07-02T10:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/bat43/buildguide/5_socket/</loc>
     <lastmod>2019-11-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://yfuku.com/wings42/buildguide/5_switch/</loc>
+  </url><url>
     <loc>https://yfuku.com/claw44/buildguide/5_socket/</loc>
     <lastmod>2020-07-02T10:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/bat43/buildguide/6_otherparts/</loc>
     <lastmod>2019-11-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://yfuku.com/wings42/buildguide/6_otherparts/</loc>
+  </url><url>
     <loc>https://yfuku.com/claw44/buildguide/6_otherparts/</loc>
     <lastmod>2020-07-02T10:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/bat43/buildguide/7_bmp_parts/</loc>
     <lastmod>2019-11-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://yfuku.com/wings42/buildguide/7_promicro/</loc>
+  </url><url>
     <loc>https://yfuku.com/claw44/buildguide/7_promicro/</loc>
     <lastmod>2020-07-02T10:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/bat43/buildguide/8_promicro/</loc>
     <lastmod>2019-11-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://yfuku.com/wings42/buildguide/8_plate/</loc>
+  </url><url>
     <loc>https://yfuku.com/claw44/buildguide/8_plate/</loc>
     <lastmod>2020-07-02T10:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/bat43/buildguide/9_plate/</loc>
     <lastmod>2019-11-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/claw44/buildguide/9_keycap/</loc>
     <lastmod>2020-07-02T10:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/claw44/whatis/</loc>
     <lastmod>2020-07-02T10:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://yfuku.com/wings42/whatis/</loc>
+    <lastmod>2020-07-02T10:00:00+09:00</lastmod>
+  </url><url>
     <loc>https://yfuku.com/bat43/buildguide/10_keycap/</loc>
     <lastmod>2019-11-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://yfuku.com/wings42/buildguide/9_keycap/</loc>
+  </url><url>
     <loc>https://yfuku.com/claw44/buildguide/10_firmware/</loc>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://yfuku.com/wings42/buildguide/10_firmware/</loc>
+  </url><url>
     <loc>https://yfuku.com/claw44/buildguide/</loc>
     <lastmod>2020-07-02T10:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/bat43/buildguide/bmp/</loc>
     <lastmod>2019-11-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://yfuku.com/wings42/buildguide/</loc>
+  </url><url>
     <loc>https://yfuku.com/claw44/keymap/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/claw44/bmp/</loc>
     <lastmod>2019-06-26T10:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/claw44/claw44v2/</loc>
     <lastmod>2020-03-21T10:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/claw44/history/</loc>
     <lastmod>2020-07-02T10:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/bat43/buildguide/firmware/</loc>
     <lastmod>2019-11-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/blog/</loc>
     <lastmod>2021-01-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/blog/electronic/heater_remo/</loc>
     <lastmod>2021-01-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/</loc>
     <lastmod>2021-01-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/blog/electronic/</loc>
     <lastmod>2021-01-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/blog/keyboard/bat_keycaps/</loc>
     <lastmod>2020-12-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/blog/keyboard/</loc>
     <lastmod>2020-12-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/tags/keyboard/</loc>
     <lastmod>2020-12-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/tags/keycap/</loc>
     <lastmod>2020-12-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/tags/</loc>
     <lastmod>2020-12-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/tags/trackball/</loc>
     <lastmod>2020-10-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/blog/keyboard/trackball_with_touch_sensor/</loc>
     <lastmod>2020-10-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/tb7/</loc>
     <lastmod>2020-10-16T10:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/tb7/buildguide/</loc>
     <lastmod>2020-10-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/bat43tb/</loc>
     <lastmod>2020-09-21T10:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/bat43tb/buildguide/</loc>
     <lastmod>2020-09-21T10:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/claw44/</loc>
     <lastmod>2020-07-02T10:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://yfuku.com/wings42/</loc>
+    <lastmod>2020-07-02T10:00:00+09:00</lastmod>
+  </url><url>
     <loc>https://yfuku.com/bat43/</loc>
     <lastmod>2020-07-01T10:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/claw44/best/</loc>
     <lastmod>2019-06-15T10:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/blog/keyboard/ble-micro-pro-pr/</loc>
     <lastmod>2019-05-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/tags/git/</loc>
     <lastmod>2019-05-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/blog/keyboard/keybord_build_tool/</loc>
     <lastmod>2019-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/blog/se/raspberrypi_proxy/</loc>
     <lastmod>2018-12-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/blog/keyboard/corne_cherry_matteblack_buildlog/</loc>
     <lastmod>2018-11-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/blog/keyboard/blockey_smartphone/</loc>
     <lastmod>2018-10-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/blog/keyboard/corne_keymap/</loc>
     <lastmod>2018-10-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/blog/electronic/raspberrypi_zero_interphone/</loc>
     <lastmod>2018-08-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/blog/keyboard/ergodoxez_disassembly/</loc>
     <lastmod>2018-08-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/blog/keyboard/crkbd_build_and_error/</loc>
     <lastmod>2018-08-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/blog/keyboard/iris_build/</loc>
     <lastmod>2018-07-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/blog/keyboard/ergodoxez_4/</loc>
     <lastmod>2018-07-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/blog/keyboard/iris_init/</loc>
     <lastmod>2018-07-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/blog/electronic/raspberrypi_interphone/</loc>
     <lastmod>2018-07-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/blog/keyboard/ergodoxez_third/</loc>
     <lastmod>2018-06-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/blog/keyboard/ergodoxez_second/</loc>
     <lastmod>2018-06-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/blog/keyboard/ergodoxez_first/</loc>
     <lastmod>2018-06-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yfuku.com/search/</loc>
   </url>
-  
 </urlset>
