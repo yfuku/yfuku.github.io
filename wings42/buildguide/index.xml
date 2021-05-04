@@ -374,6 +374,7 @@
 &lt;h3 id=&#34;確認&#34;&gt;確認&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;GoogleChromeで&lt;a href=&#34;https://remap-keys.app/&#34;&gt;Remap&lt;/a&gt;を開いてください&lt;/li&gt;
+&lt;li&gt;拡張機能などでアルファベットに対してショートカットキーが割り当てられていると干渉する場合があります。そのような拡張機能はオフにしておいてください（Vimiumなど）&lt;/li&gt;
 &lt;li&gt;「START REMAP FOR YOUR KEYBOARD」をクリック&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img src=&#34;images/r1.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
