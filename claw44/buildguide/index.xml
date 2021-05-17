@@ -15,11 +15,68 @@
     
     
     <item>
-      <title>Claw44: 1. 同梱品の確認</title>
-      <link>https://yfuku.com/claw44/buildguide/1_check/</link>
-      <pubDate>Thu, 02 Jul 2020 10:00:00 +0900</pubDate>
+      <title>Claw44: 1. 準備</title>
+      <link>https://yfuku.com/claw44/buildguide/1_prepare/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/claw44/buildguide/1_check/</guid>
+      <guid>https://yfuku.com/claw44/buildguide/1_prepare/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;キット以外に用意するもの&#34;&gt;キット以外に用意するもの&lt;/h2&gt;
+&lt;p&gt;参考に購入サイトを併記していますが、その他の場所でも購入いただけます。&lt;/p&gt;
+&lt;h3 id=&#34;オーディオケーブル-3極trs-or-4極trrs-1本&#34;&gt;オーディオケーブル 3極(TRS) or 4極(TRRS): 1本&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;キーボードの左右間通信に使います&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.amazon.co.jp/o/ASIN/B01FVDF1AY/hoge0f-22/&#34;&gt;エレコム ステレオミニプラグ オーディオケーブル 極細スリムコネクタ 金メッキ ブラック 0.5m / Amazon.co.jp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.yodobashi.com/product-detail/100000001004210555/&#34;&gt;エレコム ELECOM MPA-C35LL05BK 車載用AUXケーブル オス(L型)-オス(L型) 0.5m ブラック / ヨドバシ.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://yushakobo.jp/shop/trrs_cable/&#34;&gt;TRRSケーブル 1m / 遊舎工房&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://talpkeyboard.net/items/5e0c0d786c7d63073c5e8845&#34;&gt;TRRSケーブル（0.3m) / TALPKEYBOARD&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.yodobashi.com/category/22052/500000073035/500000073507/500000073508/500000073511/&#34;&gt;ヨドバシ.com - ミニプラグ・標準プラグ オーディオケーブル&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;マイクロusbケーブル1本&#34;&gt;マイクロUSBケーブル：1本&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;PCとの接続に使います&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://yushakobo.jp/shop/usb_cable_micro_b/&#34;&gt;USBケーブル Micro B 1m / 遊舎工房&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;キースイッチmx互換-44個&#34;&gt;キースイッチ（MX互換）: 44個&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;キーの入力を検知するスイッチです。様々な種類があります。&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://yushakobo.jp/product-category/switches/&#34;&gt;Switches / 遊舎工房&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://talpkeyboard.stores.jp/?category_id=59cf8860ed05e668db003f5d&#34;&gt;KEYSWITCH / TALP KEYBOARD&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://eucalyn.shop/product-category/keyswitches&#34;&gt;SWITCHES / ゆかりキーボードファクトリー&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;キーキャップ1u-42個125u-2個1uで代用する場合は1u44個&#34;&gt;キーキャップ　1U: 42個、1.25U 2個（1Uで代用する場合は1U：44個）&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;キースイッチに乗せて実際に打鍵する部品になります。こちらも様々な種類があります&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://yushakobo.jp/product-category/keycaps/&#34;&gt;Keycaps / 遊舎工房&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://talpkeyboard.stores.jp/?category_id=59be183f428f2d49120007b1&#34;&gt;KEYCAP SET / TALP KEYBOARD&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://make.dmm.com/item/1071048/&#34;&gt;Claw44 の親指 - DMM.make クリエイターズマーケット&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;oledモジュールピンソケット付き-2-個-オプション&#34;&gt;OLEDモジュール(ピンソケット付き): 2 個 （オプション）&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;小さな液晶にキー入力の情報やロゴなどが表示できます。必須ではありません。&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://yushakobo.jp/shop/oled/&#34;&gt;OLEDモジュール / 遊舎工房&lt;/a&gt; ※ピンソケット付きを選んでください&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;必要な工具&#34;&gt;必要な工具&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../../../blog/keyboard/keybord_build_tool&#34;&gt;自作キーボードの組み立てに使っている工具&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ファームウェア&#34;&gt;ファームウェア&lt;/h2&gt;
+&lt;p&gt;キットに付属のProMicroはファームウェアが書き込まれているため、そのまま使用できます。&lt;br&gt;
+&lt;a href=&#34;../10_firmware&#34;&gt;10. ファームウェア&lt;/a&gt;のページは事前に目を通し、できることは先にやっておきましょう。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;../2_check&#34;&gt;→ 2.同梱品の確認&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Claw44: 2. 同梱品の確認</title>
+      <link>https://yfuku.com/claw44/buildguide/2_check/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfuku.com/claw44/buildguide/2_check/</guid>
       <description>
         
         
@@ -47,63 +104,6 @@
 &lt;img src=&#34;images/plate2.jpg&#34; alt=&#34;トッププレート&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;ボトムプレート：2枚&lt;/strong&gt;
 &lt;img src=&#34;images/plate3.jpg&#34; alt=&#34;ボトムプレート&#34;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;a href=&#34;../2_prepare&#34;&gt;→ 2.準備&lt;/a&gt;&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Claw44: 2. 準備</title>
-      <link>https://yfuku.com/claw44/buildguide/2_prepare/</link>
-      <pubDate>Thu, 02 Jul 2020 10:00:00 +0900</pubDate>
-      
-      <guid>https://yfuku.com/claw44/buildguide/2_prepare/</guid>
-      <description>
-        
-        
-        &lt;h2 id=&#34;用意するもの&#34;&gt;用意するもの&lt;/h2&gt;
-&lt;p&gt;参考に購入サイトを併記していますが、その他の場所でも購入いただけます。&lt;/p&gt;
-&lt;h3 id=&#34;trs-or-trrsケーブル-1本&#34;&gt;TRS or TRRSケーブル: 1本&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;キーボードの左右間通信に使います&lt;/em&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.amazon.co.jp/o/ASIN/B01FVDF1AY/hoge0f-22/&#34;&gt;Amazon.co.jp： エレコム ステレオミニプラグ オーディオケーブル 極細スリムコネクタ 金メッキ ブラック 0.5m&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.yodobashi.com/product-detail/100000001004210555/&#34;&gt;ヨドバシ.com - エレコム ELECOM MPA-C35LL05BK 車載用AUXケーブル オス(L型)-オス(L型) 0.5m ブラック&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://yushakobo.jp/shop/trrs_cable/&#34;&gt;TRRSケーブル 1m | 遊舎工房&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://talpkeyboard.net/items/5e0c0d786c7d63073c5e8845&#34;&gt;TRRSケーブル（0.3m) | TALPKEYBOARD&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.yodobashi.com/category/22052/500000073035/500000073507/500000073508/500000073511/&#34;&gt;ヨドバシ.com - ミニプラグ・標準プラグ オーディオケーブル&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;マイクロusbケーブル1本&#34;&gt;マイクロUSBケーブル：1本&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;PCとの接続に使います&lt;/em&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://yushakobo.jp/shop/usb_cable_micro_b/&#34;&gt;USBケーブル Micro B 1m | 遊舎工房&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;キースイッチmx互換-44個&#34;&gt;キースイッチ（MX互換）: 44個&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;キーの入力を検知するスイッチです。様々な種類があります。&lt;/em&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://yushakobo.jp/product-category/switches/&#34;&gt;Switches | 遊舎工房&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://talpkeyboard.stores.jp/?category_id=59cf8860ed05e668db003f5d&#34;&gt;KEYSWITCH | TALP KEYBOARD&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://eucalyn.shop/product-category/keyswitches&#34;&gt;SWITCHES | ゆかりキーボードファクトリー&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;キーキャップ1u-42個125u-2個1uで代用する場合は1u44個&#34;&gt;キーキャップ　1U: 42個、1.25U 2個（1Uで代用する場合は1U：44個）&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;キースイッチに載せて実際に打鍵する部品になります。こちらも様々な種類があります&lt;/em&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://yushakobo.jp/product-category/keycaps/&#34;&gt;Keycaps | 遊舎工房&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://talpkeyboard.stores.jp/?category_id=59be183f428f2d49120007b1&#34;&gt;KEYCAP SET | TALP KEYBOARD&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://make.dmm.com/item/1071048/&#34;&gt;Claw44 の親指 - DMM.make クリエイターズマーケット&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;oledモジュールピンソケット付き-2-個-オプション&#34;&gt;OLEDモジュール(ピンソケット付き): 2 個 （オプション）&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;小さな液晶にキー入力の情報やロゴなどが表示できます。必須ではありません。&lt;/em&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://yushakobo.jp/shop/oled/&#34;&gt;OLEDモジュール | 遊舎工房&lt;/a&gt; ※ピンソケット付きを選んでください&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;必要な工具&#34;&gt;必要な工具&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;../../../blog/keyboard/keybord_build_tool&#34;&gt;自作キーボードの組み立てに使っている工具&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;ファームウェア&#34;&gt;ファームウェア&lt;/h2&gt;
-&lt;p&gt;キットに付属のProMicroはファームウェアが書き込まれているため、そのまま使用できます。&lt;br&gt;
-キーマップを変更する場合はPC側の設定など必要になるので、&lt;a href=&#34;../10_firmware&#34;&gt;10. ファームウェア&lt;/a&gt;のページは事前に目を通し、できることは先にやっておきましょう。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;a href=&#34;../3_build&#34;&gt;→ 3.組み立て&lt;/a&gt;&lt;/p&gt;
 

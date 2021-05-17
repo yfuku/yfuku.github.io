@@ -7,7 +7,7 @@
 
 <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
 
-<link rel="alternate" type="application/rss&#43;xml" href="https://yfuku.com/claw44/buildguide/10_firmware/toolbox/index.xml">
+<link rel="alternate" type="application/rss&#43;xml" href="https://yfuku.com/claw44/buildguide/2_check/index.xml">
 
 
 <link rel="shortcut icon" href="/favicons/favicon.ico" >
@@ -21,14 +21,14 @@
 <link rel="icon" type="image/png" href="/favicons/android-144x144.png" sizes="144x144">
 <link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
 
-<title>QMK Toolboxでファームウェアを書き込む | yfuku docs</title><meta property="og:title" content="QMK Toolboxでファームウェアを書き込む" />
+<title>2. 同梱品の確認 | yfuku docs</title><meta property="og:title" content="2. 同梱品の確認" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://yfuku.com/claw44/buildguide/10_firmware/toolbox/" />
+<meta property="og:url" content="https://yfuku.com/claw44/buildguide/2_check/" />
 
-<meta itemprop="name" content="QMK Toolboxでファームウェアを書き込む">
+<meta itemprop="name" content="2. 同梱品の確認">
 <meta itemprop="description" content=""><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="QMK Toolboxでファームウェアを書き込む"/>
+<meta name="twitter:title" content="2. 同梱品の確認"/>
 <meta name="twitter:description" content=""/>
 
 
@@ -241,10 +241,10 @@ if (!doNotTrack) {
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/claw44/buildguide/2_check/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">2. 同梱品の確認</a>
+    <a  href="/claw44/buildguide/2_check/" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">2. 同梱品の確認</a>
   </li>
   <ul>
-    <li class="collapse " id="claw44buildguide2_check">
+    <li class="collapse show" id="claw44buildguide2_check">
       
       
       
@@ -425,10 +425,10 @@ if (!doNotTrack) {
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/claw44/buildguide/10_firmware/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">10. ファームウェア</a>
+    <a  href="/claw44/buildguide/10_firmware/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">10. ファームウェア</a>
   </li>
   <ul>
-    <li class="collapse show" id="claw44buildguide10_firmware">
+    <li class="collapse " id="claw44buildguide10_firmware">
       
       
       
@@ -488,10 +488,10 @@ if (!doNotTrack) {
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/claw44/buildguide/10_firmware/toolbox/" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">QMK Toolboxでファームウェアを書き込む</a>
+    <a  href="/claw44/buildguide/10_firmware/toolbox/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">QMK Toolboxでファームウェアを書き込む</a>
   </li>
   <ul>
-    <li class="collapse show" id="claw44buildguide10_firmwaretoolbox">
+    <li class="collapse " id="claw44buildguide10_firmwaretoolbox">
       
       
       
@@ -794,9 +794,6 @@ if (!doNotTrack) {
 
 
 
-
-
-
 <li class="breadcrumb-item" >
 	<a href="https://yfuku.com/claw44/">Claw44</a>
 </li>
@@ -811,15 +808,8 @@ if (!doNotTrack) {
 
 
 
-<li class="breadcrumb-item" >
-	<a href="https://yfuku.com/claw44/buildguide/10_firmware/">10. ファームウェア</a>
-</li>
-
-
-
-
 <li class="breadcrumb-item active" aria-current="page">
-	<a href="https://yfuku.com/claw44/buildguide/10_firmware/toolbox/">QMK Toolboxでファームウェアを書き込む</a>
+	<a href="https://yfuku.com/claw44/buildguide/2_check/">2. 同梱品の確認</a>
 </li>
 
 	</ol>
@@ -827,54 +817,35 @@ if (!doNotTrack) {
 
             
 <div class="td-content">
-	<h1>QMK Toolboxでファームウェアを書き込む</h1>
+	<h1>2. 同梱品の確認</h1>
         
 	
-	<h2 id="qmk-toolboxとは">QMK Toolboxとは？</h2>
-<ul>
-<li>マイコンにファームウェアを書き込むツールです</li>
-<li>.hexという拡張子のファイルを使います</li>
-</ul>
-<p><img src="./toolbox.jpg" alt=""></p>
-<h2 id="インストール">インストール</h2>
-<ul>
-<li><a href="https://github.com/qmk/qmk_toolbox/releases/">最新のQMK Toolbox</a>をダウンロードし、インストールしてください
-<ul>
-<li>Windowsならqmk_toolbox.exe</li>
-<li>MacならQMK.Toolbox.app.zip</li>
-</ul>
-</li>
-</ul>
-<h2 id="hexファイルを読み込む">hexファイルを読み込む</h2>
-<ul>
-<li><a href="https://github.com/yfuku/claw44/releases/download/via/claw44_rev1_via.hex" download="claw44_rev1_via.hex">Claw44用のVIA対応hexファイル(claw44_rev1_via.hex)</a>をダウンロードします</li>
-<li>Openをクリックして、ダウンロードしたhexファイルを指定します</li>
-<li>Auto-Flashにチェックを入れます</li>
-</ul>
-<p><img src="./toolbox2.png" alt=""></p>
-<h3 id="oledを使用する場合オプション">OLEDを使用する場合（オプション）</h3>
-<ul>
-<li><a href="https://github.com/yfuku/claw44/releases/download/via/claw44_rev1_via-oled.hex" download="claw44_rev1_via-oled.hex">OLED用hexファイル(claw44_rev1_via-oled.hex)</a>をダウンロードします</li>
-</ul>
-<h2 id="ファームウェアを書き込む">ファームウェアを書き込む</h2>
-<ul>
-<li>キーボードのリセットボタンを押します</li>
-</ul>
-<p><img src="./reset_button.jpg" alt=""></p>
-<ul>
-<li>下記のように書き込みのログが表示されます</li>
-<li>最後に「avrdude done.  Thank you.」と表示されればOKです</li>
-</ul>
-<p><img src="./toolbox3.png" alt=""></p>
-<ul>
-<li>左右両方のキーボードに書き込みを行ってください
-<ul>
-<li>Claw44はUSBを挿した方を左側と認識するようになっています</li>
-<li>右側に書き込む時は、右側にUSBを挿した状態になるので、左側のキーが入力されます</li>
-<li>左側にUSBを挿し、左右をTRSケーブルで繋げると正常に入力されますのでご注意ください</li>
-</ul>
-</li>
-</ul>
+	<p>組み立て前に同梱品の確認をお願いします。<br>
+不足品などありましたら付属の案内に記載の連絡先か、<a href="https://twitter.com/yfuku_">Twitter</a>からご連絡ください。</p>
+<ol>
+<li>ProMicro保護プレート: 2枚</li>
+<li>TRRSジャック: 2個</li>
+<li>タクトスイッチ: 2個</li>
+<li>ダイオードベンダー：2本</li>
+<li>スペーサー（長）: 4本</li>
+<li>スペーサー（短）: 14本</li>
+<li>ネジ : 36本＋予備</li>
+<li>クッションゴム: 12個</li>
+<li>ダイオード: 44個+予備</li>
+<li>脱落防止用輪っか：14個＋予備</li>
+<li>コンスルー ：4本</li>
+<li>ProMicro：2個</li>
+<li>MX互換スイッチ用PCBソケット 44個＋予備</li>
+</ol>
+<p><img src="images/parts.jpg" alt="部品"></p>
+<p><strong>基板：2枚</strong>
+<img src="images/plate1.jpg" alt="基板"></p>
+<p><strong>トッププレート：2枚</strong>
+<img src="images/plate2.jpg" alt="トッププレート"></p>
+<p><strong>ボトムプレート：2枚</strong>
+<img src="images/plate3.jpg" alt="ボトムプレート"></p>
+<hr>
+<p><a href="../3_build">→ 3.組み立て</a></p>
 
         <div class="section-index">
     

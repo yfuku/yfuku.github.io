@@ -7,7 +7,7 @@
 
 <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
 
-<link rel="alternate" type="application/rss&#43;xml" href="https://yfuku.com/claw44/buildguide/10_firmware/toolbox/index.xml">
+<link rel="alternate" type="application/rss&#43;xml" href="https://yfuku.com/claw44/buildguide/1_prepare/index.xml">
 
 
 <link rel="shortcut icon" href="/favicons/favicon.ico" >
@@ -21,14 +21,14 @@
 <link rel="icon" type="image/png" href="/favicons/android-144x144.png" sizes="144x144">
 <link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
 
-<title>QMK Toolboxでファームウェアを書き込む | yfuku docs</title><meta property="og:title" content="QMK Toolboxでファームウェアを書き込む" />
+<title>1. 準備 | yfuku docs</title><meta property="og:title" content="1. 準備" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://yfuku.com/claw44/buildguide/10_firmware/toolbox/" />
+<meta property="og:url" content="https://yfuku.com/claw44/buildguide/1_prepare/" />
 
-<meta itemprop="name" content="QMK Toolboxでファームウェアを書き込む">
+<meta itemprop="name" content="1. 準備">
 <meta itemprop="description" content=""><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="QMK Toolboxでファームウェアを書き込む"/>
+<meta name="twitter:title" content="1. 準備"/>
 <meta name="twitter:description" content=""/>
 
 
@@ -218,10 +218,10 @@ if (!doNotTrack) {
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/claw44/buildguide/1_prepare/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">1. 準備</a>
+    <a  href="/claw44/buildguide/1_prepare/" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">1. 準備</a>
   </li>
   <ul>
-    <li class="collapse " id="claw44buildguide1_prepare">
+    <li class="collapse show" id="claw44buildguide1_prepare">
       
       
       
@@ -425,10 +425,10 @@ if (!doNotTrack) {
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/claw44/buildguide/10_firmware/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">10. ファームウェア</a>
+    <a  href="/claw44/buildguide/10_firmware/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">10. ファームウェア</a>
   </li>
   <ul>
-    <li class="collapse show" id="claw44buildguide10_firmware">
+    <li class="collapse " id="claw44buildguide10_firmware">
       
       
       
@@ -488,10 +488,10 @@ if (!doNotTrack) {
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/claw44/buildguide/10_firmware/toolbox/" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">QMK Toolboxでファームウェアを書き込む</a>
+    <a  href="/claw44/buildguide/10_firmware/toolbox/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">QMK Toolboxでファームウェアを書き込む</a>
   </li>
   <ul>
-    <li class="collapse show" id="claw44buildguide10_firmwaretoolbox">
+    <li class="collapse " id="claw44buildguide10_firmwaretoolbox">
       
       
       
@@ -794,9 +794,6 @@ if (!doNotTrack) {
 
 
 
-
-
-
 <li class="breadcrumb-item" >
 	<a href="https://yfuku.com/claw44/">Claw44</a>
 </li>
@@ -811,15 +808,8 @@ if (!doNotTrack) {
 
 
 
-<li class="breadcrumb-item" >
-	<a href="https://yfuku.com/claw44/buildguide/10_firmware/">10. ファームウェア</a>
-</li>
-
-
-
-
 <li class="breadcrumb-item active" aria-current="page">
-	<a href="https://yfuku.com/claw44/buildguide/10_firmware/toolbox/">QMK Toolboxでファームウェアを書き込む</a>
+	<a href="https://yfuku.com/claw44/buildguide/1_prepare/">1. 準備</a>
 </li>
 
 	</ol>
@@ -827,54 +817,53 @@ if (!doNotTrack) {
 
             
 <div class="td-content">
-	<h1>QMK Toolboxでファームウェアを書き込む</h1>
+	<h1>1. 準備</h1>
         
 	
-	<h2 id="qmk-toolboxとは">QMK Toolboxとは？</h2>
+	<h2 id="キット以外に用意するもの">キット以外に用意するもの</h2>
+<p>参考に購入サイトを併記していますが、その他の場所でも購入いただけます。</p>
+<h3 id="オーディオケーブル-3極trs-or-4極trrs-1本">オーディオケーブル 3極(TRS) or 4極(TRRS): 1本</h3>
+<p><em>キーボードの左右間通信に使います</em></p>
 <ul>
-<li>マイコンにファームウェアを書き込むツールです</li>
-<li>.hexという拡張子のファイルを使います</li>
+<li><a href="https://www.amazon.co.jp/o/ASIN/B01FVDF1AY/hoge0f-22/">エレコム ステレオミニプラグ オーディオケーブル 極細スリムコネクタ 金メッキ ブラック 0.5m / Amazon.co.jp</a></li>
+<li><a href="https://www.yodobashi.com/product-detail/100000001004210555/">エレコム ELECOM MPA-C35LL05BK 車載用AUXケーブル オス(L型)-オス(L型) 0.5m ブラック / ヨドバシ.com</a></li>
+<li><a href="https://yushakobo.jp/shop/trrs_cable/">TRRSケーブル 1m / 遊舎工房</a></li>
+<li><a href="https://talpkeyboard.net/items/5e0c0d786c7d63073c5e8845">TRRSケーブル（0.3m) / TALPKEYBOARD</a></li>
+<li><a href="https://www.yodobashi.com/category/22052/500000073035/500000073507/500000073508/500000073511/">ヨドバシ.com - ミニプラグ・標準プラグ オーディオケーブル</a></li>
 </ul>
-<p><img src="./toolbox.jpg" alt=""></p>
-<h2 id="インストール">インストール</h2>
+<h3 id="マイクロusbケーブル1本">マイクロUSBケーブル：1本</h3>
+<p><em>PCとの接続に使います</em></p>
 <ul>
-<li><a href="https://github.com/qmk/qmk_toolbox/releases/">最新のQMK Toolbox</a>をダウンロードし、インストールしてください
+<li><a href="https://yushakobo.jp/shop/usb_cable_micro_b/">USBケーブル Micro B 1m / 遊舎工房</a></li>
+</ul>
+<h3 id="キースイッチmx互換-44個">キースイッチ（MX互換）: 44個</h3>
+<p><em>キーの入力を検知するスイッチです。様々な種類があります。</em></p>
 <ul>
-<li>Windowsならqmk_toolbox.exe</li>
-<li>MacならQMK.Toolbox.app.zip</li>
+<li><a href="https://yushakobo.jp/product-category/switches/">Switches / 遊舎工房</a></li>
+<li><a href="https://talpkeyboard.stores.jp/?category_id=59cf8860ed05e668db003f5d">KEYSWITCH / TALP KEYBOARD</a></li>
+<li><a href="https://eucalyn.shop/product-category/keyswitches">SWITCHES / ゆかりキーボードファクトリー</a></li>
 </ul>
-</li>
-</ul>
-<h2 id="hexファイルを読み込む">hexファイルを読み込む</h2>
+<h3 id="キーキャップ1u-42個125u-2個1uで代用する場合は1u44個">キーキャップ　1U: 42個、1.25U 2個（1Uで代用する場合は1U：44個）</h3>
+<p><em>キースイッチに乗せて実際に打鍵する部品になります。こちらも様々な種類があります</em></p>
 <ul>
-<li><a href="https://github.com/yfuku/claw44/releases/download/via/claw44_rev1_via.hex" download="claw44_rev1_via.hex">Claw44用のVIA対応hexファイル(claw44_rev1_via.hex)</a>をダウンロードします</li>
-<li>Openをクリックして、ダウンロードしたhexファイルを指定します</li>
-<li>Auto-Flashにチェックを入れます</li>
+<li><a href="https://yushakobo.jp/product-category/keycaps/">Keycaps / 遊舎工房</a></li>
+<li><a href="https://talpkeyboard.stores.jp/?category_id=59be183f428f2d49120007b1">KEYCAP SET / TALP KEYBOARD</a></li>
+<li><a href="https://make.dmm.com/item/1071048/">Claw44 の親指 - DMM.make クリエイターズマーケット</a></li>
 </ul>
-<p><img src="./toolbox2.png" alt=""></p>
-<h3 id="oledを使用する場合オプション">OLEDを使用する場合（オプション）</h3>
+<h3 id="oledモジュールピンソケット付き-2-個-オプション">OLEDモジュール(ピンソケット付き): 2 個 （オプション）</h3>
+<p><em>小さな液晶にキー入力の情報やロゴなどが表示できます。必須ではありません。</em></p>
 <ul>
-<li><a href="https://github.com/yfuku/claw44/releases/download/via/claw44_rev1_via-oled.hex" download="claw44_rev1_via-oled.hex">OLED用hexファイル(claw44_rev1_via-oled.hex)</a>をダウンロードします</li>
+<li><a href="https://yushakobo.jp/shop/oled/">OLEDモジュール / 遊舎工房</a> ※ピンソケット付きを選んでください</li>
 </ul>
-<h2 id="ファームウェアを書き込む">ファームウェアを書き込む</h2>
+<h2 id="必要な工具">必要な工具</h2>
 <ul>
-<li>キーボードのリセットボタンを押します</li>
+<li><a href="../../../blog/keyboard/keybord_build_tool">自作キーボードの組み立てに使っている工具</a></li>
 </ul>
-<p><img src="./reset_button.jpg" alt=""></p>
-<ul>
-<li>下記のように書き込みのログが表示されます</li>
-<li>最後に「avrdude done.  Thank you.」と表示されればOKです</li>
-</ul>
-<p><img src="./toolbox3.png" alt=""></p>
-<ul>
-<li>左右両方のキーボードに書き込みを行ってください
-<ul>
-<li>Claw44はUSBを挿した方を左側と認識するようになっています</li>
-<li>右側に書き込む時は、右側にUSBを挿した状態になるので、左側のキーが入力されます</li>
-<li>左側にUSBを挿し、左右をTRSケーブルで繋げると正常に入力されますのでご注意ください</li>
-</ul>
-</li>
-</ul>
+<h2 id="ファームウェア">ファームウェア</h2>
+<p>キットに付属のProMicroはファームウェアが書き込まれているため、そのまま使用できます。<br>
+<a href="../10_firmware">10. ファームウェア</a>のページは事前に目を通し、できることは先にやっておきましょう。</p>
+<hr>
+<p><a href="../2_check">→ 2.同梱品の確認</a></p>
 
         <div class="section-index">
     
