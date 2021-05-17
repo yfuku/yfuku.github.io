@@ -411,42 +411,101 @@
         
         &lt;h2 id=&#34;コンスルーの取り付け&#34;&gt;コンスルーの取り付け&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;ProMicroにコンスルーを取り付けてください。&lt;/li&gt;
-&lt;li&gt;取り付け方は&lt;a href=&#34;https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_jp.md#pro-micro&#34;&gt;helixのビルドガイド &lt;/a&gt;がわかりやすいので参照してください。&lt;/li&gt;
-&lt;li&gt;このようになっていればOKです。&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ProMicroの平らな面を上になるようにします
+&lt;img src=&#34;images/p1.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;コンスルーには向きがあります。窓がある方をProMicro側にします
+&lt;img src=&#34;images/p2.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;また、窓が同じ方向にあるようにしてください
+&lt;img src=&#34;images/p3.JPG&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;images/p4.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;はんだ付けをします。Pro Microとコンスルーの間に隙間が空かないように気をつけてください。
+&lt;img src=&#34;images/p5.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;images/20190401164322.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;※注意&lt;br&gt;
-コンスルーの抜き差しは、同一スルーホール穴に対して50回以下となっています。&lt;br&gt;
-頻繁な抜き差しは控え、丁寧に扱うようご注意ください。&lt;/p&gt;
 &lt;h2 id=&#34;promicroの取り付け&#34;&gt;ProMicroの取り付け&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;表面に取り付けます&lt;/li&gt;
-&lt;li&gt;図のようにシルク沿って差し込んでください&lt;/li&gt;
+&lt;li&gt;図のようにシルク沿って差し込んでください&lt;br&gt;
+&lt;img src=&#34;images/20200320114210.jpg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;images/20200320114210.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;oledの取り付けオプション&#34;&gt;OLEDの取り付け（オプション）&lt;/h2&gt;
 &lt;p&gt;※この作業はオプションです。OLEDを付けたい方のみ行ってください。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;図のように、ProMicroの上からOLEDをソケットに差し込みます。
+&lt;p&gt;図のように、ProMicroの上からOLEDをソケットに差し込みます。&lt;br&gt;
 &lt;img src=&#34;images/20200320114536.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;取り付け完了
+&lt;p&gt;取り付け完了&lt;br&gt;
 &lt;img src=&#34;images/20200320142711.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;動作確認&#34;&gt;動作確認&lt;/h2&gt;
+&lt;h3 id=&#34;trrs-or-trsケーブルで左右をつなげるusbケーブルを左側に繋げる&#34;&gt;TRRS or TRSケーブルで左右をつなげる。USBケーブルを左側に繋げる。&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;images/20200320122137.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;remapで確認する&#34;&gt;Remapで確認する&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;TRRS or TRSケーブルで左右をつなげる。USBケーブルを左側に繋げる。
-&lt;img src=&#34;images/20200320122137.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;GoogleChromeで&lt;a href=&#34;https://remap-keys.app/&#34;&gt;Remap&lt;/a&gt;を開いてください&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;テキストエディタやキーボードビューアなどで各キーが入力されるか確認してください。
-&lt;img src=&#34;images/20200320143118.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;拡張機能などでアルファベットに対してショートカットキーが割り当てられていると干渉する場合があります。そのような拡張機能はオフにしておいてください（Vimiumなど）&lt;/p&gt;
 &lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;「START REMAP FOR YOUR KEYBOARD」をクリック&lt;br&gt;
+&lt;img src=&#34;images/r1.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;「+KEYBOARD」をクリック&lt;br&gt;
+&lt;img src=&#34;images/r2.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;「claw44」を選択して、「接続」をクリック&lt;br&gt;
+&lt;img src=&#34;images/r3.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;キーボード画像右下の「・・・」から「Test Matrix Mode」を選択&lt;br&gt;
+&lt;img src=&#34;images/r4.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;各キーを押して、正常にPCに送信されていると色がつきます&lt;br&gt;
+&lt;img src=&#34;images/r5.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;全てのキーに色がつくことを確認してください&lt;br&gt;
+&lt;img src=&#34;images/r6.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;反応しないキーは正常に動いていません&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;下記を確認しください
+&lt;ul&gt;
+&lt;li&gt;ダイオードが正しい向きでついている&lt;/li&gt;
+&lt;li&gt;ダイオードのはんだ付けがされている&lt;/li&gt;
+&lt;li&gt;キースイッチがはんだ付けされている&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;正しくつけられているように見えても、はんだ付けがうまくいってない場合があります
+&lt;ul&gt;
+&lt;li&gt;ダイオードのハンダをハンダゴテで温め直してみてください&lt;/li&gt;
+&lt;li&gt;キースイッチのハンダをハンダゴテで温め直してみてください&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;これでも治らない場合はサポートしますのでご連絡ください&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;その他の確認方法&#34;&gt;その他の確認方法&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;テキストエディタやキーボードビューアなどで各キーが入力されるか確認してください。
+&lt;img src=&#34;images/20200320143118.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;※OLEDを取り付けてある場合は、OLEDで確認するとやりやすいです。&lt;/p&gt;
 &lt;hr&gt;
@@ -474,7 +533,7 @@
 &lt;h3 id=&#34;保護紙を剥がす&#34;&gt;保護紙を剥がす&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;セロテープなどを貼り付けて、端から勢いよくやると剥がれると思います&lt;/li&gt;
-&lt;li&gt;剥がれにくい時もあるので根気よく！&lt;/li&gt;
+&lt;li&gt;剥がれにくい時は端を少し水で濡らすと糊が溶けて剥がしやすくなります&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img src=&#34;images/20200320150636.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;剥がした状態&#34;&gt;剥がした状態&lt;/h3&gt;
