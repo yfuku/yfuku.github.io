@@ -61,7 +61,10 @@
       <description>
         
         
-        &lt;p&gt;使用するマイコンをProMicroから「BLE Micro Pro」（以下BMP）というBluetooh対応のマイコンに乗せかえると無線化を実現できます。&lt;/p&gt;
+        &lt;p&gt;※wings42ベータ1では基板内の配線が違うため、このプレートは使うことができません。&lt;br&gt;
+ベータ2以降の対応になります。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;使用するマイコンをProMicroから「BLE Micro Pro」（以下BMP）というBluetooh対応のマイコンに乗せかえると無線化を実現できます。&lt;/p&gt;
 &lt;p&gt;公式サイトが充実しているので、まずはこちらをご確認ください。&lt;br&gt;
 &lt;a href=&#34;https://sekigon-gonnoc.github.io/BLE-Micro-Pro/#/&#34;&gt;はじめに - BLE Micro Pro&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;wings42で使用するためには、BMPで使用する電源を取得するために「wings42用 BMPバッテリープレートセット」を使用します。&lt;/p&gt;
