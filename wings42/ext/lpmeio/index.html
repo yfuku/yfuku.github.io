@@ -7,7 +7,7 @@
 
 <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
 
-<link rel="alternate" type="application/rss&#43;xml" href="https://yfuku.com/wings42/buildguide/3_build/index.xml">
+<link rel="alternate" type="application/rss&#43;xml" href="https://yfuku.com/wings42/ext/lpmeio/index.xml">
 
 
 <link rel="shortcut icon" href="/favicons/favicon.ico" >
@@ -21,14 +21,14 @@
 <link rel="icon" type="image/png" href="/favicons/android-144x144.png" sizes="144x144">
 <link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
 
-<title>3. 組み立て | yfuku docs</title><meta property="og:title" content="3. 組み立て" />
+<title>無線接続（左右接続は有線） | yfuku docs</title><meta property="og:title" content="無線接続（左右接続は有線）" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://yfuku.com/wings42/buildguide/3_build/" />
+<meta property="og:url" content="https://yfuku.com/wings42/ext/lpmeio/" />
 
-<meta itemprop="name" content="3. 組み立て">
+<meta itemprop="name" content="無線接続（左右接続は有線）">
 <meta itemprop="description" content=""><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="3. 組み立て"/>
+<meta name="twitter:title" content="無線接続（左右接続は有線）"/>
 <meta name="twitter:description" content=""/>
 
 
@@ -201,10 +201,10 @@ if (!doNotTrack) {
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/wings42/buildguide/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">wings42ビルドガイド</a>
+    <a  href="/wings42/buildguide/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">wings42ビルドガイド</a>
   </li>
   <ul>
-    <li class="collapse show" id="wings42buildguide">
+    <li class="collapse " id="wings42buildguide">
       
       
       
@@ -264,10 +264,10 @@ if (!doNotTrack) {
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/wings42/buildguide/3_build/" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">3. 組み立て</a>
+    <a  href="/wings42/buildguide/3_build/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">3. 組み立て</a>
   </li>
   <ul>
-    <li class="collapse show" id="wings42buildguide3_build">
+    <li class="collapse " id="wings42buildguide3_build">
       
       
       
@@ -523,10 +523,10 @@ if (!doNotTrack) {
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/wings42/ext/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">拡張オプション</a>
+    <a  href="/wings42/ext/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">拡張オプション</a>
   </li>
   <ul>
-    <li class="collapse " id="wings42ext">
+    <li class="collapse show" id="wings42ext">
       
       
       
@@ -632,10 +632,10 @@ if (!doNotTrack) {
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/wings42/ext/lpmeio/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">無線接続（左右接続は有線）</a>
+    <a  href="/wings42/ext/lpmeio/" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">無線接続（左右接続は有線）</a>
   </li>
   <ul>
-    <li class="collapse " id="wings42extlpmeio">
+    <li class="collapse show" id="wings42extlpmeio">
       
       
       
@@ -687,14 +687,14 @@ if (!doNotTrack) {
 
 
 <li class="breadcrumb-item" >
-	<a href="https://yfuku.com/wings42/buildguide/">wings42ビルドガイド</a>
+	<a href="https://yfuku.com/wings42/ext/">拡張オプション</a>
 </li>
 
 
 
 
 <li class="breadcrumb-item active" aria-current="page">
-	<a href="https://yfuku.com/wings42/buildguide/3_build/">3. 組み立て</a>
+	<a href="https://yfuku.com/wings42/ext/lpmeio/">無線接続（左右接続は有線）</a>
 </li>
 
 	</ol>
@@ -702,25 +702,51 @@ if (!doNotTrack) {
 
             
 <div class="td-content">
-	<h1>3. 組み立て</h1>
+	<h1>無線接続（左右接続は有線）</h1>
         
 	
-	<h2 id="概要">概要</h2>
+	<p>PC - キーボード間は無線化したいけど、キーボードの左右間は有線接続にしたい場合は、<a href="https://github.com/sekigon-gonnoc/LPME-IO">LPME-IO</a>を使うことで実現できます。両方とも無線化したい場合は、<a href="../bmp">無線接続</a>を参照ください。</p>
+<p>まずは、<a href="https://github.com/sekigon-gonnoc/LPME-IO">公式ドキュメント</a>を読み仕組みを理解してください。</p>
+<h2 id="lpme-ioの準備">LPME-IOの準備</h2>
 <ul>
-<li>基板に対して色々な部品をつけ、プレートを組み合わせていきます</li>
-<li>各プレートはねじ止めにより固定します</li>
+<li>wings42用にLPME-IOのジャンパをブリッジします</li>
+<li>A-Fと書かれている部分が対象になります
+<img src="images/L1.JPG" alt=""></li>
 </ul>
-<h2 id="ヒント">ヒント</h2>
+<h2 id="キーボード側のブリッジ">キーボード側のブリッジ</h2>
 <ul>
-<li>プレートの側面は白っぽい色になっているので、マッキーなどマジックで側面を塗ってあげるとシックな感じになります</li>
-<li>側面以外にはみ出さないように注意！</li>
-<li>プレートを組んでからでは塗りにくいので、もしやるのであれば最初にやっておくことをオススメします</li>
+<li>ダイオードの足などを曲げて、写真赤枠のように配線をしてください</li>
+<li>左右間の接続でi2cを使用できるようになります
+<img src="images/L2.JPG" alt=""></li>
 </ul>
-<p><img src="images/m1.JPG" alt=""></p>
-<p>↓</p>
-<p><img src="images/m2.JPG" alt=""></p>
-<hr>
-<p><a href="../4_diode">→ 4.ダイオードの取り付け</a></p>
+<h2 id="マイコンとケーブルの接続">マイコンとケーブルの接続</h2>
+<ul>
+<li>左側にBMPの取り付けます
+<ul>
+<li><a href="../bmp">無線接続</a>を参考にして、PCと接続するためのBMPを取り付けてください</li>
+</ul>
+</li>
+<li>右側にLPME-IOを取り付けます</li>
+<li>左右間をTRRS（4極）ケーブルで接続してください<br>
+<img src="images/L3.JPG" alt=""></li>
+</ul>
+<h2 id="カバー類を取り付ける">カバー類を取り付ける</h2>
+<p><img src="images/L4.JPG" alt=""></p>
+<h2 id="ファームウェア">ファームウェア</h2>
+<ul>
+<li>ファームウェアの設定は
+<ul>
+<li>BMPのドキュメントを参照ください
+<ul>
+<li><a href="https://sekigon-gonnoc.github.io/BLE-Micro-Pro/#/getting_started">自作キーボードキットを無線化する</a></li>
+</ul>
+</li>
+<li>WebConfiguratorにwings42が登録されているので、その設定を書き込んでください</li>
+<li>wings42の設定をする際に、「Use with LPME-IO」にチェックを入れてください
+<img src="images/L5.JPG" alt=""></li>
+</ul>
+</li>
+</ul>
 
         <div class="section-index">
     

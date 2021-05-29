@@ -1,0 +1,218 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>yfuku docs – 拡張オプション</title>
+    <link>https://yfuku.com/wings42/ext/</link>
+    <description>Recent content in 拡張オプション on yfuku docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://yfuku.com/wings42/ext/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Wings42: キー拡張</title>
+      <link>https://yfuku.com/wings42/ext/keys/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfuku.com/wings42/ext/keys/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Wings42: ロータリーエンコーダー</title>
+      <link>https://yfuku.com/wings42/ext/encoder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfuku.com/wings42/ext/encoder/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Wings42: トラックボール</title>
+      <link>https://yfuku.com/wings42/ext/trackball/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfuku.com/wings42/ext/trackball/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Wings42: 無線接続</title>
+      <link>https://yfuku.com/wings42/ext/bmp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfuku.com/wings42/ext/bmp/</guid>
+      <description>
+        
+        
+        &lt;p&gt;使用するマイコンをProMicroから「BLE Micro Pro」（以下BMP）というBluetooh対応のマイコンに乗せかえると無線化を実現できます。&lt;/p&gt;
+&lt;p&gt;公式サイトが充実しているので、まずはこちらをご確認ください。&lt;br&gt;
+&lt;a href=&#34;https://sekigon-gonnoc.github.io/BLE-Micro-Pro/#/&#34;&gt;はじめに - BLE Micro Pro&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;wings42で使用するためには、BMPで使用する電源を取得するために「wings42用 BMPバッテリープレートセット」を使用します。&lt;/p&gt;
+&lt;p&gt;このようにスッキリとバッテリーがつけられて、手軽に無線化が実現できます！
+&lt;img src=&#34;images/b0.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;必要な部品&#34;&gt;必要な部品&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;BLE Micro Pro本体 x 2
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://booth.pm/ja/items/1177319&#34;&gt;BLE Micro Pro / booth&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://shop.yushakobo.jp/products/ble-micro-pro?variant=37665571340449&#34;&gt;BLE Micro Pro / 遊舎工房&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;コンスルー12ピン or 13ピン x 4
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://yushakobo.jp/shop/a01mc-00/&#34;&gt;スプリングピンヘッダ（コンスルー）12ピン or 13ピン / 遊舎工房&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ProMicroは12ピンx2、BMPは13ピンx2と1ピン多いですが、一番下のピンは使用しないため上詰めすることで12ピンも使用できます&lt;/li&gt;
+&lt;li&gt;BMP専用で購入するなら13ピンをオススメします&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;CR1632コイン電池 x 4
+&lt;ul&gt;
+&lt;li&gt;だいたいのコンビニに売っています&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;wings42バッテリープレートセット
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://yfuku.booth.pm/items/2927940&#34;&gt;wings42 / BOOTH&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;bmpバッテリープレートの実装&#34;&gt;BMPバッテリープレートの実装&lt;/h2&gt;
+&lt;h3 id=&#34;コンデンサとショットキーバリアダイオードの実装&#34;&gt;コンデンサとショットキーバリアダイオードの実装&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ダイオードはキーボード本体のダイオードとは種類が違うので注意してください&lt;/li&gt;
+&lt;li&gt;シルクがわかりにくいですが、写真の左側がダイオードのカソード（縦線が入っている方）になります。
+&lt;img src=&#34;images/b1.JPG&#34; alt=&#34;コンデンサとダイオード&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;電池ホルダの実装&#34;&gt;電池ホルダの実装&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;表から取り付け&lt;br&gt;
+&lt;img src=&#34;images/b2.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;裏からはんだ付けをします&lt;br&gt;
+&lt;img src=&#34;images/b3.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;スライドスイッチの取り付け&#34;&gt;スライドスイッチの取り付け&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;images/b4.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/b5.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;cr1632電池を入れる&#34;&gt;CR1632電池を入れる&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;上が＋になっています&lt;br&gt;
+&lt;img src=&#34;images/b6.JPG&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;bmpバッテリープレートの取り付け&#34;&gt;BMP、バッテリープレートの取り付け&lt;/h2&gt;
+&lt;h3 id=&#34;bmpの取り付け&#34;&gt;BMPの取り付け&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ProMicroを取り外し、BMPを取り付けます&lt;/li&gt;
+&lt;li&gt;12ピンの場合は矢印のように上詰めしてください
+&lt;img src=&#34;images/b7.JPG&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;バッテリープレートの取り付け&#34;&gt;バッテリープレートの取り付け&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;BMPの上からバッテリープレートを被せます&lt;/li&gt;
+&lt;li&gt;ねじ付きのスペーサーを取り付けます。スリわりがついているのでマイナスドライバーを使うととめやすいです。
+&lt;img src=&#34;images/b8.JPG&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;カバープレートの取り付け&#34;&gt;カバープレートの取り付け&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;一番上にカバープレートを取り付けます&lt;br&gt;
+&lt;img src=&#34;images/b9.JPG&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;スイッチ&#34;&gt;スイッチ&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;スイッチは白丸がある方がONです&lt;br&gt;
+&lt;img src=&#34;images/b12.JPG&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ファームウェア&#34;&gt;ファームウェア&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ファームウェアの設定は
+&lt;ul&gt;
+&lt;li&gt;BMPのドキュメントを参照ください
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://sekigon-gonnoc.github.io/BLE-Micro-Pro/#/getting_started&#34;&gt;自作キーボードキットを無線化する&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;WebConfiguratorにwings42が登録されているので、その設定を書き込んでください&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Wings42: 無線接続（左右接続は有線）</title>
+      <link>https://yfuku.com/wings42/ext/lpmeio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfuku.com/wings42/ext/lpmeio/</guid>
+      <description>
+        
+        
+        &lt;p&gt;PC - キーボード間は無線化したいけど、キーボードの左右間は有線接続にしたい場合は、&lt;a href=&#34;https://github.com/sekigon-gonnoc/LPME-IO&#34;&gt;LPME-IO&lt;/a&gt;を使うことで実現できます。両方とも無線化したい場合は、&lt;a href=&#34;../bmp&#34;&gt;無線接続&lt;/a&gt;を参照ください。&lt;/p&gt;
+&lt;p&gt;まずは、&lt;a href=&#34;https://github.com/sekigon-gonnoc/LPME-IO&#34;&gt;公式ドキュメント&lt;/a&gt;を読み仕組みを理解してください。&lt;/p&gt;
+&lt;h2 id=&#34;lpme-ioの準備&#34;&gt;LPME-IOの準備&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;wings42用にLPME-IOのジャンパをブリッジします&lt;/li&gt;
+&lt;li&gt;A-Fと書かれている部分が対象になります
+&lt;img src=&#34;images/L1.JPG&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;キーボード側のブリッジ&#34;&gt;キーボード側のブリッジ&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ダイオードの足などを曲げて、写真赤枠のように配線をしてください&lt;/li&gt;
+&lt;li&gt;左右間の接続でi2cを使用できるようになります
+&lt;img src=&#34;images/L2.JPG&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;マイコンとケーブルの接続&#34;&gt;マイコンとケーブルの接続&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;左側にBMPの取り付けます
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../bmp&#34;&gt;無線接続&lt;/a&gt;を参考にして、PCと接続するためのBMPを取り付けてください&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;右側にLPME-IOを取り付けます&lt;/li&gt;
+&lt;li&gt;左右間をTRRS（4極）ケーブルで接続してください&lt;br&gt;
+&lt;img src=&#34;images/L3.JPG&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;カバー類を取り付ける&#34;&gt;カバー類を取り付ける&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;images/L4.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ファームウェア&#34;&gt;ファームウェア&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ファームウェアの設定は
+&lt;ul&gt;
+&lt;li&gt;BMPのドキュメントを参照ください
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://sekigon-gonnoc.github.io/BLE-Micro-Pro/#/getting_started&#34;&gt;自作キーボードキットを無線化する&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;WebConfiguratorにwings42が登録されているので、その設定を書き込んでください&lt;/li&gt;
+&lt;li&gt;wings42の設定をする際に、「Use with LPME-IO」にチェックを入れてください
+&lt;img src=&#34;images/L5.JPG&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
