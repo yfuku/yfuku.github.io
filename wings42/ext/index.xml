@@ -22,7 +22,40 @@
       <description>
         
         
-        
+        &lt;p&gt;ProMicroのプレートの上にキースイッチを拡張できるオプションです。&lt;/p&gt;
+&lt;h2 id=&#34;キー拡張プレートの組み立て&#34;&gt;キー拡張プレートの組み立て&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;リバーシブル基板になっています&lt;/li&gt;
+&lt;li&gt;6連の穴が空いている方が内側になります&lt;/li&gt;
+&lt;li&gt;キースイッチをはんだ付けします
+&lt;img src=&#34;images/K1.JPG&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;images/K2.JPG&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;キー拡張プレートの取り付け&#34;&gt;キー拡張プレートの取り付け&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;付属の6ピンコンスルーをキーボードに取り付けます&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;窓が上に来るように取り付けてください&lt;br&gt;
+&lt;img src=&#34;images/K3.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;プレートを取り付けます&lt;br&gt;
+&lt;img src=&#34;images/K4.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ねじ止めします
+&lt;img src=&#34;images/K5.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ファームウェア&#34;&gt;ファームウェア&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/yfuku/wings42/releases/download/beta2/wings42_rev1_extkeys_via.hex&#34;&gt;こちらのhexファイル&lt;/a&gt;をダウンロードして、QMK toolboxで書き込んでください。&lt;/li&gt;
+&lt;li&gt;Remapでみると、↓のようにキーが拡張されています。&lt;br&gt;
+&lt;img src=&#34;images/K6.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
       </description>
     </item>
     
