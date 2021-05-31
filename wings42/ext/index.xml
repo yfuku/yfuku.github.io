@@ -60,67 +60,127 @@
     </item>
     
     <item>
-      <title>Wings42: ロータリーエンコーダー</title>
-      <link>https://yfuku.com/wings42/ext/encoder/</link>
+      <title>Wings42: ロータリーエンコーダー（1個ver）</title>
+      <link>https://yfuku.com/wings42/ext/encoder1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/wings42/ext/encoder/</guid>
+      <guid>https://yfuku.com/wings42/ext/encoder1/</guid>
       <description>
         
         
-        &lt;p&gt;改修点が見つかったので修正中です。&lt;/p&gt;
-&lt;!--
-## ロータリーエンコーダー（1個ver）
-- ロータリーエンコーダーを取り付けます
-- 両面基板となっているので、付ける向きに注意してください
-- 足がPro Microと干渉するので折り曲げるか切り取って短くしてください
-![](images/e1.JPG)
+        &lt;h2 id=&#34;ロータリーエンコーダー1個ver&#34;&gt;ロータリーエンコーダー（1個ver）&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;ロータリーエンコーダーを取り付けます&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;両面基板となっているので、付ける向きに注意してください&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;足が下のパーツと干渉するので折り曲げるか切り取って短くしてください
+&lt;img src=&#34;images/e1.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;はんだ付けをします
+&lt;img src=&#34;images/e2.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;TRRSジャックと干渉するようであれば、カプトンテープなどで絶縁してください（絶縁できればなんでも良いです）&lt;br&gt;
+&lt;img src=&#34;images/e7.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;付属の6ピンコンスルーをキーボードに取り付けます&lt;br&gt;
+窓が上に来るように取り付けてください&lt;br&gt;
+&lt;img src=&#34;images/e3.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;プレートを載せます
+&lt;img src=&#34;images/e4.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ねじを取り付けます
+&lt;img src=&#34;images/e5.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ノブを取り付けたら完成です
+&lt;img src=&#34;images/e6.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ファームウェア&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.qmk.fm/#/ja/feature_encoders&#34;&gt;QMKのエンコーダのドキュメント&lt;/a&gt;を参考にしてください&lt;/li&gt;
+&lt;li&gt;サンプルコード
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/yfuku/qmk_firmware/tree/yfuku/keyboards/wings42/rev1/keymaps/encoder&#34;&gt;https://github.com/yfuku/qmk_firmware/tree/yfuku/keyboards/wings42/rev1/keymaps/encoder&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/yfuku/qmk_firmware/tree/yfuku/keyboards/wings42/rev1_extkeys/keymaps/encoder&#34;&gt;https://github.com/yfuku/qmk_firmware/tree/yfuku/keyboards/wings42/rev1_extkeys/keymaps/encoder&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 
-- はんだ付けをします
-![](images/e2.JPG)
-
-- 付属の6ピンコンスルーをキーボードに取り付けます  
-窓が上に来るように取り付けてください  
-![](images/e3.JPG)
-
-- プレートを取り付けます
-![](images/e4.JPG)
-
-- ねじを取り付けます
-![](images/e5.JPG)
-
-- ノブを取り付けたら完成です
-![](images/e6.JPG)
-
-
-## ロータリーエンコーダー（2個ver）
-- ロータリーエンコーダーを取り付けます
-- 両面基板となっているので、付ける向きに注意してください
-- 足がPro Microと干渉するので折り曲げるか切り取って短くしてください
-![](images/e1.JPG)
-
-- はんだ付けをします
-![](images/e2.JPG)
-
-- 付属の6ピンコンスルーをキーボードに取り付けます  
-窓が上に来るように取り付けてください  
-![](images/e3.JPG)
-
-- プレートを取り付けます
-![](images/e4.JPG)
-
-- ねじを取り付けます
-![](images/e5.JPG)
-
-- ノブを取り付けたら完成です
-![](images/e6.JPG)
-
-- ファームウェア
-    - [QMKのドキュメント](https://docs.qmk.fm/#/ja/feature_encoders)や[サンプルコード](https://github.com/yfuku/qmk_firmware/tree/yfuku/keyboards/wings42/rev1/keymaps/encoder)を参考にしてください
-
-
---&gt;&lt;blockquote&gt;
-&lt;/blockquote&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Wings42: ロータリーエンコーダー（2個ver）</title>
+      <link>https://yfuku.com/wings42/ext/encoder2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfuku.com/wings42/ext/encoder2/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;ロータリーエンコーダー2個ver&#34;&gt;ロータリーエンコーダー（2個ver）&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;ロータリーエンコーダーを取り付けます&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;両面基板となっているので、付ける向きに注意してください&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;足が下のパーツと干渉するので折り曲げるか切り取って短くしてください
+&lt;img src=&#34;images/e1.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;はんだ付けをします
+&lt;img src=&#34;images/e2.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;TRRSジャックと干渉するようであれば、カプトンテープなどで絶縁してください（絶縁できればなんでも良いです）&lt;br&gt;
+&lt;img src=&#34;images/e7.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;付属の6ピンコンスルーをキーボードに取り付けます&lt;br&gt;
+窓が上に来るように取り付けてください&lt;br&gt;
+&lt;img src=&#34;images/e3.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;プレートを載せます
+&lt;img src=&#34;images/e4.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ねじを取り付けます
+&lt;img src=&#34;images/e5.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ノブを取り付けたら完成です
+&lt;img src=&#34;images/e6.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ファームウェア&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.qmk.fm/#/ja/feature_encoders&#34;&gt;QMKのエンコーダのドキュメント&lt;/a&gt;を参考にしてください&lt;/li&gt;
+&lt;li&gt;サンプルコード
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/yfuku/qmk_firmware/tree/yfuku/keyboards/wings42/rev1/keymaps/encoder&#34;&gt;https://github.com/yfuku/qmk_firmware/tree/yfuku/keyboards/wings42/rev1/keymaps/encoder&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/yfuku/qmk_firmware/tree/yfuku/keyboards/wings42/rev1_extkeys/keymaps/encoder&#34;&gt;https://github.com/yfuku/qmk_firmware/tree/yfuku/keyboards/wings42/rev1_extkeys/keymaps/encoder&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 
       </description>
     </item>
