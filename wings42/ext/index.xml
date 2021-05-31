@@ -68,7 +68,59 @@
       <description>
         
         
-        &lt;p&gt;準備中&lt;/p&gt;
+        &lt;p&gt;改修点が見つかったので修正中です。&lt;/p&gt;
+&lt;!--
+## ロータリーエンコーダー（1個ver）
+- ロータリーエンコーダーを取り付けます
+- 両面基板となっているので、付ける向きに注意してください
+- 足がPro Microと干渉するので折り曲げるか切り取って短くしてください
+![](images/e1.JPG)
+
+- はんだ付けをします
+![](images/e2.JPG)
+
+- 付属の6ピンコンスルーをキーボードに取り付けます  
+窓が上に来るように取り付けてください  
+![](images/e3.JPG)
+
+- プレートを取り付けます
+![](images/e4.JPG)
+
+- ねじを取り付けます
+![](images/e5.JPG)
+
+- ノブを取り付けたら完成です
+![](images/e6.JPG)
+
+
+## ロータリーエンコーダー（2個ver）
+- ロータリーエンコーダーを取り付けます
+- 両面基板となっているので、付ける向きに注意してください
+- 足がPro Microと干渉するので折り曲げるか切り取って短くしてください
+![](images/e1.JPG)
+
+- はんだ付けをします
+![](images/e2.JPG)
+
+- 付属の6ピンコンスルーをキーボードに取り付けます  
+窓が上に来るように取り付けてください  
+![](images/e3.JPG)
+
+- プレートを取り付けます
+![](images/e4.JPG)
+
+- ねじを取り付けます
+![](images/e5.JPG)
+
+- ノブを取り付けたら完成です
+![](images/e6.JPG)
+
+- ファームウェア
+    - [QMKのドキュメント](https://docs.qmk.fm/#/ja/feature_encoders)や[サンプルコード](https://github.com/yfuku/qmk_firmware/tree/yfuku/keyboards/wings42/rev1/keymaps/encoder)を参考にしてください
+
+
+--&gt;&lt;blockquote&gt;
+&lt;/blockquote&gt;
 
       </description>
     </item>
