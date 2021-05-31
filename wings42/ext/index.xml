@@ -194,7 +194,73 @@
       <description>
         
         
-        &lt;p&gt;準備中&lt;/p&gt;
+        &lt;h2 id=&#34;注意&#34;&gt;注意&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;小型のトラックボールモジュールを使用するため、一般的なサイズのトラックボールに比べて使用感は劣ります&lt;/li&gt;
+&lt;li&gt;細かい作業が多いので上級者向けになります&lt;/li&gt;
+&lt;li&gt;クリックやスクロールなどの操作割り当てはプログラムを書いて実現するため、最低でもQMKファームウェアのキーマップを修正できるくらいの知識は必要です&lt;/li&gt;
+&lt;li&gt;トラックボールモジュールのケーブルは繊細なので、極力丁寧に扱ってください。もげる危険性があります。&lt;/li&gt;
+&lt;li&gt;トラックボールモジュール、レベル変換基板については購入元のドキュメントを十分に確認してから使用してください&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;購入が必要なもの&#34;&gt;購入が必要なもの&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://shop.yushakobo.jp/products/adtb7m?_pos=2&amp;amp;_sid=444109fd7&amp;amp;_ss=r&#34;&gt;7mmオプティカルトラックボールモジュール１uタイプ – 遊舎工房&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://shop.yushakobo.jp/products/a0800tl-01-1?_pos=1&amp;amp;_sid=444109fd7&amp;amp;_ss=r&#34;&gt;トラックボールモジュール用レベル変換基板 – 遊舎工房&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ピンソケットの取り付け&#34;&gt;ピンソケットの取り付け&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;トラックボールを取り付けたい方のキーボードにピンソケットをはんだ付けします&lt;br&gt;
+&lt;img src=&#34;images/p1.JPG&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;images/p2.JPG&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;トラックボールモジュールの組み立て&#34;&gt;トラックボールモジュールの組み立て&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;向きに気をつけて、写真のようにトラックボールモジュールのケーブルとレベル変換基板、ピンソケットをはんだ付けしてください
+&lt;img src=&#34;images/t1.JPG&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;images/t2.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;トラックボールモジュールの配線を折り曲げるため、位置ぎめをしていきます。ケースにモジュールを入れます。&lt;br&gt;
+&lt;img src=&#34;images/t3.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;プレートを置きます
+&lt;img src=&#34;images/t4.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;プレートの穴の位置くらいで折り曲げておきます。折り曲げすぎると断線するので注意してください。&lt;br&gt;
+&lt;img src=&#34;images/t5.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;いったん取り外して、キーボード側のソケットに差し込みます&lt;br&gt;
+&lt;img src=&#34;images/t6.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;プレートを挟み込みます&lt;br&gt;
+&lt;img src=&#34;images/t7.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ケースを被せます&lt;br&gt;
+&lt;img src=&#34;images/t8.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ねじでとめます&lt;br&gt;
+&lt;img src=&#34;images/t9.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ファームウェア&#34;&gt;ファームウェア&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;サンプルコード
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/yfuku/qmk_firmware/tree/yfuku/keyboards/wings42/rev1_extkeys/keymaps/trackball&#34;&gt;https://github.com/yfuku/qmk_firmware/tree/yfuku/keyboards/wings42/rev1_extkeys/keymaps/trackball&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;トラックボールを右手側に、キー拡張をマウスボタンにしたサンプルになります&lt;/li&gt;
+&lt;li&gt;トラックボール側（右側）をマスターにしてあるので、そちらにUSBケーブルを挿してください&lt;/li&gt;
+&lt;li&gt;LOWERレイヤーでトラックボールを動かすとスクロールするようにしてあります&lt;/li&gt;
+&lt;li&gt;クリックやスクロールをどのように割り当てるかで操作感がかなり変わってきますので、工夫をしてみてください&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 
       </description>
     </item>
