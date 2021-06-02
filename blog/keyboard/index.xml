@@ -15,7 +15,7 @@
     
     
     <item>
-      <title>Blog: bat keycapsを作った話 </title>
+      <title>Blog: Gravity Keycapsを作った話 </title>
       <link>https://yfuku.com/blog/keyboard/bat_keycaps/</link>
       <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
       
@@ -32,7 +32,7 @@ mukiudoさんの
 &lt;p&gt;去年のアドカレはこんな記事を書きました。&lt;br&gt;
 &lt;a href=&#34;https://yfuku.com/claw44/history/advent2019/&#34;&gt;Claw44を作った話&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h1 id=&#34;bat-keycaps&#34;&gt;bat keycaps&lt;/h1&gt;
+&lt;h1 id=&#34;gravity-keycaps&#34;&gt;Gravity Keycaps&lt;/h1&gt;
 &lt;p&gt;今回はbat43用に↓のようなキーキャップを作った話です。&lt;br&gt;
 &lt;img src=&#34;./images/bat43withtb.jpg&#34; style=&#34;width:500px&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;bat43とは&#34;&gt;bat43とは？&lt;/h2&gt;
@@ -92,8 +92,8 @@ bat43→Claw44とすると指の移動距離が長い・・スイッチの押し
 &lt;/ul&gt;
 &lt;p&gt;を両立したい。&lt;/p&gt;
 &lt;p&gt;Kailh ChocやMBKのキーキャップは高さが抑えられているため、外側の傾斜量も少なく、天面が広く保てています。&lt;br&gt;
-しかしbat keybapsはそこそこ高さがあるので、普通に傾斜をつけると天面がかなり狭くなってしまいます。&lt;/p&gt;
-&lt;p&gt;左からKailh Choc, MBK, bat keycaps, 一番右はMXですが比較用に&lt;a href=&#34;https://talpkeyboard.stores.jp/items/5f5444c380933970d139e98c&#34;&gt;TEX ADA ABS 0.8Uキーキャップ&lt;/a&gt;&lt;br&gt;
+しかしGravity Keycapsはそこそこ高さがあるので、普通に傾斜をつけると天面がかなり狭くなってしまいます。&lt;/p&gt;
+&lt;p&gt;左からKailh Choc, MBK, Gravity Keycaps, 一番右はMXですが比較用に&lt;a href=&#34;https://talpkeyboard.stores.jp/items/5f5444c380933970d139e98c&#34;&gt;TEX ADA ABS 0.8Uキーキャップ&lt;/a&gt;&lt;br&gt;
 ADA0.8はけっこう天面が狭いので、自分の指だと辛い。&lt;br&gt;
 &lt;img src=&#34;./images/ada.jpg&#34; style=&#34;width:500px&#34;&gt;&lt;/p&gt;
 &lt;p&gt;これの解決方を表現するのに写真や絵を描くのは自分には難しそうだったので、Fusion360で頑張ってみました。&lt;br&gt;
@@ -132,8 +132,8 @@ ADA0.8はけっこう天面が狭いので、自分の指だと辛い。&lt;br&g
 &lt;p&gt;満足いく水準になったので、dmm.makeで作成できるようになっています。&lt;br&gt;
 興味のある方はこちらをご覧になってください。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://make.dmm.com/item/1214726/&#34;&gt;bat keycaps（Highタイプ）&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://make.dmm.com/item/1214715/&#34;&gt;bat keycaps（Lowタイプ）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://make.dmm.com/item/1214726/&#34;&gt;Gravity Keycaps（Highタイプ）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://make.dmm.com/item/1214715/&#34;&gt;Gravity Keycaps（Lowタイプ）&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;肝心のキーボードが在庫切れしていますが、そのうちブラッシュアップして出そうと思うので、気になる方はメール登録しておいてください〜&lt;/p&gt;
 &lt;ul&gt;
