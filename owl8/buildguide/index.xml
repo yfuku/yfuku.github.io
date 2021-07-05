@@ -31,14 +31,14 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://shop.yushakobo.jp/products/usb-cable-micro-b-0-8m&#34;&gt;USBケーブル Micro B 0.8m | 遊舎工房&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;kailhロープロファイルスイッチ-8個&#34;&gt;Kailhロープロファイルスイッチ: 8個&lt;/h3&gt;
+&lt;h3 id=&#34;kailhロープロファイル-キースイッチ-8個&#34;&gt;Kailhロープロファイル キースイッチ: 8個&lt;/h3&gt;
 &lt;p&gt;&lt;em&gt;キースイッチ拡張をつける場合は+4個必要です&lt;/em&gt;&lt;br&gt;
 &lt;em&gt;ChocV2やMX互換のスイッチは使用できないので注意してください&lt;/em&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://shop.yushakobo.jp/collections/kailh/products/pg1350&#34;&gt;Kailhロープロファイルスイッチ（10個） – 遊舎工房&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://kochikeyboard.stores.jp/?category_id=5f7918953ae0f44233df8b0a&#34;&gt;Kailhロープロファイル Kochi Keyboard&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;kailhロープロファイルキーキャップ1u-8個&#34;&gt;Kailhロープロファイルキーキャップ1U 8個&lt;/h3&gt;
+&lt;h3 id=&#34;kailhロープロファイル-キーキャップ1u-8個&#34;&gt;Kailhロープロファイル キーキャップ1U 8個&lt;/h3&gt;
 &lt;p&gt;&lt;em&gt;キースイッチ拡張をつける場合は+4個必要です&lt;/em&gt;&lt;br&gt;
 &lt;em&gt;MX互換のキーキャップは使用できないので注意してください&lt;/em&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -313,7 +313,7 @@
         
         
         &lt;p&gt;　&lt;br&gt;
-一旦、ケーブルは取り外してください。&lt;/p&gt;
+一旦、USBケーブルは取り外してください。&lt;/p&gt;
 &lt;h2 id=&#34;プレートを重ねる&#34;&gt;プレートを重ねる&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -439,9 +439,8 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;注意事項&#34;&gt;注意事項&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;構造上、中央のネジは、上からキースイッチを被せてはんだ付けをします&lt;/li&gt;
-&lt;li&gt;そのため、キースイッチを取り付ける前にねじ、スペーサーを取り付けてください&lt;/li&gt;
-&lt;li&gt;また、はんだ付けをするとねじが取れなくなるのでご留意ください&lt;/li&gt;
+&lt;li&gt;中央の2つのネジは、上からキースイッチを被せてはんだ付けするので、後から取れなくなります&lt;/li&gt;
+&lt;li&gt;先にキースイッチをはんだ付けすると、ねじが取り付けられなくなるので、必ず先にねじを取り付けてください&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;キースイッチの取り付け&#34;&gt;キースイッチの取り付け&lt;/h2&gt;
 &lt;ul&gt;
@@ -613,7 +612,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;ファームウェア&#34;&gt;ファームウェア&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;ファームウェアの設定は
+&lt;li&gt;ファームウェアの設定
 &lt;ul&gt;
 &lt;li&gt;BMPのドキュメントを参照ください
 &lt;ul&gt;
@@ -621,6 +620,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;WebConfiguratorにowl8が登録されているので、その設定を書き込んでください&lt;/li&gt;
+&lt;li&gt;キーマップはPro Micro同様にRemapから設定してください&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;ロータリーエンコーダのキーマップはBMPの設定ファイルで行ってください
