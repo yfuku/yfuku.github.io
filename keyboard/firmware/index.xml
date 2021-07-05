@@ -1,0 +1,276 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>yfuku docs – ファームウェア</title>
+    <link>https://yfuku.com/keyboard/firmware/</link>
+    <description>Recent content in ファームウェア on yfuku docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://yfuku.com/keyboard/firmware/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Keyboard: 1. 基本</title>
+      <link>https://yfuku.com/keyboard/firmware/basic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfuku.com/keyboard/firmware/basic/</guid>
+      <description>
+        
+        
+        &lt;p&gt;普通のキーボードは、キーボード側で設定できる機能はあまりありません。&lt;br&gt;
+自作キーボードでは、キーボードの機能をカスタマイズできるので、通常よりキー数を減らせたり、自分好みのキーマップを楽しむことができます。&lt;br&gt;
+そんな機能を実現しているファームウェアについて説明します。&lt;/p&gt;
+&lt;p style=&#34;font-size: 80%; line-height: 1.5;&#34;&gt;
+&lt;span&gt;
+※わかりやすさのためにおおざっぱな説明があります。気になる表現などありましたらご連絡ください。
+&lt;/span&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;知っておきたいこと&#34;&gt;知っておきたいこと&lt;/h2&gt;
+&lt;h3 id=&#34;マイコン&#34;&gt;マイコン&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;キースイッチが押された時に、どのキーが入力されたかをPCに伝える必要があります&lt;/li&gt;
+&lt;li&gt;このような処理をするのに頭脳となるコンピュータが必要になります&lt;/li&gt;
+&lt;li&gt;多くの自作キーボードではProMicroというマイコン（マイクロコンピュータ）を使用しています&lt;/li&gt;
+&lt;li&gt;↓これです&lt;br&gt;
+&lt;img src=&#34;https://yfuku.com/claw44/buildguide/7_promicro/images/20190401164322.jpg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ファームウェア&#34;&gt;ファームウェア&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;マイコンを動かすためには、アプリのようなものを入れてあげなくてはいけません&lt;/li&gt;
+&lt;li&gt;マイコン用のアプリのことをファームウェアと呼びます&lt;/li&gt;
+&lt;li&gt;多くの自作キーボードではQMKというオープンソースのファームウェアを使用しています&lt;/li&gt;
+&lt;li&gt;Daily Craft Keyboardのキーボード付属の「ProMicro」には「各キーボード用に設定されたQMK」が入った状態になっています&lt;/li&gt;
+&lt;li&gt;各キーボードごとに設定が違うので、他のキーボードに挿しても正常に動きません&lt;/li&gt;
+&lt;li&gt;QMKについては、&lt;a href=&#34;https://docs.qmk.fm/#/ja/&#34;&gt;公式ドキュメント&lt;/a&gt; を参考にしてください。
+&lt;ul&gt;
+&lt;li&gt;有志の方の翻訳のおかげで、かなりの部分が日本語で読めます。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;キーマップ&#34;&gt;キーマップ&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;キーマップとは、どのキーを押したらどのキーが入力されるか、という設定のことです&lt;/li&gt;
+&lt;li&gt;上記の「各キーボード用に設定されたQMK」には、そのキーボードのデフォルトキーマップが入っています&lt;/li&gt;
+&lt;li&gt;このままでは最初に設定されているキーマップでしか使用できません&lt;/li&gt;
+&lt;li&gt;キーマップを変更することで、例えばスペースキーを割り当てていたキーをエンターキーに変更したりすることができます&lt;/li&gt;
+&lt;li&gt;デフォルトのキーマップは例でしかないので、自分に合ったキーマップを作っていきましょう！
+&lt;img src=&#34;./keymap.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;まとめるとこんな感じです&#34;&gt;まとめるとこんな感じです&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;./firmware.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;基本がわかったところで、まずはキーマップを変更してみましょう。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;../keymap&#34;&gt;→ 2. キーマップを変更する&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Keyboard: 2. キーマップを変更する</title>
+      <link>https://yfuku.com/keyboard/firmware/keymap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfuku.com/keyboard/firmware/keymap/</guid>
+      <description>
+        
+        
+        &lt;p&gt;キーマップを変更するにはいくつか方法があるのですが、まずはRemapというWEBツールを使用してみてください。&lt;br&gt;
+Chromeブラウザさえあればインストール作業など不要で使うことができます。&lt;/p&gt;
+&lt;p&gt;そのほかに&lt;a href=&#34;https://caniusevia.com/&#34;&gt;VIA&lt;/a&gt;や&lt;a href=&#34;https://docs.qmk.fm/#/ja/newbs_building_firmware_configurator&#34;&gt;QMK Configurator&lt;/a&gt;、自分でファームウェアを書くなどがありますが、一番わかりやすいRemapから使ってみるのが良いと思います。&lt;/p&gt;
+&lt;p&gt;Remapの使い方は、下記のサリチル酸の記事が詳しく、参考になります。&lt;br&gt;
+&lt;a href=&#34;https://salicylic-acid3.hatenablog.com/entry/remap-manual&#34;&gt;（初心者編）Remapを使ってキーマップを書き換えよう - 自作キーボード温泉街の歩き方&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Remapだけではできない、細かい調整や機能の追加にはファームウェアの変更が必要になります。&lt;br&gt;
+&lt;a href=&#34;../change_firmware&#34;&gt;→ 3. ファームウェアを変更する&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Keyboard: 3. ファームウェアを変更する</title>
+      <link>https://yfuku.com/keyboard/firmware/change_firmware/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfuku.com/keyboard/firmware/change_firmware/</guid>
+      <description>
+        
+        
+        &lt;p&gt;QMKの機能のうち、Remapが変更できるのはキーマップと一部の機能のみになります&lt;br&gt;
+&lt;img src=&#34;./remap.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;キーマップを設定していく中で、機能の精度がしっくりこなかったり、QMKを知っていく中で様々な機能を入れたくなったりすると思います。&lt;br&gt;
+その場合に、Remapでは対応できない範囲が出てくるので、ファームウェアを変更する必要が出てきます。&lt;br&gt;
+すでにキーボード作者や他の方が、変更済みのファームウェアを用意してくれている場合があります。&lt;br&gt;
+用意されているファームウェアを使えるようにするためには、QMK Toolboxというツールを使用します。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;../toolbox&#34;&gt;→ 4. QMK Toolboxでファームウェアを書き込む&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Keyboard: 4. QMK Toolboxでファームウェアを書き込む</title>
+      <link>https://yfuku.com/keyboard/firmware/toolbox/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfuku.com/keyboard/firmware/toolbox/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;qmk-toolboxとは&#34;&gt;QMK Toolboxとは？&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;マイコンにファームウェアを書き込むツールです&lt;/li&gt;
+&lt;li&gt;.hexという拡張子のファイルを使います&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;./toolbox.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;インストール&#34;&gt;インストール&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/qmk/qmk_toolbox/releases/&#34;&gt;最新のQMK Toolbox&lt;/a&gt;をダウンロードし、インストールしてください
+&lt;ul&gt;
+&lt;li&gt;Windowsならqmk_toolbox.exe&lt;/li&gt;
+&lt;li&gt;MacならQMK.Toolbox.app.zip&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;hexファイルを読み込む&#34;&gt;hexファイルを読み込む&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;hexファイルを用意します&lt;/li&gt;
+&lt;li&gt;Openをクリックして、ダウンロードしたhexファイルを指定します&lt;/li&gt;
+&lt;li&gt;Auto-Flashにチェックを入れます&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;./toolbox2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ファームウェアを書き込む&#34;&gt;ファームウェアを書き込む&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;キーボードのリセットボタンを2回押します&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;./reset_button.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;下記のように書き込みのログが表示されます&lt;/li&gt;
+&lt;li&gt;最後に「avrdude done.  Thank you.」と表示されればOKです&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;./toolbox3.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;分割型の場合、左右両方のキーボードに書き込みを行ってください
+&lt;ul&gt;
+&lt;li&gt;分割型は通常、USBを挿した方を左側と認識するようになっています（ファームウェアの設定によります）&lt;/li&gt;
+&lt;li&gt;右側に書き込む時は、右側にUSBを挿すので、右側を入力しても左側のキーが入力されます&lt;/li&gt;
+&lt;li&gt;左側にUSBを挿し、左右をTRSケーブルで繋げると右側も正常に入力されますのでご注意ください&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;さらに自分好みの機能を設定するためには、自分でファームウェアを作る必要があります。&lt;br&gt;
+&lt;a href=&#34;../build&#34;&gt;→ 5. 自分でファームウェアを作る&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Keyboard: 5. 自分でファームウェアを作る</title>
+      <link>https://yfuku.com/keyboard/firmware/build/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfuku.com/keyboard/firmware/build/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;環境構築&#34;&gt;環境構築&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.qmk.fm/#/ja/newbs_getting_started&#34;&gt;QMK環境の構築&lt;/a&gt;を参照して書き込み環境を構築してください&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;キーマップの修正&#34;&gt;キーマップの修正&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;以下、claw44を例としていますが、適宜bat43, wings42, owl8など読み替えてください&lt;/li&gt;
+&lt;li&gt;QMKの下記のディレクトリをコピーして、自分用のkeymapのフォルダを作成して修正してください
+&lt;ul&gt;
+&lt;li&gt;keyboards/claw44/keymaps/default/&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;keyboards/claw44/keymaps/mykeymapなどとする
+&lt;ul&gt;
+&lt;li&gt;（mykeymapの部分はなんでもいいです。自分はyfukuとしてます。）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.qmk.fm/#/ja/&#34;&gt;QMK Firmware&lt;/a&gt;を学習したり、他の人が公開しているファームウェアもありますので参考にするとより自分にあったキーマップを探求できると思います&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;書き込み&#34;&gt;書き込み&lt;/h2&gt;
+&lt;h3 id=&#34;ビルド&#34;&gt;ビルド&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;コマンド実行&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;make claw44:mykeymap
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;書き込み-1&#34;&gt;書き込み&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;コマンド実行&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;make claw44:mykeymap:avrdude
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;下記のように、&amp;quot;&amp;hellip;&amp;ldquo;と出てきたら、&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;Checking file size of claw44_rev1_default.hex                                                       [OK]
+ * The firmware size is fine - 20168/28672 (8504 bytes free)
+Detecting USB port, reset your controller now....
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;キーボードのリセットボタンを2回押してください&lt;br&gt;
+&lt;img src=&#34;../toolbox/reset_button.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ProMicro単体の場合は、画像のGNDとRSTと書かれている下の丸同士をピンセットなどでショートさせてください
+&lt;img src=&#34;images/20190402072348.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;下記のように表示され、最後に&lt;code&gt;avrdude done.  Thank you.&lt;/code&gt;が表示されれば成功です！&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;Device /dev/tty.usbmodem146201 has appeared; assuming it is the controller.
+Waiting for /dev/tty.usbmodem146201 to become writable.
+
+Connecting to programmer: .
+Found programmer: Id = &amp;quot;CATERIN&amp;quot;; type = S
+    Software Version = 1.0; No Hardware Version given.
+Programmer supports auto addr increment.
+Programmer supports buffered memory access with buffersize=128 bytes.
+
+Programmer supports the following devices:
+    Device code: 0x44
+
+avrdude: AVR device initialized and ready to accept instructions
+
+Reading | ################################################## | 100% 0.00s
+
+avrdude: Device signature = 0x1e9587 (probably m32u4)
+avrdude: NOTE: &amp;quot;flash&amp;quot; memory has been specified, an erase cycle will be performed
+         To disable this feature, specify the -D option.
+avrdude: erasing chip
+avrdude: reading input file &amp;quot;.build/claw44_rev1_default.hex&amp;quot;
+avrdude: input file .build/claw44_rev1_default.hex auto detected as Intel Hex
+avrdude: writing flash (20168 bytes):
+
+Writing | ################################################## | 100% 1.54s
+
+avrdude: 20168 bytes of flash written
+avrdude: verifying flash memory against .build/claw44_rev1_default.hex:
+avrdude: load data flash data from input file .build/claw44_rev1_default.hex:
+avrdude: input file .build/claw44_rev1_default.hex auto detected as Intel Hex
+avrdude: input file .build/claw44_rev1_default.hex contains 20168 bytes
+avrdude: reading on-chip flash data:
+
+Reading | ################################################## | 100% 0.18s
+
+avrdude: verifying ...
+avrdude: 20168 bytes of flash verified
+
+avrdude: safemode: Fuses OK (E:FB, H:D8, L:FF)
+
+avrdude done.  Thank you.
+&lt;/code&gt;&lt;/pre&gt;
+      </description>
+    </item>
+    
+  </channel>
+</rss>

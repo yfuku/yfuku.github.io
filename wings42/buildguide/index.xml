@@ -63,7 +63,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;必要な工具&#34;&gt;必要な工具&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;../../../blog/keyboard/keybord_build_tool&#34;&gt;自作キーボードの組み立てに使っている工具&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://yfuku.com/keyboard/kougu/&#34;&gt;自作キーボードの組み立てに使っている工具&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;ファームウェア&#34;&gt;ファームウェア&lt;/h2&gt;
 &lt;p&gt;キットに付属のProMicroはファームウェアが書き込まれているため、そのまま使用できます。&lt;br&gt;
@@ -87,7 +87,7 @@
 不足品などありましたら付属の案内に記載の連絡先か、&lt;a href=&#34;https://twitter.com/yfuku_&#34;&gt;Twitter&lt;/a&gt;からご連絡ください。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;ProMicro：2個（ファーム書き込み済み）&lt;/li&gt;
-&lt;li&gt;SMDダイオード: 42個+予備&lt;/li&gt;
+&lt;li&gt;SMDダイオード: 46個+予備&lt;/li&gt;
 &lt;li&gt;ProMicro保護プレート: 2枚&lt;/li&gt;
 &lt;li&gt;コンスルー：4本&lt;/li&gt;
 &lt;li&gt;ネジ（7mm） : 22本&lt;/li&gt;
@@ -161,7 +161,8 @@
 &lt;h2 id=&#34;配置箇所&#34;&gt;配置箇所&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;基板の裏面に実装していきます&lt;/li&gt;
-&lt;li&gt;片側21個、全部で42箇所あります&lt;/li&gt;
+&lt;li&gt;片側23個、全部で46箇所あります&lt;/li&gt;
+&lt;li&gt;黄色の部分はキー拡張用のダイオードになります（使用しなければいらないのですが、面倒なので全部つけちゃいましょう）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img src=&#34;images/d1.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;取り付け&#34;&gt;取り付け&lt;/h2&gt;

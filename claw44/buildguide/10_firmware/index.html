@@ -92,14 +92,6 @@ if (!doNotTrack) {
 				
 				
 				
-				<a class="nav-link" href="/bat43tb" ><span>bat43tb</span></a>
-			</li>
-			
-			<li class="nav-item mr-4 mb-2 mb-lg-0">
-				
-				
-				
-				
 				<a class="nav-link" href="/wings42" ><span>wings42</span></a>
 			</li>
 			
@@ -108,7 +100,15 @@ if (!doNotTrack) {
 				
 				
 				
-				<a class="nav-link" href="/tb7" ><span>tb7</span></a>
+				<a class="nav-link" href="/owl8" ><span>owl8</span></a>
+			</li>
+			
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				
+				
+				
+				
+				<a class="nav-link" href="/keyboard" ><span>keyboard</span></a>
 			</li>
 			
 			<li class="nav-item mr-4 mb-2 mb-lg-0">
@@ -432,23 +432,6 @@ if (!doNotTrack) {
       
       
       
-      
-      
-
-
-
-
-
-
-<ul class="td-sidebar-nav__section pr-md-3">
-  <li class="td-sidebar-nav__section-title">
-    <a  href="/claw44/buildguide/10_firmware/via/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">VIAでキーマップを変更する</a>
-  </li>
-  <ul>
-    <li class="collapse show" id="claw44buildguide10_firmwarevia">
-      
-      
-      
     </li>
   </ul>
 </ul>
@@ -465,63 +448,11 @@ if (!doNotTrack) {
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/claw44/buildguide/10_firmware/prefirmware/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">あらかじめ修正されたファームウェアを書き込む</a>
+    <a  href="/claw44/buildguide/11_prefirmware/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">11. あらかじめ修正されたファームウェアを書き込む</a>
   </li>
   <ul>
-    <li class="collapse show" id="claw44buildguide10_firmwareprefirmware">
+    <li class="collapse " id="claw44buildguide11_prefirmware">
       
-      
-      
-    </li>
-  </ul>
-</ul>
-
-      
-      
-      
-      
-
-
-
-
-
-
-<ul class="td-sidebar-nav__section pr-md-3">
-  <li class="td-sidebar-nav__section-title">
-    <a  href="/claw44/buildguide/10_firmware/toolbox/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">QMK Toolboxでファームウェアを書き込む</a>
-  </li>
-  <ul>
-    <li class="collapse show" id="claw44buildguide10_firmwaretoolbox">
-      
-      
-      
-    </li>
-  </ul>
-</ul>
-
-      
-      
-      
-      
-
-
-
-
-
-
-<ul class="td-sidebar-nav__section pr-md-3">
-  <li class="td-sidebar-nav__section-title">
-    <a  href="/claw44/buildguide/10_firmware/build/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">自分でファームウェアを作る</a>
-  </li>
-  <ul>
-    <li class="collapse show" id="claw44buildguide10_firmwarebuild">
-      
-      
-      
-    </li>
-  </ul>
-</ul>
-
       
       
     </li>
@@ -822,80 +753,21 @@ if (!doNotTrack) {
 	
 	<p>ハードウェアの準備は終わったので、ソフトウェア側に入っていきます。<br>
 1回できるようになってしまえばキーマップの追求に集中できるので頑張っていきましょう！</p>
-<p style="font-size: 80%; line-height: 1.5;">
-<span>
-※わかりやすさのためにおおざっぱな説明があります。気になる表現などありましたらご連絡ください。
-</span>
-</p>
-<h2 id="知っておきたいこと">知っておきたいこと</h2>
-<h3 id="マイコン">マイコン</h3>
+<p><a href="/keyboard/firmware/">ファームウェアの基本</a>を参考にキーマップの設定などしていきましょう。</p>
+<h2 id="デフォルトのファームウェアはこちらにあります">デフォルトのファームウェアはこちらにあります</h2>
+<h3 id="claw44のデフォルトファームウェアremap対応">Claw44のデフォルトファームウェア（Remap対応）</h3>
 <ul>
-<li>キースイッチが押された時に、どのキーが入力されたかをPCに伝える必要があります
+<li><a href="https://github.com/yfuku/claw44/releases/download/via/claw44_rev1_via.hex" download="claw44_rev1_via.hex">Claw44用のRemap対応hexファイル(claw44_rev1_via.hex)</a></li>
+</ul>
+<h3 id="oledを使用する場合オプション">OLEDを使用する場合（オプション）</h3>
 <ul>
-<li>（もうちょっと複雑なこともしますが）</li>
+<li><a href="https://github.com/yfuku/claw44/releases/download/via/claw44_rev1_via-oled.hex" download="claw44_rev1_via-oled.hex">OLED用hexファイル(claw44_rev1_via-oled.hex)</a></li>
 </ul>
-</li>
-<li>このような処理をするのに頭脳となるコンピュータが必要になります</li>
-<li>Claw44ではProMicroというマイコン（マイクロコンピュータ）を使用しています</li>
-<li>↓これです</li>
-</ul>
-<p><img src="/claw44/buildguide/7_promicro/images/20190401164322.jpg" alt=""></p>
-<h3 id="ファームウェア">ファームウェア</h3>
-<ul>
-<li>マイコンを動かすためには、アプリのようなものを入れてあげなくてはいけません</li>
-<li>マイコン用のアプリのことをファームウェアと呼びます</li>
-<li>Claw44ではQMKというオープンソースのファームウェアを使用しています</li>
-<li>Claw44に付属の「ProMicro」には「Claw44用に設定されたQMK」が入った状態になっています</li>
-<li>QMKについては、<a href="https://docs.qmk.fm/#/ja/">公式ドキュメント</a> を参考にしてください。
-<ul>
-<li>有志の方の翻訳のおかげで、かなりの部分が日本語で読めます。ありがとうございます！</li>
-</ul>
-</li>
-</ul>
-<h3 id="キーマップ">キーマップ</h3>
-<ul>
-<li>キーマップとは、どのキーを押したらどのキーが入力されるか、という設定のことです</li>
-<li>上記の「Claw44用に設定されたQMK」には、デフォルトのキーマップが既に入っています</li>
-<li>しかし、このままでは最初に設定されているキーマップでしか使用できません</li>
-<li>キーマップを変更することで、例えばスペースキーを割り当てていたキーをエンターキーに変更したりすることができます</li>
-<li>デフォルトのキーマップは例でしかないので、自分に合ったキーマップを作っていきましょう！
-<img src="./keymap.png" alt=""></li>
-</ul>
-<h3 id="まとめるとこんな感じです">まとめるとこんな感じです</h3>
-<p><img src="./firmware.jpg" alt=""></p>
-<h2 id="キーマップを変更する">キーマップを変更する</h2>
-<p>キーマップを変更するためのツールを使います。<br>
-下記の2つがあるのですが、特別な理由がなければVIAを使用してみてください。</p>
-<h3 id="via">VIA</h3>
-<ul>
-<li><a href="./via/">→ VIAでキーマップを変更する</a></li>
-</ul>
-<h3 id="qmk-configurator">QMK Configurator</h3>
-<ul>
-<li><a href="https://docs.qmk.fm/#/ja/newbs_building_firmware_configurator">公式ドキュメント</a>を参照ください</li>
-</ul>
-<hr>
-<p>ここから先はVIAに慣れてからでも良いと思います。<br>
-初めての方はさらっと流し読みしておいてください。</p>
-<hr>
-<h2 id="ファームウェアを変更する">ファームウェアを変更する</h2>
-<p>QMKの機能のうち、VIAが変更できる範囲はこのようなイメージです。<br>
-（キーマップ＋レイアウトやLEDを光らせるなど機能など。今後、増えていく可能性もあります）<br>
-<img src="./via.jpg" alt=""></p>
-<p>キーマップを設定していく中で、機能の精度がしっくりこなかったり、もっと違う機能を入れたくなったりすると思います。<br>
-その場合に、VIAでは対応できない範囲が出てくるので、自分でファームウェアを作成することになります。<br>
-プログラミングの知識が多少必要だったりするので少しハードルは高いですが、より良い体験を目指してがんばってみましょう！<br>
-※ソフトウェアエンジニアの方は最初からこちらの方がしっくりくるかもしれないです。</p>
-<h3 id="ある程度設定されたファームウェアを使う">ある程度設定されたファームウェアを使う</h3>
-<p>とはいっても、作者自体も使っている機能は少なかったりするので、限定的ですが、あらかじめ設定がされたファームウェアを用意しました。<br>
+<h2 id="ある程度設定されたファームウェアを使う">ある程度設定されたファームウェアを使う</h2>
+<p>限定的ですが、あらかじめ設定がされたファームウェアを用意しました。<br>
 ファームウェアの書き込みは必要になりますが、興味のある方は試してみてください。</p>
-<ul>
-<li><a href="./prefirmware/">あらかじめ設定されたファームウェアを書き込む</a></li>
-</ul>
-<h3 id="自分でファームウェアを作る方法">自分でファームウェアを作る方法</h3>
-<ul>
-<li><a href="./build/">自分でファームウェアを作る</a></li>
-</ul>
+<hr>
+<p><a href="../11_prefirmware/">→ 11. あらかじめ設定されたファームウェアを書き込む</a></p>
 
         <div class="section-index">
     
@@ -911,45 +783,11 @@ if (!doNotTrack) {
             
         
             
-                <div class="entry">
-                    <h5>
-                        <a href="/claw44/buildguide/10_firmware/via/">VIAでキーマップを変更する</a>
-                    </h5>
-                    <p></p>
-                </div>
-            
-        
-            
-                <div class="entry">
-                    <h5>
-                        <a href="/claw44/buildguide/10_firmware/prefirmware/">あらかじめ修正されたファームウェアを書き込む</a>
-                    </h5>
-                    <p></p>
-                </div>
-            
         
             
         
             
         
-            
-        
-            
-                <div class="entry">
-                    <h5>
-                        <a href="/claw44/buildguide/10_firmware/toolbox/">QMK Toolboxでファームウェアを書き込む</a>
-                    </h5>
-                    <p></p>
-                </div>
-            
-        
-            
-                <div class="entry">
-                    <h5>
-                        <a href="/claw44/buildguide/10_firmware/build/">自分でファームウェアを作る</a>
-                    </h5>
-                    <p></p>
-                </div>
             
         
             

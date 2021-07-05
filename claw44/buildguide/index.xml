@@ -60,10 +60,10 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;必要な工具&#34;&gt;必要な工具&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;../../../blog/keyboard/keybord_build_tool&#34;&gt;自作キーボードの組み立てに使っている工具&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://yfuku.com/keyboard/kougu/&#34;&gt;自作キーボードの組み立てに使っている工具&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;ファームウェア&#34;&gt;ファームウェア&lt;/h2&gt;
-&lt;p&gt;キットに付属のProMicroはファームウェアが書き込まれているため、そのまま使用できます。&lt;br&gt;
+&lt;p&gt;キット付属のProMicroはファームウェアが書き込まれているため、そのまま使用できます。&lt;br&gt;
 &lt;a href=&#34;../10_firmware&#34;&gt;10. ファームウェア&lt;/a&gt;のページは事前に目を通し、できることは先にやっておきましょう。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;a href=&#34;../2_check&#34;&gt;→ 2.同梱品の確認&lt;/a&gt;&lt;/p&gt;
@@ -632,79 +632,82 @@
         
         &lt;p&gt;ハードウェアの準備は終わったので、ソフトウェア側に入っていきます。&lt;br&gt;
 1回できるようになってしまえばキーマップの追求に集中できるので頑張っていきましょう！&lt;/p&gt;
-&lt;p style=&#34;font-size: 80%; line-height: 1.5;&#34;&gt;
-&lt;span&gt;
-※わかりやすさのためにおおざっぱな説明があります。気になる表現などありましたらご連絡ください。
-&lt;/span&gt;
-&lt;/p&gt;
-&lt;h2 id=&#34;知っておきたいこと&#34;&gt;知っておきたいこと&lt;/h2&gt;
-&lt;h3 id=&#34;マイコン&#34;&gt;マイコン&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://yfuku.com/keyboard/firmware/&#34;&gt;ファームウェアの基本&lt;/a&gt;を参考にキーマップの設定などしていきましょう。&lt;/p&gt;
+&lt;h2 id=&#34;デフォルトのファームウェアはこちらにあります&#34;&gt;デフォルトのファームウェアはこちらにあります&lt;/h2&gt;
+&lt;h3 id=&#34;claw44のデフォルトファームウェアremap対応&#34;&gt;Claw44のデフォルトファームウェア（Remap対応）&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;キースイッチが押された時に、どのキーが入力されたかをPCに伝える必要があります
+&lt;li&gt;&lt;a href=&#34;https://github.com/yfuku/claw44/releases/download/via/claw44_rev1_via.hex&#34; download=&#34;claw44_rev1_via.hex&#34;&gt;Claw44用のRemap対応hexファイル(claw44_rev1_via.hex)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;oledを使用する場合オプション&#34;&gt;OLEDを使用する場合（オプション）&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;（もうちょっと複雑なこともしますが）&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/yfuku/claw44/releases/download/via/claw44_rev1_via-oled.hex&#34; download=&#34;claw44_rev1_via-oled.hex&#34;&gt;OLED用hexファイル(claw44_rev1_via-oled.hex)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;このような処理をするのに頭脳となるコンピュータが必要になります&lt;/li&gt;
-&lt;li&gt;Claw44ではProMicroというマイコン（マイクロコンピュータ）を使用しています&lt;/li&gt;
-&lt;li&gt;↓これです&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://yfuku.com/claw44/buildguide/7_promicro/images/20190401164322.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h3 id=&#34;ファームウェア&#34;&gt;ファームウェア&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;マイコンを動かすためには、アプリのようなものを入れてあげなくてはいけません&lt;/li&gt;
-&lt;li&gt;マイコン用のアプリのことをファームウェアと呼びます&lt;/li&gt;
-&lt;li&gt;Claw44ではQMKというオープンソースのファームウェアを使用しています&lt;/li&gt;
-&lt;li&gt;Claw44に付属の「ProMicro」には「Claw44用に設定されたQMK」が入った状態になっています&lt;/li&gt;
-&lt;li&gt;QMKについては、&lt;a href=&#34;https://docs.qmk.fm/#/ja/&#34;&gt;公式ドキュメント&lt;/a&gt; を参考にしてください。
-&lt;ul&gt;
-&lt;li&gt;有志の方の翻訳のおかげで、かなりの部分が日本語で読めます。ありがとうございます！&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;キーマップ&#34;&gt;キーマップ&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;キーマップとは、どのキーを押したらどのキーが入力されるか、という設定のことです&lt;/li&gt;
-&lt;li&gt;上記の「Claw44用に設定されたQMK」には、デフォルトのキーマップが既に入っています&lt;/li&gt;
-&lt;li&gt;しかし、このままでは最初に設定されているキーマップでしか使用できません&lt;/li&gt;
-&lt;li&gt;キーマップを変更することで、例えばスペースキーを割り当てていたキーをエンターキーに変更したりすることができます&lt;/li&gt;
-&lt;li&gt;デフォルトのキーマップは例でしかないので、自分に合ったキーマップを作っていきましょう！
-&lt;img src=&#34;./keymap.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;まとめるとこんな感じです&#34;&gt;まとめるとこんな感じです&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;./firmware.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;キーマップを変更する&#34;&gt;キーマップを変更する&lt;/h2&gt;
-&lt;p&gt;キーマップを変更するためのツールを使います。&lt;br&gt;
-下記の2つがあるのですが、特別な理由がなければVIAを使用してみてください。&lt;/p&gt;
-&lt;h3 id=&#34;via&#34;&gt;VIA&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;./via/&#34;&gt;→ VIAでキーマップを変更する&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;qmk-configurator&#34;&gt;QMK Configurator&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.qmk.fm/#/ja/newbs_building_firmware_configurator&#34;&gt;公式ドキュメント&lt;/a&gt;を参照ください&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;p&gt;ここから先はVIAに慣れてからでも良いと思います。&lt;br&gt;
-初めての方はさらっと流し読みしておいてください。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;ファームウェアを変更する&#34;&gt;ファームウェアを変更する&lt;/h2&gt;
-&lt;p&gt;QMKの機能のうち、VIAが変更できる範囲はこのようなイメージです。&lt;br&gt;
-（キーマップ＋レイアウトやLEDを光らせるなど機能など。今後、増えていく可能性もあります）&lt;br&gt;
-&lt;img src=&#34;./via.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;キーマップを設定していく中で、機能の精度がしっくりこなかったり、もっと違う機能を入れたくなったりすると思います。&lt;br&gt;
-その場合に、VIAでは対応できない範囲が出てくるので、自分でファームウェアを作成することになります。&lt;br&gt;
-プログラミングの知識が多少必要だったりするので少しハードルは高いですが、より良い体験を目指してがんばってみましょう！&lt;br&gt;
-※ソフトウェアエンジニアの方は最初からこちらの方がしっくりくるかもしれないです。&lt;/p&gt;
-&lt;h3 id=&#34;ある程度設定されたファームウェアを使う&#34;&gt;ある程度設定されたファームウェアを使う&lt;/h3&gt;
-&lt;p&gt;とはいっても、作者自体も使っている機能は少なかったりするので、限定的ですが、あらかじめ設定がされたファームウェアを用意しました。&lt;br&gt;
+&lt;h2 id=&#34;ある程度設定されたファームウェアを使う&#34;&gt;ある程度設定されたファームウェアを使う&lt;/h2&gt;
+&lt;p&gt;限定的ですが、あらかじめ設定がされたファームウェアを用意しました。&lt;br&gt;
 ファームウェアの書き込みは必要になりますが、興味のある方は試してみてください。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;../11_prefirmware/&#34;&gt;→ 11. あらかじめ設定されたファームウェアを書き込む&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Claw44: 11. あらかじめ修正されたファームウェアを書き込む</title>
+      <link>https://yfuku.com/claw44/buildguide/11_prefirmware/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfuku.com/claw44/buildguide/11_prefirmware/</guid>
+      <description>
+        
+        
+        &lt;p&gt;作者がClaw44を使う上で設定をしている項目が2つあります。&lt;br&gt;
+（詳しい説明は公式ドキュメントを確認してください。）&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;./prefirmware/&#34;&gt;あらかじめ設定されたファームウェアを書き込む&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.qmk.fm/#/ja/tap_hold?id=%e3%82%bf%e3%83%83%e3%83%94%e3%83%b3%e3%82%b0%e6%99%82%e9%96%93&#34;&gt;TAPPING_TERM&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.qmk.fm/#/ja/tap_hold?id=%e3%83%a2%e3%83%83%e3%83%89%e3%82%bf%e3%83%83%e3%83%97%e5%89%b2%e3%82%8a%e8%be%bc%e3%81%bf%e3%81%ae%e7%84%a1%e8%a6%96&#34;&gt;IGNORE_MOD_TAP_INTERRUPT&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;自分でファームウェアを作る方法&#34;&gt;自分でファームウェアを作る方法&lt;/h3&gt;
+&lt;p&gt;あと、設定項目としてはOLEDの有無もあるので、この3つの状態を設定済みのファームウェアをgithubに置いておきます。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;./build/&#34;&gt;自分でファームウェアを作る&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/yfuku/claw44/tree/master/firmware/rev1&#34;&gt;claw44/firmware/rev1 at master · yfuku/claw44&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ファームウェアのファイルを特定する&#34;&gt;ファームウェアのファイルを特定する&lt;/h2&gt;
+&lt;h3 id=&#34;oledの有無&#34;&gt;OLEDの有無&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;最初にディレクトリ単位で分けてあります。
+&lt;ul&gt;
+&lt;li&gt;OLEDなし→&lt;a href=&#34;https://github.com/yfuku/claw44/tree/master/firmware/rev1/default&#34;&gt;claw44/firmware/rev1/default&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;OLEDあり→&lt;a href=&#34;https://github.com/yfuku/claw44/tree/master/firmware/rev1/oled&#34;&gt;claw44/firmware/rev1/oled&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;tapping_termの設定&#34;&gt;TAPPING_TERMの設定&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;このディレクトリ直下にあるものは、TAPPING_TERMのみ追加されています&lt;/li&gt;
+&lt;li&gt;例えば、&lt;code&gt;claw44_rev1_via-default-100.hex&lt;/code&gt;であれば、TAPPING_TERMが100に設定されています&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ignore_mod_tap_interrupt&#34;&gt;IGNORE_MOD_TAP_INTERRUPT&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;IGNORE_MOD_TAP_INTERRUPTを指定したい場合はさらに、ignore_mod_tap_interruptディレクトリに行ってください&lt;/li&gt;
+&lt;li&gt;例えば、&lt;code&gt;claw44_rev1_via-default-imti-100.hex&lt;/code&gt;であれば、IGNORE_MOD_TAP_INTERRUPTとTAPPING_TERMが100に設定されています&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ファームウェアをダウンロードする&#34;&gt;ファームウェアをダウンロードする&lt;/h2&gt;
+&lt;h3 id=&#34;gitがわかる方&#34;&gt;gitがわかる方&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;普通にcloneなどしてください&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;gitがよくわからない方&#34;&gt;gitがよくわからない方&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/yfuku/claw44&#34;&gt;yfuku/claw44&lt;/a&gt;このページから、下記のようにzipファイルをダウンロードしてください。
+&lt;img src=&#34;./github.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;個別のファイルのみダウンロードしたい場合&#34;&gt;個別のファイルのみダウンロードしたい場合&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;「raw」の部分を右クリックして保存してください
+&lt;img src=&#34;./raw.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ファームウェアの書き込み&#34;&gt;ファームウェアの書き込み&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://yfuku.com/keyboard/firmware/toolbox/&#34;&gt;QMK Toolboxでファームウェアを書き込む&lt;/a&gt; を行ってください&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
