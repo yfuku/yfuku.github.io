@@ -150,6 +150,8 @@
   </url><url>
     <loc>https://yfuku.com/wings42/ext/keys/</loc>
   </url><url>
+    <loc>https://yfuku.com/wings42/ext_beta/keys/</loc>
+  </url><url>
     <loc>https://yfuku.com/claw44/buildguide/10_firmware/</loc>
   </url><url>
     <loc>https://yfuku.com/wings42/buildguide/10_firmware/</loc>
@@ -170,13 +172,17 @@
   </url><url>
     <loc>https://yfuku.com/wings42/buildguide/</loc>
   </url><url>
-    <loc>https://yfuku.com/wings42/ext/encoder1/</loc>
+    <loc>https://yfuku.com/wings42/ext/encoder/</loc>
   </url><url>
-    <loc>https://yfuku.com/wings42/ext/encoder2/</loc>
+    <loc>https://yfuku.com/wings42/ext_beta/encoder1/</loc>
+  </url><url>
+    <loc>https://yfuku.com/wings42/ext_beta/encoder2/</loc>
   </url><url>
     <loc>https://yfuku.com/claw44/keymap/</loc>
   </url><url>
     <loc>https://yfuku.com/wings42/ext/trackball/</loc>
+  </url><url>
+    <loc>https://yfuku.com/wings42/ext_beta/trackball/</loc>
   </url><url>
     <loc>https://yfuku.com/owl8/firmware/</loc>
   </url><url>
@@ -185,9 +191,15 @@
     <loc>https://yfuku.com/claw44/bmp/</loc>
     <lastmod>2019-06-26T10:00:00+09:00</lastmod>
   </url><url>
+    <loc>https://yfuku.com/wings42/ext_beta/</loc>
+  </url><url>
     <loc>https://yfuku.com/wings42/ext/bmp/</loc>
   </url><url>
+    <loc>https://yfuku.com/wings42/ext_beta/bmp/</loc>
+  </url><url>
     <loc>https://yfuku.com/wings42/ext/lpmeio/</loc>
+  </url><url>
+    <loc>https://yfuku.com/wings42/ext_beta/lpmeio/</loc>
   </url><url>
     <loc>https://yfuku.com/claw44/claw44v2/</loc>
     <lastmod>2020-03-21T10:00:00+09:00</lastmod>

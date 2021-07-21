@@ -1,0 +1,434 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>yfuku docs – 拡張オプション(beta)</title>
+    <link>https://yfuku.com/wings42/ext_beta/</link>
+    <description>Recent content in 拡張オプション(beta) on yfuku docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://yfuku.com/wings42/ext_beta/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Wings42: キー拡張</title>
+      <link>https://yfuku.com/wings42/ext_beta/keys/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfuku.com/wings42/ext_beta/keys/</guid>
+      <description>
+        
+        
+        &lt;p&gt;ProMicroのプレートの上にキースイッチを拡張できるオプションです。&lt;/p&gt;
+&lt;h2 id=&#34;キー拡張プレートの組み立て&#34;&gt;キー拡張プレートの組み立て&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;リバーシブル基板になっています&lt;/li&gt;
+&lt;li&gt;6連の穴が空いている方が内側になります&lt;/li&gt;
+&lt;li&gt;キースイッチをはんだ付けします
+&lt;img src=&#34;images/K1.JPG&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;images/K2.JPG&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;キー拡張プレートの取り付け&#34;&gt;キー拡張プレートの取り付け&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;付属の6ピンコンスルーをキーボードに取り付けます&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;窓が上に来るように取り付けてください&lt;br&gt;
+&lt;img src=&#34;images/K3.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;プレートを取り付けます&lt;br&gt;
+&lt;img src=&#34;images/K4.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ねじ止めします
+&lt;img src=&#34;images/K5.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ファームウェア&#34;&gt;ファームウェア&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/yfuku/wings42/releases/download/beta2/wings42_rev1_extkeys_via.hex&#34;&gt;こちらのhexファイル&lt;/a&gt;をダウンロードして、QMK toolboxで書き込んでください。&lt;/li&gt;
+&lt;li&gt;Remapでみると、↓のようにキーが拡張されています。&lt;br&gt;
+&lt;img src=&#34;images/K6.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Wings42: ロータリーエンコーダー（1個ver）</title>
+      <link>https://yfuku.com/wings42/ext_beta/encoder1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfuku.com/wings42/ext_beta/encoder1/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;ロータリーエンコーダー1個ver&#34;&gt;ロータリーエンコーダー（1個ver）&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;ロータリーエンコーダーを取り付けます&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;両面基板となっているので、付ける向きに注意してください&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;足が下のパーツと干渉するので折り曲げるか切り取って短くしてください
+&lt;img src=&#34;images/e1.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;はんだ付けをします
+&lt;img src=&#34;images/e2.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;TRRSジャックと干渉するようであれば、カプトンテープなどで絶縁してください（絶縁できればなんでも良いです）&lt;br&gt;
+&lt;img src=&#34;images/e7.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;付属の6ピンコンスルーをキーボードに取り付けます&lt;br&gt;
+窓が上に来るように取り付けてください&lt;br&gt;
+&lt;img src=&#34;images/e3.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;プレートを載せます
+&lt;img src=&#34;images/e4.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ねじを取り付けます
+&lt;img src=&#34;images/e5.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ノブを取り付けたら完成です
+&lt;img src=&#34;images/e6.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ファームウェア&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.qmk.fm/#/ja/feature_encoders&#34;&gt;QMKのエンコーダのドキュメント&lt;/a&gt;を参考にしてください&lt;/li&gt;
+&lt;li&gt;サンプルコード
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/yfuku/qmk_firmware/tree/yfuku/keyboards/wings42/rev1/keymaps/encoder&#34;&gt;https://github.com/yfuku/qmk_firmware/tree/yfuku/keyboards/wings42/rev1/keymaps/encoder&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/yfuku/qmk_firmware/tree/yfuku/keyboards/wings42/rev1_extkeys/keymaps/encoder&#34;&gt;https://github.com/yfuku/qmk_firmware/tree/yfuku/keyboards/wings42/rev1_extkeys/keymaps/encoder&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Wings42: ロータリーエンコーダー（2個ver）</title>
+      <link>https://yfuku.com/wings42/ext_beta/encoder2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfuku.com/wings42/ext_beta/encoder2/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;ロータリーエンコーダー2個ver&#34;&gt;ロータリーエンコーダー（2個ver）&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;ロータリーエンコーダーを取り付けます&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;両面基板となっているので、付ける向きに注意してください&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;足が下のパーツと干渉するので折り曲げるか切り取って短くしてください
+&lt;img src=&#34;images/e1.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;はんだ付けをします
+&lt;img src=&#34;images/e2.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;TRRSジャックと干渉するようであれば、カプトンテープなどで絶縁してください（絶縁できればなんでも良いです）&lt;br&gt;
+&lt;img src=&#34;images/e7.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;付属の6ピンコンスルーをキーボードに取り付けます&lt;br&gt;
+窓が上に来るように取り付けてください&lt;br&gt;
+&lt;img src=&#34;images/e3.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;プレートを載せます
+&lt;img src=&#34;images/e4.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ねじを取り付けます
+&lt;img src=&#34;images/e5.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ノブを取り付けたら完成です
+&lt;img src=&#34;images/e6.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ファームウェア&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.qmk.fm/#/ja/feature_encoders&#34;&gt;QMKのエンコーダのドキュメント&lt;/a&gt;を参考にしてください&lt;/li&gt;
+&lt;li&gt;サンプルコード
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/yfuku/qmk_firmware/tree/yfuku/keyboards/wings42/rev1/keymaps/encoder&#34;&gt;https://github.com/yfuku/qmk_firmware/tree/yfuku/keyboards/wings42/rev1/keymaps/encoder&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/yfuku/qmk_firmware/tree/yfuku/keyboards/wings42/rev1_extkeys/keymaps/encoder&#34;&gt;https://github.com/yfuku/qmk_firmware/tree/yfuku/keyboards/wings42/rev1_extkeys/keymaps/encoder&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Wings42: トラックボール</title>
+      <link>https://yfuku.com/wings42/ext_beta/trackball/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfuku.com/wings42/ext_beta/trackball/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;注意&#34;&gt;注意&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;小型のトラックボールモジュールを使用するため、一般的なサイズのトラックボールに比べて使用感は劣ります&lt;/li&gt;
+&lt;li&gt;細かい作業が多いので上級者向けになります&lt;/li&gt;
+&lt;li&gt;クリックやスクロールなどの操作割り当てはプログラムを書いて実現するため、最低でもQMKファームウェアのキーマップを修正できるくらいの知識は必要です&lt;/li&gt;
+&lt;li&gt;トラックボールモジュールのケーブルは繊細なので、極力丁寧に扱ってください。もげる危険性があります。&lt;/li&gt;
+&lt;li&gt;トラックボールモジュール、レベル変換基板については購入元のドキュメントを十分に確認してから使用してください&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;購入が必要なもの&#34;&gt;購入が必要なもの&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://shop.yushakobo.jp/products/adtb7m?_pos=2&amp;amp;_sid=444109fd7&amp;amp;_ss=r&#34;&gt;7mmオプティカルトラックボールモジュール１uタイプ – 遊舎工房&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://shop.yushakobo.jp/products/a0800tl-01-1?_pos=1&amp;amp;_sid=444109fd7&amp;amp;_ss=r&#34;&gt;トラックボールモジュール用レベル変換基板 – 遊舎工房&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ピンソケットの取り付け&#34;&gt;ピンソケットの取り付け&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;トラックボールを取り付けたい方のキーボードにピンソケットをはんだ付けします&lt;br&gt;
+&lt;img src=&#34;images/p1.JPG&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;images/p2.JPG&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;トラックボールモジュールの組み立て&#34;&gt;トラックボールモジュールの組み立て&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;向きに気をつけて、写真のようにトラックボールモジュールのケーブルとレベル変換基板、ピンソケットをはんだ付けしてください
+&lt;img src=&#34;images/t1.JPG&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;images/t2.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;トラックボールモジュールの配線を折り曲げるため、位置ぎめをしていきます。ケースにモジュールを入れます。&lt;br&gt;
+&lt;img src=&#34;images/t3.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;プレートを置きます
+&lt;img src=&#34;images/t4.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;プレートの穴の位置くらいで折り曲げておきます。折り曲げすぎると断線するので注意してください。&lt;br&gt;
+&lt;img src=&#34;images/t5.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;いったん取り外して、キーボード側のソケットに差し込みます&lt;br&gt;
+&lt;img src=&#34;images/t6.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;プレートを挟み込みます&lt;br&gt;
+&lt;img src=&#34;images/t7.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ケースを被せます&lt;br&gt;
+&lt;img src=&#34;images/t8.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ねじでとめます&lt;br&gt;
+&lt;img src=&#34;images/t9.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ファームウェア&#34;&gt;ファームウェア&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;サンプルコード
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/yfuku/qmk_firmware/tree/yfuku/keyboards/wings42/rev1_extkeys/keymaps/trackball&#34;&gt;https://github.com/yfuku/qmk_firmware/tree/yfuku/keyboards/wings42/rev1_extkeys/keymaps/trackball&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;トラックボールを右手側に、キー拡張をマウスボタンにしたサンプルになります&lt;/li&gt;
+&lt;li&gt;トラックボール側（右側）をマスターにしてあるので、そちらにUSBケーブルを挿してください&lt;/li&gt;
+&lt;li&gt;LOWERレイヤーでトラックボールを動かすとスクロールするようにしてあります&lt;/li&gt;
+&lt;li&gt;クリックやスクロールをどのように割り当てるかで操作感がかなり変わってきますので、工夫をしてみてください&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Wings42: 無線接続</title>
+      <link>https://yfuku.com/wings42/ext_beta/bmp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfuku.com/wings42/ext_beta/bmp/</guid>
+      <description>
+        
+        
+        &lt;p&gt;※wings42ベータ1では基板内の配線が違うため、このプレートは使うことができません。&lt;br&gt;
+ベータ2以降の対応になります。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;使用するマイコンをProMicroから「BLE Micro Pro」（以下BMP）というBluetooh対応のマイコンに乗せかえると無線化を実現できます。&lt;/p&gt;
+&lt;p&gt;公式サイトが充実しているので、まずはこちらをご確認ください。&lt;br&gt;
+&lt;a href=&#34;https://sekigon-gonnoc.github.io/BLE-Micro-Pro/#/&#34;&gt;はじめに - BLE Micro Pro&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;wings42で使用するためには、BMPで使用する電源を取得するために「wings42用 BMPバッテリープレートセット」を使用します。&lt;/p&gt;
+&lt;p&gt;このようにスッキリとバッテリーがつけられて、手軽に無線化が実現できます！
+&lt;img src=&#34;images/b0.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;必要な部品&#34;&gt;必要な部品&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;BLE Micro Pro本体 x 2
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://booth.pm/ja/items/1177319&#34;&gt;BLE Micro Pro / booth&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://shop.yushakobo.jp/products/ble-micro-pro?variant=37665571340449&#34;&gt;BLE Micro Pro / 遊舎工房&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;コンスルー12ピン or 13ピン x 4
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://yushakobo.jp/shop/a01mc-00/&#34;&gt;スプリングピンヘッダ（コンスルー）12ピン or 13ピン / 遊舎工房&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ProMicroは12ピンx2、BMPは13ピンx2と1ピン多いですが、一番下のピンは使用しないため上詰めすることで12ピンも使用できます&lt;/li&gt;
+&lt;li&gt;BMP専用で購入するなら13ピンをオススメします&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;CR1632コイン電池 x 4
+&lt;ul&gt;
+&lt;li&gt;だいたいのコンビニに売っています&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;wings42バッテリープレートセット
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://yfuku.booth.pm/items/2927940&#34;&gt;wings42 / BOOTH&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;bmpバッテリープレートの実装&#34;&gt;BMPバッテリープレートの実装&lt;/h2&gt;
+&lt;h3 id=&#34;コンデンサとショットキーバリアダイオードの実装&#34;&gt;コンデンサとショットキーバリアダイオードの実装&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ダイオードはキーボード本体のダイオードとは種類が違うので注意してください&lt;/li&gt;
+&lt;li&gt;シルクがわかりにくいですが、写真の左側がダイオードのカソード（縦線が入っている方）になります。
+&lt;img src=&#34;images/b1.JPG&#34; alt=&#34;コンデンサとダイオード&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;電池ホルダの実装&#34;&gt;電池ホルダの実装&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;表から取り付け&lt;br&gt;
+&lt;img src=&#34;images/b2.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;裏からはんだ付けをします&lt;br&gt;
+&lt;img src=&#34;images/b3.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;スライドスイッチの取り付け&#34;&gt;スライドスイッチの取り付け&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;images/b4.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/b5.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;cr1632電池を入れる&#34;&gt;CR1632電池を入れる&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;上が＋になっています&lt;br&gt;
+&lt;img src=&#34;images/b6.JPG&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;bmpバッテリープレートの取り付け&#34;&gt;BMP、バッテリープレートの取り付け&lt;/h2&gt;
+&lt;h3 id=&#34;bmpの取り付け&#34;&gt;BMPの取り付け&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ProMicroを取り外し、BMPを取り付けます&lt;/li&gt;
+&lt;li&gt;12ピンの場合は矢印のように上詰めしてください
+&lt;img src=&#34;images/b7.JPG&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;バッテリープレートの取り付け&#34;&gt;バッテリープレートの取り付け&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;BMPの上からバッテリープレートを被せます&lt;/li&gt;
+&lt;li&gt;ねじ付きのスペーサーを取り付けます。スリわりがついているのでマイナスドライバーを使うととめやすいです。
+&lt;img src=&#34;images/b8.JPG&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;カバープレートの取り付け&#34;&gt;カバープレートの取り付け&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;一番上にカバープレートを取り付けます&lt;br&gt;
+&lt;img src=&#34;images/b9.JPG&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;スイッチ&#34;&gt;スイッチ&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;スイッチは白丸がある方がONです&lt;br&gt;
+&lt;img src=&#34;images/b12.JPG&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ファームウェア&#34;&gt;ファームウェア&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ファームウェアの設定は
+&lt;ul&gt;
+&lt;li&gt;BMPのドキュメントを参照ください
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://sekigon-gonnoc.github.io/BLE-Micro-Pro/#/getting_started&#34;&gt;自作キーボードキットを無線化する&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;WebConfiguratorにwings42が登録されているので、その設定を書き込んでください&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Wings42: 無線接続（左右接続は有線）</title>
+      <link>https://yfuku.com/wings42/ext_beta/lpmeio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfuku.com/wings42/ext_beta/lpmeio/</guid>
+      <description>
+        
+        
+        &lt;p&gt;PC - キーボード間は無線化したいけど、キーボードの左右間は有線接続にしたい場合は、&lt;a href=&#34;https://github.com/sekigon-gonnoc/LPME-IO&#34;&gt;LPME-IO&lt;/a&gt;を使うことで実現できます。両方とも無線化したい場合は、&lt;a href=&#34;../bmp&#34;&gt;無線接続&lt;/a&gt;を参照ください。&lt;/p&gt;
+&lt;p&gt;まずは、&lt;a href=&#34;https://github.com/sekigon-gonnoc/LPME-IO&#34;&gt;公式ドキュメント&lt;/a&gt;を読み仕組みを理解してください。&lt;/p&gt;
+&lt;h2 id=&#34;lpme-ioの準備&#34;&gt;LPME-IOの準備&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;wings42用にLPME-IOのジャンパをブリッジします&lt;/li&gt;
+&lt;li&gt;A-Fと書かれている部分が対象になります
+&lt;img src=&#34;images/L1.JPG&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;キーボード側のブリッジ&#34;&gt;キーボード側のブリッジ&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ダイオードの足などを曲げて、写真赤枠のように配線をしてください&lt;/li&gt;
+&lt;li&gt;左右間の接続でi2cを使用できるようになります
+&lt;img src=&#34;images/L2.JPG&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;マイコンとケーブルの接続&#34;&gt;マイコンとケーブルの接続&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;左側にBMPの取り付けます
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../bmp&#34;&gt;無線接続&lt;/a&gt;を参考にして、PCと接続するためのBMPを取り付けてください&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;右側にLPME-IOを取り付けます&lt;/li&gt;
+&lt;li&gt;左右間をTRRS（4極）ケーブルで接続してください&lt;br&gt;
+&lt;img src=&#34;images/L3.JPG&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;カバー類を取り付ける&#34;&gt;カバー類を取り付ける&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;images/L4.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ファームウェア&#34;&gt;ファームウェア&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ファームウェアの設定は
+&lt;ul&gt;
+&lt;li&gt;BMPのドキュメントを参照ください
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://sekigon-gonnoc.github.io/BLE-Micro-Pro/#/getting_started&#34;&gt;自作キーボードキットを無線化する&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;WebConfiguratorにwings42が登録されているので、その設定を書き込んでください&lt;/li&gt;
+&lt;li&gt;wings42の設定をする際に、「Use with LPME-IO」にチェックを入れてください
+&lt;img src=&#34;images/L5.JPG&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
