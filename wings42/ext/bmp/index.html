@@ -432,75 +432,6 @@ if (!doNotTrack) {
       
       
       
-      
-      
-
-
-
-
-
-
-<ul class="td-sidebar-nav__section pr-md-3">
-  <li class="td-sidebar-nav__section-title">
-    <a  href="/wings42/buildguide/10_firmware/via/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">VIAでキーマップを変更する</a>
-  </li>
-  <ul>
-    <li class="collapse " id="wings42buildguide10_firmwarevia">
-      
-      
-      
-    </li>
-  </ul>
-</ul>
-
-      
-      
-      
-      
-
-
-
-
-
-
-<ul class="td-sidebar-nav__section pr-md-3">
-  <li class="td-sidebar-nav__section-title">
-    <a  href="/wings42/buildguide/10_firmware/toolbox/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">QMK Toolboxでファームウェアを書き込む</a>
-  </li>
-  <ul>
-    <li class="collapse " id="wings42buildguide10_firmwaretoolbox">
-      
-      
-      
-    </li>
-  </ul>
-</ul>
-
-      
-      
-      
-      
-
-
-
-
-
-
-<ul class="td-sidebar-nav__section pr-md-3">
-  <li class="td-sidebar-nav__section-title">
-    <a  href="/wings42/buildguide/10_firmware/build/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">自分でファームウェアを作る</a>
-  </li>
-  <ul>
-    <li class="collapse " id="wings42buildguide10_firmwarebuild">
-      
-      
-      
-    </li>
-  </ul>
-</ul>
-
-      
-      
     </li>
   </ul>
 </ul>
@@ -563,7 +494,7 @@ if (!doNotTrack) {
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/wings42/ext/encoder/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">ロータリーエンコーダー</a>
+    <a  href="/wings42/ext/encoder/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">ロータリーエンコーダ</a>
   </li>
   <ul>
     <li class="collapse " id="wings42extencoder">
@@ -586,7 +517,7 @@ if (!doNotTrack) {
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/wings42/ext/trackball/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">トラックボール</a>
+    <a  href="/wings42/ext/trackball/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">トラックボール(右手用)</a>
   </li>
   <ul>
     <li class="collapse " id="wings42exttrackball">
@@ -661,7 +592,7 @@ if (!doNotTrack) {
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/wings42/ext_beta/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">拡張オプション(beta)</a>
+    <a  href="/wings42/ext_beta/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">beta版用 拡張オプション</a>
   </li>
   <ul>
     <li class="collapse " id="wings42ext_beta">
@@ -812,6 +743,29 @@ if (!doNotTrack) {
 
       
       
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/wings42/changelog/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">変更履歴</a>
+  </li>
+  <ul>
+    <li class="collapse " id="wings42changelog">
+      
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
     </li>
   </ul>
 </ul>
@@ -869,9 +823,9 @@ if (!doNotTrack) {
 	<p>使用するマイコンをProMicroから「BLE Micro Pro」（以下BMP）というBluetooh対応のマイコンに乗せかえると無線化を実現できます。</p>
 <p>公式サイトが充実しているので、まずはこちらをご確認ください。<br>
 <a href="https://sekigon-gonnoc.github.io/BLE-Micro-Pro/#/">はじめに - BLE Micro Pro</a></p>
-<p>wings42で使用するためには、BMPで使用する電源を取得するために「wings42用 BMPバッテリープレートセット」を使用します。</p>
+<p>電源が必要になるので<a href="https://shop.dailycraft.jp/products/wings42_bmp_set">「wings42用 BMPバッテリープレートセット」</a>を使ってコイン電池を使えるようにします。</p>
 <p>このようにスッキリとバッテリーがつけられて、手軽に無線化が実現できます！
-<img src="images/b0.JPG" alt=""></p>
+<img src="images/b0.jpeg" alt=""></p>
 <h2 id="必要な部品">必要な部品</h2>
 <ul>
 <li>BLE Micro Pro本体 x 2
@@ -894,11 +848,13 @@ if (!doNotTrack) {
 </li>
 <li>wings42バッテリープレートセット
 <ul>
-<li><a href="https://yfuku.booth.pm/items/2927940">wings42 / BOOTH</a> TODO</li>
+<li><a href="https://shop.dailycraft.jp/products/wings42_bmp_set">wings42用 BMPバッテリープレートセット</a></li>
 </ul>
 </li>
 </ul>
-<h2 id="bmpバッテリープレートの実装">BMPバッテリープレートの実装</h2>
+<h2 id="バッテリープレートの実装">バッテリープレートの実装</h2>
+<p>左右両方とも同じプレートを使用します。<br>
+基本的には同じように組み立てますが、2ピンコンスルーの取り付け位置のみ、左右で逆になります。</p>
 <h3 id="コンデンサとショットキーバリアダイオードの実装">コンデンサとショットキーバリアダイオードの実装</h3>
 <ul>
 <li>
@@ -935,43 +891,60 @@ if (!doNotTrack) {
 <img src="images/b6.jpeg" alt=""></p>
 </li>
 </ul>
-<h3 id="スライドスイッチの取り付け">スライドスイッチの取り付け</h3>
+<h3 id="スライドスイッチの実装">スライドスイッチの実装</h3>
 <ul>
 <li>はんだ付けをします<br>
 <img src="images/b7.jpeg" alt=""></li>
 </ul>
+<h3 id="2ピンコンスルーの実装">2ピンコンスルーの実装</h3>
+<ul>
+<li>スライドスイッチを下にして、左のBMPは左側に、右のBMPは右側に取り付けます
+<img src="images/b16.jpeg" alt=""></li>
+<li>コンスルーの窓を上側にし、はんだ付けをします<br>
+※はんだ付けをしなくても使用できますが、接触不良など予防のため、はんだ付けをした方が安定します<br>
+<img src="images/b15.jpeg" alt=""></li>
+</ul>
+<h3 id="スペーサーねじスペーサーの取り付け">スペーサー、ねじスペーサーの取り付け</h3>
+<ul>
+<li>
+<p>上側にねじスペーサー、下側にスペーサーを取り付けます<br>
+先にねじスペーサーを入れてから、スペーサーを回し入れるとやりやすいと思います<br>
+<img src="images/b17.jpeg" alt=""></p>
+</li>
+<li>
+<p>4箇所取り付けます<br>
+<img src="images/b18.jpeg" alt=""></p>
+</li>
+</ul>
 <h3 id="cr1632電池を入れる">CR1632電池を入れる</h3>
 <ul>
-<li>上が＋になっています<br>
-<img src="images/b8.jpeg" alt=""></li>
+<li>上側がプラス、下側がマイナスになっています<br>
+<img src="images/b19.jpeg" alt=""></li>
+</ul>
+<h3 id="カバープレートの取り付け">カバープレートの取り付け</h3>
+<ul>
+<li>カバープレートを載せて、ねじ(4mm)で留めます<br>
+<img src="images/b20.jpeg" alt=""></li>
 </ul>
 <h2 id="bmpバッテリープレートの取り付け">BMP、バッテリープレートの取り付け</h2>
 <h3 id="bmpの取り付け">BMPの取り付け</h3>
 <ul>
-<li>ProMicro上のプレートを外してください</li>
-<li>ProMicroを取り外し、BMPを取り付けます</li>
-<li>12ピンの場合は矢印のように上詰めしてください
-<img src="images/b9.jpeg" alt=""></li>
+<li>
+<p>ProMicro保護プレートを取り外してください<br>
+<img src="../keys/images/k5.jpeg" alt=""></p>
+</li>
+<li>
+<p>ProMicroを取り外し、BMPを取り付けます<br>
+(12ピンの場合は図のように上詰めしてください)
+<img src="images/b21.jpeg" alt=""></p>
+</li>
 </ul>
 <h3 id="バッテリープレートの取り付け">バッテリープレートの取り付け</h3>
 <ul>
-<li>
-<p>2ピンコンスルーを取り付けます<br>
-<img src="images/b10.jpeg" alt=""></p>
-</li>
-<li>
-<p>BMPの上からバッテリープレートを被せます<br>
-<img src="images/b11.jpeg" alt=""></p>
-</li>
-<li>
-<p>ねじ付きのスペーサーを取り付けます。スリわりがついているのでマイナスドライバーを使うととめやすいです。
-<img src="images/b12.jpeg" alt=""></p>
-</li>
-</ul>
-<h3 id="カバープレートの取り付け">カバープレートの取り付け</h3>
-<ul>
-<li>一番上にカバープレートを取り付け、ねじ留めします<br>
-<img src="images/b13.jpeg" alt=""></li>
+<li>2ピンコンスルーの位置に気をつけて、バッテリープレートを載せます<br>
+<img src="images/b22.jpeg" alt=""></li>
+<li>下側からねじ(7mm)で留めます<br>
+<img src="../keys/images/k7.jpeg" alt=""></li>
 </ul>
 <h3 id="スイッチ">スイッチ</h3>
 <ul>
@@ -980,16 +953,12 @@ if (!doNotTrack) {
 </ul>
 <h2 id="ファームウェア">ファームウェア</h2>
 <ul>
-<li>ファームウェアの設定は
-<ul>
 <li>BMPのドキュメントを参照ください
 <ul>
 <li><a href="https://sekigon-gonnoc.github.io/BLE-Micro-Pro/#/getting_started">自作キーボードキットを無線化する</a></li>
 </ul>
 </li>
 <li>WebConfiguratorにwings42が登録されているので、その設定を書き込んでください</li>
-</ul>
-</li>
 </ul>
 
         <div class="section-index">
@@ -998,10 +967,6 @@ if (!doNotTrack) {
     
     
     <hr class="panel-line">
-        
-            
-        
-            
         
             
         

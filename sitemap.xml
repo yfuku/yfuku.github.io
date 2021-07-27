@@ -24,8 +24,6 @@
   </url><url>
     <loc>https://yfuku.com/claw44/keymap/keymap_build/</loc>
   </url><url>
-    <loc>https://yfuku.com/wings42/buildguide/10_firmware/via/</loc>
-  </url><url>
     <loc>https://yfuku.com/keyboard/kougu/</loc>
   </url><url>
     <loc>https://yfuku.com/bat43/buildguide/2_prepare/</loc>
@@ -47,11 +45,7 @@
   </url><url>
     <loc>https://yfuku.com/claw44/keymap/naginata/</loc>
   </url><url>
-    <loc>https://yfuku.com/wings42/buildguide/10_firmware/toolbox/</loc>
-  </url><url>
     <loc>https://yfuku.com/keyboard/firmware/</loc>
-  </url><url>
-    <loc>https://yfuku.com/wings42/buildguide/10_firmware/build/</loc>
   </url><url>
     <loc>https://yfuku.com/bat43/keycap/</loc>
     <lastmod>2020-07-27T00:00:00+00:00</lastmod>
@@ -180,9 +174,9 @@
   </url><url>
     <loc>https://yfuku.com/claw44/keymap/</loc>
   </url><url>
-    <loc>https://yfuku.com/wings42/ext/trackball/</loc>
-  </url><url>
     <loc>https://yfuku.com/wings42/ext_beta/trackball/</loc>
+  </url><url>
+    <loc>https://yfuku.com/wings42/ext/trackball/</loc>
   </url><url>
     <loc>https://yfuku.com/owl8/firmware/</loc>
   </url><url>
@@ -192,6 +186,8 @@
     <lastmod>2019-06-26T10:00:00+09:00</lastmod>
   </url><url>
     <loc>https://yfuku.com/wings42/ext_beta/</loc>
+  </url><url>
+    <loc>https://yfuku.com/wings42/changelog/</loc>
   </url><url>
     <loc>https://yfuku.com/wings42/ext/bmp/</loc>
   </url><url>

@@ -432,75 +432,6 @@ if (!doNotTrack) {
       
       
       
-      
-      
-
-
-
-
-
-
-<ul class="td-sidebar-nav__section pr-md-3">
-  <li class="td-sidebar-nav__section-title">
-    <a  href="/wings42/buildguide/10_firmware/via/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">VIAでキーマップを変更する</a>
-  </li>
-  <ul>
-    <li class="collapse " id="wings42buildguide10_firmwarevia">
-      
-      
-      
-    </li>
-  </ul>
-</ul>
-
-      
-      
-      
-      
-
-
-
-
-
-
-<ul class="td-sidebar-nav__section pr-md-3">
-  <li class="td-sidebar-nav__section-title">
-    <a  href="/wings42/buildguide/10_firmware/toolbox/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">QMK Toolboxでファームウェアを書き込む</a>
-  </li>
-  <ul>
-    <li class="collapse " id="wings42buildguide10_firmwaretoolbox">
-      
-      
-      
-    </li>
-  </ul>
-</ul>
-
-      
-      
-      
-      
-
-
-
-
-
-
-<ul class="td-sidebar-nav__section pr-md-3">
-  <li class="td-sidebar-nav__section-title">
-    <a  href="/wings42/buildguide/10_firmware/build/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">自分でファームウェアを作る</a>
-  </li>
-  <ul>
-    <li class="collapse " id="wings42buildguide10_firmwarebuild">
-      
-      
-      
-    </li>
-  </ul>
-</ul>
-
-      
-      
     </li>
   </ul>
 </ul>
@@ -563,7 +494,7 @@ if (!doNotTrack) {
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/wings42/ext/encoder/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">ロータリーエンコーダー</a>
+    <a  href="/wings42/ext/encoder/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">ロータリーエンコーダ</a>
   </li>
   <ul>
     <li class="collapse " id="wings42extencoder">
@@ -586,7 +517,7 @@ if (!doNotTrack) {
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/wings42/ext/trackball/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">トラックボール</a>
+    <a  href="/wings42/ext/trackball/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">トラックボール(右手用)</a>
   </li>
   <ul>
     <li class="collapse " id="wings42exttrackball">
@@ -661,7 +592,7 @@ if (!doNotTrack) {
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/wings42/ext_beta/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">拡張オプション(beta)</a>
+    <a  href="/wings42/ext_beta/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">beta版用 拡張オプション</a>
   </li>
   <ul>
     <li class="collapse " id="wings42ext_beta">
@@ -812,6 +743,29 @@ if (!doNotTrack) {
 
       
       
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/wings42/changelog/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">変更履歴</a>
+  </li>
+  <ul>
+    <li class="collapse " id="wings42changelog">
+      
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
     </li>
   </ul>
 </ul>
@@ -866,7 +820,9 @@ if (!doNotTrack) {
 	<h1>キー拡張</h1>
         
 	
-	<p>ProMicroのプレートの上にキースイッチを拡張できるオプションです。</p>
+	<p>ProMicroのプレートの上にキースイッチを拡張できるオプションです。<br>
+片方だけでも使えます。</p>
+<p>※beta版の方は<a href="/wings42/ext_beta/keys/">こちら</a>を参照ください。</p>
 <h2 id="キー拡張プレートの組み立て">キー拡張プレートの組み立て</h2>
 <ul>
 <li>左右共通のリバーシブル基板になっています<br>
@@ -884,24 +840,27 @@ if (!doNotTrack) {
 <img src="images/k4.jpeg" alt=""></p>
 </li>
 <li>
-<p>Pro Micro上に載せます</p>
-<ul>
-<li>TODO:画像</li>
-</ul>
+<p>既についているプレートを下ねじを取ってはずします<br>
+<img src="images/k5.jpeg" alt=""></p>
 </li>
 <li>
-<p>下からねじ(7mm)で留めます</p>
-<ul>
-<li>TODO:画像</li>
-</ul>
+<p>キー拡張プレートをPro Micro上に載せます<br>
+<img src="images/k6.jpeg" alt=""></p>
+</li>
+<li>
+<p>下からねじ(7mm)で留めます<br>
+<img src="images/k7.jpeg" alt=""></p>
+</li>
+<li>
+<p>お好みのキーキャップを取り付けます<br>
+<img src="images/k8.jpeg" alt=""></p>
 </li>
 </ul>
 <h2 id="ファームウェア">ファームウェア</h2>
 <ul>
-<li>Remapでみると、赤枠の部分が使えるようになります
-<img src="images/r1.png" alt="">
-TODO:画像修正</li>
+<li>Remapの赤枠の部分が使えるようになります</li>
 </ul>
+<p><img src="images/r1.jpeg" alt=""></p>
 
         <div class="section-index">
     
@@ -909,10 +868,6 @@ TODO:画像修正</li>
     
     
     <hr class="panel-line">
-        
-            
-        
-            
         
             
         

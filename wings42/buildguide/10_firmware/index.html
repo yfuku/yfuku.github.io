@@ -432,75 +432,6 @@ if (!doNotTrack) {
       
       
       
-      
-      
-
-
-
-
-
-
-<ul class="td-sidebar-nav__section pr-md-3">
-  <li class="td-sidebar-nav__section-title">
-    <a  href="/wings42/buildguide/10_firmware/via/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">VIAでキーマップを変更する</a>
-  </li>
-  <ul>
-    <li class="collapse show" id="wings42buildguide10_firmwarevia">
-      
-      
-      
-    </li>
-  </ul>
-</ul>
-
-      
-      
-      
-      
-
-
-
-
-
-
-<ul class="td-sidebar-nav__section pr-md-3">
-  <li class="td-sidebar-nav__section-title">
-    <a  href="/wings42/buildguide/10_firmware/toolbox/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">QMK Toolboxでファームウェアを書き込む</a>
-  </li>
-  <ul>
-    <li class="collapse show" id="wings42buildguide10_firmwaretoolbox">
-      
-      
-      
-    </li>
-  </ul>
-</ul>
-
-      
-      
-      
-      
-
-
-
-
-
-
-<ul class="td-sidebar-nav__section pr-md-3">
-  <li class="td-sidebar-nav__section-title">
-    <a  href="/wings42/buildguide/10_firmware/build/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">自分でファームウェアを作る</a>
-  </li>
-  <ul>
-    <li class="collapse show" id="wings42buildguide10_firmwarebuild">
-      
-      
-      
-    </li>
-  </ul>
-</ul>
-
-      
-      
     </li>
   </ul>
 </ul>
@@ -563,7 +494,7 @@ if (!doNotTrack) {
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/wings42/ext/encoder/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">ロータリーエンコーダー</a>
+    <a  href="/wings42/ext/encoder/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">ロータリーエンコーダ</a>
   </li>
   <ul>
     <li class="collapse " id="wings42extencoder">
@@ -586,7 +517,7 @@ if (!doNotTrack) {
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/wings42/ext/trackball/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">トラックボール</a>
+    <a  href="/wings42/ext/trackball/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">トラックボール(右手用)</a>
   </li>
   <ul>
     <li class="collapse " id="wings42exttrackball">
@@ -661,7 +592,7 @@ if (!doNotTrack) {
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/wings42/ext_beta/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">拡張オプション(beta)</a>
+    <a  href="/wings42/ext_beta/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">beta版用 拡張オプション</a>
   </li>
   <ul>
     <li class="collapse " id="wings42ext_beta">
@@ -812,6 +743,29 @@ if (!doNotTrack) {
 
       
       
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/wings42/changelog/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">変更履歴</a>
+  </li>
+  <ul>
+    <li class="collapse " id="wings42changelog">
+      
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
     </li>
   </ul>
 </ul>
@@ -868,89 +822,14 @@ if (!doNotTrack) {
 	
 	<p>ハードウェアの準備は終わったので、ソフトウェア側に入っていきます。<br>
 1回できるようになってしまえばキーマップの追求に集中できるので頑張っていきましょう！</p>
-<p style="font-size: 80%; line-height: 1.5;">
-<span>
-※わかりやすさのためにおおざっぱな説明があります。気になる表現などありましたらご連絡ください。
-</span>
-</p>
-<h2 id="知っておきたいこと">知っておきたいこと</h2>
-<h3 id="マイコン">マイコン</h3>
+<p><a href="/keyboard/firmware/">ファームウェアの基本</a>を参考にキーマップの設定などしていきましょう。</p>
+<h2 id="ファームウェア">ファームウェア</h2>
 <ul>
-<li>キースイッチが押された時に、どのキーが入力されたかをPCに伝える必要があります
-<ul>
-<li>（もうちょっと複雑なこともしますが）</li>
-</ul>
-</li>
-<li>このような処理をするのに頭脳となるコンピュータが必要になります</li>
-<li>wings42ではProMicroというマイコン（マイクロコンピュータ）を使用しています</li>
-<li>↓これです</li>
-</ul>
-<p><img src="/claw44/buildguide/7_promicro/images/20190401164322.jpg" alt=""></p>
-<h3 id="ファームウェア">ファームウェア</h3>
-<ul>
-<li>マイコンを動かすためには、アプリのようなものを入れてあげなくてはいけません</li>
-<li>マイコン用のアプリのことをファームウェアと呼びます</li>
-<li>wings42ではQMKというオープンソースのファームウェアを使用しています</li>
-<li>wings42に付属の「ProMicro」には「wings42用に設定されたQMK」が入った状態になっています</li>
-<li>QMKについては、<a href="https://docs.qmk.fm/#/ja/">公式ドキュメント</a> を参考にしてください。
-<ul>
-<li>有志の方の翻訳のおかげで、かなりの部分が日本語で読めます。ありがとうございます！</li>
-</ul>
-</li>
-</ul>
-<h3 id="キーマップ">キーマップ</h3>
-<ul>
-<li>キーマップとは、どのキーを押したらどのキーが入力されるか、という設定のことです</li>
-<li>上記の「wings42用に設定されたQMK」には、デフォルトのキーマップが既に入っています</li>
-<li>しかし、このままでは最初に設定されているキーマップでしか使用できません</li>
-<li>キーマップを変更することで、例えばスペースキーを割り当てていたキーをエンターキーに変更したりすることができます</li>
-<li>デフォルトのキーマップは例でしかないので、自分に合ったキーマップを作っていきましょう！</li>
-</ul>
-<!--
-![](./keymap.png)
--->
-<h3 id="まとめるとこんな感じです">まとめるとこんな感じです</h3>
-<p><img src="./firmware.jpg" alt=""></p>
-<h2 id="キーマップを変更する">キーマップを変更する</h2>
-<p>キーマップを変更するためのツールを使います。<br>
-下記の3つがあるのですが、Remapが一番使いやすいと思います。</p>
-<h3 id="remap">Remap</h3>
-<ul>
-<li><a href="https://remap-keys.app/">Remap</a></li>
-<li>Remapの使い方は<a href="https://salicylic-acid3.hatenablog.com/entry/remap-manual">（初心者編）Remapを使ってキーマップを書き換えよう - 自作キーボード温泉街の歩き方</a>が参考になると思います。</li>
-</ul>
-<h3 id="via">VIA</h3>
-<p>※注意：VIA側にまだ取り込まれてないため、↑Remapをお使いください。</p>
-<ul>
-<li><a href="./via/">→ VIAでキーマップを変更する</a></li>
-</ul>
-<h3 id="qmk-configurator">QMK Configurator</h3>
-<ul>
-<li><a href="https://docs.qmk.fm/#/ja/newbs_building_firmware_configurator">公式ドキュメント</a>を参照ください</li>
+<li><a href="https://github.com/yfuku/wings42/releases/download/rev2/wings42_rev2_via.hex">wings42のデフォルトファームウェア（Remap対応）</a></li>
+<li>過去バージョンなどは<a href="https://github.com/yfuku/wings42/releases">こちら</a>からダウンロードしてください</li>
 </ul>
 <hr>
-<p>ここから先はVIAに慣れてからでも良いと思います。<br>
-初めての方はさらっと流し読みしておいてください。</p>
-<hr>
-<h2 id="ファームウェアを変更する">ファームウェアを変更する</h2>
-<p>QMKの機能のうち、VIAが変更できる範囲はこのようなイメージです。<br>
-（キーマップ＋レイアウトやLEDを光らせるなど機能など。今後、増えていく可能性もあります）<br>
-<img src="./via.jpg" alt=""></p>
-<p>キーマップを設定していく中で、機能の精度がしっくりこなかったり、もっと違う機能を入れたくなったりすると思います。<br>
-その場合に、VIAでは対応できない範囲が出てくるので、自分でファームウェアを作成することになります。<br>
-プログラミングの知識が多少必要だったりするので少しハードルは高いですが、より良い体験を目指してがんばってみましょう！<br>
-※ソフトウェアエンジニアの方は最初からこちらの方がしっくりくるかもしれないです。</p>
-<!--
-### ある程度設定されたファームウェアを使う
-とはいっても、作者自体も使っている機能は少なかったりするので、限定的ですが、あらかじめ設定がされたファームウェアを用意しました。  
-ファームウェアの書き込みは必要になりますが、興味のある方は試してみてください。  
-
-- [あらかじめ設定されたファームウェアを書き込む](./prefirmware/)
--->
-<h3 id="自分でファームウェアを作る方法">自分でファームウェアを作る方法</h3>
-<ul>
-<li><a href="./build/">自分でファームウェアを作る</a></li>
-</ul>
+<p><a href="../11_prefirmware/">→ 11. あらかじめ設定されたファームウェアを書き込む</a></p>
 
         <div class="section-index">
     
@@ -962,32 +841,7 @@ if (!doNotTrack) {
             
         
             
-                <div class="entry">
-                    <h5>
-                        <a href="/wings42/buildguide/10_firmware/via/">VIAでキーマップを変更する</a>
-                    </h5>
-                    <p></p>
-                </div>
-            
         
-            
-        
-            
-                <div class="entry">
-                    <h5>
-                        <a href="/wings42/buildguide/10_firmware/toolbox/">QMK Toolboxでファームウェアを書き込む</a>
-                    </h5>
-                    <p></p>
-                </div>
-            
-        
-            
-                <div class="entry">
-                    <h5>
-                        <a href="/wings42/buildguide/10_firmware/build/">自分でファームウェアを作る</a>
-                    </h5>
-                    <p></p>
-                </div>
             
         
             

@@ -432,75 +432,6 @@ if (!doNotTrack) {
       
       
       
-      
-      
-
-
-
-
-
-
-<ul class="td-sidebar-nav__section pr-md-3">
-  <li class="td-sidebar-nav__section-title">
-    <a  href="/wings42/buildguide/10_firmware/via/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">VIAでキーマップを変更する</a>
-  </li>
-  <ul>
-    <li class="collapse " id="wings42buildguide10_firmwarevia">
-      
-      
-      
-    </li>
-  </ul>
-</ul>
-
-      
-      
-      
-      
-
-
-
-
-
-
-<ul class="td-sidebar-nav__section pr-md-3">
-  <li class="td-sidebar-nav__section-title">
-    <a  href="/wings42/buildguide/10_firmware/toolbox/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">QMK Toolboxでファームウェアを書き込む</a>
-  </li>
-  <ul>
-    <li class="collapse " id="wings42buildguide10_firmwaretoolbox">
-      
-      
-      
-    </li>
-  </ul>
-</ul>
-
-      
-      
-      
-      
-
-
-
-
-
-
-<ul class="td-sidebar-nav__section pr-md-3">
-  <li class="td-sidebar-nav__section-title">
-    <a  href="/wings42/buildguide/10_firmware/build/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">自分でファームウェアを作る</a>
-  </li>
-  <ul>
-    <li class="collapse " id="wings42buildguide10_firmwarebuild">
-      
-      
-      
-    </li>
-  </ul>
-</ul>
-
-      
-      
     </li>
   </ul>
 </ul>
@@ -563,7 +494,7 @@ if (!doNotTrack) {
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/wings42/ext/encoder/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">ロータリーエンコーダー</a>
+    <a  href="/wings42/ext/encoder/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">ロータリーエンコーダ</a>
   </li>
   <ul>
     <li class="collapse " id="wings42extencoder">
@@ -586,7 +517,7 @@ if (!doNotTrack) {
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/wings42/ext/trackball/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">トラックボール</a>
+    <a  href="/wings42/ext/trackball/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">トラックボール(右手用)</a>
   </li>
   <ul>
     <li class="collapse " id="wings42exttrackball">
@@ -661,7 +592,7 @@ if (!doNotTrack) {
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/wings42/ext_beta/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">拡張オプション(beta)</a>
+    <a  href="/wings42/ext_beta/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">beta版用 拡張オプション</a>
   </li>
   <ul>
     <li class="collapse " id="wings42ext_beta">
@@ -812,6 +743,29 @@ if (!doNotTrack) {
 
       
       
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/wings42/changelog/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">変更履歴</a>
+  </li>
+  <ul>
+    <li class="collapse " id="wings42changelog">
+      
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
     </li>
   </ul>
 </ul>
@@ -866,7 +820,7 @@ if (!doNotTrack) {
 	<h1>無線接続（左右接続は有線）</h1>
         
 	
-	<p>PC - キーボード間は無線化したいけど、キーボードの左右間は有線接続にしたい場合は、<a href="https://github.com/sekigon-gonnoc/LPME-IO">LPME-IO</a>を使うことで実現できます。両方とも無線化したい場合は、<a href="../bmp">無線接続</a>を参照ください。</p>
+	<p>PC - キーボード間は無線化したいけど、キーボードの左右間は有線接続にしたい場合は、<a href="https://github.com/sekigon-gonnoc/LPME-IO">LPME-IO</a>を使うことで実現できます。両方とも無線化したい場合は、<a href="../bmp">「無線接続」</a>を参照ください。</p>
 <p>まずは、<a href="https://github.com/sekigon-gonnoc/LPME-IO">公式ドキュメント</a>を読み仕組みを理解してください。</p>
 <h2 id="lpme-ioの準備">LPME-IOの準備</h2>
 <ul>
@@ -894,10 +848,11 @@ if (!doNotTrack) {
 <img src="images/l4.jpeg" alt=""></li>
 </ul>
 <h2 id="カバー類を取り付ける">カバー類を取り付ける</h2>
-<p><img src="images/L4.JPG" alt=""></p>
-<h2 id="ファームウェア">ファームウェア</h2>
 <ul>
-<li>ファームウェアの設定は
+<li>左側にバッテリープレート、右側にはProMicro保護プレートを取り付けます<br>
+<img src="images/L4.JPG" alt=""></li>
+</ul>
+<h2 id="ファームウェア">ファームウェア</h2>
 <ul>
 <li>BMPのドキュメントを参照ください
 <ul>
@@ -905,10 +860,8 @@ if (!doNotTrack) {
 </ul>
 </li>
 <li>WebConfiguratorにwings42が登録されているので、その設定を書き込んでください</li>
-<li>wings42の設定をする際に、「Use with LPME-IO」にチェックを入れてください
+<li>wings42の設定をする際に、「Use with LPME-IO」にチェックを入れてください<br>
 <img src="images/L5.JPG" alt=""></li>
-</ul>
-</li>
 </ul>
 
         <div class="section-index">
@@ -917,10 +870,6 @@ if (!doNotTrack) {
     
     
     <hr class="panel-line">
-        
-            
-        
-            
         
             
         

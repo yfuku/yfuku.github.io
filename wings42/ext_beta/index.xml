@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>yfuku docs – 拡張オプション(beta)</title>
+    <title>yfuku docs – beta版用 拡張オプション</title>
     <link>https://yfuku.com/wings42/ext_beta/</link>
-    <description>Recent content in 拡張オプション(beta) on yfuku docs</description>
+    <description>Recent content in beta版用 拡張オプション on yfuku docs</description>
     <generator>Hugo -- gohugo.io</generator>
     
 	  <atom:link href="https://yfuku.com/wings42/ext_beta/index.xml" rel="self" type="application/rss+xml" />
