@@ -821,7 +821,43 @@ if (!doNotTrack) {
         
 	
 	<p>PC - キーボード間は無線化したいけど、キーボードの左右間は有線接続にしたい場合は、<a href="https://github.com/sekigon-gonnoc/LPME-IO">LPME-IO</a>を使うことで実現できます。両方とも無線化したい場合は、<a href="../bmp">「無線接続」</a>を参照ください。</p>
-<p>まずは、<a href="https://github.com/sekigon-gonnoc/LPME-IO">公式ドキュメント</a>を読み仕組みを理解してください。</p>
+<p>まずは、<a href="https://github.com/sekigon-gonnoc/LPME-IO">LPME-IOの公式ドキュメント</a>を読み仕組みを理解してください。</p>
+<h2 id="必要な部品">必要な部品</h2>
+<ul>
+<li>
+<p><a href="https://shop.dailycraft.jp/products/wings42_bmp_set">wings42用 BMPバッテリープレートセット</a> x 1</p>
+</li>
+<li>
+<p>BLE Micro Pro本体 x 1</p>
+<ul>
+<li><a href="https://booth.pm/ja/items/1177319">BLE Micro Pro / BOOTH</a></li>
+<li><a href="https://shop.yushakobo.jp/products/ble-micro-pro?variant=37665571340449">BLE Micro Pro / 遊舎工房</a></li>
+</ul>
+</li>
+<li>
+<p>LPME-IO x 1</p>
+<ul>
+<li><a href="https://nogikes.booth.pm/items/1656264">LPME-IO / BOOTH</a></li>
+<li><a href="https://shop.yushakobo.jp/products/lpme-io2a?_pos=1&amp;_sid=7714e434a&amp;_ss=r">LPME-IO / 遊舎工房</a></li>
+</ul>
+</li>
+<li>
+<p>コンスルー13ピン x 4（BMP側は12ピンでも可）</p>
+<ul>
+<li><a href="https://yushakobo.jp/shop/a01mc-00/">スプリングピンヘッダ（コンスルー）12ピン or 13ピン / 遊舎工房</a></li>
+</ul>
+</li>
+<li>
+<p>CR1632コイン電池 x 2</p>
+<ul>
+<li>だいたいのコンビニに売っています</li>
+</ul>
+</li>
+</ul>
+<h2 id="bmpの準備">BMPの準備</h2>
+<ul>
+<li>片方はBMPをつけるので、<a href="../bmp">「無線接続」</a>を参考にBMPバッテリープレートを準備してください</li>
+</ul>
 <h2 id="lpme-ioの準備">LPME-IOの準備</h2>
 <ul>
 <li>wings42用にLPME-IOのジャンパをブリッジします</li>
@@ -847,9 +883,9 @@ if (!doNotTrack) {
 <li>左右間をTRRS（4極）ケーブルで接続してください<br>
 <img src="images/l4.jpeg" alt=""></li>
 </ul>
-<h2 id="カバー類を取り付ける">カバー類を取り付ける</h2>
+<h2 id="プレートカバーを取り付ける">プレート、カバーを取り付ける</h2>
 <ul>
-<li>左側にバッテリープレート、右側にはProMicro保護プレートを取り付けます<br>
+<li>左側にBMPバッテリープレート、右側にはProMicro保護プレートを取り付けます<br>
 <img src="images/L4.JPG" alt=""></li>
 </ul>
 <h2 id="ファームウェア">ファームウェア</h2>
