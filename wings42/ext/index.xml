@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>yfuku docs – 拡張オプション</title>
-    <link>https://yfuku.com/wings42/ext/</link>
-    <description>Recent content in 拡張オプション on yfuku docs</description>
+    <title>Daily Craft Keyboard – 拡張オプション</title>
+    <link>https://kbd.dailycraft.jp/wings42/ext/</link>
+    <description>Recent content in 拡張オプション on Daily Craft Keyboard</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	  <atom:link href="https://yfuku.com/wings42/ext/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://kbd.dailycraft.jp/wings42/ext/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -15,16 +15,16 @@
     
     <item>
       <title>Wings42: キー拡張</title>
-      <link>https://yfuku.com/wings42/ext/keys/</link>
+      <link>https://kbd.dailycraft.jp/wings42/ext/keys/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/wings42/ext/keys/</guid>
+      <guid>https://kbd.dailycraft.jp/wings42/ext/keys/</guid>
       <description>
         
         
         &lt;p&gt;ProMicroのプレートの上にキースイッチを拡張できるオプションです。&lt;br&gt;
 片方だけでも使えます。&lt;/p&gt;
-&lt;p&gt;※beta版の方は&lt;a href=&#34;https://yfuku.com/wings42/ext_beta/keys/&#34;&gt;こちら&lt;/a&gt;を参照ください。&lt;/p&gt;
+&lt;p&gt;※beta版の方は&lt;a href=&#34;https://kbd.dailycraft.jp/wings42/ext_beta/keys/&#34;&gt;こちら&lt;/a&gt;を参照ください。&lt;/p&gt;
 &lt;h2 id=&#34;キー拡張プレートの組み立て&#34;&gt;キー拡張プレートの組み立て&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;左右共通のリバーシブル基板になっています&lt;br&gt;
@@ -60,10 +60,10 @@
     
     <item>
       <title>Wings42: ロータリーエンコーダ</title>
-      <link>https://yfuku.com/wings42/ext/encoder/</link>
+      <link>https://kbd.dailycraft.jp/wings42/ext/encoder/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/wings42/ext/encoder/</guid>
+      <guid>https://kbd.dailycraft.jp/wings42/ext/encoder/</guid>
       <description>
         
         
@@ -151,10 +151,10 @@
     
     <item>
       <title>Wings42: トラックボール(右手用)</title>
-      <link>https://yfuku.com/wings42/ext/trackball/</link>
+      <link>https://kbd.dailycraft.jp/wings42/ext/trackball/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/wings42/ext/trackball/</guid>
+      <guid>https://kbd.dailycraft.jp/wings42/ext/trackball/</guid>
       <description>
         
         
@@ -252,10 +252,10 @@
     
     <item>
       <title>Wings42: 無線接続</title>
-      <link>https://yfuku.com/wings42/ext/bmp/</link>
+      <link>https://kbd.dailycraft.jp/wings42/ext/bmp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/wings42/ext/bmp/</guid>
+      <guid>https://kbd.dailycraft.jp/wings42/ext/bmp/</guid>
       <description>
         
         
@@ -392,10 +392,10 @@
     
     <item>
       <title>Wings42: 無線接続（左右接続は有線）</title>
-      <link>https://yfuku.com/wings42/ext/lpmeio/</link>
+      <link>https://kbd.dailycraft.jp/wings42/ext/lpmeio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/wings42/ext/lpmeio/</guid>
+      <guid>https://kbd.dailycraft.jp/wings42/ext/lpmeio/</guid>
       <description>
         
         

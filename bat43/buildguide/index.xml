@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>yfuku docs – bat43ビルドガイド</title>
-    <link>https://yfuku.com/bat43/buildguide/</link>
-    <description>Recent content in bat43ビルドガイド on yfuku docs</description>
+    <title>Daily Craft Keyboard – bat43ビルドガイド</title>
+    <link>https://kbd.dailycraft.jp/bat43/buildguide/</link>
+    <description>Recent content in bat43ビルドガイド on Daily Craft Keyboard</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 30 Nov 2019 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="https://yfuku.com/bat43/buildguide/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://kbd.dailycraft.jp/bat43/buildguide/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -16,10 +16,10 @@
     
     <item>
       <title>Bat43: 1. 同梱品の確認</title>
-      <link>https://yfuku.com/bat43/buildguide/1_check/</link>
+      <link>https://kbd.dailycraft.jp/bat43/buildguide/1_check/</link>
       <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/bat43/buildguide/1_check/</guid>
+      <guid>https://kbd.dailycraft.jp/bat43/buildguide/1_check/</guid>
       <description>
         
         
@@ -112,10 +112,10 @@
     
     <item>
       <title>Bat43: 2. 準備</title>
-      <link>https://yfuku.com/bat43/buildguide/2_prepare/</link>
+      <link>https://kbd.dailycraft.jp/bat43/buildguide/2_prepare/</link>
       <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/bat43/buildguide/2_prepare/</guid>
+      <guid>https://kbd.dailycraft.jp/bat43/buildguide/2_prepare/</guid>
       <description>
         
         
@@ -156,7 +156,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;必要な工具&#34;&gt;必要な工具&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://yfuku.com/keyboard/kougu/&#34;&gt;自作キーボードの組み立てに使っている工具&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kbd.dailycraft.jp/keyboard/kougu/&#34;&gt;自作キーボードの組み立てに使っている工具&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;ファームウェア&#34;&gt;ファームウェア&lt;/h2&gt;
 &lt;ul&gt;
@@ -174,10 +174,10 @@ bat43の設定ファイルやデフォルトのキーマップはBMPのコンフ
     
     <item>
       <title>Bat43: 3. 組み立て</title>
-      <link>https://yfuku.com/bat43/buildguide/3_build/</link>
+      <link>https://kbd.dailycraft.jp/bat43/buildguide/3_build/</link>
       <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/bat43/buildguide/3_build/</guid>
+      <guid>https://kbd.dailycraft.jp/bat43/buildguide/3_build/</guid>
       <description>
         
         
@@ -196,10 +196,10 @@ bat43の設定ファイルやデフォルトのキーマップはBMPのコンフ
     
     <item>
       <title>Bat43: 4. ダイオードの取り付け</title>
-      <link>https://yfuku.com/bat43/buildguide/4_diode/</link>
+      <link>https://kbd.dailycraft.jp/bat43/buildguide/4_diode/</link>
       <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/bat43/buildguide/4_diode/</guid>
+      <guid>https://kbd.dailycraft.jp/bat43/buildguide/4_diode/</guid>
       <description>
         
         
@@ -298,10 +298,10 @@ bat43の設定ファイルやデフォルトのキーマップはBMPのコンフ
     
     <item>
       <title>Bat43: 5. キースイッチソケットの取り付け</title>
-      <link>https://yfuku.com/bat43/buildguide/5_socket/</link>
+      <link>https://kbd.dailycraft.jp/bat43/buildguide/5_socket/</link>
       <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/bat43/buildguide/5_socket/</guid>
+      <guid>https://kbd.dailycraft.jp/bat43/buildguide/5_socket/</guid>
       <description>
         
         
@@ -347,10 +347,10 @@ bat43の設定ファイルやデフォルトのキーマップはBMPのコンフ
     
     <item>
       <title>Bat43: 6. タクトスイッチの取り付け</title>
-      <link>https://yfuku.com/bat43/buildguide/6_otherparts/</link>
+      <link>https://kbd.dailycraft.jp/bat43/buildguide/6_otherparts/</link>
       <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/bat43/buildguide/6_otherparts/</guid>
+      <guid>https://kbd.dailycraft.jp/bat43/buildguide/6_otherparts/</guid>
       <description>
         
         
@@ -406,10 +406,10 @@ bat43の設定ファイルやデフォルトのキーマップはBMPのコンフ
     
     <item>
       <title>Bat43: 7. BMP用部品の取り付け（オプション）</title>
-      <link>https://yfuku.com/bat43/buildguide/7_bmp_parts/</link>
+      <link>https://kbd.dailycraft.jp/bat43/buildguide/7_bmp_parts/</link>
       <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/bat43/buildguide/7_bmp_parts/</guid>
+      <guid>https://kbd.dailycraft.jp/bat43/buildguide/7_bmp_parts/</guid>
       <description>
         
         
@@ -488,10 +488,10 @@ bat43の設定ファイルやデフォルトのキーマップはBMPのコンフ
     
     <item>
       <title>Bat43: 8. ProMicroの取り付け</title>
-      <link>https://yfuku.com/bat43/buildguide/8_promicro/</link>
+      <link>https://kbd.dailycraft.jp/bat43/buildguide/8_promicro/</link>
       <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/bat43/buildguide/8_promicro/</guid>
+      <guid>https://kbd.dailycraft.jp/bat43/buildguide/8_promicro/</guid>
       <description>
         
         
@@ -557,10 +557,10 @@ bat43の設定ファイルやデフォルトのキーマップはBMPのコンフ
     
     <item>
       <title>Bat43: 9. プレート、スイッチの取り付け</title>
-      <link>https://yfuku.com/bat43/buildguide/9_plate/</link>
+      <link>https://kbd.dailycraft.jp/bat43/buildguide/9_plate/</link>
       <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/bat43/buildguide/9_plate/</guid>
+      <guid>https://kbd.dailycraft.jp/bat43/buildguide/9_plate/</guid>
       <description>
         
         
@@ -649,10 +649,10 @@ bat43の設定ファイルやデフォルトのキーマップはBMPのコンフ
     
     <item>
       <title>Bat43: 10. キーキャップ、ケーブルの取り付け</title>
-      <link>https://yfuku.com/bat43/buildguide/10_keycap/</link>
+      <link>https://kbd.dailycraft.jp/bat43/buildguide/10_keycap/</link>
       <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/bat43/buildguide/10_keycap/</guid>
+      <guid>https://kbd.dailycraft.jp/bat43/buildguide/10_keycap/</guid>
       <description>
         
         
@@ -681,10 +681,10 @@ bat43の設定ファイルやデフォルトのキーマップはBMPのコンフ
     
     <item>
       <title>Bat43: BMP対応（オプション）</title>
-      <link>https://yfuku.com/bat43/buildguide/bmp/</link>
+      <link>https://kbd.dailycraft.jp/bat43/buildguide/bmp/</link>
       <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/bat43/buildguide/bmp/</guid>
+      <guid>https://kbd.dailycraft.jp/bat43/buildguide/bmp/</guid>
       <description>
         
         
@@ -705,10 +705,10 @@ bat43の設定ファイルやデフォルトのキーマップはBMPのコンフ
     
     <item>
       <title>Bat43: ファームウェア</title>
-      <link>https://yfuku.com/bat43/buildguide/firmware/</link>
+      <link>https://kbd.dailycraft.jp/bat43/buildguide/firmware/</link>
       <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/bat43/buildguide/firmware/</guid>
+      <guid>https://kbd.dailycraft.jp/bat43/buildguide/firmware/</guid>
       <description>
         
         
@@ -752,7 +752,7 @@ Detecting USB port, reset your controller now....
 &lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
 &lt;li&gt;画像のGNDとRSTと書かれている下の丸同士をピンセットなどでショートさせてください。
 （ProMicroをキーボードに組み込み済みの場合は、リセットスイッチを2回押してください。）
-&lt;img src=&#34;https://yfuku.com/claw44/buildguide/firmware/images/20190402072348.jpg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;img src=&#34;https://kbd.dailycraft.jp/claw44/buildguide/firmware/images/20190402072348.jpg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
 &lt;li&gt;下記のように表示されれば書き込み成功です&lt;/li&gt;
 &lt;/ul&gt;
 &lt;pre&gt;&lt;code&gt;Device /dev/tty.usbmodem146201 has appeared; assuming it is the controller.

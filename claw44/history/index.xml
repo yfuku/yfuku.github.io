@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>yfuku docs – Claw44ができるまで</title>
-    <link>https://yfuku.com/claw44/history/</link>
-    <description>Recent content in Claw44ができるまで on yfuku docs</description>
+    <title>Daily Craft Keyboard – Claw44ができるまで</title>
+    <link>https://kbd.dailycraft.jp/claw44/history/</link>
+    <description>Recent content in Claw44ができるまで on Daily Craft Keyboard</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 02 Jul 2020 10:00:00 +0900</lastBuildDate>
     
-	  <atom:link href="https://yfuku.com/claw44/history/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://kbd.dailycraft.jp/claw44/history/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -16,10 +16,10 @@
     
     <item>
       <title>Claw44: 自作キーボードClaw44を作ってます</title>
-      <link>https://yfuku.com/claw44/history/init/</link>
+      <link>https://kbd.dailycraft.jp/claw44/history/init/</link>
       <pubDate>Wed, 26 Dec 2018 10:00:00 +0900</pubDate>
       
-      <guid>https://yfuku.com/claw44/history/init/</guid>
+      <guid>https://kbd.dailycraft.jp/claw44/history/init/</guid>
       <description>
         
         
@@ -134,10 +134,10 @@
     
     <item>
       <title>Claw44: Claw44 alpha版ができてました</title>
-      <link>https://yfuku.com/claw44/history/alpha/</link>
+      <link>https://kbd.dailycraft.jp/claw44/history/alpha/</link>
       <pubDate>Mon, 04 Feb 2019 10:00:00 +0900</pubDate>
       
-      <guid>https://yfuku.com/claw44/history/alpha/</guid>
+      <guid>https://kbd.dailycraft.jp/claw44/history/alpha/</guid>
       <description>
         
         
@@ -227,10 +227,10 @@ PCB的にはけっこう変えてしまったので、ちゃんと動くかは�
     
     <item>
       <title>Claw44: Claw44を作った話</title>
-      <link>https://yfuku.com/claw44/history/advent2019/</link>
+      <link>https://kbd.dailycraft.jp/claw44/history/advent2019/</link>
       <pubDate>Mon, 16 Dec 2019 10:00:00 +0900</pubDate>
       
-      <guid>https://yfuku.com/claw44/history/advent2019/</guid>
+      <guid>https://kbd.dailycraft.jp/claw44/history/advent2019/</guid>
       <description>
         
         

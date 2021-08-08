@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>yfuku docs – 電子工作</title>
-    <link>https://yfuku.com/blog/electronic/</link>
-    <description>Recent content in 電子工作 on yfuku docs</description>
+    <title>Daily Craft Keyboard – 電子工作</title>
+    <link>https://kbd.dailycraft.jp/blog/electronic/</link>
+    <description>Recent content in 電子工作 on Daily Craft Keyboard</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 16 Jan 2021 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="https://yfuku.com/blog/electronic/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://kbd.dailycraft.jp/blog/electronic/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -16,10 +16,10 @@
     
     <item>
       <title>Blog: ProMicroで定期送信リモコンを作る</title>
-      <link>https://yfuku.com/blog/electronic/heater_remo/</link>
+      <link>https://kbd.dailycraft.jp/blog/electronic/heater_remo/</link>
       <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/blog/electronic/heater_remo/</guid>
+      <guid>https://kbd.dailycraft.jp/blog/electronic/heater_remo/</guid>
       <description>
         
         
@@ -126,10 +126,10 @@ on/offのスイッチを作りたいところだけど、もうハンダ付け�
     
     <item>
       <title>Blog: RaspberryPi Zeroでインターホン通知システムをリプレース</title>
-      <link>https://yfuku.com/blog/electronic/raspberrypi_zero_interphone/</link>
+      <link>https://kbd.dailycraft.jp/blog/electronic/raspberrypi_zero_interphone/</link>
       <pubDate>Sat, 11 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/blog/electronic/raspberrypi_zero_interphone/</guid>
+      <guid>https://kbd.dailycraft.jp/blog/electronic/raspberrypi_zero_interphone/</guid>
       <description>
         
         
@@ -211,10 +211,10 @@ sudo apt-get install screen
     
     <item>
       <title>Blog: RapberryPiで普通のインターホンから通知を送れるようにしてみた</title>
-      <link>https://yfuku.com/blog/electronic/raspberrypi_interphone/</link>
+      <link>https://kbd.dailycraft.jp/blog/electronic/raspberrypi_interphone/</link>
       <pubDate>Tue, 03 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/blog/electronic/raspberrypi_interphone/</guid>
+      <guid>https://kbd.dailycraft.jp/blog/electronic/raspberrypi_interphone/</guid>
       <description>
         
         

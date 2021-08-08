@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>yfuku docs – ファームウェア</title>
-    <link>https://yfuku.com/keyboard/firmware/</link>
-    <description>Recent content in ファームウェア on yfuku docs</description>
+    <title>Daily Craft Keyboard – ファームウェア</title>
+    <link>https://kbd.dailycraft.jp/keyboard/firmware/</link>
+    <description>Recent content in ファームウェア on Daily Craft Keyboard</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	  <atom:link href="https://yfuku.com/keyboard/firmware/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://kbd.dailycraft.jp/keyboard/firmware/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -15,10 +15,10 @@
     
     <item>
       <title>Keyboard: 1. 基本</title>
-      <link>https://yfuku.com/keyboard/firmware/basic/</link>
+      <link>https://kbd.dailycraft.jp/keyboard/firmware/basic/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/keyboard/firmware/basic/</guid>
+      <guid>https://kbd.dailycraft.jp/keyboard/firmware/basic/</guid>
       <description>
         
         
@@ -37,7 +37,7 @@
 &lt;li&gt;このような処理をするのに頭脳となるコンピュータが必要になります&lt;/li&gt;
 &lt;li&gt;多くの自作キーボードではProMicroというマイコン（マイクロコンピュータ）を使用しています&lt;/li&gt;
 &lt;li&gt;↓これです&lt;br&gt;
-&lt;img src=&#34;https://yfuku.com/claw44/buildguide/7_promicro/images/20190401164322.jpg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;img src=&#34;https://kbd.dailycraft.jp/claw44/buildguide/7_promicro/images/20190401164322.jpg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;ファームウェア&#34;&gt;ファームウェア&lt;/h3&gt;
 &lt;ul&gt;
@@ -72,10 +72,10 @@
     
     <item>
       <title>Keyboard: 2. キーマップを変更する</title>
-      <link>https://yfuku.com/keyboard/firmware/keymap/</link>
+      <link>https://kbd.dailycraft.jp/keyboard/firmware/keymap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/keyboard/firmware/keymap/</guid>
+      <guid>https://kbd.dailycraft.jp/keyboard/firmware/keymap/</guid>
       <description>
         
         
@@ -93,10 +93,10 @@ Chromeブラウザさえあればインストール作業など不要で使う�
     
     <item>
       <title>Keyboard: 3. ファームウェアを変更する</title>
-      <link>https://yfuku.com/keyboard/firmware/change_firmware/</link>
+      <link>https://kbd.dailycraft.jp/keyboard/firmware/change_firmware/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/keyboard/firmware/change_firmware/</guid>
+      <guid>https://kbd.dailycraft.jp/keyboard/firmware/change_firmware/</guid>
       <description>
         
         
@@ -114,10 +114,10 @@ Chromeブラウザさえあればインストール作業など不要で使う�
     
     <item>
       <title>Keyboard: 4. QMK Toolboxでファームウェアを書き込む</title>
-      <link>https://yfuku.com/keyboard/firmware/toolbox/</link>
+      <link>https://kbd.dailycraft.jp/keyboard/firmware/toolbox/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/keyboard/firmware/toolbox/</guid>
+      <guid>https://kbd.dailycraft.jp/keyboard/firmware/toolbox/</guid>
       <description>
         
         
@@ -171,10 +171,10 @@ Chromeブラウザさえあればインストール作業など不要で使う�
     
     <item>
       <title>Keyboard: 5. 自分でファームウェアを作る</title>
-      <link>https://yfuku.com/keyboard/firmware/build/</link>
+      <link>https://kbd.dailycraft.jp/keyboard/firmware/build/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/keyboard/firmware/build/</guid>
+      <guid>https://kbd.dailycraft.jp/keyboard/firmware/build/</guid>
       <description>
         
         

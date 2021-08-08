@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>yfuku docs – Keyboard</title>
-    <link>https://yfuku.com/blog/keyboard/</link>
-    <description>Recent content in Keyboard on yfuku docs</description>
+    <title>Daily Craft Keyboard – Keyboard</title>
+    <link>https://kbd.dailycraft.jp/blog/keyboard/</link>
+    <description>Recent content in Keyboard on Daily Craft Keyboard</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 14 Dec 2020 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="https://yfuku.com/blog/keyboard/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://kbd.dailycraft.jp/blog/keyboard/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -16,10 +16,10 @@
     
     <item>
       <title>Blog: Gravity Keycapsを作った話 </title>
-      <link>https://yfuku.com/blog/keyboard/bat_keycaps/</link>
+      <link>https://kbd.dailycraft.jp/blog/keyboard/bat_keycaps/</link>
       <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/blog/keyboard/bat_keycaps/</guid>
+      <guid>https://kbd.dailycraft.jp/blog/keyboard/bat_keycaps/</guid>
       <description>
         
         
@@ -42,7 +42,7 @@ mukiudoさんの
 &lt;li&gt;キーキャップが縦17mm、横18mmと通常の19.05mmよりコンパクト&lt;/li&gt;
 &lt;li&gt;Chocキーキャップ専用&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;詳しくは&lt;a href=&#34;https://yfuku.com/bat43/whatis/&#34;&gt;bat43とは？&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;詳しくは&lt;a href=&#34;https://kbd.dailycraft.jp/bat43/whatis/&#34;&gt;bat43とは？&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;bat43の課題&#34;&gt;bat43の課題&lt;/h2&gt;
 &lt;p&gt;初めはわりと軽い気持ちで作り出したのですが、思ったより狭ピッチが良いです。&lt;br&gt;
 今となってはClaw44より使用率が高いくらいに気に入っています。&lt;br&gt;
@@ -58,7 +58,7 @@ bat43→Claw44とすると指の移動距離が長い・・スイッチの押し
 &lt;img src=&#34;./images/mbk.jpg&#34; style=&#34;width:500px&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;無ければ作るしかない&#34;&gt;無ければ作るしかない&lt;/h2&gt;
 &lt;p&gt;Claw44は奇跡的にぜろけーさんの作った&amp;quot;3D&amp;quot;キーキャップと出会えたのでよかったのですが、流石にこれは自分で作らねばと設計開始。&lt;br&gt;
-（参考：&lt;a href=&#34;https://yfuku.com/claw44/best/&#34;&gt;僕の考えた最強のClaw44の組み合わせ&lt;/a&gt;)&lt;/p&gt;
+（参考：&lt;a href=&#34;https://kbd.dailycraft.jp/claw44/best/&#34;&gt;僕の考えた最強のClaw44の組み合わせ&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;まずは3Dプリンタで試作していく。&lt;br&gt;
 &lt;img src=&#34;./images/1st-3dp.jpg&#34; style=&#34;width:300px&#34;&gt;&lt;/p&gt;
 &lt;p&gt;MXと違って、埋まってしまうとやっかい。。&lt;br&gt;
@@ -177,10 +177,10 @@ ADA0.8はけっこう天面が狭いので、自分の指だと辛い。&lt;br&g
     
     <item>
       <title>Blog: トラックボールモジュールとタッチセンサーとクリック</title>
-      <link>https://yfuku.com/blog/keyboard/trackball_with_touch_sensor/</link>
+      <link>https://kbd.dailycraft.jp/blog/keyboard/trackball_with_touch_sensor/</link>
       <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/blog/keyboard/trackball_with_touch_sensor/</guid>
+      <guid>https://kbd.dailycraft.jp/blog/keyboard/trackball_with_touch_sensor/</guid>
       <description>
         
         
@@ -356,10 +356,10 @@ ASDFあたりでも良いのですが、自分は既にmodifierを割り当て�
     
     <item>
       <title>Blog: BLE Micro ProのリポジトリにPRした話</title>
-      <link>https://yfuku.com/blog/keyboard/ble-micro-pro-pr/</link>
+      <link>https://kbd.dailycraft.jp/blog/keyboard/ble-micro-pro-pr/</link>
       <pubDate>Wed, 15 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/blog/keyboard/ble-micro-pro-pr/</guid>
+      <guid>https://kbd.dailycraft.jp/blog/keyboard/ble-micro-pro-pr/</guid>
       <description>
         
         
@@ -404,10 +404,10 @@ ASDFあたりでも良いのですが、自分は既にmodifierを割り当て�
     
     <item>
       <title>Blog: Corne Cherry Matte Blackビルドログ</title>
-      <link>https://yfuku.com/blog/keyboard/corne_cherry_matteblack_buildlog/</link>
+      <link>https://kbd.dailycraft.jp/blog/keyboard/corne_cherry_matteblack_buildlog/</link>
       <pubDate>Mon, 12 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/blog/keyboard/corne_cherry_matteblack_buildlog/</guid>
+      <guid>https://kbd.dailycraft.jp/blog/keyboard/corne_cherry_matteblack_buildlog/</guid>
       <description>
         
         
@@ -596,10 +596,10 @@ Gateronはわりとすんなり入ったが、&lt;b&gt;&lt;span style=&#34;color
     
     <item>
       <title>Blog: BlocKeyをスマホで使うときのメモ</title>
-      <link>https://yfuku.com/blog/keyboard/blockey_smartphone/</link>
+      <link>https://kbd.dailycraft.jp/blog/keyboard/blockey_smartphone/</link>
       <pubDate>Mon, 22 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/blog/keyboard/blockey_smartphone/</guid>
+      <guid>https://kbd.dailycraft.jp/blog/keyboard/blockey_smartphone/</guid>
       <description>
         
         
@@ -624,7 +624,7 @@ Gateronはわりとすんなり入ったが、&lt;b&gt;&lt;span style=&#34;color
 
 &lt;h2 id=&#34;おまけ&#34;&gt;おまけ&lt;/h2&gt;
 &lt;p&gt;自分のBlocKeyはこんな感じです。&lt;/p&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;&lt;a href=&#34;https://twitter.com/hashtag/blockey?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#blockey&lt;/a&gt; 全部動くようになったので、スカイに合わせてお空で。&lt;br&gt;よく見たら表側でダイオードとスイッチがショートしていたので、なんとか大ごとにならずに直せた。ふ〜、よかった😅 &lt;a href=&#34;https://t.co/rm9GXOkExS&#34;&gt;pic.twitter.com/rm9GXOkExS&lt;/a&gt;&lt;/p&gt;&amp;mdash; ふく🦇Claw44販売中！ (@yfuku_) &lt;a href=&#34;https://twitter.com/yfuku_/status/1053836741495246848?ref_src=twsrc%5Etfw&#34;&gt;October 21, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;&lt;a href=&#34;https://twitter.com/hashtag/blockey?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#blockey&lt;/a&gt; 全部動くようになったので、スカイに合わせてお空で。&lt;br&gt;よく見たら表側でダイオードとスイッチがショートしていたので、なんとか大ごとにならずに直せた。ふ〜、よかった😅 &lt;a href=&#34;https://t.co/rm9GXOkExS&#34;&gt;pic.twitter.com/rm9GXOkExS&lt;/a&gt;&lt;/p&gt;&amp;mdash; ふく🦇自作キーボード屋はじめました！ (@yfuku_) &lt;a href=&#34;https://twitter.com/yfuku_/status/1053836741495246848?ref_src=twsrc%5Etfw&#34;&gt;October 21, 2018&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 
 
@@ -633,10 +633,10 @@ Gateronはわりとすんなり入ったが、&lt;b&gt;&lt;span style=&#34;color
     
     <item>
       <title>Blog: Corne(crkbd)で使う42キーのキーマップを作ってみた</title>
-      <link>https://yfuku.com/blog/keyboard/corne_keymap/</link>
+      <link>https://kbd.dailycraft.jp/blog/keyboard/corne_keymap/</link>
       <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/blog/keyboard/corne_keymap/</guid>
+      <guid>https://kbd.dailycraft.jp/blog/keyboard/corne_keymap/</guid>
       <description>
         
         
@@ -887,10 +887,10 @@ Gateronはわりとすんなり入ったが、&lt;b&gt;&lt;span style=&#34;color
     
     <item>
       <title>Blog: ErgoDox EZを分解してみたらホットスワップだった</title>
-      <link>https://yfuku.com/blog/keyboard/ergodoxez_disassembly/</link>
+      <link>https://kbd.dailycraft.jp/blog/keyboard/ergodoxez_disassembly/</link>
       <pubDate>Thu, 09 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/blog/keyboard/ergodoxez_disassembly/</guid>
+      <guid>https://kbd.dailycraft.jp/blog/keyboard/ergodoxez_disassembly/</guid>
       <description>
         
         
@@ -958,10 +958,10 @@ Gateronはわりとすんなり入ったが、&lt;b&gt;&lt;span style=&#34;color
     
     <item>
       <title>Blog: Corne(crkbd)CrkbdのビルドログとLEDを裏表につけてしまった時のリカバリ</title>
-      <link>https://yfuku.com/blog/keyboard/crkbd_build_and_error/</link>
+      <link>https://kbd.dailycraft.jp/blog/keyboard/crkbd_build_and_error/</link>
       <pubDate>Wed, 08 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/blog/keyboard/crkbd_build_and_error/</guid>
+      <guid>https://kbd.dailycraft.jp/blog/keyboard/crkbd_build_and_error/</guid>
       <description>
         
         
@@ -1110,10 +1110,10 @@ Gateronはわりとすんなり入ったが、&lt;b&gt;&lt;span style=&#34;color
     
     <item>
       <title>Blog: Irisで初めて自作キーボードを作りました</title>
-      <link>https://yfuku.com/blog/keyboard/iris_build/</link>
+      <link>https://kbd.dailycraft.jp/blog/keyboard/iris_build/</link>
       <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/blog/keyboard/iris_build/</guid>
+      <guid>https://kbd.dailycraft.jp/blog/keyboard/iris_build/</guid>
       <description>
         
         
@@ -1401,10 +1401,10 @@ Gateronはわりとすんなり入ったが、&lt;b&gt;&lt;span style=&#34;color
     
     <item>
       <title>Blog: ErgoDox EZ 4週目 現在のキー配列</title>
-      <link>https://yfuku.com/blog/keyboard/ergodoxez_4/</link>
+      <link>https://kbd.dailycraft.jp/blog/keyboard/ergodoxez_4/</link>
       <pubDate>Thu, 12 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/blog/keyboard/ergodoxez_4/</guid>
+      <guid>https://kbd.dailycraft.jp/blog/keyboard/ergodoxez_4/</guid>
       <description>
         
         
@@ -1449,10 +1449,10 @@ Gateronはわりとすんなり入ったが、&lt;b&gt;&lt;span style=&#34;color
     
     <item>
       <title>Blog: Irisの部品を購入しました</title>
-      <link>https://yfuku.com/blog/keyboard/iris_init/</link>
+      <link>https://kbd.dailycraft.jp/blog/keyboard/iris_init/</link>
       <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/blog/keyboard/iris_init/</guid>
+      <guid>https://kbd.dailycraft.jp/blog/keyboard/iris_init/</guid>
       <description>
         
         
@@ -1504,10 +1504,10 @@ Gateronはわりとすんなり入ったが、&lt;b&gt;&lt;span style=&#34;color
     
     <item>
       <title>Blog: ErgoDox EZ 3週目 現在のキー配列</title>
-      <link>https://yfuku.com/blog/keyboard/ergodoxez_third/</link>
+      <link>https://kbd.dailycraft.jp/blog/keyboard/ergodoxez_third/</link>
       <pubDate>Tue, 26 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/blog/keyboard/ergodoxez_third/</guid>
+      <guid>https://kbd.dailycraft.jp/blog/keyboard/ergodoxez_third/</guid>
       <description>
         
         
@@ -1623,10 +1623,10 @@ Gateronはわりとすんなり入ったが、&lt;b&gt;&lt;span style=&#34;color
     
     <item>
       <title>Blog: ErgoDox EZ 2週目 キー配列カスタマイズ</title>
-      <link>https://yfuku.com/blog/keyboard/ergodoxez_second/</link>
+      <link>https://kbd.dailycraft.jp/blog/keyboard/ergodoxez_second/</link>
       <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/blog/keyboard/ergodoxez_second/</guid>
+      <guid>https://kbd.dailycraft.jp/blog/keyboard/ergodoxez_second/</guid>
       <description>
         
         
@@ -1758,10 +1758,10 @@ Waiting for Teensy device...
     
     <item>
       <title>Blog: ErgoDox EZ 1週目 最初の壁を乗り越える</title>
-      <link>https://yfuku.com/blog/keyboard/ergodoxez_first/</link>
+      <link>https://kbd.dailycraft.jp/blog/keyboard/ergodoxez_first/</link>
       <pubDate>Tue, 12 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/blog/keyboard/ergodoxez_first/</guid>
+      <guid>https://kbd.dailycraft.jp/blog/keyboard/ergodoxez_first/</guid>
       <description>
         
         

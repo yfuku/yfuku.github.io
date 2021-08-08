@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>yfuku docs – keycap</title>
-    <link>https://yfuku.com/tags/keycap/</link>
-    <description>Recent content in keycap on yfuku docs</description>
+    <title>Daily Craft Keyboard – keycap</title>
+    <link>https://kbd.dailycraft.jp/tags/keycap/</link>
+    <description>Recent content in keycap on Daily Craft Keyboard</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 14 Dec 2020 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="https://yfuku.com/tags/keycap/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://kbd.dailycraft.jp/tags/keycap/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -16,10 +16,10 @@
     
     <item>
       <title>Blog: Gravity Keycapsを作った話 </title>
-      <link>https://yfuku.com/blog/keyboard/bat_keycaps/</link>
+      <link>https://kbd.dailycraft.jp/blog/keyboard/bat_keycaps/</link>
       <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/blog/keyboard/bat_keycaps/</guid>
+      <guid>https://kbd.dailycraft.jp/blog/keyboard/bat_keycaps/</guid>
       <description>
         
         
@@ -42,7 +42,7 @@ mukiudoさんの
 &lt;li&gt;キーキャップが縦17mm、横18mmと通常の19.05mmよりコンパクト&lt;/li&gt;
 &lt;li&gt;Chocキーキャップ専用&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;詳しくは&lt;a href=&#34;https://yfuku.com/bat43/whatis/&#34;&gt;bat43とは？&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;詳しくは&lt;a href=&#34;https://kbd.dailycraft.jp/bat43/whatis/&#34;&gt;bat43とは？&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;bat43の課題&#34;&gt;bat43の課題&lt;/h2&gt;
 &lt;p&gt;初めはわりと軽い気持ちで作り出したのですが、思ったより狭ピッチが良いです。&lt;br&gt;
 今となってはClaw44より使用率が高いくらいに気に入っています。&lt;br&gt;
@@ -58,7 +58,7 @@ bat43→Claw44とすると指の移動距離が長い・・スイッチの押し
 &lt;img src=&#34;./images/mbk.jpg&#34; style=&#34;width:500px&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;無ければ作るしかない&#34;&gt;無ければ作るしかない&lt;/h2&gt;
 &lt;p&gt;Claw44は奇跡的にぜろけーさんの作った&amp;quot;3D&amp;quot;キーキャップと出会えたのでよかったのですが、流石にこれは自分で作らねばと設計開始。&lt;br&gt;
-（参考：&lt;a href=&#34;https://yfuku.com/claw44/best/&#34;&gt;僕の考えた最強のClaw44の組み合わせ&lt;/a&gt;)&lt;/p&gt;
+（参考：&lt;a href=&#34;https://kbd.dailycraft.jp/claw44/best/&#34;&gt;僕の考えた最強のClaw44の組み合わせ&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;まずは3Dプリンタで試作していく。&lt;br&gt;
 &lt;img src=&#34;./images/1st-3dp.jpg&#34; style=&#34;width:300px&#34;&gt;&lt;/p&gt;
 &lt;p&gt;MXと違って、埋まってしまうとやっかい。。&lt;br&gt;

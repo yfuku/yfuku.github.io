@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>yfuku docs – trackball</title>
-    <link>https://yfuku.com/tags/trackball/</link>
-    <description>Recent content in trackball on yfuku docs</description>
+    <title>Daily Craft Keyboard – trackball</title>
+    <link>https://kbd.dailycraft.jp/tags/trackball/</link>
+    <description>Recent content in trackball on Daily Craft Keyboard</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 24 Oct 2020 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="https://yfuku.com/tags/trackball/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://kbd.dailycraft.jp/tags/trackball/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -16,10 +16,10 @@
     
     <item>
       <title>Blog: トラックボールモジュールとタッチセンサーとクリック</title>
-      <link>https://yfuku.com/blog/keyboard/trackball_with_touch_sensor/</link>
+      <link>https://kbd.dailycraft.jp/blog/keyboard/trackball_with_touch_sensor/</link>
       <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/blog/keyboard/trackball_with_touch_sensor/</guid>
+      <guid>https://kbd.dailycraft.jp/blog/keyboard/trackball_with_touch_sensor/</guid>
       <description>
         
         

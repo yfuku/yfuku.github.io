@@ -21,11 +21,11 @@
 <link rel="icon" type="image/png" href="/favicons/android-144x144.png" sizes="144x144">
 <link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
 
-<title>ErgoDox EZ 3週目 現在のキー配列 | yfuku docs</title><meta property="og:title" content="ErgoDox EZ 3週目 現在のキー配列" />
+<title>ErgoDox EZ 3週目 現在のキー配列 | Daily Craft Keyboard</title><meta property="og:title" content="ErgoDox EZ 3週目 現在のキー配列" />
 <meta property="og:description" content="ErgoDox EZを使い始めて3週間。 まだまだキー配置は試行錯誤中ですが、現在の配置と考えを書いておきます。
  過去記事はこちら。  ErgoDox EZ 1週目 最初の壁を乗り越える - yfuku blog ErgoDox EZ 2週目 キー配列カスタマイズ - yfuku blog    前提  移行コストを低くする 他のキーボードを極端に使えなくならないようにする そのため、JIS配列に近い形にする まずは親指部分を有効活用して、不自然な動きを少なくしていく 慣れてきたら次の形態を考える  JIS配列  リポジトリの中にJIS用の定義ファイルがあるので、それをimportする  #include &quot;keymap_jp.h&quot;   通常キーはKC_で定義されていますが、こちらではJP_で定義されてる キー配置のドキュメント  通常  keycodes.md   JIS  keymap_jp.h      レイヤー0  通常使うレイヤー できるだけJIS配列に従う 右側のキーが足りない部分は中央付近へ かな/英数の切り替えは親指内側で行う(LANG1,2) 親指はEnterとSpaceは右左で分けたかった BackSpaceも、まあここでいいかなと Delはそんなに使わないけど、とりあえず  レイヤー1  Space押しっぱなしで発動（左親指） 数字＋記号  最上段まで指を伸ばしたくない 将来的にIrisを使って見たいので、移行できるかどうかのシミュレーションに。    レイヤー2  Enterを押しっぱなしでレイヤー2を発動。（右親指） カーソル移動  右側  vimに合わせて左下上右 行頭、行末   左側  マウス操作を入れてるけど、まだあんまり使ってない   下側  音量と明るさのコントロール   リセットボタン  いろんな記事に書いてありますが、毎回物理リセットボタンを押すのは現実的じゃないので、どこかに配置しておいたほうが良いです      課題  親指を使いすぎている気がする  元々は、かな/英数とスペースを両親指で担っていた 親指を活用したいが、逆に親指が疲れてしまいそう まだ脳が慣れていないので、余計に負荷があるように感じる 今の、LANG1,2は見直した方が良いかもしれない。親指は親指エリアだけにしておくかも。    keymap." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://yfuku.com/blog/keyboard/ergodoxez_third/" /><meta property="article:section" content="blog" />
+<meta property="og:url" content="https://kbd.dailycraft.jp/blog/keyboard/ergodoxez_third/" /><meta property="article:section" content="blog" />
 <meta property="article:published_time" content="2018-06-26T00:00:00&#43;00:00" />
 <meta property="article:modified_time" content="2018-06-26T00:00:00&#43;00:00" />
 
@@ -74,7 +74,7 @@ if (!doNotTrack) {
     
 <nav class="js-navbar-scroll navbar navbar-expand navbar-dark flex-column flex-md-row td-navbar">
         <a class="navbar-brand" href="/">
-		<span class="navbar-logo"></span><span class="font-weight-bold">yfuku docs</span>
+		<span class="navbar-logo"></span><span class="font-weight-bold">Daily Craft Keyboard</span>
 	</a>
 	<div class="td-navbar-nav-scroll ml-md-auto" id="main_navbar">
 		<ul class="navbar-nav mt-2 mt-lg-0">
@@ -143,7 +143,7 @@ if (!doNotTrack) {
     <div class="td-main">
       <div class="row flex-xl-nowrap">
         <main class="col-12" role="main">
-          <a class="btn btn-lg -bg-orange td-rss-button d-none d-lg-block" href="https://yfuku.com/blog/keyboard/index.xml"
+          <a class="btn btn-lg -bg-orange td-rss-button d-none d-lg-block" href="https://kbd.dailycraft.jp/blog/keyboard/index.xml"
             target="_blank">
             RSS <i class="fa fa-rss ml-2 "></i>
           </a>
@@ -289,7 +289,7 @@ if (!doNotTrack) {
 <ul class="list-inline mb-0">
   
   <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="Twitter" aria-label="Twitter">
-    <a class="text-white" target="_blank" href="https://twitter.com/yfuku_">
+    <a class="text-white" target="_blank" href="https://twitter.com/dailycraftkbd">
       <i class="fab fa-twitter"></i>
     </a>
   </li>
@@ -317,7 +317,7 @@ if (!doNotTrack) {
         
       </div>
       <div class="col-12 col-sm-4 text-center py-2 order-sm-2">
-        <small class="text-white">&copy; 2021 yfuku All Rights Reserved</small>
+        <small class="text-white">&copy; 2021 Daily Craft Keyboard All Rights Reserved</small>
         
 	
 		
@@ -339,7 +339,7 @@ if (!doNotTrack) {
 
 
 
-<script src="/js/main.min.5d5384a99815b30880caa8db827c0521fa02d047804176285d743c0d5154edcc.js" integrity="sha256-XVOEqZgVswiAyqjbgnwFIfoC0EeAQXYoXXQ8DVFU7cw=" crossorigin="anonymous"></script>
+<script src="/js/main.min.7bef2164b0ffea6572ffc7746e6cbb291a6dd0d63a5fe6b815d9f165c3ec9403.js" integrity="sha256-e&#43;8hZLD/6mVy/8d0bmy7KRpt0NY6X&#43;a4FdnxZcPslAM=" crossorigin="anonymous"></script>
 
 
 

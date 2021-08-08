@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>yfuku docs – Claw44ビルドガイド</title>
-    <link>https://yfuku.com/claw44/buildguide/</link>
-    <description>Recent content in Claw44ビルドガイド on yfuku docs</description>
+    <title>Daily Craft Keyboard – Claw44ビルドガイド</title>
+    <link>https://kbd.dailycraft.jp/claw44/buildguide/</link>
+    <description>Recent content in Claw44ビルドガイド on Daily Craft Keyboard</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 02 Jul 2020 10:00:00 +0900</lastBuildDate>
     
-	  <atom:link href="https://yfuku.com/claw44/buildguide/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://kbd.dailycraft.jp/claw44/buildguide/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -16,10 +16,10 @@
     
     <item>
       <title>Claw44: 1. 準備</title>
-      <link>https://yfuku.com/claw44/buildguide/1_prepare/</link>
+      <link>https://kbd.dailycraft.jp/claw44/buildguide/1_prepare/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/claw44/buildguide/1_prepare/</guid>
+      <guid>https://kbd.dailycraft.jp/claw44/buildguide/1_prepare/</guid>
       <description>
         
         
@@ -60,7 +60,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;必要な工具&#34;&gt;必要な工具&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://yfuku.com/keyboard/kougu/&#34;&gt;自作キーボードの組み立てに使っている工具&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kbd.dailycraft.jp/keyboard/kougu/&#34;&gt;自作キーボードの組み立てに使っている工具&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;ファームウェア&#34;&gt;ファームウェア&lt;/h2&gt;
 &lt;p&gt;キット付属のProMicroはファームウェアが書き込まれているため、そのまま使用できます。&lt;br&gt;
@@ -73,10 +73,10 @@
     
     <item>
       <title>Claw44: 2. 同梱品の確認</title>
-      <link>https://yfuku.com/claw44/buildguide/2_check/</link>
+      <link>https://kbd.dailycraft.jp/claw44/buildguide/2_check/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/claw44/buildguide/2_check/</guid>
+      <guid>https://kbd.dailycraft.jp/claw44/buildguide/2_check/</guid>
       <description>
         
         
@@ -112,10 +112,10 @@
     
     <item>
       <title>Claw44: 3. 組み立て</title>
-      <link>https://yfuku.com/claw44/buildguide/3_build/</link>
+      <link>https://kbd.dailycraft.jp/claw44/buildguide/3_build/</link>
       <pubDate>Thu, 02 Jul 2020 10:00:00 +0900</pubDate>
       
-      <guid>https://yfuku.com/claw44/buildguide/3_build/</guid>
+      <guid>https://kbd.dailycraft.jp/claw44/buildguide/3_build/</guid>
       <description>
         
         
@@ -142,10 +142,10 @@
     
     <item>
       <title>Claw44: 4. ダイオードの取り付け</title>
-      <link>https://yfuku.com/claw44/buildguide/4_diode/</link>
+      <link>https://kbd.dailycraft.jp/claw44/buildguide/4_diode/</link>
       <pubDate>Thu, 02 Jul 2020 10:00:00 +0900</pubDate>
       
-      <guid>https://yfuku.com/claw44/buildguide/4_diode/</guid>
+      <guid>https://kbd.dailycraft.jp/claw44/buildguide/4_diode/</guid>
       <description>
         
         
@@ -168,8 +168,8 @@
 
 
     
-    &lt;a href=&#34;https://yfuku.com/claw44/buildguide/4_diode/20190919020302.jpg&#34;&gt;
-        &lt;img src=&#34;https://yfuku.com/claw44/buildguide/4_diode/20190919020302_hucceb891e1500c6fdd1cbbe6f60593dbb_134699_300x0_resize_q90_catmullrom.jpg&#34; alt=&#34;&#34;&gt;
+    &lt;a href=&#34;https://kbd.dailycraft.jp/claw44/buildguide/4_diode/20190919020302.jpg&#34;&gt;
+        &lt;img src=&#34;https://kbd.dailycraft.jp/claw44/buildguide/4_diode/20190919020302_hucceb891e1500c6fdd1cbbe6f60593dbb_134699_300x0_resize_q90_catmullrom.jpg&#34; alt=&#34;&#34;&gt;
     &lt;/a&gt;
 
 &lt;/p&gt;
@@ -180,8 +180,8 @@
 
 
     
-    &lt;a href=&#34;https://yfuku.com/claw44/buildguide/4_diode/20190919020327.jpg&#34;&gt;
-        &lt;img src=&#34;https://yfuku.com/claw44/buildguide/4_diode/20190919020327_hufa23dfe9838d3b514316d4c7b33f3740_151619_300x0_resize_q90_catmullrom.jpg&#34; alt=&#34;&#34;&gt;
+    &lt;a href=&#34;https://kbd.dailycraft.jp/claw44/buildguide/4_diode/20190919020327.jpg&#34;&gt;
+        &lt;img src=&#34;https://kbd.dailycraft.jp/claw44/buildguide/4_diode/20190919020327_hufa23dfe9838d3b514316d4c7b33f3740_151619_300x0_resize_q90_catmullrom.jpg&#34; alt=&#34;&#34;&gt;
     &lt;/a&gt;
 
 &lt;/p&gt;
@@ -192,8 +192,8 @@
 
 
     
-    &lt;a href=&#34;https://yfuku.com/claw44/buildguide/4_diode/20190919020351.jpg&#34;&gt;
-        &lt;img src=&#34;https://yfuku.com/claw44/buildguide/4_diode/20190919020351_hu02830a19c8cc7340bd58ec5f3c077b07_103958_300x0_resize_q90_catmullrom.jpg&#34; alt=&#34;&#34;&gt;
+    &lt;a href=&#34;https://kbd.dailycraft.jp/claw44/buildguide/4_diode/20190919020351.jpg&#34;&gt;
+        &lt;img src=&#34;https://kbd.dailycraft.jp/claw44/buildguide/4_diode/20190919020351_hu02830a19c8cc7340bd58ec5f3c077b07_103958_300x0_resize_q90_catmullrom.jpg&#34; alt=&#34;&#34;&gt;
     &lt;/a&gt;
 
 &lt;/p&gt;
@@ -204,8 +204,8 @@
 
 
     
-    &lt;a href=&#34;https://yfuku.com/claw44/buildguide/4_diode/20190919020413.jpg&#34;&gt;
-        &lt;img src=&#34;https://yfuku.com/claw44/buildguide/4_diode/20190919020413_hud4eb5d12807b850344a2e5f29ae7a571_94872_300x0_resize_q90_catmullrom.jpg&#34; alt=&#34;&#34;&gt;
+    &lt;a href=&#34;https://kbd.dailycraft.jp/claw44/buildguide/4_diode/20190919020413.jpg&#34;&gt;
+        &lt;img src=&#34;https://kbd.dailycraft.jp/claw44/buildguide/4_diode/20190919020413_hud4eb5d12807b850344a2e5f29ae7a571_94872_300x0_resize_q90_catmullrom.jpg&#34; alt=&#34;&#34;&gt;
     &lt;/a&gt;
 
 &lt;/p&gt;
@@ -216,8 +216,8 @@
 
 
     
-    &lt;a href=&#34;https://yfuku.com/claw44/buildguide/4_diode/20190919020433.jpg&#34;&gt;
-        &lt;img src=&#34;https://yfuku.com/claw44/buildguide/4_diode/20190919020433_hub0431737bd946a872c31b15a81a23767_99715_300x0_resize_q90_catmullrom.jpg&#34; alt=&#34;&#34;&gt;
+    &lt;a href=&#34;https://kbd.dailycraft.jp/claw44/buildguide/4_diode/20190919020433.jpg&#34;&gt;
+        &lt;img src=&#34;https://kbd.dailycraft.jp/claw44/buildguide/4_diode/20190919020433_hub0431737bd946a872c31b15a81a23767_99715_300x0_resize_q90_catmullrom.jpg&#34; alt=&#34;&#34;&gt;
     &lt;/a&gt;
 
 &lt;/p&gt;
@@ -230,8 +230,8 @@
 
 
     
-    &lt;a href=&#34;https://yfuku.com/claw44/buildguide/4_diode/20190308202802.jpg&#34;&gt;
-        &lt;img src=&#34;https://yfuku.com/claw44/buildguide/4_diode/20190308202802_hu72af5a601d84c8c4d028a5f543f745a3_97457_300x0_resize_q90_catmullrom.jpg&#34; alt=&#34;&#34;&gt;
+    &lt;a href=&#34;https://kbd.dailycraft.jp/claw44/buildguide/4_diode/20190308202802.jpg&#34;&gt;
+        &lt;img src=&#34;https://kbd.dailycraft.jp/claw44/buildguide/4_diode/20190308202802_hu72af5a601d84c8c4d028a5f543f745a3_97457_300x0_resize_q90_catmullrom.jpg&#34; alt=&#34;&#34;&gt;
     &lt;/a&gt;
 
 &lt;/p&gt;
@@ -242,8 +242,8 @@
 
 
     
-    &lt;a href=&#34;https://yfuku.com/claw44/buildguide/4_diode/20190331031203.jpg&#34;&gt;
-        &lt;img src=&#34;https://yfuku.com/claw44/buildguide/4_diode/20190331031203_huf60f749dd4bce1855431c9d4a6a1d854_192961_300x0_resize_q90_catmullrom.jpg&#34; alt=&#34;&#34;&gt;
+    &lt;a href=&#34;https://kbd.dailycraft.jp/claw44/buildguide/4_diode/20190331031203.jpg&#34;&gt;
+        &lt;img src=&#34;https://kbd.dailycraft.jp/claw44/buildguide/4_diode/20190331031203_huf60f749dd4bce1855431c9d4a6a1d854_192961_300x0_resize_q90_catmullrom.jpg&#34; alt=&#34;&#34;&gt;
     &lt;/a&gt;
 
 &lt;/p&gt;
@@ -304,10 +304,10 @@
     
     <item>
       <title>Claw44: 5. キースイッチソケットの取り付け</title>
-      <link>https://yfuku.com/claw44/buildguide/5_socket/</link>
+      <link>https://kbd.dailycraft.jp/claw44/buildguide/5_socket/</link>
       <pubDate>Thu, 02 Jul 2020 10:00:00 +0900</pubDate>
       
-      <guid>https://yfuku.com/claw44/buildguide/5_socket/</guid>
+      <guid>https://kbd.dailycraft.jp/claw44/buildguide/5_socket/</guid>
       <description>
         
         
@@ -348,10 +348,10 @@
     
     <item>
       <title>Claw44: 6. TRRSジャック、リセットスイッチの取り付け</title>
-      <link>https://yfuku.com/claw44/buildguide/6_otherparts/</link>
+      <link>https://kbd.dailycraft.jp/claw44/buildguide/6_otherparts/</link>
       <pubDate>Thu, 02 Jul 2020 10:00:00 +0900</pubDate>
       
-      <guid>https://yfuku.com/claw44/buildguide/6_otherparts/</guid>
+      <guid>https://kbd.dailycraft.jp/claw44/buildguide/6_otherparts/</guid>
       <description>
         
         
@@ -402,10 +402,10 @@
     
     <item>
       <title>Claw44: 7. ProMicro、OLEDの取り付け</title>
-      <link>https://yfuku.com/claw44/buildguide/7_promicro/</link>
+      <link>https://kbd.dailycraft.jp/claw44/buildguide/7_promicro/</link>
       <pubDate>Thu, 02 Jul 2020 10:00:00 +0900</pubDate>
       
-      <guid>https://yfuku.com/claw44/buildguide/7_promicro/</guid>
+      <guid>https://kbd.dailycraft.jp/claw44/buildguide/7_promicro/</guid>
       <description>
         
         
@@ -516,10 +516,10 @@
     
     <item>
       <title>Claw44: 8. プレート、スイッチの取り付け</title>
-      <link>https://yfuku.com/claw44/buildguide/8_plate/</link>
+      <link>https://kbd.dailycraft.jp/claw44/buildguide/8_plate/</link>
       <pubDate>Thu, 02 Jul 2020 10:00:00 +0900</pubDate>
       
-      <guid>https://yfuku.com/claw44/buildguide/8_plate/</guid>
+      <guid>https://kbd.dailycraft.jp/claw44/buildguide/8_plate/</guid>
       <description>
         
         
@@ -601,10 +601,10 @@
     
     <item>
       <title>Claw44: 9. キーキャップ、ケーブルの取り付け</title>
-      <link>https://yfuku.com/claw44/buildguide/9_keycap/</link>
+      <link>https://kbd.dailycraft.jp/claw44/buildguide/9_keycap/</link>
       <pubDate>Thu, 02 Jul 2020 10:00:00 +0900</pubDate>
       
-      <guid>https://yfuku.com/claw44/buildguide/9_keycap/</guid>
+      <guid>https://kbd.dailycraft.jp/claw44/buildguide/9_keycap/</guid>
       <description>
         
         
@@ -623,16 +623,16 @@
     
     <item>
       <title>Claw44: 10. ファームウェア</title>
-      <link>https://yfuku.com/claw44/buildguide/10_firmware/</link>
+      <link>https://kbd.dailycraft.jp/claw44/buildguide/10_firmware/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/claw44/buildguide/10_firmware/</guid>
+      <guid>https://kbd.dailycraft.jp/claw44/buildguide/10_firmware/</guid>
       <description>
         
         
         &lt;p&gt;ハードウェアの準備は終わったので、ソフトウェア側に入っていきます。&lt;br&gt;
 1回できるようになってしまえばキーマップの追求に集中できるので頑張っていきましょう！&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://yfuku.com/keyboard/firmware/&#34;&gt;ファームウェアの基本&lt;/a&gt;を参考にキーマップの設定などしていきましょう。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://kbd.dailycraft.jp/keyboard/firmware/&#34;&gt;ファームウェアの基本&lt;/a&gt;を参考にキーマップの設定などしていきましょう。&lt;/p&gt;
 &lt;h2 id=&#34;デフォルトのファームウェアはこちらにあります&#34;&gt;デフォルトのファームウェアはこちらにあります&lt;/h2&gt;
 &lt;h3 id=&#34;claw44のデフォルトファームウェアremap対応&#34;&gt;Claw44のデフォルトファームウェア（Remap対応）&lt;/h3&gt;
 &lt;ul&gt;
@@ -653,10 +653,10 @@
     
     <item>
       <title>Claw44: 11. あらかじめ修正されたファームウェアを書き込む</title>
-      <link>https://yfuku.com/claw44/buildguide/11_prefirmware/</link>
+      <link>https://kbd.dailycraft.jp/claw44/buildguide/11_prefirmware/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/claw44/buildguide/11_prefirmware/</guid>
+      <guid>https://kbd.dailycraft.jp/claw44/buildguide/11_prefirmware/</guid>
       <description>
         
         
@@ -707,7 +707,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;ファームウェアの書き込み&#34;&gt;ファームウェアの書き込み&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://yfuku.com/keyboard/firmware/toolbox/&#34;&gt;QMK Toolboxでファームウェアを書き込む&lt;/a&gt; を行ってください&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kbd.dailycraft.jp/keyboard/firmware/toolbox/&#34;&gt;QMK Toolboxでファームウェアを書き込む&lt;/a&gt; を行ってください&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>

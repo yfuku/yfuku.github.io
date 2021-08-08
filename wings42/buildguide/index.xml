@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>yfuku docs – wings42ビルドガイド</title>
-    <link>https://yfuku.com/wings42/buildguide/</link>
-    <description>Recent content in wings42ビルドガイド on yfuku docs</description>
+    <title>Daily Craft Keyboard – wings42ビルドガイド</title>
+    <link>https://kbd.dailycraft.jp/wings42/buildguide/</link>
+    <description>Recent content in wings42ビルドガイド on Daily Craft Keyboard</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	  <atom:link href="https://yfuku.com/wings42/buildguide/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://kbd.dailycraft.jp/wings42/buildguide/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -15,10 +15,10 @@
     
     <item>
       <title>Wings42: 1. 準備</title>
-      <link>https://yfuku.com/wings42/buildguide/1_prepare/</link>
+      <link>https://kbd.dailycraft.jp/wings42/buildguide/1_prepare/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/wings42/buildguide/1_prepare/</guid>
+      <guid>https://kbd.dailycraft.jp/wings42/buildguide/1_prepare/</guid>
       <description>
         
         
@@ -57,13 +57,13 @@
 &lt;li&gt;Gravity Keycaps
 &lt;ul&gt;
 &lt;li&gt;wings42の元になったbat43用に作成したキーキャップも使用できるので、ご覧になってみてください。&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://yfuku.com/blog/keyboard/bat_keycaps/&#34;&gt;Gravity Keycaps&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kbd.dailycraft.jp/blog/keyboard/bat_keycaps/&#34;&gt;Gravity Keycaps&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;必要な工具&#34;&gt;必要な工具&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://yfuku.com/keyboard/kougu/&#34;&gt;自作キーボードの組み立てに使っている工具&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kbd.dailycraft.jp/keyboard/kougu/&#34;&gt;自作キーボードの組み立てに使っている工具&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;ファームウェア&#34;&gt;ファームウェア&lt;/h2&gt;
 &lt;p&gt;キットに付属のProMicroはファームウェアが書き込まれているため、そのまま使用できます。&lt;br&gt;
@@ -76,10 +76,10 @@
     
     <item>
       <title>Wings42: 2. 同梱品の確認</title>
-      <link>https://yfuku.com/wings42/buildguide/2_check/</link>
+      <link>https://kbd.dailycraft.jp/wings42/buildguide/2_check/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/wings42/buildguide/2_check/</guid>
+      <guid>https://kbd.dailycraft.jp/wings42/buildguide/2_check/</guid>
       <description>
         
         
@@ -115,10 +115,10 @@
     
     <item>
       <title>Wings42: 3. 組み立て</title>
-      <link>https://yfuku.com/wings42/buildguide/3_build/</link>
+      <link>https://kbd.dailycraft.jp/wings42/buildguide/3_build/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/wings42/buildguide/3_build/</guid>
+      <guid>https://kbd.dailycraft.jp/wings42/buildguide/3_build/</guid>
       <description>
         
         
@@ -144,10 +144,10 @@
     
     <item>
       <title>Wings42: 4. ダイオードの取り付け</title>
-      <link>https://yfuku.com/wings42/buildguide/4_diode/</link>
+      <link>https://kbd.dailycraft.jp/wings42/buildguide/4_diode/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/wings42/buildguide/4_diode/</guid>
+      <guid>https://kbd.dailycraft.jp/wings42/buildguide/4_diode/</guid>
       <description>
         
         
@@ -245,10 +245,10 @@
     
     <item>
       <title>Wings42: 5. キースイッチの取り付け</title>
-      <link>https://yfuku.com/wings42/buildguide/5_switch/</link>
+      <link>https://kbd.dailycraft.jp/wings42/buildguide/5_switch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/wings42/buildguide/5_switch/</guid>
+      <guid>https://kbd.dailycraft.jp/wings42/buildguide/5_switch/</guid>
       <description>
         
         
@@ -304,10 +304,10 @@
     
     <item>
       <title>Wings42: 6. TRRSジャック、リセットスイッチの取り付け</title>
-      <link>https://yfuku.com/wings42/buildguide/6_otherparts/</link>
+      <link>https://kbd.dailycraft.jp/wings42/buildguide/6_otherparts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/wings42/buildguide/6_otherparts/</guid>
+      <guid>https://kbd.dailycraft.jp/wings42/buildguide/6_otherparts/</guid>
       <description>
         
         
@@ -346,10 +346,10 @@
     
     <item>
       <title>Wings42: 7. ProMicroの取り付け</title>
-      <link>https://yfuku.com/wings42/buildguide/7_promicro/</link>
+      <link>https://kbd.dailycraft.jp/wings42/buildguide/7_promicro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/wings42/buildguide/7_promicro/</guid>
+      <guid>https://kbd.dailycraft.jp/wings42/buildguide/7_promicro/</guid>
       <description>
         
         
@@ -449,10 +449,10 @@
     
     <item>
       <title>Wings42: 8. プレートの取り付け</title>
-      <link>https://yfuku.com/wings42/buildguide/8_plate/</link>
+      <link>https://kbd.dailycraft.jp/wings42/buildguide/8_plate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/wings42/buildguide/8_plate/</guid>
+      <guid>https://kbd.dailycraft.jp/wings42/buildguide/8_plate/</guid>
       <description>
         
         
@@ -486,7 +486,7 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;img src=&#34;images/t6.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;pro-micro保護プレートの取り付け&#34;&gt;Pro Micro保護プレートの取り付け&lt;/h2&gt;
-&lt;p&gt;（拡張オプションを使う方は、&lt;a href=&#34;https://yfuku.com/wings42/ext/&#34;&gt;拡張オプションの付け方&lt;/a&gt;に進んでから戻ってきても構いません）&lt;/p&gt;
+&lt;p&gt;（拡張オプションを使う方は、&lt;a href=&#34;https://kbd.dailycraft.jp/wings42/ext/&#34;&gt;拡張オプションの付け方&lt;/a&gt;に進んでから戻ってきても構いません）&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;プレートの保護紙を剥がします（剥がれにくい場合はテープや、水でちょっと濡らすと剥がれやすくなります）&lt;/li&gt;
 &lt;/ul&gt;
@@ -517,10 +517,10 @@
     
     <item>
       <title>Wings42: 9. キーキャップ、ケーブルの取り付け</title>
-      <link>https://yfuku.com/wings42/buildguide/9_keycap/</link>
+      <link>https://kbd.dailycraft.jp/wings42/buildguide/9_keycap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/wings42/buildguide/9_keycap/</guid>
+      <guid>https://kbd.dailycraft.jp/wings42/buildguide/9_keycap/</guid>
       <description>
         
         
@@ -547,16 +547,16 @@
     
     <item>
       <title>Wings42: 10. ファームウェア</title>
-      <link>https://yfuku.com/wings42/buildguide/10_firmware/</link>
+      <link>https://kbd.dailycraft.jp/wings42/buildguide/10_firmware/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/wings42/buildguide/10_firmware/</guid>
+      <guid>https://kbd.dailycraft.jp/wings42/buildguide/10_firmware/</guid>
       <description>
         
         
         &lt;p&gt;ハードウェアの準備は終わったので、ソフトウェア側に入っていきます。&lt;br&gt;
 1回できるようになってしまえばキーマップの追求に集中できるので頑張っていきましょう！&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://yfuku.com/keyboard/firmware/&#34;&gt;ファームウェアの基本&lt;/a&gt;を参考にキーマップの設定などしていきましょう。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://kbd.dailycraft.jp/keyboard/firmware/&#34;&gt;ファームウェアの基本&lt;/a&gt;を参考にキーマップの設定などしていきましょう。&lt;/p&gt;
 &lt;h2 id=&#34;ファームウェア&#34;&gt;ファームウェア&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/yfuku/wings42/releases/download/rev2/wings42_rev2_via.hex&#34;&gt;wings42のデフォルトファームウェア（Remap対応）&lt;/a&gt;&lt;/li&gt;

@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>yfuku docs – 自作キーボード共通</title>
-    <link>https://yfuku.com/keyboard/</link>
-    <description>Recent content in 自作キーボード共通 on yfuku docs</description>
+    <title>Daily Craft Keyboard – 自作キーボード共通</title>
+    <link>https://kbd.dailycraft.jp/keyboard/</link>
+    <description>Recent content in 自作キーボード共通 on Daily Craft Keyboard</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	  <atom:link href="https://yfuku.com/keyboard/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://kbd.dailycraft.jp/keyboard/index.xml" rel="self" type="application/rss+xml" />
     
     
       

@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>yfuku docs – beta版用 拡張オプション</title>
-    <link>https://yfuku.com/wings42/ext_beta/</link>
-    <description>Recent content in beta版用 拡張オプション on yfuku docs</description>
+    <title>Daily Craft Keyboard – beta版用 拡張オプション</title>
+    <link>https://kbd.dailycraft.jp/wings42/ext_beta/</link>
+    <description>Recent content in beta版用 拡張オプション on Daily Craft Keyboard</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	  <atom:link href="https://yfuku.com/wings42/ext_beta/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://kbd.dailycraft.jp/wings42/ext_beta/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -15,10 +15,10 @@
     
     <item>
       <title>Wings42: キー拡張</title>
-      <link>https://yfuku.com/wings42/ext_beta/keys/</link>
+      <link>https://kbd.dailycraft.jp/wings42/ext_beta/keys/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/wings42/ext_beta/keys/</guid>
+      <guid>https://kbd.dailycraft.jp/wings42/ext_beta/keys/</guid>
       <description>
         
         
@@ -61,10 +61,10 @@
     
     <item>
       <title>Wings42: ロータリーエンコーダー（1個ver）</title>
-      <link>https://yfuku.com/wings42/ext_beta/encoder1/</link>
+      <link>https://kbd.dailycraft.jp/wings42/ext_beta/encoder1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/wings42/ext_beta/encoder1/</guid>
+      <guid>https://kbd.dailycraft.jp/wings42/ext_beta/encoder1/</guid>
       <description>
         
         
@@ -124,10 +124,10 @@
     
     <item>
       <title>Wings42: ロータリーエンコーダー（2個ver）</title>
-      <link>https://yfuku.com/wings42/ext_beta/encoder2/</link>
+      <link>https://kbd.dailycraft.jp/wings42/ext_beta/encoder2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/wings42/ext_beta/encoder2/</guid>
+      <guid>https://kbd.dailycraft.jp/wings42/ext_beta/encoder2/</guid>
       <description>
         
         
@@ -187,10 +187,10 @@
     
     <item>
       <title>Wings42: トラックボール</title>
-      <link>https://yfuku.com/wings42/ext_beta/trackball/</link>
+      <link>https://kbd.dailycraft.jp/wings42/ext_beta/trackball/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/wings42/ext_beta/trackball/</guid>
+      <guid>https://kbd.dailycraft.jp/wings42/ext_beta/trackball/</guid>
       <description>
         
         
@@ -267,10 +267,10 @@
     
     <item>
       <title>Wings42: 無線接続</title>
-      <link>https://yfuku.com/wings42/ext_beta/bmp/</link>
+      <link>https://kbd.dailycraft.jp/wings42/ext_beta/bmp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/wings42/ext_beta/bmp/</guid>
+      <guid>https://kbd.dailycraft.jp/wings42/ext_beta/bmp/</guid>
       <description>
         
         
@@ -377,10 +377,10 @@
     
     <item>
       <title>Wings42: 無線接続（左右接続は有線）</title>
-      <link>https://yfuku.com/wings42/ext_beta/lpmeio/</link>
+      <link>https://kbd.dailycraft.jp/wings42/ext_beta/lpmeio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/wings42/ext_beta/lpmeio/</guid>
+      <guid>https://kbd.dailycraft.jp/wings42/ext_beta/lpmeio/</guid>
       <description>
         
         

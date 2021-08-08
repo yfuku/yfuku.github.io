@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>yfuku docs – owl8ビルドガイド</title>
-    <link>https://yfuku.com/owl8/buildguide/</link>
-    <description>Recent content in owl8ビルドガイド on yfuku docs</description>
+    <title>Daily Craft Keyboard – owl8ビルドガイド</title>
+    <link>https://kbd.dailycraft.jp/owl8/buildguide/</link>
+    <description>Recent content in owl8ビルドガイド on Daily Craft Keyboard</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	  <atom:link href="https://yfuku.com/owl8/buildguide/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://kbd.dailycraft.jp/owl8/buildguide/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -15,10 +15,10 @@
     
     <item>
       <title>Owl8: 1. 準備</title>
-      <link>https://yfuku.com/owl8/buildguide/1_prepare/</link>
+      <link>https://kbd.dailycraft.jp/owl8/buildguide/1_prepare/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/owl8/buildguide/1_prepare/</guid>
+      <guid>https://kbd.dailycraft.jp/owl8/buildguide/1_prepare/</guid>
       <description>
         
         
@@ -51,11 +51,11 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;必要な工具&#34;&gt;必要な工具&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://yfuku.com/keyboard/kougu/&#34;&gt;自作キーボードの組み立てに使っている工具&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kbd.dailycraft.jp/keyboard/kougu/&#34;&gt;自作キーボードの組み立てに使っている工具&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;ファームウェア&#34;&gt;ファームウェア&lt;/h2&gt;
 &lt;p&gt;キット付属のProMicroはファームウェアが書き込まれているため、そのまま使用できます。&lt;br&gt;
-キーマップを変更する場合はPC側の設定など必要になるので、&lt;a href=&#34;https://yfuku.com/keyboard/firmware/&#34;&gt;ファームウェア&lt;/a&gt;のページは事前に目を通しておきましょう。&lt;/p&gt;
+キーマップを変更する場合はPC側の設定など必要になるので、&lt;a href=&#34;https://kbd.dailycraft.jp/keyboard/firmware/&#34;&gt;ファームウェア&lt;/a&gt;のページは事前に目を通しておきましょう。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;a href=&#34;../2_check&#34;&gt;→ 2.同梱品の確認&lt;/a&gt;&lt;/p&gt;
 
@@ -64,10 +64,10 @@
     
     <item>
       <title>Owl8: 2. 同梱品の確認</title>
-      <link>https://yfuku.com/owl8/buildguide/2_check/</link>
+      <link>https://kbd.dailycraft.jp/owl8/buildguide/2_check/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/owl8/buildguide/2_check/</guid>
+      <guid>https://kbd.dailycraft.jp/owl8/buildguide/2_check/</guid>
       <description>
         
         
@@ -112,10 +112,10 @@
     
     <item>
       <title>Owl8: 3. 組み立て</title>
-      <link>https://yfuku.com/owl8/buildguide/3_build/</link>
+      <link>https://kbd.dailycraft.jp/owl8/buildguide/3_build/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/owl8/buildguide/3_build/</guid>
+      <guid>https://kbd.dailycraft.jp/owl8/buildguide/3_build/</guid>
       <description>
         
         
@@ -139,10 +139,10 @@
     
     <item>
       <title>Owl8: 4. トッププレート、キースイッチの取り付け</title>
-      <link>https://yfuku.com/owl8/buildguide/4_switch/</link>
+      <link>https://kbd.dailycraft.jp/owl8/buildguide/4_switch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/owl8/buildguide/4_switch/</guid>
+      <guid>https://kbd.dailycraft.jp/owl8/buildguide/4_switch/</guid>
       <description>
         
         
@@ -184,10 +184,10 @@
     
     <item>
       <title>Owl8: 5. リセットスイッチの取り付け</title>
-      <link>https://yfuku.com/owl8/buildguide/5_otherparts/</link>
+      <link>https://kbd.dailycraft.jp/owl8/buildguide/5_otherparts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/owl8/buildguide/5_otherparts/</guid>
+      <guid>https://kbd.dailycraft.jp/owl8/buildguide/5_otherparts/</guid>
       <description>
         
         
@@ -210,10 +210,10 @@
     
     <item>
       <title>Owl8: 6. ProMicroの取り付け</title>
-      <link>https://yfuku.com/owl8/buildguide/6_promicro/</link>
+      <link>https://kbd.dailycraft.jp/owl8/buildguide/6_promicro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/owl8/buildguide/6_promicro/</guid>
+      <guid>https://kbd.dailycraft.jp/owl8/buildguide/6_promicro/</guid>
       <description>
         
         
@@ -305,10 +305,10 @@
     
     <item>
       <title>Owl8: 7. プレートの取り付け</title>
-      <link>https://yfuku.com/owl8/buildguide/7_plate/</link>
+      <link>https://kbd.dailycraft.jp/owl8/buildguide/7_plate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/owl8/buildguide/7_plate/</guid>
+      <guid>https://kbd.dailycraft.jp/owl8/buildguide/7_plate/</guid>
       <description>
         
         
@@ -379,10 +379,10 @@
     
     <item>
       <title>Owl8: 8. キーキャップ、ケーブルの取り付け</title>
-      <link>https://yfuku.com/owl8/buildguide/8_keycap/</link>
+      <link>https://kbd.dailycraft.jp/owl8/buildguide/8_keycap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/owl8/buildguide/8_keycap/</guid>
+      <guid>https://kbd.dailycraft.jp/owl8/buildguide/8_keycap/</guid>
       <description>
         
         
@@ -403,17 +403,17 @@
     
     <item>
       <title>Owl8: 9. キーマップ</title>
-      <link>https://yfuku.com/owl8/buildguide/9_keymap/</link>
+      <link>https://kbd.dailycraft.jp/owl8/buildguide/9_keymap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/owl8/buildguide/9_keymap/</guid>
+      <guid>https://kbd.dailycraft.jp/owl8/buildguide/9_keymap/</guid>
       <description>
         
         
         &lt;p&gt;先ほど使用したRemapを使ってキーマップを設定します。&lt;/p&gt;
 &lt;p&gt;Remapnの使い方はサリチル酸の記事が参考になるのでみてみてください。&lt;br&gt;
 &lt;a href=&#34;https://salicylic-acid3.hatenablog.com/entry/remap-manual&#34;&gt;（初心者編）Remapを使ってキーマップを書き換えよう - 自作キーボード温泉街の歩き方&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;また、&lt;a href=&#34;https://yfuku.com/keyboard/firmware/&#34;&gt;ファームウェア&lt;/a&gt;を学習すると、より理解が深まると思います。&lt;/p&gt;
+&lt;p&gt;また、&lt;a href=&#34;https://kbd.dailycraft.jp/keyboard/firmware/&#34;&gt;ファームウェア&lt;/a&gt;を学習すると、より理解が深まると思います。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;a href=&#34;../10_ext_keys&#34;&gt;→ 10. キースイッチ拡張プレートを使う&lt;/a&gt;&lt;/p&gt;
 
@@ -422,10 +422,10 @@
     
     <item>
       <title>Owl8: 10. キースイッチ拡張を使う</title>
-      <link>https://yfuku.com/owl8/buildguide/10_ext_keys/</link>
+      <link>https://kbd.dailycraft.jp/owl8/buildguide/10_ext_keys/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/owl8/buildguide/10_ext_keys/</guid>
+      <guid>https://kbd.dailycraft.jp/owl8/buildguide/10_ext_keys/</guid>
       <description>
         
         
@@ -484,10 +484,10 @@
     
     <item>
       <title>Owl8: 11. ロータリエンコーダ拡張プレートを使う</title>
-      <link>https://yfuku.com/owl8/buildguide/11_encoder/</link>
+      <link>https://kbd.dailycraft.jp/owl8/buildguide/11_encoder/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/owl8/buildguide/11_encoder/</guid>
+      <guid>https://kbd.dailycraft.jp/owl8/buildguide/11_encoder/</guid>
       <description>
         
         
@@ -554,10 +554,10 @@
     
     <item>
       <title>Owl8: 12. 無線接続</title>
-      <link>https://yfuku.com/owl8/buildguide/12_bmp/</link>
+      <link>https://kbd.dailycraft.jp/owl8/buildguide/12_bmp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yfuku.com/owl8/buildguide/12_bmp/</guid>
+      <guid>https://kbd.dailycraft.jp/owl8/buildguide/12_bmp/</guid>
       <description>
         
         
