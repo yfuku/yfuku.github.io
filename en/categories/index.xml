@@ -1,0 +1,18 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Daily Craft Keyboard – Categories</title>
+    <link>https://kbd.dailycraft.jp/en/categories/</link>
+    <description>Recent content in Categories on Daily Craft Keyboard</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	  <atom:link href="https://kbd.dailycraft.jp/en/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+  </channel>
+</rss>
