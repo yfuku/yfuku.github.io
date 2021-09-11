@@ -15,5 +15,44 @@
       
     
     
+    <item>
+      <title>Claw44: 2. Check同梱品の確認</title>
+      <link>https://kbd.dailycraft.jp/en/claw44/buildguide/2_check/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kbd.dailycraft.jp/en/claw44/buildguide/2_check/</guid>
+      <description>
+        
+        
+        &lt;p&gt;組み立て前に同梱品の確認をお願いします。&lt;br&gt;
+不足品などありましたら付属の案内に記載の連絡先か、&lt;a href=&#34;https://twitter.com/yfuku_&#34;&gt;Twitter&lt;/a&gt;からご連絡ください。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;ProMicro保護プレート: 2枚&lt;/li&gt;
+&lt;li&gt;TRRSジャック: 2個&lt;/li&gt;
+&lt;li&gt;タクトスイッチ: 2個&lt;/li&gt;
+&lt;li&gt;ダイオードベンダー：2本&lt;/li&gt;
+&lt;li&gt;スペーサー（長）: 4本&lt;/li&gt;
+&lt;li&gt;スペーサー（短）: 14本&lt;/li&gt;
+&lt;li&gt;ネジ : 36本＋予備&lt;/li&gt;
+&lt;li&gt;クッションゴム: 12個&lt;/li&gt;
+&lt;li&gt;ダイオード: 44個+予備&lt;/li&gt;
+&lt;li&gt;脱落防止用輪っか：14個＋予備&lt;/li&gt;
+&lt;li&gt;コンスルー ：4本&lt;/li&gt;
+&lt;li&gt;ProMicro：2個&lt;/li&gt;
+&lt;li&gt;MX互換スイッチ用PCBソケット 44個＋予備&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;images/parts.jpg&#34; alt=&#34;部品&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;基板：2枚&lt;/strong&gt;
+&lt;img src=&#34;images/plate1.jpg&#34; alt=&#34;基板&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;トッププレート：2枚&lt;/strong&gt;
+&lt;img src=&#34;images/plate2.jpg&#34; alt=&#34;トッププレート&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ボトムプレート：2枚&lt;/strong&gt;
+&lt;img src=&#34;images/plate3.jpg&#34; alt=&#34;ボトムプレート&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;../3_build&#34;&gt;→ 3.組み立て&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
   </channel>
 </rss>

@@ -35,6 +35,16 @@
     <loc>https://kbd.dailycraft.jp/keyboard/firmware/keymap/</loc>
   </url><url>
     <loc>https://kbd.dailycraft.jp/claw44/buildguide/2_check/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kbd.dailycraft.jp/en/claw44/buildguide/2_check/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://kbd.dailycraft.jp/claw44/buildguide/2_check/"
+                />
   </url><url>
     <loc>https://kbd.dailycraft.jp/owl8/buildguide/2_check/</loc>
   </url><url>
