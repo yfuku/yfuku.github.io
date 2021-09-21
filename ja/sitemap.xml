@@ -227,6 +227,9 @@
     <loc>https://kbd.dailycraft.jp/bat43/buildguide/firmware/</loc>
     <lastmod>2019-11-30T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://kbd.dailycraft.jp/tb7/</loc>
+    <lastmod>2020-10-16T10:00:00+09:00</lastmod>
+  </url><url>
     <loc>https://kbd.dailycraft.jp/</loc>
     <lastmod>2020-10-16T10:00:00+09:00</lastmod>
     <xhtml:link
@@ -239,9 +242,6 @@
                 hreflang="ja"
                 href="https://kbd.dailycraft.jp/"
                 />
-  </url><url>
-    <loc>https://kbd.dailycraft.jp/tb7/</loc>
-    <lastmod>2020-10-16T10:00:00+09:00</lastmod>
   </url><url>
     <loc>https://kbd.dailycraft.jp/tb7/buildguide/</loc>
     <lastmod>2020-10-16T00:00:00+00:00</lastmod>

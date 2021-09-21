@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Daily Craft Keyboard – Claw44ビルドガイド</title>
+    <title>自作キーボードのお店 Daily Craft Keyboard – Claw44ビルドガイド</title>
     <link>https://kbd.dailycraft.jp/claw44/buildguide/</link>
-    <description>Recent content in Claw44ビルドガイド on Daily Craft Keyboard</description>
+    <description>Recent content in Claw44ビルドガイド on 自作キーボードのお店 Daily Craft Keyboard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Thu, 02 Jul 2020 10:00:00 +0900</lastBuildDate>
@@ -59,7 +59,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;必要な工具&#34;&gt;必要な工具&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://kbd.dailycraft.jp/keyboard/kougu/&#34;&gt;自作キーボード組み立てに必要な工具&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kbd.dailycraft.jp/keyboard/kougu/&#34;&gt;自作キーボード組み立てに必要な工具&lt;/a&gt; を参考に揃えてみてください。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;ファームウェア&#34;&gt;ファームウェア&lt;/h2&gt;
 &lt;p&gt;キット付属のProMicroはファームウェアが書き込まれているため、そのまま使用できます。&lt;br&gt;
@@ -148,7 +148,7 @@
       <description>
         
         
-        &lt;p&gt;まずは裏面から実装（電子部品を半田付け）していきます。&lt;/p&gt;
+        &lt;p&gt;まずは裏面から実装（電子部品のはんだ付け）をしていきます。&lt;/p&gt;
 &lt;h2 id=&#34;知っておきたいこと&#34;&gt;知っておきたいこと&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;ダイオードは各キースイッチの動作を正しく認識するためにつけます&lt;/li&gt;
@@ -251,7 +251,7 @@
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;全てのダイオードを折り曲げます&lt;br&gt;
+&lt;p&gt;44本分のダイオードを折り曲げます&lt;br&gt;
 
 
 
@@ -280,7 +280,7 @@
 &lt;h3 id=&#34;ダイオードが浮かないようにマスキングテープで固定する&#34;&gt;ダイオードが浮かないようにマスキングテープで固定する&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;b&gt;&lt;span style=&#34;color: #ff0000&#34;&gt;マスキングテープを貼る前にもう一度ダイオードの向きを確認してください！&lt;/span&gt;&lt;/b&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span style=&#34;color: #ff0000&#34;&gt;&lt;b&gt;ダイオードが浮いていると高さが出てしまい、ボトムプレートに当たってしまうことがあるので丁寧に！&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style=&#34;color: #ff0000&#34;&gt;&lt;b&gt;ダイオードが浮いていると高さが出てしまい、ボトムプレートに当たってしまうことがあるので丁寧に密着させてください！&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img src=&#34;./images/d50.JPG&#34; alt=&#34;&#34;&gt;&lt;br&gt;
 &lt;img src=&#34;./images/d60.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
@@ -291,11 +291,11 @@
 &lt;img src=&#34;./images/d70.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;リード線とパッド、両方にハンダゴテの先をあてます&lt;br&gt;
+&lt;p&gt;リード線とパッドの両方にコテ先をあてます&lt;br&gt;
 &lt;img src=&#34;./images/d80.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;ハンダをあてて、適量を溶かします。ハンダゴテをあてる時間は3秒くらいを目安にしてください。&lt;br&gt;
+&lt;p&gt;ハンダをあてて、適量を溶かします。コテ先をあてる時間は3秒くらいを目安にしてください。&lt;br&gt;
 &lt;img src=&#34;./images/d90.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -309,6 +309,9 @@
 &lt;li&gt;
 &lt;p&gt;全てのはんだ付けが完了したらマスキングテープを外し、ダイオードが浮いていないかチェックしてください。&lt;br&gt;
 &lt;img src=&#34;./images/d120.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ダイオードが浮いてしまった場合は、ハンダを温め直して押し込んだり、ハンダ吸い取り線で一旦ダイオードをとり、新しいものをはんだ付けするなどしてください（火傷に注意！）&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;両方の基板をはんだ付けしたら完了です。&lt;/p&gt;
@@ -363,12 +366,13 @@
 &lt;/ul&gt;
 &lt;h3 id=&#34;もう片方をはんだ付けする&#34;&gt;もう片方をはんだ付けする&lt;/h3&gt;
 &lt;ul&gt;
+&lt;li&gt;やりやすいように基板を反転させてください&lt;/li&gt;
 &lt;li&gt;ソケットの金具とパッドを同時に温めるようにハンダゴテをあててください&lt;br&gt;
 &lt;img src=&#34;images/s50.JPG&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;ソケットの取り付け完了&#34;&gt;ソケットの取り付け完了&lt;/h3&gt;
+&lt;h3 id=&#34;全てのソケットを取り付ける&#34;&gt;全てのソケットを取り付ける&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;全てのソケットを取り付けたら完了です。
+&lt;li&gt;慣れたら1個ずつではなく複数個まとめてやってOKです&lt;br&gt;
 &lt;img src=&#34;images/s60.JPG&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;※ソケットのハンダ付けも色々やり方はあるのでお好みで行ってください。&lt;/p&gt;
