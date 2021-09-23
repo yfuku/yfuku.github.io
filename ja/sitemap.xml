@@ -21,6 +21,8 @@
   </url><url>
     <loc>https://kbd.dailycraft.jp/claw44/keymap/keymap_build/</loc>
   </url><url>
+    <loc>https://kbd.dailycraft.jp/sandbox/diodeth/</loc>
+  </url><url>
     <loc>https://kbd.dailycraft.jp/keyboard/kougu/</loc>
   </url><url>
     <loc>https://kbd.dailycraft.jp/bat43/buildguide/2_prepare/</loc>
@@ -52,7 +54,7 @@
   </url><url>
     <loc>https://kbd.dailycraft.jp/claw44/keymap/naginata/</loc>
   </url><url>
-    <loc>https://kbd.dailycraft.jp/sandbox/practice/</loc>
+    <loc>https://kbd.dailycraft.jp/sandbox/diodesmd/</loc>
   </url><url>
     <loc>https://kbd.dailycraft.jp/keyboard/firmware/</loc>
   </url><url>
@@ -71,7 +73,7 @@
   </url><url>
     <loc>https://kbd.dailycraft.jp/wings42/buildguide/3_build/</loc>
   </url><url>
-    <loc>https://kbd.dailycraft.jp/sandbox/keyboard/</loc>
+    <loc>https://kbd.dailycraft.jp/sandbox/socket/</loc>
   </url><url>
     <loc>https://kbd.dailycraft.jp/claw44/buildguide/3_build/</loc>
     <lastmod>2020-07-02T10:00:00+09:00</lastmod>
@@ -85,6 +87,8 @@
   </url><url>
     <loc>https://kbd.dailycraft.jp/owl8/buildguide/4_switch/</loc>
   </url><url>
+    <loc>https://kbd.dailycraft.jp/sandbox/reset/</loc>
+  </url><url>
     <loc>https://kbd.dailycraft.jp/claw44/buildguide/4_diode/</loc>
     <lastmod>2020-07-02T10:00:00+09:00</lastmod>
   </url><url>
@@ -97,6 +101,8 @@
   </url><url>
     <loc>https://kbd.dailycraft.jp/keyboard/firmware/build/</loc>
   </url><url>
+    <loc>https://kbd.dailycraft.jp/sandbox/promicro/</loc>
+  </url><url>
     <loc>https://kbd.dailycraft.jp/claw44/buildguide/5_socket/</loc>
     <lastmod>2020-07-02T10:00:00+09:00</lastmod>
   </url><url>
@@ -107,6 +113,8 @@
   </url><url>
     <loc>https://kbd.dailycraft.jp/wings42/buildguide/6_otherparts/</loc>
   </url><url>
+    <loc>https://kbd.dailycraft.jp/sandbox/trrs/</loc>
+  </url><url>
     <loc>https://kbd.dailycraft.jp/claw44/buildguide/6_otherparts/</loc>
     <lastmod>2020-07-02T10:00:00+09:00</lastmod>
   </url><url>
@@ -116,6 +124,8 @@
     <loc>https://kbd.dailycraft.jp/wings42/buildguide/7_promicro/</loc>
   </url><url>
     <loc>https://kbd.dailycraft.jp/owl8/buildguide/7_plate/</loc>
+  </url><url>
+    <loc>https://kbd.dailycraft.jp/sandbox/oled/</loc>
   </url><url>
     <loc>https://kbd.dailycraft.jp/claw44/buildguide/7_promicro/</loc>
     <lastmod>2020-07-02T10:00:00+09:00</lastmod>

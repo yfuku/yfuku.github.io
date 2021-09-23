@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="ja" class="no-js">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="generator" content="Hugo 0.83.1" />
+
+<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+
+
+
+<link rel="shortcut icon" href="/favicons/favicon.ico" >
+<link rel="apple-touch-icon" href="/favicons/apple-touch-icon-180x180.png" sizes="180x180">
+<link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicons/android-36x36.png" sizes="36x36">
+<link rel="icon" type="image/png" href="/favicons/android-48x48.png" sizes="48x48">
+<link rel="icon" type="image/png" href="/favicons/android-72x72.png" sizes="72x72">
+<link rel="icon" type="image/png" href="/favicons/android-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/favicons/android-144x144.png" sizes="144x144">
+<link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
+
+<title>キースイッチソケットのはんだ付け | 自作キーボードのお店 Daily Craft Keyboard</title><meta property="og:title" content="キースイッチソケットのはんだ付け" />
+<meta property="og:description" content="キースイッチソケット 一般的によく使われるキースイッチのタイプとしてMXとChocがあります。 スイッチのタイプでソケットの形状も変わるので、別" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://kbd.dailycraft.jp/sandbox/socket/" /><meta property="article:section" content="sandbox" />
+
+<meta property="og:site_name" content="自作キーボードのお店 Daily Craft Keyboard" />
+
+<meta itemprop="name" content="キースイッチソケットのはんだ付け">
+<meta itemprop="description" content="キースイッチソケット 一般的によく使われるキースイッチのタイプとしてMXとChocがあります。 スイッチのタイプでソケットの形状も変わるので、別">
+
+<meta itemprop="wordCount" content="410">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="キースイッチソケットのはんだ付け"/>
+<meta name="twitter:description" content="キースイッチソケット 一般的によく使われるキースイッチのタイプとしてMXとChocがあります。 スイッチのタイプでソケットの形状も変わるので、別"/>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-175734-5', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+
+
+
+<link rel="preload" href="/scss/main.min.f6425b14bc8d098bb4ed5eec9638d8c37a8fe99d5f529445f0585b6d05f71aa3.css" as="style">
+<link href="/scss/main.min.f6425b14bc8d098bb4ed5eec9638d8c37a8fe99d5f529445f0585b6d05f71aa3.css" rel="stylesheet" integrity="">
+
+
+<script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script>
+
+
+
+  </head>
+  <body class="td-page">
+    <header>
+      
+<nav class="js-navbar-scroll navbar navbar-expand navbar-dark flex-column flex-md-row td-navbar">
+        <a class="navbar-brand" href="/">
+		<span class="navbar-logo"></span><span class="font-weight-bold">Daily Craft Keyboard docs</span>
+	</a>
+	<div class="td-navbar-nav-scroll ml-md-auto" id="main_navbar">
+		<ul class="navbar-nav mt-2 mt-lg-0">
+			
+			
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				
+				
+				
+				
+				<a class="nav-link" href="/claw44" ><span>claw44</span></a>
+			</li>
+			
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				
+				
+				
+				
+				<a class="nav-link" href="/bat43" ><span>bat43</span></a>
+			</li>
+			
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				
+				
+				
+				
+				<a class="nav-link" href="/wings42" ><span>wings42</span></a>
+			</li>
+			
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				
+				
+				
+				
+				<a class="nav-link" href="/owl8" ><span>owl8</span></a>
+			</li>
+			
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				
+				
+				
+				
+				<a class="nav-link" href="/sandbox" ><span>sandbox</span></a>
+			</li>
+			
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				
+				
+				
+				
+				<a class="nav-link" href="/keyboard" ><span>keyboard</span></a>
+			</li>
+			
+			
+      
+      
+		</ul>
+	</div>
+  
+</nav>
+
+    </header>
+    <div class="container-fluid td-outer">
+      <div class="td-main">
+        <div class="row flex-xl-nowrap">
+          <div class="col-12 col-md-3 td-sidebar d-print-none">
+            
+
+
+
+
+<div id="td-sidebar-menu" class="td-sidebar__inner">
+  
+  <form class="td-sidebar__search d-flex align-items-center">
+    
+<input type="search" class="form-control td-search-input" placeholder="&#xf002 サイトを検索..." aria-label="サイトを検索..." autocomplete="off">
+
+
+    <button class="btn btn-link td-sidebar__toggle d-md-none p-0 ml-3 fas fa-bars" type="button" data-toggle="collapse" data-target="#td-section-nav" aria-controls="td-docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    </button>
+  </form>
+  
+  <nav class="collapse td-sidebar-nav" id="td-section-nav">
+    
+    
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/sandbox/" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">sandbox keyboard</a>
+  </li>
+  <ul>
+    <li class="collapse show" id="sandbox">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-sandboxdiodeth" href="/sandbox/diodeth/">ダイオードのはんだ付け（スルーホール）</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-sandboxdiodesmd" href="/sandbox/diodesmd/">ダイオードのはんだ付け（表面実装）</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page  active" id="m-sandboxsocket" href="/sandbox/socket/">キースイッチソケットのはんだ付け</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-sandboxreset" href="/sandbox/reset/">リセットスイッチのはんだ付け</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-sandboxpromicro" href="/sandbox/promicro/">Pro Microのはんだ付け</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-sandboxtrrs" href="/sandbox/trrs/">TRRSジャックのはんだ付け</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-sandboxoled" href="/sandbox/oled/">OLEDはんだ付け</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+  </nav>
+</div>
+
+
+
+
+          </div>
+          <main class="col-12 col-md-9 pl-md-5" role="main">
+            
+  
+
+            <nav aria-label="breadcrumb" class="d-none d-md-block d-print-none">
+	<ol class="breadcrumb spb-1">
+		
+
+
+
+
+
+
+
+<li class="breadcrumb-item" >
+	<a href="https://kbd.dailycraft.jp/sandbox/">sandbox keyboard</a>
+</li>
+
+
+
+
+<li class="breadcrumb-item active" aria-current="page">
+	<a href="https://kbd.dailycraft.jp/sandbox/socket/">キースイッチソケットのはんだ付け</a>
+</li>
+
+	</ol>
+</nav	>
+
+            
+<div class="td-content">
+	<h1>キースイッチソケットのはんだ付け</h1>
+    
+	       
+	<h2 id="キースイッチソケット">キースイッチソケット</h2>
+<p>一般的によく使われるキースイッチのタイプとしてMXとChocがあります。
+スイッチのタイプでソケットの形状も変わるので、別々に練習できるようにしました。</p>
+<h2 id="はんだ付け">はんだ付け</h2>
+<p>こちらのスペースを使います。目当てのキーボードが使うタイプだけでも良いし、練習がてら両方つけても良いです。<br>
+<img src="s10.JPG" alt=""></p>
+<h2 id="mx">MX</h2>
+<ul>
+<li>
+<p>パッドの片側に予備ハンダをします<br>
+<img src="mx10.JPG" alt=""></p>
+</li>
+<li>
+<p>パッド上にソケットを配置する<br>
+<b><span style="color: #ff5252">※穴を塞いでないか必ず確認してください</span></b>
+<img src="mx20.JPG" alt=""></p>
+</li>
+<li>
+<p>ピンセットで押さえながら、予備ハンダを溶かしてはんだ付けする<br>
+<img src="mx30.JPG" alt=""></p>
+</li>
+<li>
+<p>基板を反転して、もう片方をはんだ付けする<br>
+<img src="mx40.JPG" alt=""></p>
+</li>
+<li>
+<p>これではんだ付け完了です！<br>
+<img src="mx50.JPG" alt=""></p>
+</li>
+<li>
+<p>全てのソケットをつけましょう<br>
+<img src="mx60.JPG" alt=""></p>
+</li>
+</ul>
+<h3 id="動画で見る">動画で見る</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ehVMPcwq1AQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h2 id="choc">Choc</h2>
+<ul>
+<li>
+<p>パッドの片側に予備ハンダをします<br>
+<img src="choc10.JPG" alt=""></p>
+</li>
+<li>
+<p>パッド上にソケットを配置する<br>
+<b><span style="color: #ff5252">※穴を塞いでないか必ず確認してください</span></b>
+<img src="choc20.JPG" alt=""></p>
+</li>
+<li>
+<p>ピンセットで押さえながら、予備ハンダを溶かしてはんだ付けする<br>
+<img src="choc30.JPG" alt=""></p>
+</li>
+<li>
+<p>基板を反転して、もう片方をはんだ付けする<br>
+<img src="choc40.JPG" alt=""></p>
+</li>
+<li>
+<p>これではんだ付け完了です！<br>
+<img src="choc50.JPG" alt=""></p>
+</li>
+<li>
+<p>全てのソケットをつけましょう<br>
+<img src="choc60.JPG" alt=""></p>
+</li>
+</ul>
+<h3 id="動画で見る-1">動画で見る</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3gmvX9yf5L0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<hr>
+<p><a href="/sandbox/#%E3%83%AA%E3%82%BB%E3%83%83%E3%83%88%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81">→戻る</a></p>
+
+	
+	
+	<div class="text-muted mt-5 pt-3 border-top">最終更新 January 1, 0001
+</div>
+</div>
+
+
+          </main>
+        </div>
+      </div>
+      
+<footer class="bg-dark py-5 row d-print-none">
+  <div class="container-fluid mx-sm-5">
+    <div class="row">
+      <div class="col-6 col-sm-4 text-xs-center order-sm-2">
+        
+        
+        
+<ul class="list-inline mb-0">
+  
+  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="Twitter" aria-label="Twitter">
+    <a class="text-white" target="_blank" href="https://twitter.com/dailycraftkbd">
+      <i class="fab fa-twitter"></i>
+    </a>
+  </li>
+  
+</ul>
+
+        
+        
+      </div>
+      <div class="col-6 col-sm-4 text-right text-xs-center order-sm-3">
+        
+        
+        
+<ul class="list-inline mb-0">
+  
+  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="GitHub" aria-label="GitHub">
+    <a class="text-white" target="_blank" href="https://github.com/yfuku/">
+      <i class="fab fa-github"></i>
+    </a>
+  </li>
+  
+</ul>
+
+        
+        
+      </div>
+      <div class="col-12 col-sm-4 text-center py-2 order-sm-2">
+        <small class="text-white">&copy; 2021 Daily Craft Keyboard All Rights Reserved</small>
+        
+	
+		
+	
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    </div>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+<script src="/js/main.min.7bef2164b0ffea6572ffc7746e6cbb291a6dd0d63a5fe6b815d9f165c3ec9403.js" integrity="sha256-e&#43;8hZLD/6mVy/8d0bmy7KRpt0NY6X&#43;a4FdnxZcPslAM=" crossorigin="anonymous"></script>
+
+
+
+  </body>
+</html>
