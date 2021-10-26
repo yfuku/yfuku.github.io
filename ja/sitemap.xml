@@ -59,7 +59,7 @@
     <loc>https://kbd.dailycraft.jp/keyboard/firmware/</loc>
   </url><url>
     <loc>https://kbd.dailycraft.jp/bat43/keycap/</loc>
-    <lastmod>2020-07-27T00:00:00+00:00</lastmod>
+    <lastmod>2021-10-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kbd.dailycraft.jp/claw44/history/advent2019/</loc>
     <lastmod>2019-12-16T10:00:00+09:00</lastmod>
@@ -242,11 +242,8 @@
     <loc>https://kbd.dailycraft.jp/bat43/buildguide/firmware/</loc>
     <lastmod>2019-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kbd.dailycraft.jp/tb7/</loc>
-    <lastmod>2020-10-16T10:00:00+09:00</lastmod>
-  </url><url>
     <loc>https://kbd.dailycraft.jp/</loc>
-    <lastmod>2020-10-16T10:00:00+09:00</lastmod>
+    <lastmod>2021-10-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -257,6 +254,9 @@
                 hreflang="ja"
                 href="https://kbd.dailycraft.jp/"
                 />
+  </url><url>
+    <loc>https://kbd.dailycraft.jp/tb7/</loc>
+    <lastmod>2020-10-16T10:00:00+09:00</lastmod>
   </url><url>
     <loc>https://kbd.dailycraft.jp/tb7/buildguide/</loc>
     <lastmod>2020-10-16T00:00:00+00:00</lastmod>
