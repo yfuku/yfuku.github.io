@@ -557,7 +557,7 @@
 &lt;p&gt;&lt;a href=&#34;https://kbd.dailycraft.jp/keyboard/firmware/&#34;&gt;ファームウェアの基本&lt;/a&gt;を参考にキーマップの設定などしていきましょう。&lt;/p&gt;
 &lt;h2 id=&#34;ファームウェア&#34;&gt;ファームウェア&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/yfuku/wings42/releases/download/rev2/wings42_rev2_via.hex&#34;&gt;wings42のデフォルトファームウェア（Remap対応）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/yfuku/wings42/releases/download/rev2/wings42_rev2_via.hex&#34;&gt;wings42のデフォルトファームウェア（rev2, Remap対応）&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;過去バージョンなどは&lt;a href=&#34;https://github.com/yfuku/wings42/releases&#34;&gt;こちら&lt;/a&gt;からダウンロードしてください&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;ソースコード&#34;&gt;ソースコード&lt;/h2&gt;
