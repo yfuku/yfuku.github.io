@@ -1,0 +1,483 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>自作キーボードのお店 Daily Craft Keyboard – stickey4ビルドガイド</title>
+    <link>https://kbd.dailycraft.jp/stickey4/buildguide/</link>
+    <description>Recent content in stickey4ビルドガイド on 自作キーボードのお店 Daily Craft Keyboard</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    
+	  <atom:link href="https://kbd.dailycraft.jp/stickey4/buildguide/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Stickey4: 1. 準備</title>
+      <link>https://kbd.dailycraft.jp/stickey4/buildguide/1_prepare/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kbd.dailycraft.jp/stickey4/buildguide/1_prepare/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;用意するもの&#34;&gt;用意するもの&lt;/h2&gt;
+&lt;p&gt;キットに入っていない部品になります。&lt;br&gt;
+ご自身でご用意をお願いします。&lt;br&gt;
+参考に購入サイトを併記していますが、その他の場所でも購入いただけます。&lt;/p&gt;
+&lt;h3 id=&#34;マイクロusbケーブル1本&#34;&gt;マイクロUSBケーブル：1本&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;PCとの接続に使います&lt;/em&gt;&lt;br&gt;
+stickey4のコネクタ周りがタイトなため、コネクタが太いタイプだと入らないかもしれません。&lt;br&gt;
+その場合は細いコネクタのケーブルを使用するようにしてください。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://shop.dailycraft.jp/products/usb_cable&#34;&gt;USBケーブル – Daily Craft Keyboard&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;kailhロープロファイル-キースイッチ-4個&#34;&gt;Kailhロープロファイル キースイッチ: 4個&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;ChocV2やMX互換のスイッチは使用できないので注意してください&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://shop.dailycraft.jp/products/keyswitch_choc_v1&#34;&gt;Kailh Low Profile Switch (Choc v1) 5個 | 自作キーボードの店 Daily Craft Keyboard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://shop.dailycraft.jp/products/keyswitch_choc_v1_purpz&#34;&gt;Kailh Low Profile Purpz Switch (Choc v1) 5個 | 自作キーボードの店 Daily Craft Keyboard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://shop.dailycraft.jp/products/keyswitch_choc_v1_70g&#34;&gt;Kailh Low Profile Switch 70g (Choc v1) 5個 | 自作キーボードの店 Daily Craft Keyboard&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;kailhロープロファイル-キーキャップ1u-4個&#34;&gt;Kailhロープロファイル キーキャップ1U 4個&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;MX互換のキーキャップは使用できないので注意してください&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://shop.dailycraft.jp/products/keycaps_choc_v1&#34;&gt;Kailh Low Profile Keycaps (Choc v1) 5個 – Daily Craft Keyboard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://shop.yushakobo.jp/collections/keycaps-1/For-Choc-v1&#34;&gt;Choc v1 | 遊舎工房&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Kailhロープロ無刻印キーキャップ1Uのクリアだけはサイズが大きく使えないのでご注意ください&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kochikeyboard.stores.jp/?category_id=5f7efd174b08395606f284b7&#34;&gt;Choc | Kochi Keyboard&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;必要な工具&#34;&gt;必要な工具&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://kbd.dailycraft.jp/keyboard/kougu/&#34;&gt;自作キーボードの組み立てに使っている工具&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ファームウェア&#34;&gt;ファームウェア&lt;/h2&gt;
+&lt;p&gt;キット付属のProMicroはファームウェアが書き込まれているため、そのまま使用できます。&lt;br&gt;
+キーマップを変更する場合はPC側の設定など必要になるので、&lt;a href=&#34;https://kbd.dailycraft.jp/keyboard/firmware/&#34;&gt;ファームウェア&lt;/a&gt;のページは事前に目を通しておきましょう。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;../2_check&#34;&gt;→ 2.同梱品の確認&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Stickey4: 2. 同梱品の確認</title>
+      <link>https://kbd.dailycraft.jp/stickey4/buildguide/2_check/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kbd.dailycraft.jp/stickey4/buildguide/2_check/</guid>
+      <description>
+        
+        
+        &lt;p&gt;組み立て前に同梱品の確認をお願いします。&lt;br&gt;
+不足品などありましたら付属の案内に記載の連絡先か、&lt;a href=&#34;https://twitter.com/yfuku_&#34;&gt;Twitter&lt;/a&gt;からご連絡ください。&lt;/p&gt;
+&lt;h2 id=&#34;キット内容&#34;&gt;キット内容&lt;/h2&gt;
+&lt;h3 id=&#34;部品&#34;&gt;部品&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ProMicro： 1個（ファーム書き込み済み）&lt;/li&gt;
+&lt;li&gt;コンスルー： 2本&lt;/li&gt;
+&lt;li&gt;ネジ（7mm）: 6本&lt;/li&gt;
+&lt;li&gt;ネジ（4mm）: 6本&lt;/li&gt;
+&lt;li&gt;タクトスイッチ: 1個&lt;/li&gt;
+&lt;li&gt;スペーサー(6mm): 6本&lt;/li&gt;
+&lt;li&gt;クッションゴム: 4個&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;images/parts.jpeg&#34; alt=&#34;部品&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;プレート&#34;&gt;プレート&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;キースイッチプレート：1枚&lt;/li&gt;
+&lt;li&gt;基板：1枚&lt;/li&gt;
+&lt;li&gt;ミドルプレート：1枚&lt;/li&gt;
+&lt;li&gt;ボトムプレート：1枚&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;images/plates.jpeg&#34; alt=&#34;部品&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;bmp電池セットオプション&#34;&gt;BMP電池セット（オプション）&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;電池ケース：1個&lt;/li&gt;
+&lt;li&gt;コンデンサ：1個+予備&lt;/li&gt;
+&lt;li&gt;スライドスイッチ：1個&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;images/bmp.jpeg&#34; alt=&#34;部品&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;../3_build&#34;&gt;→ 3.組み立て&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Stickey4: 3. 組み立て</title>
+      <link>https://kbd.dailycraft.jp/stickey4/buildguide/3_build/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kbd.dailycraft.jp/stickey4/buildguide/3_build/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;基板に対して色々な部品をつけ、プレートを組み合わせていきます&lt;/li&gt;
+&lt;li&gt;各プレートはねじやスペーサーでとめていきます&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ヒント&#34;&gt;ヒント&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;各プレートは側面が白っぽい色になっているので、マッキーなどのマジックで側面を塗ってあげるとシックな感じになります&lt;/li&gt;
+&lt;li&gt;側面から、はみ出さないように注意！&lt;/li&gt;
+&lt;li&gt;プレートを組んでからでは塗りにくいので、もしやるのであれば最初にやっておくことをオススメします
+&lt;img src=&#34;images/m1.jpeg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;../4_parts&#34;&gt;→ 4. パーツの取り付け&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Stickey4: 4. パーツの取り付け</title>
+      <link>https://kbd.dailycraft.jp/stickey4/buildguide/4_parts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kbd.dailycraft.jp/stickey4/buildguide/4_parts/</guid>
+      <description>
+        
+        
+        &lt;p&gt;基板にパーツを実装します。&lt;/p&gt;
+&lt;h2 id=&#34;リセットスイッチの取り付け&#34;&gt;リセットスイッチの取り付け&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;上から差し込みます&lt;br&gt;
+&lt;img src=&#34;images/r1.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;反転して、はんだ付けをします&lt;br&gt;
+&lt;img src=&#34;images/r2.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;pro-microの取り付け&#34;&gt;Pro Microの取り付け&lt;/h2&gt;
+&lt;h3 id=&#34;コンスルーの取り付け&#34;&gt;コンスルーの取り付け&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;ProMicroの平らな面が上になるようにします&lt;br&gt;
+&lt;img src=&#34;images/p1.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;コンスルーには向きがあります。窓がある方をProMicro側にします&lt;br&gt;
+&lt;img src=&#34;images/p2.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;また、窓が同じ方向にあるようにしてください&lt;br&gt;
+&lt;img src=&#34;images/p3.JPG&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;images/p4.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;はんだ付けをします。Pro Microとコンスルーの間に隙間が空かないように気をつけてください。&lt;br&gt;
+&lt;img src=&#34;images/p5.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;※注意&lt;br&gt;
+コンスルーの抜き差しは、同一スルーホール穴に対して50回以下となっています。&lt;br&gt;
+頻繁な抜き差しは控え、丁寧に扱うようご注意ください。&lt;/p&gt;
+&lt;h3 id=&#34;promicroの取り付け&#34;&gt;ProMicroの取り付け&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;図のようにシルクに沿って差し込んでください。外側にUSBのコネクタがきます。&lt;br&gt;
+&lt;img src=&#34;images/p6.JPG&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;../5_plate&#34;&gt;→ 5. プレートの取り付け&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Stickey4: 5. プレートの取り付け</title>
+      <link>https://kbd.dailycraft.jp/stickey4/buildguide/5_plate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kbd.dailycraft.jp/stickey4/buildguide/5_plate/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;キースイッチプレートの組み立て&#34;&gt;キースイッチプレートの組み立て&lt;/h2&gt;
+&lt;h3 id=&#34;ねじスペーサーの取り付け&#34;&gt;ねじ、スペーサーの取り付け&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;キースイッチの穴が4個分ついているプレートがキースイッチプレートになります&lt;/li&gt;
+&lt;li&gt;DOWNSIDEなどシルクの書いてある方が下になります&lt;/li&gt;
+&lt;li&gt;上からねじ、下からスペーサーでプレート挟み込むようにねじ止めしてください&lt;br&gt;
+&lt;img src=&#34;images/e1.jpeg&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;images/e2.jpeg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;注意事項&#34;&gt;注意事項&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;中央の2つのネジは、上からキースイッチを被せてはんだ付けするので、後から取れなくなります&lt;/li&gt;
+&lt;li&gt;先にキースイッチをはんだ付けすると、ねじが取り付けられなくなるので、必ず先にねじを取り付けてください&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;キースイッチの取り付け&#34;&gt;キースイッチの取り付け&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;キースイッチを取り付けます&lt;br&gt;
+&lt;img src=&#34;images/e3.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;キースイッチをはんだ付けします&lt;br&gt;
+&lt;img src=&#34;images/e4.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;プレートの取り付け&#34;&gt;プレートの取り付け&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;下記のように各プレートを重ねます&lt;br&gt;
+&lt;img src=&#34;images/p1.jpeg&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;images/p2.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;下から7mmのねじで留めます&lt;br&gt;
+&lt;img src=&#34;images/p3.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ゴム足を取り付けます&lt;br&gt;
+&lt;img src=&#34;images/p4.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;キーキャップを取り付けます&lt;br&gt;
+&lt;img src=&#34;images/p5.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;USBケーブルを繋げたら完成です！
+&lt;img src=&#34;images/p6.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;../6_keymap&#34;&gt;→ 6. キーマップ&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Stickey4: 6. キーマップ</title>
+      <link>https://kbd.dailycraft.jp/stickey4/buildguide/6_keymap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kbd.dailycraft.jp/stickey4/buildguide/6_keymap/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;正常稼働の確認&#34;&gt;正常稼働の確認&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;GoogleChromeで&lt;a href=&#34;https://remap-keys.app/&#34;&gt;Remap&lt;/a&gt;を開いてください&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;拡張機能などでアルファベットに対してショートカットキーが割り当てられていると干渉する場合があります。そのような拡張機能はオフにしておいてください（Vimiumなど）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;「START REMAP FOR YOUR KEYBOARD」をクリック&lt;br&gt;
+&lt;img src=&#34;images/r1.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;「+KEYBOARD」をクリック&lt;br&gt;
+&lt;img src=&#34;images/r2.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;「stickey4」を選択して、「接続」をクリック&lt;br&gt;
+&lt;img src=&#34;images/r3.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;キーボード画像右下の「・・・」から「Test Matrix Mode」を選択&lt;br&gt;
+&lt;img src=&#34;images/r4.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;各キーを押して、正常にPCに送信されると色がつきます&lt;br&gt;
+2行目はロータリーエンコーダの設定になりますので後述します&lt;br&gt;
+&lt;img src=&#34;images/r5.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;反応しないキーは正常に動いていません&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;キースイッチがはんだ付けされているか確認してください&lt;/li&gt;
+&lt;li&gt;正しくつけられているように見えても、はんだ付けがうまくいってない場合があります&lt;br&gt;
+キースイッチのハンダをハンダゴテで温め直してみてください&lt;/li&gt;
+&lt;li&gt;これでも治らない場合はサポートしますのでご連絡ください&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;その他の方法&#34;&gt;その他の方法&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;GoogleChromeが使えないなどの事情がある場合は、テキストエディタやキーボードビューアなどで各キーが入力されるか確認してください。
+&lt;img src=&#34;images/20200320143118.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;remapの使い方&#34;&gt;Remapの使い方&lt;/h2&gt;
+&lt;p&gt;このRemapというツールで、各スイッチを押したときにどのキーが送信されるかを設定することができます。&lt;/p&gt;
+&lt;p&gt;下のキー群からキーを選んで、上のキースイッチにドラック＆ドロップして設定します。
+設定が終わったら、右上の「flash」を押すことで書き換えが行われます。&lt;/p&gt;
+&lt;p&gt;Remapnの使い方はサリチル酸の記事が参考になるのでみてみてください。&lt;br&gt;
+&lt;a href=&#34;https://salicylic-acid3.hatenablog.com/entry/remap-manual&#34;&gt;（初心者編）Remapを使ってキーマップを書き換えよう - 自作キーボード温泉街の歩き方&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;また、&lt;a href=&#34;https://kbd.dailycraft.jp/keyboard/firmware/&#34;&gt;ファームウェア&lt;/a&gt;を学習すると、より理解が深まると思います。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;../7_other_plates&#34;&gt;→ 7. 他の拡張プレートを使う&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Stickey4: 7. 他の拡張プレートを使う</title>
+      <link>https://kbd.dailycraft.jp/stickey4/buildguide/7_other_plates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kbd.dailycraft.jp/stickey4/buildguide/7_other_plates/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;ロータリーエンコーダの取り付け&#34;&gt;ロータリーエンコーダの取り付け&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;左右2箇所に穴のかたまりがあるのがロータリエンコーダ拡張プレートになります&lt;/li&gt;
+&lt;li&gt;DOWNSIDEなどシルクの書いてある方が下になります&lt;/li&gt;
+&lt;li&gt;ロータリーエンコーダを上から取り付けてください
+&lt;img src=&#34;images/e1.jpeg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;li&gt;下の部品に干渉してしまうので、極力足を曲げてください&lt;br&gt;
+&lt;img src=&#34;images/e2.jpeg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;li&gt;はんだ付けをします&lt;br&gt;
+&lt;img src=&#34;images/e3.jpeg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ねじスペーサーの取り付け&#34;&gt;ねじ、スペーサーの取り付け&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;上からねじ、下からスペーサーでプレート挟み込むようにねじ留めしてください&lt;br&gt;
+&lt;img src=&#34;images/e4.jpeg&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;images/e5.jpeg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;プレートの取り付け&#34;&gt;プレートの取り付け&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;ProMicro保護プレートを外します&lt;br&gt;
+&lt;img src=&#34;images/e7.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;組み立てたキースイッチ拡張プレートを乗せます&lt;br&gt;
+&lt;img src=&#34;images/e8.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;下からねじ止めをします&lt;br&gt;
+&lt;img src=&#34;images/e6.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;お好みのノブをつけて完成です&lt;br&gt;
+&lt;img src=&#34;images/e9.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;キーマップ&#34;&gt;キーマップ&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ロータリエンコーダのキーマップを設定します&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://remap-keys.app/&#34;&gt;Remap&lt;/a&gt;にアクセスしてください&lt;/li&gt;
+&lt;li&gt;1行目にロータリエンコーダ用のキーを設定します
+&lt;ul&gt;
+&lt;li&gt;左から下記のような配置になっています
+&lt;ul&gt;
+&lt;li&gt;左エンコーダの左回り&lt;/li&gt;
+&lt;li&gt;左エンコーダの右回り&lt;/li&gt;
+&lt;li&gt;右エンコーダの左回り&lt;/li&gt;
+&lt;li&gt;右エンコーダの右回り&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2行目はキー拡張用の設定で、ロータリエンコーダ使用時に設定しておくと干渉するのでブランクにしておいてください(SYMBOLの左上にあります)
+&lt;img src=&#34;images/r1.jpeg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;../8_bmp&#34;&gt;→ 8. 無線接続&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Stickey4: 8. 無線接続</title>
+      <link>https://kbd.dailycraft.jp/stickey4/buildguide/8_bmp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kbd.dailycraft.jp/stickey4/buildguide/8_bmp/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;プレートの取り外し&#34;&gt;プレートの取り外し&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ProMicro保護プレートを取り外します
+&lt;img src=&#34;images/b0.jpeg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;コンデンサの取り付け&#34;&gt;コンデンサの取り付け&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;パッドの片側に予備ハンダをつけます&lt;br&gt;
+&lt;img src=&#34;images/b1.jpeg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;li&gt;予備ハンダを利用してコンデンサをはんだ付けして固定します&lt;br&gt;
+もう片方もはんだ付けします
+&lt;img src=&#34;images/b2.jpeg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;電池ケースの取り付け&#34;&gt;電池ケースの取り付け&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ミドルプレート、ボトムプレートも取り外します&lt;/li&gt;
+&lt;li&gt;電池ケースを載せます
+&lt;img src=&#34;images/b3.jpeg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;li&gt;テープなどで固定します
+&lt;img src=&#34;images/b4.jpeg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;li&gt;下側からはんだ付けをします
+&lt;img src=&#34;images/b5.jpeg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;li&gt;ミドルプレート、ボトムプレートを取り付けます&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;スライドスイッチの取り付け&#34;&gt;スライドスイッチの取り付け&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;はんだ付けをします&lt;br&gt;
+&lt;img src=&#34;images/b6.jpeg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;bmp電池の取り付け&#34;&gt;BMP、電池の取り付け&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;BMPはコンスルー対応のため、はんだ付けは不要です&lt;br&gt;
+13ピンコンスルーを使用してください&lt;br&gt;
+&lt;img src=&#34;images/bmp.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;BMPを取り付けます&lt;br&gt;
+&lt;img src=&#34;images/b7.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;電池(CR1632)を取り付けます&lt;br&gt;
+&lt;img src=&#34;images/b8.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;スイッチは上側がONになります&lt;br&gt;
+&lt;img src=&#34;images/b9.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ファームウェア&#34;&gt;ファームウェア&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ファームウェアの設定
+&lt;ul&gt;
+&lt;li&gt;BMPのドキュメントを参照ください
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://sekigon-gonnoc.github.io/BLE-Micro-Pro/#/getting_started&#34;&gt;自作キーボードキットを無線化する&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;WebConfiguratorにowl8が登録されているので、その設定を書き込んでください&lt;/li&gt;
+&lt;li&gt;キーマップはPro Micro同様にRemapから設定してください&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;ロータリーエンコーダのキーマップはBMPの設定ファイルで行ってください
+&lt;ul&gt;
+&lt;li&gt;参考設定ファイル
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/yfuku/owl8/blob/master/bmp/ENCODER.JSN&#34;&gt;https://github.com/yfuku/owl8/blob/master/bmp/ENCODER.JSN&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Remap側では1,2行目はブランクにしておいてください&lt;br&gt;
+&lt;img src=&#34;images/r1.jpeg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

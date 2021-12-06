@@ -17,6 +17,8 @@
   </url><url>
     <loc>https://kbd.dailycraft.jp/owl8/buildguide/1_prepare/</loc>
   </url><url>
+    <loc>https://kbd.dailycraft.jp/stickey4/buildguide/1_prepare/</loc>
+  </url><url>
     <loc>https://kbd.dailycraft.jp/wings42/buildguide/1_prepare/</loc>
   </url><url>
     <loc>https://kbd.dailycraft.jp/claw44/keymap/keymap_build/</loc>
@@ -50,6 +52,8 @@
   </url><url>
     <loc>https://kbd.dailycraft.jp/owl8/buildguide/2_check/</loc>
   </url><url>
+    <loc>https://kbd.dailycraft.jp/stickey4/buildguide/2_check/</loc>
+  </url><url>
     <loc>https://kbd.dailycraft.jp/wings42/buildguide/2_check/</loc>
   </url><url>
     <loc>https://kbd.dailycraft.jp/claw44/keymap/naginata/</loc>
@@ -71,6 +75,8 @@
   </url><url>
     <loc>https://kbd.dailycraft.jp/owl8/buildguide/3_build/</loc>
   </url><url>
+    <loc>https://kbd.dailycraft.jp/stickey4/buildguide/3_build/</loc>
+  </url><url>
     <loc>https://kbd.dailycraft.jp/wings42/buildguide/3_build/</loc>
   </url><url>
     <loc>https://kbd.dailycraft.jp/sandbox/socket/</loc>
@@ -87,6 +93,8 @@
   </url><url>
     <loc>https://kbd.dailycraft.jp/owl8/buildguide/4_switch/</loc>
   </url><url>
+    <loc>https://kbd.dailycraft.jp/stickey4/buildguide/4_parts/</loc>
+  </url><url>
     <loc>https://kbd.dailycraft.jp/sandbox/reset/</loc>
   </url><url>
     <loc>https://kbd.dailycraft.jp/claw44/buildguide/4_diode/</loc>
@@ -96,6 +104,8 @@
     <lastmod>2019-11-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kbd.dailycraft.jp/wings42/buildguide/5_switch/</loc>
+  </url><url>
+    <loc>https://kbd.dailycraft.jp/stickey4/buildguide/5_plate/</loc>
   </url><url>
     <loc>https://kbd.dailycraft.jp/owl8/buildguide/5_otherparts/</loc>
   </url><url>
@@ -115,6 +125,8 @@
   </url><url>
     <loc>https://kbd.dailycraft.jp/wings42/buildguide/6_otherparts/</loc>
   </url><url>
+    <loc>https://kbd.dailycraft.jp/stickey4/buildguide/6_keymap/</loc>
+  </url><url>
     <loc>https://kbd.dailycraft.jp/sandbox/trrs/</loc>
   </url><url>
     <loc>https://kbd.dailycraft.jp/claw44/buildguide/6_otherparts/</loc>
@@ -127,6 +139,8 @@
   </url><url>
     <loc>https://kbd.dailycraft.jp/owl8/buildguide/7_plate/</loc>
   </url><url>
+    <loc>https://kbd.dailycraft.jp/stickey4/buildguide/7_other_plates/</loc>
+  </url><url>
     <loc>https://kbd.dailycraft.jp/sandbox/oled/</loc>
   </url><url>
     <loc>https://kbd.dailycraft.jp/claw44/buildguide/7_promicro/</loc>
@@ -138,6 +152,8 @@
     <loc>https://kbd.dailycraft.jp/owl8/buildguide/8_keycap/</loc>
   </url><url>
     <loc>https://kbd.dailycraft.jp/wings42/buildguide/8_plate/</loc>
+  </url><url>
+    <loc>https://kbd.dailycraft.jp/stickey4/buildguide/8_bmp/</loc>
   </url><url>
     <loc>https://kbd.dailycraft.jp/claw44/buildguide/8_plate/</loc>
     <lastmod>2020-07-02T10:00:00+09:00</lastmod>
@@ -164,6 +180,8 @@
     <loc>https://kbd.dailycraft.jp/wings42/buildguide/9_keycap/</loc>
   </url><url>
     <loc>https://kbd.dailycraft.jp/owl8/whatis/</loc>
+  </url><url>
+    <loc>https://kbd.dailycraft.jp/stickey4/whatis/</loc>
   </url><url>
     <loc>https://kbd.dailycraft.jp/wings42/ext/keys/</loc>
   </url><url>
@@ -197,6 +215,8 @@
   </url><url>
     <loc>https://kbd.dailycraft.jp/owl8/buildguide/</loc>
   </url><url>
+    <loc>https://kbd.dailycraft.jp/stickey4/buildguide/</loc>
+  </url><url>
     <loc>https://kbd.dailycraft.jp/wings42/buildguide/</loc>
   </url><url>
     <loc>https://kbd.dailycraft.jp/wings42/ext/encoder/</loc>
@@ -214,6 +234,8 @@
     <loc>https://kbd.dailycraft.jp/wings42/ext/trackball/</loc>
   </url><url>
     <loc>https://kbd.dailycraft.jp/owl8/firmware/</loc>
+  </url><url>
+    <loc>https://kbd.dailycraft.jp/stickey4/firmware/</loc>
   </url><url>
     <loc>https://kbd.dailycraft.jp/wings42/ext/</loc>
   </url><url>
@@ -305,6 +327,8 @@
     <loc>https://kbd.dailycraft.jp/sandbox/</loc>
   </url><url>
     <loc>https://kbd.dailycraft.jp/search/</loc>
+  </url><url>
+    <loc>https://kbd.dailycraft.jp/stickey4/</loc>
   </url><url>
     <loc>https://kbd.dailycraft.jp/tags/</loc>
     <xhtml:link
