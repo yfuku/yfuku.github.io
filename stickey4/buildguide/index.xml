@@ -317,17 +317,17 @@ stickey4のコネクタ周りがタイトなため、コネクタが太いタイ
 &lt;a href=&#34;https://salicylic-acid3.hatenablog.com/entry/remap-manual&#34;&gt;（初心者編）Remapを使ってキーマップを書き換えよう - 自作キーボード温泉街の歩き方&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;また、&lt;a href=&#34;https://kbd.dailycraft.jp/keyboard/firmware/&#34;&gt;ファームウェア&lt;/a&gt;を学習すると、より理解が深まると思います。&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;a href=&#34;../7_other_plates&#34;&gt;→ 7. 他の拡張プレートを使う&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;../7_encoder_plate&#34;&gt;→ 7. ロータリーエンコーダ用のプレートを使う&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
-      <title>Stickey4: 7. 他の拡張プレートを使う</title>
-      <link>https://kbd.dailycraft.jp/stickey4/buildguide/7_other_plates/</link>
+      <title>Stickey4: 7. ロータリーエンコーダ用プレートを使う</title>
+      <link>https://kbd.dailycraft.jp/stickey4/buildguide/7_encoder_plate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kbd.dailycraft.jp/stickey4/buildguide/7_other_plates/</guid>
+      <guid>https://kbd.dailycraft.jp/stickey4/buildguide/7_encoder_plate/</guid>
       <description>
         
         
@@ -352,15 +352,15 @@ stickey4のコネクタ周りがタイトなため、コネクタが太いタイ
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;ProMicro保護プレートを外します&lt;br&gt;
-&lt;img src=&#34;images/e7.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;images/e6.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;組み立てたキースイッチ拡張プレートを乗せます&lt;br&gt;
-&lt;img src=&#34;images/e8.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;images/e7.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;下からねじ止めをします&lt;br&gt;
-&lt;img src=&#34;images/e6.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;images/e8.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;お好みのノブをつけて完成です&lt;br&gt;
@@ -371,39 +371,72 @@ stickey4のコネクタ周りがタイトなため、コネクタが太いタイ
 &lt;ul&gt;
 &lt;li&gt;ロータリエンコーダのキーマップを設定します&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://remap-keys.app/&#34;&gt;Remap&lt;/a&gt;にアクセスしてください&lt;/li&gt;
-&lt;li&gt;1行目にロータリエンコーダ用のキーを設定します
+&lt;li&gt;1行目は通常のキー入力用で干渉してしまうので、ブランクを設定してください&lt;br&gt;
+&lt;img src=&#34;images/r1.jpeg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;li&gt;2行目にロータリエンコーダ用のキーを設定します
 &lt;ul&gt;
 &lt;li&gt;左から下記のような配置になっています
 &lt;ul&gt;
 &lt;li&gt;左エンコーダの左回り&lt;/li&gt;
 &lt;li&gt;左エンコーダの右回り&lt;/li&gt;
 &lt;li&gt;右エンコーダの左回り&lt;/li&gt;
-&lt;li&gt;右エンコーダの右回り&lt;/li&gt;
+&lt;li&gt;右エンコーダの右回り
+&lt;img src=&#34;images/r2.jpeg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;2行目はキー拡張用の設定で、ロータリエンコーダ使用時に設定しておくと干渉するのでブランクにしておいてください(SYMBOLの左上にあります)
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;../8_keys_encoder_plate&#34;&gt;→ 8. キー＆エンコーダプレートを使う&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Stickey4: 8. キー＆エンコーダプレートを使う</title>
+      <link>https://kbd.dailycraft.jp/stickey4/buildguide/8_keys_encoder_plate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kbd.dailycraft.jp/stickey4/buildguide/8_keys_encoder_plate/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;キースイッチロータリーエンコーダの取り付け&#34;&gt;キースイッチ、ロータリーエンコーダの取り付け&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../5_plate/&#34;&gt;5. プレートの取り付け&lt;/a&gt;、&lt;a href=&#34;../7_encoder_plate/&#34;&gt;7. ロータリーエンコーダ用プレートを使う&lt;/a&gt;を参考にキースイッチとロータリーエンコーダをはんだ付けします&lt;br&gt;
+&lt;img src=&#34;images/e1.jpeg&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;images/e2.jpeg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;li&gt;プレートを乗せます&lt;br&gt;
+&lt;img src=&#34;images/e3.jpeg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;li&gt;下からねじ留めをします&lt;br&gt;
+&lt;img src=&#34;images/e4.jpeg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;キーマップ&#34;&gt;キーマップ&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ロータリエンコーダのキーマップを設定します&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://remap-keys.app/&#34;&gt;Remap&lt;/a&gt;にアクセスしてください&lt;/li&gt;
+&lt;li&gt;1行目の左側、2行目の右側をそれぞれ設定します。使用しないところはブランクにしてください。&lt;br&gt;
 &lt;img src=&#34;images/r1.jpeg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;a href=&#34;../8_bmp&#34;&gt;→ 8. 無線接続&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;../9_bmp&#34;&gt;→ 9. 無線接続&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>Stickey4: 8. 無線接続</title>
-      <link>https://kbd.dailycraft.jp/stickey4/buildguide/8_bmp/</link>
+      <link>https://kbd.dailycraft.jp/stickey4/buildguide/9_bmp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kbd.dailycraft.jp/stickey4/buildguide/8_bmp/</guid>
+      <guid>https://kbd.dailycraft.jp/stickey4/buildguide/9_bmp/</guid>
       <description>
         
         
         &lt;h2 id=&#34;プレートの取り外し&#34;&gt;プレートの取り外し&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;ProMicro保護プレートを取り外します
+&lt;li&gt;プレートを外して、基板を取り出します&lt;br&gt;
 &lt;img src=&#34;images/b0.jpeg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;コンデンサの取り付け&#34;&gt;コンデンサの取り付け&lt;/h2&gt;
@@ -411,23 +444,23 @@ stickey4のコネクタ周りがタイトなため、コネクタが太いタイ
 &lt;li&gt;パッドの片側に予備ハンダをつけます&lt;br&gt;
 &lt;img src=&#34;images/b1.jpeg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
 &lt;li&gt;予備ハンダを利用してコンデンサをはんだ付けして固定します&lt;br&gt;
-もう片方もはんだ付けします
+※近くに小さな穴がありますが、はんだが流れ込まないように注意してください&lt;br&gt;
 &lt;img src=&#34;images/b2.jpeg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;li&gt;もう片方もはんだ付けします&lt;br&gt;
+&lt;img src=&#34;images/b2-2.jpeg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;電池ケースの取り付け&#34;&gt;電池ケースの取り付け&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;ミドルプレート、ボトムプレートも取り外します&lt;/li&gt;
 &lt;li&gt;電池ケースを載せます
 &lt;img src=&#34;images/b3.jpeg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
 &lt;li&gt;テープなどで固定します
 &lt;img src=&#34;images/b4.jpeg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
 &lt;li&gt;下側からはんだ付けをします
 &lt;img src=&#34;images/b5.jpeg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
-&lt;li&gt;ミドルプレート、ボトムプレートを取り付けます&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;スライドスイッチの取り付け&#34;&gt;スライドスイッチの取り付け&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;はんだ付けをします&lt;br&gt;
+&lt;li&gt;はんだ付けをします。細かい作業になりますが、頑張ってください！&lt;br&gt;
 &lt;img src=&#34;images/b6.jpeg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;bmp電池の取り付け&#34;&gt;BMP、電池の取り付け&lt;/h2&gt;
@@ -459,19 +492,18 @@ stickey4のコネクタ周りがタイトなため、コネクタが太いタイ
 &lt;li&gt;&lt;a href=&#34;https://sekigon-gonnoc.github.io/BLE-Micro-Pro/#/getting_started&#34;&gt;自作キーボードキットを無線化する&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;WebConfiguratorにowl8が登録されているので、その設定を書き込んでください&lt;/li&gt;
+&lt;li&gt;WebConfiguratorにstickey4が登録されているので、その設定を書き込んでください&lt;/li&gt;
 &lt;li&gt;キーマップはPro Micro同様にRemapから設定してください&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;ロータリーエンコーダのキーマップはBMPの設定ファイルで行ってください
 &lt;ul&gt;
-&lt;li&gt;参考設定ファイル
+&lt;li&gt;参考エンコーダ設定ファイル
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/yfuku/owl8/blob/master/bmp/ENCODER.JSN&#34;&gt;https://github.com/yfuku/owl8/blob/master/bmp/ENCODER.JSN&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/yfuku/stickey4/blob/main/bmp/ENCODER.JSN&#34;&gt;https://github.com/yfuku/stickey4/blob/main/bmp/ENCODER.JSN&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Remap側では1,2行目はブランクにしておいてください&lt;br&gt;
-&lt;img src=&#34;images/r1.jpeg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;li&gt;※BMPだとRemapではロータリーエンコーダの設定はできません&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
