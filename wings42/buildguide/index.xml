@@ -561,8 +561,7 @@
 &lt;li&gt;過去バージョンなどは&lt;a href=&#34;https://github.com/yfuku/wings42/releases&#34;&gt;こちら&lt;/a&gt;からダウンロードしてください&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;ソースコード&#34;&gt;ソースコード&lt;/h2&gt;
-&lt;p&gt;rev2がqmk&lt;a href=&#34;https://github.com/qmk/qmk_firmware/tree/master/keyboards/wings42&#34;&gt;本家&lt;/a&gt;にマージされないので、↓こちらのブランチからソースコードを持っていってください。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/yfuku/qmk_firmware/tree/yfuku/keyboards/wings42&#34;&gt;https://github.com/yfuku/qmk_firmware/tree/yfuku/keyboards/wings42&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/qmk/qmk_firmware/tree/master/keyboards/wings42&#34;&gt;https://github.com/qmk/qmk_firmware/tree/master/keyboards/wings42&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;a href=&#34;../11_prefirmware/&#34;&gt;→ 11. あらかじめ設定されたファームウェアを書き込む&lt;/a&gt;&lt;/p&gt;
 
