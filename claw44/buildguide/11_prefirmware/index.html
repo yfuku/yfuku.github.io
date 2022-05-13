@@ -740,13 +740,55 @@ if (!doNotTrack) {
 	<h1>11. あらかじめ修正されたファームウェアを書き込む</h1>
         
 	
-	<script type="text/javascript">
-setTimeout("link()", 0);
-function link(){
-location.href='https://keys.dailycraft.jp/%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89/claw44/%E3%83%93%E3%83%AB%E3%83%89%E3%82%AC%E3%82%A4%E3%83%89(v3)/1.+%E6%BA%96%E5%82%99';
-}
-</script><blockquote>
-</blockquote>
+	<p>作者がClaw44を使う上で設定をしている項目が2つあります。<br>
+（詳しい説明は公式ドキュメントを確認してください。）</p>
+<ul>
+<li><a href="https://docs.qmk.fm/#/ja/tap_hold?id=%e3%82%bf%e3%83%83%e3%83%94%e3%83%b3%e3%82%b0%e6%99%82%e9%96%93">TAPPING_TERM</a></li>
+<li><a href="https://docs.qmk.fm/#/ja/tap_hold?id=%e3%83%a2%e3%83%83%e3%83%89%e3%82%bf%e3%83%83%e3%83%97%e5%89%b2%e3%82%8a%e8%be%bc%e3%81%bf%e3%81%ae%e7%84%a1%e8%a6%96">IGNORE_MOD_TAP_INTERRUPT</a></li>
+</ul>
+<p>あと、設定項目としてはOLEDの有無もあるので、この3つの状態を設定済みのファームウェアをgithubに置いておきます。</p>
+<ul>
+<li><a href="https://github.com/yfuku/claw44/tree/master/firmware/rev1">claw44/firmware/rev1 at master · yfuku/claw44</a></li>
+</ul>
+<h2 id="ファームウェアのファイルを特定する">ファームウェアのファイルを特定する</h2>
+<h3 id="oledの有無">OLEDの有無</h3>
+<ul>
+<li>最初にディレクトリ単位で分けてあります。
+<ul>
+<li>OLEDなし→<a href="https://github.com/yfuku/claw44/tree/master/firmware/rev1/default">claw44/firmware/rev1/default</a></li>
+<li>OLEDあり→<a href="https://github.com/yfuku/claw44/tree/master/firmware/rev1/oled">claw44/firmware/rev1/oled</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="tapping_termの設定">TAPPING_TERMの設定</h3>
+<ul>
+<li>このディレクトリ直下にあるものは、TAPPING_TERMのみ追加されています</li>
+<li>例えば、<code>claw44_rev1_via-default-100.hex</code>であれば、TAPPING_TERMが100に設定されています</li>
+</ul>
+<h3 id="ignore_mod_tap_interrupt">IGNORE_MOD_TAP_INTERRUPT</h3>
+<ul>
+<li>IGNORE_MOD_TAP_INTERRUPTを指定したい場合はさらに、ignore_mod_tap_interruptディレクトリに行ってください</li>
+<li>例えば、<code>claw44_rev1_via-default-imti-100.hex</code>であれば、IGNORE_MOD_TAP_INTERRUPTとTAPPING_TERMが100に設定されています</li>
+</ul>
+<h2 id="ファームウェアをダウンロードする">ファームウェアをダウンロードする</h2>
+<h3 id="gitがわかる方">gitがわかる方</h3>
+<ul>
+<li>普通にcloneなどしてください</li>
+</ul>
+<h3 id="gitがよくわからない方">gitがよくわからない方</h3>
+<ul>
+<li><a href="https://github.com/yfuku/claw44">yfuku/claw44</a>このページから、下記のようにzipファイルをダウンロードしてください。
+<img src="./github.png" alt=""></li>
+</ul>
+<h3 id="個別のファイルのみダウンロードしたい場合">個別のファイルのみダウンロードしたい場合</h3>
+<ul>
+<li>「raw」の部分を右クリックして保存してください
+<img src="./raw.png" alt=""></li>
+</ul>
+<h2 id="ファームウェアの書き込み">ファームウェアの書き込み</h2>
+<ul>
+<li><a href="/keyboard/firmware/toolbox/">QMK Toolboxでファームウェアを書き込む</a> を行ってください</li>
+</ul>
 
         <div class="section-index">
     
@@ -876,7 +918,7 @@ location.href='https://keys.dailycraft.jp/%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E
 
 
 
-<script src="/js/main.min.aecaf5717c04e82783ece54211c51a2923bc473c50b1dcb0d8e0f7c16a667228.js" integrity="sha256-rsr1cXwE6CeD7OVCEcUaKSO8RzxQsdyw2OD3wWpmcig=" crossorigin="anonymous"></script>
+<script src="/js/main.min.25e30c44056e2417b30e4656cb6bd2a088e29dfde7b7dd538a8c142733294151.js" integrity="sha256-JeMMRAVuJBezDkZWy2vSoIjinf3nt91TiowUJzMpQVE=" crossorigin="anonymous"></script>
 
 
 
