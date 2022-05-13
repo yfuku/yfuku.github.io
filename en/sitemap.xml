@@ -2,57 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://kbd.dailycraft.jp/en/claw44/buildguide/2_check/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://kbd.dailycraft.jp/claw44/buildguide/2_check/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://kbd.dailycraft.jp/en/claw44/buildguide/2_check/"
-                />
-  </url><url>
-    <loc>https://kbd.dailycraft.jp/en/claw44/buildguide/</loc>
-    <lastmod>2020-07-02T10:00:00+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://kbd.dailycraft.jp/claw44/buildguide/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://kbd.dailycraft.jp/en/claw44/buildguide/"
-                />
-  </url><url>
-    <loc>https://kbd.dailycraft.jp/en/claw44/</loc>
-    <lastmod>2020-07-02T10:00:00+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://kbd.dailycraft.jp/claw44/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://kbd.dailycraft.jp/en/claw44/"
-                />
-  </url><url>
-    <loc>https://kbd.dailycraft.jp/en/</loc>
-    <lastmod>2020-07-02T10:00:00+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://kbd.dailycraft.jp/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://kbd.dailycraft.jp/en/"
-                />
-  </url><url>
     <loc>https://kbd.dailycraft.jp/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -63,6 +12,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://kbd.dailycraft.jp/en/categories/"
+                />
+  </url><url>
+    <loc>https://kbd.dailycraft.jp/en/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://kbd.dailycraft.jp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kbd.dailycraft.jp/en/"
                 />
   </url><url>
     <loc>https://kbd.dailycraft.jp/en/tags/</loc>
